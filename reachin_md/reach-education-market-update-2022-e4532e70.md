@@ -1,0 +1,8 @@
+---
+title: Reach Education Market Update (2022)
+source_url: https://app.notion.com/p/Reach-Education-Market-Update-2022-e4532e70d2bd4fde9158eacdb7373bc5
+notion_id: e4532e70-d2bd-4fde-9158-eacdb7373bc5
+---
+
+# Reach Education Market Update (2022)
+

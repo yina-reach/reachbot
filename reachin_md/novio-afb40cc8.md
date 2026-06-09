@@ -1,0 +1,8 @@
+---
+title: Novio
+source_url: https://app.notion.com/p/Novio-afb40cc8ad4e449ca02ebd6e0b27e272
+notion_id: afb40cc8-ad4e-449c-a02e-bd6e0b27e272
+---
+
+# Novio
+
