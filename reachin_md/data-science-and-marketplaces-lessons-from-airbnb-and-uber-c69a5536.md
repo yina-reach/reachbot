@@ -6,6 +6,13 @@ notion_id: c69a5536-c317-4e23-8e66-1d7300fd392f
 
 # Data Science and Marketplaces: Lessons from Airbnb and Uber
 
+**Date:** 2024-03-29
+**Tags:** data science, marketing, growth, marketplaces, hiring
+**Recording:** [Recording](https://us02web.zoom.us/rec/share/3QsDzRP2GY0Ca2wk0O_f2YE9D90lN31XT_-GDx2pIAPP6nYIsVmbhM052yslSluz.gW_YppeA2onxUotr)
+Passcode: 4R126@PQ
+**Org:** Stanford
+**Speaker:** [Ramesh Johari](https://www.linkedin.com/in/rameshjohari/)
+
 - https://share.fireflies.ai/embed/meetings/5tY7ETHunFCQJQ63
 Introduction and Background: Ramesh shares his personal background and academic journey, highlighting the importance of understanding data science as a core component rather than a separate vertical in organizations. He discusses how his perspectives on data science and experimentation apply not only to marketplaces but also to platforms that act as mediators between different parties.
 Data Science and Marketplace Optimization (11:32): Ramesh dives into the significance of recognizing and addressing frictions within marketplaces to develop effective monetization strategies. He explains the concept of a data flywheel, emphasizing the iterative process of using data to improve algorithms and enhance marketplace performance continuously.

@@ -6,6 +6,13 @@ notion_id: 333a896b-b9b6-8077-a45c-e550f7b25791
 
 # X2Talent / Carl Wheatley 
 
+**NOTES:** Carl and Jeremy, two designers themselves, have placed hundreds of designers across Meta, BCG Digital Ventures, and various fast-growing startups. Whether a founder is making their very first hire or building out their design org, X2Talent helps teams navigate the complexities of design hiring.
+**Website:** https://x2talent.com/
+**SERVICES OFFERED:** Design hiring/talent search
+**REACH CONTACT:** TW, YL
+**CONTACT INFO:** [carl@x2talent.com](mailto:carl@x2talent.com)
+**FOCUS:** Talent & Recruiting, Design & Creative
+
 Pitch deck: [https://drive.google.com/file/d/1vwG3qhGWmaknk6RUvRMRxAysXY_zrnKV/view?usp=sharing](https://drive.google.com/file/d/1vwG3qhGWmaknk6RUvRMRxAysXY_zrnKV/view?usp=sharing)
 ### The X2Talent Advantage
 - Jeremy (Partner): Former Head of Design Recruiting at Meta. Jeremy spent 11 years building Meta’s design org through its most critical growth era (4k to 120k employees). He has personally recruited and closed the talent that built Meta's design infrastructure, from ICs to Org Leaders. ([LinkedIn](https://www.linkedin.com/in/jloughnot/))

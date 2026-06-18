@@ -6,6 +6,14 @@ notion_id: 139a896b-b9b6-815b-a73b-cbc8cf187dc6
 
 # Emerging AI Policies in K-12 & Biz Implications
 
+**Date:** 2024-04-05
+**Deck / slides:** https://docs.google.com/presentation/d/1ztE_M0bS_99zttc2K4HEYHq9F8O-T_C6cYEzveuEZaQ/edit#slide=id.g2c7bbd780a4_1_1219
+**Tags:** AI, K-12, policy
+**Recording:** [Recording](https://us02web.zoom.us/rec/share/ZQI4v0oFq4-xrTrL1DrnOLkYeoZiLJQXoc7dKnmpwffZV2NaWrJbPXX4yEdbkCo_.r3UsgQrpXkvhgYPM)
+Passcode: nw72q?db
+**Org:** Code.org
+**Speaker:** [Pat Yongpradit](https://www.linkedin.com/in/patyongpradit/)
+
 - https://share.fireflies.ai/embed/meetings/4Ut6lPKrNs8wQIZU
 Introduction and Context (00:03 - 02:35)
 The meeting begins with a welcome and introduction to Pat from Code.org and Teach AI, who will discuss AI in education policy and guidance. The importance of policy in the fast-paced tech environment is highlighted, emphasizing that good policy can create opportunities for startups and funding.

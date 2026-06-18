@@ -6,6 +6,13 @@ notion_id: 137a896b-b9b6-8092-81af-f2bef1bf9c34
 
 # Startup Fundraising: Path to Series A & B
 
+**Date:** 2024-10-18
+**Tags:** market trends, fundraising
+**Recording:** [Recording](https://us02web.zoom.us/rec/share/nTuD04fL24TyLflm9EiUCDSEExLjFmeP_GjCqOTM2YWJ2t_igP-KFdYKseUhixY.WMnjT9_w06HC5SlO)
+Passcode: !RPRKL45
+**Org:** Reach Capital
+**Speaker:** [Jennfier Carolan](https://www.linkedin.com/in/jcarolan/) & [Caoimhe MacRunnels](https://www.linkedin.com/in/caoimhe-macrunnels-9ab496b6/)
+
 Fundraising Environment Overview (00:00 - 11:30)
 - Fundraising environment has undergone a significant market correction
 - Series A and B investments have decreased by 41% and 48% respectively

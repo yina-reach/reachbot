@@ -6,6 +6,13 @@ notion_id: 230a896b-b9b6-80a7-9711-e8def4422b63
 
 # Navigating K-12 Privacy & School Contracts
 
+**Date:** 2025-07-11
+**Tags:** privacy, K-12
+**Recording:** [Recording link](https://us02web.zoom.us/rec/share/Qt1FBynmdsskjdpkD2dGkjfSSX6rd2pqFymKl_uUw9OUZ025ulJpE8mdJe0BQ36s.1gmhCcftZvxMtli0?startTime=1752253498000)
+Passcode: 8!Ix%0ES
+**Org:** Orrick
+**Speaker:** [Emily Tabatabai](https://www.linkedin.com/in/emilytabatabai/) & [David Curtis](https://www.linkedin.com/in/david-curtis-50402827/)
+
 
 
 00:41 - 03:43 Overview of Data Privacy Landscape

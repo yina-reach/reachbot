@@ -6,6 +6,13 @@ notion_id: 1faa896b-b9b6-8088-b72f-e584cced536b
 
 # ElevenLabs
 
+**Link:** https://elevenlabs.io/startup-grants
+**Reach point:** Tony Wan
+**Contact:** Jack McDermott
+**Type:** Credits
+**Email:** [jackrmcdermott@gmail.com](mailto:jackrmcdermott@gmail.com)
+**Description:** 33 million characters of AI audio generation credits free for 12 months for voice technology and text-to-speech applications.
+
 # How it works
 The ElevenLabs Startup Grants program is open to startups and small companies with fewer than 25 employees, anywhere in the world.
 To apply, you’ll need to share a few details about how you plan to use ElevenLabs, whether it's for a game, an education tool, a support bot, or something entirely new.

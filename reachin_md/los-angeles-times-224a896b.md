@@ -6,3 +6,10 @@ notion_id: 224a896b-b9b6-8006-a99c-ff89f615934a
 
 # Los Angeles Times
 
+**Category:** Education
+**LOCATION:** LA
+**TITLE/ROLE:** Education Editor
+**WRITER PAGE (STORIES):** https://www.latimes.com/people/stephanie-chavez
+**EMAIL:** stephanie.chavez@latimes.com
+**Name:** Stephanie Chavez
+

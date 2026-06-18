@@ -6,3 +6,9 @@ notion_id: fd60dc68-28c5-4d29-9cc7-d4f241577476
 
 # Y Combinator Investor Update Template
 
+**Source:** Y Combinator
+**Format:** Template
+**Area:** Board Management
+**Tags:** board
+**Link:** https://visible.vc/templates/y-combinator-investor-update-template/
+

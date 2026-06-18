@@ -6,3 +6,10 @@ notion_id: f905aa32-ca88-4a24-9aae-ec19ff1bddb2
 
 # Aging Economy (2021)
 
+**Source:** Reach
+**Format:** Report
+**Sector:** Sector Analysis
+**Area:** Market Research
+**Tags:** Aging Economy
+**Link:** https://docs.google.com/presentation/d/1hU5ZBADURBfLCRDidWvPhSu8PmavYaLeOuisov6Ap2o/edit#slide=id.gdab3ddd259_2_40
+

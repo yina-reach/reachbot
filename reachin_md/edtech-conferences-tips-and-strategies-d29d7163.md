@@ -6,6 +6,13 @@ notion_id: d29d7163-083b-466d-8400-1ed6fe786563
 
 # Edtech Conferences - Tips and Strategies
 
+**Date:** 2024-01-12
+**Tags:** marketing, community
+**Recording:** [Recording](https://us02web.zoom.us/rec/share/34x0ehO0ovjNANFauh0hXwduIzgOzogrLEzDZtcI1X6HCJVX41oxIgfeOoiu7Vjs.nplTWbuiorNp1MWG)
+Passcode: 2$KiC%Y!
+**Org:** SchoolMessenger, Pearson
+**Speaker:** [Frank Catalano](https://www.linkedin.com/in/frankcatalano/)
+
 - https://share.fireflies.ai/embed/meetings/4L51fkX7HPtiRFjH
 Introduction and Overview of Edtech Conferences (00:00 - 01:15)
 Frank Catalano talks about the 180 Edtech conferences listed on the Reach website, providing a public service to the ed tech ecosystem. Most of these conferences are national and state events.

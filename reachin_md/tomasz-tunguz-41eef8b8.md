@@ -6,3 +6,7 @@ notion_id: 41eef8b8-f01b-4947-b61f-0f1e657652e0
 
 # Tomasz Tunguz
 
+**URL:** https://tomtunguz.com/
+**Focus:** startups, markets, growth
+**Description:** A data-driven blog focused on the most important questions for startups & venture capital
+

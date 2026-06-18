@@ -6,6 +6,13 @@ notion_id: 98bc8986-b3be-410f-bf70-face2e2d164b
 
 # Startup Lessons from Leading ImagineK12 and Y Combinator
 
+**Date:** 2024-01-19
+**Tags:** founder journey, growth, hiring, leadership
+**Recording:** [Recording](https://us02web.zoom.us/rec/share/k6S_-_cs796-cAuq3YwQTRXcE_jXpftf6YDCepGg-BOL7LfgN6-8vaEDdpcnNAq6.Guuq8y4PXeAbz4Wb)
+Passcode: 0hG.P^XA
+**Org:** Y Combinator
+**Speaker:** [Geoff Ralston](https://www.linkedin.com/in/geoffralston/)
+
 - https://share.fireflies.ai/embed/meetings/XCsK75Jc8wHXWJtw
 Introduction and Background (00:02-01:23)
 

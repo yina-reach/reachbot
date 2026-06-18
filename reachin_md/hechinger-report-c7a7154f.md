@@ -6,3 +6,7 @@ notion_id: c7a7154f-4feb-464f-81dd-c01731200965
 
 # Hechinger Report
 
+**URL:** https://hechingerreport.org/
+**Focus:** K-12, higher ed, early childhood, edtech industry
+**Description:** News about innovation and inequalities in education
+

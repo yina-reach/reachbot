@@ -6,6 +6,13 @@ notion_id: 230a896b-b9b6-80bb-86ed-f91605218073
 
 # Making Growth& GTM More Scalable, Predictable with AI 
 
+**Date:** 2025-06-27
+**Tags:** AI, growth
+**Recording:** [Recording link](https://us02web.zoom.us/rec/share/Ai45EjkYwEu5j7eu5DDWukATHYbAOe_1ttFjh4a4bJOCxdcwfhx_AX5G0ysEbm4w.z-QwmWVbUMDpxioW?startTime=1751043827000)
+Passcode: um^%?au6
+**Org:** Winning by Design
+**Speaker:** [Dominique Levin](https://www.linkedin.com/in/dominiquelevin/)
+
 - https://share.fireflies.ai/embed/meetings/01JYSVWSB8HJD7Z7VYXQMMP1VQ
 01:51 – Why AI in Go-To-Market Matters
 - Research shows wide variability in customer acquisition cost (CAC).

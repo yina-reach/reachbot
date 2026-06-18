@@ -6,4 +6,9 @@ notion_id: f9bb0e7e-9d8c-452c-87f4-171e9c84a3ee
 
 # 🌐 [Student Privacy Compass](https://studentprivacycompass.org/)
 
+**Format:** Website
+**Files & media:** https://studentprivacycompass.org/
+**Area:** Privacy
+**Description:** Site contains a resource search center, a blog, and updated pages with specific information and guidance for parents, students educators, LEAs, SEAs, higher ed, edtech and policymakers.
+
 - Site contains a resource search center, a blog, and updated pages with specific information and guidance for parents, students educators, LEAs, SEAs, higher ed, edtech and policymakers.

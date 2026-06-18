@@ -6,6 +6,13 @@ notion_id: b17a4b28-5586-41f9-ba14-c1b8ae558396
 
 # AI & Replit’s Journey
 
+**Date:** 2023-08-11
+**Tags:** AI, founder journey
+**Recording:** [Recording](https://us02web.zoom.us/rec/share/W8c9ya4Y3ZJ0zhj4fCv0ae4pMtQFWh0f_DJ-RZ-dNUwaGagjxToPju3d2Q6wo78G.3YOulXDautwQjJBr)
+Passcode: f86n^Y#t
+**Org:** Replit
+**Speaker:** [Amjad Masad](https://www.linkedin.com/in/amjadmasad/)
+
 Introduction (00:02 - 02:50)
 Wayee introduces Amjad, co-founder of Replit, emphasizing the informal nature of the discussion and encouraging questions from attendees. Amjad shares his background, highlighting his journey from Jordan to becoming a developer at Yahoo, then moving to Codeacademy and Facebook, before founding Replit in 2016.
 

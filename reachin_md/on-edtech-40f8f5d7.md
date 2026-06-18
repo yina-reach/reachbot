@@ -6,3 +6,7 @@ notion_id: 40f8f5d7-8045-4205-8a55-d22f42682834
 
 # On EdTech
 
+**URL:** https://onedtech.philhillaa.com/
+**Focus:** edtech industry, higher ed
+**Description:** Blog and newsletter by Phil Hill, an edtech industry analyst specializing in the higher education and LMS markets
+

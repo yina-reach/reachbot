@@ -6,3 +6,8 @@ notion_id: b0da0d2c-4dd9-466e-a585-87c0dddf0f1a
 
 # August
 
+**NOTES:** used for all-company onsite
+**REACH PORTFOLIO / EDTECH ENGAGEMENT:** Adam Pisoni
+**SERVICES OFFERED:** leadership and organizational development
+**CONTACT INFO:** [https://www.aug.co/](https://www.aug.co/)
+

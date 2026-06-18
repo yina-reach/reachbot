@@ -6,3 +6,8 @@ notion_id: 6b961eb8-280a-46de-a08a-df0b713c556d
 
 # Emily Tabatabai (Orrick)
 
+**SERVICES OFFERED:** edtech privacy
+**REACH CONTACT:** TW
+**CONTACT INFO:** [etabatabai@orrick.com](mailto:etabatabai@orrick.com)
+**FOCUS:** Legal
+

@@ -6,3 +6,10 @@ notion_id: 7cf5ab70-e04d-43dd-8615-9df0a4da7c66
 
 # Encryption Practices of Technology Used Within Schools (2016)
 
+**Source:** Common Sense Media
+**Format:** Report
+**Files & media:** https://drive.google.com/file/d/0B2eCjHNmaBGZeGN2SE01VVpMUEVucWZKM2pWNklVQUJ5ZktJ/view?resourcekey=0-lCxnzkVhjcyivH6uTfMGHQ
+**Area:** Privacy
+**Description:** Common Sense Media tested logins for 1,228 edtech web services for encryption practices for usernames, passwords, and other personally identifiable information. Only 14% of the logins required encryption and using HSTS (best practice)
+**Tags:** privacy, cybersecurity
+

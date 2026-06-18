@@ -6,6 +6,14 @@ notion_id: 36da896b-b9b6-80b7-baaf-dba14e805e31
 
 # State of Early-Stage Fundraising
 
+**Date:** 2026-05-08
+**Deck / slides:** https://prod-files-secure.s3.us-west-2.amazonaws.com/2c857fe3-c851-49b6-a826-626221ac7566/e25da2a2-871f-41b0-92b8-1f8c17f90579/Reach_Capital_-_State_of_Fundraising_2026_%281%29.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TZETPO6V%2F20260616%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260616T223724Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQC689JrVKwIOmTLhFFh5mkL7wZx5KQMg9%2BRMyvifBqsnAIhANT%2BhAKsTMTMTwH4%2BoWWHUfuAIN5lOmNo0lkif9Y298DKv8DCH8QABoMNjM3NDIzMTgzODA1Igzrp1jGYLbMwRv02BUq3ANj%2B1E9SCxS0v7muqoxThHa3EXJPfvUR0h5NI0CAX%2FqVpANf1i5yy04CTlDBMJvgHggMjvM8UIhGwlLQLxAz%2FI3kl0SrFAb2LXYnz8g33ytj5P%2BqIRUVkZUl%2BG2xbZLW448Oyyx7eP6iKCYOApCMSczw5doDqvtMx7JaM2ka1WpCyUnbchqlviNfzrH2Oii9DUut8%2FitBmi9INoR0kwusSO8cqVMth7JQO6bqu6iUGzO6kv550Nt7d2wx%2BpV4uw4qgC63rtBF%2BCoWtzcv8MKsExnZyG7zuznDuXgDiQN1RiUQUbVkgzmG2PC5H0XeDdYclAqN%2BY6NPaBKmh11sMMejT6c1rLBzaI9lDfddmkQSenautdPM40CCQFDrmg4lWXPEGBn04A6uwAsgH%2FNeqJFmzOPik7FLTuhrahzA6QzFtgVXiE0mUefGcMMMu4Xe386zdN970WA8IaO2CRFRCT5ND%2BWyZDbL8Ykm%2FzvDnyHvhjxZUpJOX%2ByZEgz84cwebeanLJ954VlMUhwb6SkRNs6oNrqgWE2lL1zM%2FTmq1O1AfVXMQykOd378aKCl%2FOrjiMxaVnFe6IEE%2FW7dzm5cy3ckHcEY8WxfpVH07%2F0MZQSybnCqaukGoxsekXZSy9jDzmMfRBjqkAU%2B7Rp5vLF0EkufhqpH79HGEuGMeI5gxJPt78jh6zqadx7hm5I6b3RhZPDL9LcDjuSa0KBgHqRLXPrZagLH%2BdlQBZhr99U996UvmoVRB1YXU4mHRZ8nmGQTU7FNC0NKUqw6FYUBRde4FsHpH2AGLocXr5j19wMRXBL80WPUYMfIiTtL%2FX7paCA8jz%2FJ2kNGeMXj0evujJkDLmCw3RSxNbMJ7h4bx&X-Amz-Signature=6cfc809924c5c123504e50f63def74a77100f3fbf9e7e46701a9a1a34cbabd83&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject
+**Tags:** fundraising
+**Recording:** [Recording link](https://us02web.zoom.us/rec/share/nm8NehOzqGd9-g-TijrM8rC8-C98TXit7rT9yKMPBwPuLnpNpTTdDIN17VGEKiUh.5Fs10yM5FLwRCJE_?startTime=1778259842000)
+Passcode: =XET6kFR
+**Org:** Reach Capital
+**Speaker:** [Caoimhe MacRunnels](https://www.linkedin.com/in/caoimhe-macrunnels-9ab496b6/) & [Jennifer Carolan](https://www.linkedin.com/in/jcarolan/)
+
 Fundraising market overview
 Q1 2026 was the largest venture capital quarter on record, but 65% of that capital went to four companies. Deal count has dropped below 4,000, down from over 5,000 in Q1 2025. Capital is flowing, but into fewer companies and larger checks.
 What this means for founders

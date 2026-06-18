@@ -6,3 +6,10 @@ notion_id: 0fcf5521-c2cc-400f-bb59-947526d82018
 
 # Square Started Small and Won Big With This PR Strategy
 
+**Source:** First Round Review
+**Format:** Article
+**Files & media:** https://review.firstround.com/Square-Started-Small-and-Won-Big-with-This-PR-Strategy
+**Area:** PR
+**Description:** Article on PR
+**Tags:** PR
+

@@ -6,3 +6,12 @@ notion_id: 04e34b00-8141-4bf4-807f-deadac025e59
 
 # Bloomberg
 
+**Category:** Business / Tech
+**LOCATION:** SF Bay Area
+**TITLE/ROLE:** Anchor, Executive Producer
+**WRITER PAGE (STORIES):** https://www.bloomberg.com/authors/AQOA_AoEWJc/emily-chang
+**EMAIL:** [echang68@bloomberg.net](mailto:echang68@bloomberg.net)
+**Name:** Emily Chang
+**REACH CONNECTION:** JC
+**TWITTER:** @emilychangtv
+

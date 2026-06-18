@@ -6,3 +6,12 @@ notion_id: 4706ba2a-0077-47c7-a9b2-3edeeda0250c
 
 # Freelance
 
+**Category:** Freelance
+**LOCATION:** NY
+**TITLE/ROLE:** Former NPR Education Correspondent
+**WRITER PAGE (STORIES):** https://www.npr.org/people/302894536/anya-kamenetz
+**EMAIL:** akamenetz@npr.org
+**Name:** Anya Kamenetz
+**REACH CONNECTION:** JC
+**TWITTER:** @anya1anya
+

@@ -121,13 +121,69 @@ def page_title(page):
     return "untitled"
 
 
+def extract_properties(page):
+    """
+    Pull all non-empty page properties as a readable text block.
+    Handles: rich_text, title, url, email, phone_number, select, multi_select,
+             number, checkbox, date, people, files, relation, formula.
+    """
+    props = page.get("properties", {})
+    lines = []
+    for name, prop in props.items():
+        t = prop.get("type")
+        val = ""
+        if t == "title":
+            val = rich_text(prop.get("title", []))
+        elif t == "rich_text":
+            val = rich_text(prop.get("rich_text", []))
+        elif t == "url":
+            val = prop.get("url") or ""
+        elif t == "email":
+            val = prop.get("email") or ""
+        elif t == "phone_number":
+            val = prop.get("phone_number") or ""
+        elif t == "select":
+            s = prop.get("select")
+            val = s["name"] if s else ""
+        elif t == "multi_select":
+            val = ", ".join(s["name"] for s in prop.get("multi_select", []))
+        elif t == "number":
+            v = prop.get("number")
+            val = str(v) if v is not None else ""
+        elif t == "checkbox":
+            val = "Yes" if prop.get("checkbox") else ""
+        elif t == "date":
+            d = prop.get("date")
+            val = d["start"] if d else ""
+        elif t == "formula":
+            f = prop.get("formula", {})
+            val = str(f.get("string") or f.get("number") or f.get("boolean") or "")
+        elif t == "files":
+            urls = [f.get("file", {}).get("url") or f.get("external", {}).get("url", "")
+                    for f in prop.get("files", [])]
+            val = " ".join(u for u in urls if u)
+
+        val = val.strip()
+        # Skip the title property (already in the heading) and empty values
+        if val and t != "title":
+            lines.append(f"**{name}:** {val}")
+    return "\n".join(lines)
+
+
 def export_page(page):
     title = page_title(page)
     url = page.get("url", "")
+    props_text = extract_properties(page)
     body = render_page(page["id"])
+    # Combine properties + body; skip if truly empty
+    full_body = ""
+    if props_text:
+        full_body += props_text + "\n\n"
+    if body.strip():
+        full_body += body
     header = f"---\ntitle: {title}\nsource_url: {url}\nnotion_id: {page['id']}\n---\n\n"
     fname = OUT / f"{slugify(title)[:80] or 'untitled'}-{page['id'][:8]}.md"
-    fname.write_text(header + f"# {title}\n\n{body}", encoding="utf-8")
+    fname.write_text(header + f"# {title}\n\n{full_body}", encoding="utf-8")
     return fname
 
 

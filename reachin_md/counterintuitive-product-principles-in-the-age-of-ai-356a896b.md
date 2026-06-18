@@ -6,6 +6,13 @@ notion_id: 356a896b-b9b6-80d8-9f8c-f5d674570bf2
 
 # Counterintuitive Product Principles in the Age of AI
 
+**Date:** 2026-05-01
+**Tags:** product
+**Recording:** [Recording link](https://us02web.zoom.us/rec/share/y2ryD5aYCTrYryURcZ85icgT98iSsQtKeLN-YZWGIxig0DtzI80PzbaahdhnqleG.Ns4cOcGCz6knN6Fh?startTime=1777655003000)
+Passcode: 1A*$i=%J
+**Org:** Roblox, NYT, Google, Zynga
+**Speaker:** [Manuel Bronstein](https://www.linkedin.com/in/manuelbronstein/)
+
 Manuel Bronstein AMA Summary
 Core Thesis: What Doesn’t Change with AI
 - Product fundamentals remain constant

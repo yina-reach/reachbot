@@ -6,3 +6,9 @@ notion_id: 1db27055-a1c8-4574-9f84-fb52ff59826f
 
 # Talent House
 
+**NOTES:** Enterprise, Consumer, Sales, Marketing
+**REACH PORTFOLIO / EDTECH ENGAGEMENT:** Referred by Michelle McHargue  at Costanoa
+**REACH CONTACT:** WC
+**CONTACT INFO:** Bill McHargue, bill@talent-house.co
+**FOCUS:** Talent & Recruiting
+

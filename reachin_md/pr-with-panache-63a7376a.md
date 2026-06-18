@@ -6,3 +6,9 @@ notion_id: 63a7376a-c5a5-499b-8062-9e851a0b47b3
 
 # PR with Panache
 
+**NOTES:** Education-specific PR firm
+**SERVICES OFFERED:** PR agency specializing in education
+**REACH CONTACT:** TW
+**CONTACT INFO:** Chris Piehler (chris@prwithpanache.com)
+**FOCUS:** Marketing & PR
+

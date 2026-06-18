@@ -6,3 +6,9 @@ notion_id: 2c5496b7-e77b-4f07-8cb0-9c22d46a0a38
 
 # Conifr
 
+**NOTES:** Winnie recommends them highly
+**REACH PORTFOLIO / EDTECH ENGAGEMENT:** Winnie
+**SERVICES OFFERED:** SEO Consultant
+**REACH CONTACT:** CG
+**CONTACT INFO:** Kristan kristan@conifr.com
+

@@ -6,3 +6,10 @@ notion_id: f48833a7-5f0f-4e19-9d6d-604b4c1fb92f
 
 # PKF O'Connor Davis
 
+**NOTES:** Recommended by David Jaffin (Syntax Advisors) via F Suite
+**REACH PORTFOLIO / EDTECH ENGAGEMENT:** Swift
+**SERVICES OFFERED:** Tax accounting
+**REACH CONTACT:** JD
+**CONTACT INFO:** seller@pkfod.com
+**FOCUS:** Finance & Accounting
+

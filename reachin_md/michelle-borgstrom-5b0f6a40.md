@@ -6,3 +6,8 @@ notion_id: 5b0f6a40-4d4f-4b12-80a8-611061cfc869
 
 # Michelle Borgstrom
 
+**NOTES:** - Has worked with startups
+**SERVICES OFFERED:** Pitch Deck design
+**REACH CONTACT:** EC
+**CONTACT INFO:** borgstrom.michi@gmail.com
+

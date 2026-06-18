@@ -6,3 +6,7 @@ notion_id: 1fdbd18c-7f5a-4d41-ba90-b5f897aa20fb
 
 # Next Step Partners
 
+**NOTES:** highly recommended, curated list of coaches
+**SERVICES OFFERED:** executive coaching, team development, leadership development
+**CONTACT INFO:** [https://nextsteppartners.com/](https://nextsteppartners.com/)
+

@@ -6,3 +6,8 @@ notion_id: 697bdfae-1e5c-4582-92e9-c8b1bcb72495
 
 # Thuy Sindell
 
+**NOTES:** manages over 170 coaches, facilitators and consultants worldwide
+**SERVICES OFFERED:** executive coaching, team performance
+**REACH CONTACT:** David Fischer
+**CONTACT INFO:** [https://skylineg.com/](https://skylineg.com/)
+

@@ -1,45 +1,74 @@
-name: Weekly ReachIn refresh
-# Re-exports Notion + re-embeds every Monday 6am UTC, commits the new index.
-# Streamlit Community Cloud auto-redeploys when the repo updates.
+name: Weekly ReachBot Refresh
 
 on:
   schedule:
+    # Every Monday at 6 AM UTC (2 AM ET)
     - cron: "0 6 * * 1"
-  workflow_dispatch: {}   # also lets you trigger it manually from the Actions tab
+  workflow_dispatch:
+    inputs:
+      force_ingest:
+        description: "Force re-embed all chunks (slow)"
+        required: false
+        default: "false"
 
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 120
+
     steps:
       - uses: actions/checkout@v4
 
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
+          cache: "pip"
 
-      - run: pip install -r requirements.txt
+      - name: Install dependencies
+        run: pip install -r requirements.txt
 
-      - name: Export Notion
+      # ── Step 1: Export Notion content ──────────────────────────────────────
+      - name: Export Notion → markdown
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
         run: python reachin_export.py
 
-      - name: Pull new Zoom transcripts (past week only)
+      # ── Step 2: Pull new Zoom transcripts (if API creds are configured) ───
+      - name: Pull Zoom transcripts
         env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           ZOOM_ACCOUNT_ID: ${{ secrets.ZOOM_ACCOUNT_ID }}
           ZOOM_CLIENT_ID: ${{ secrets.ZOOM_CLIENT_ID }}
           ZOOM_CLIENT_SECRET: ${{ secrets.ZOOM_CLIENT_SECRET }}
-        run: python zoom_transcripts.py --since-days 8
+        # Only run if Zoom creds are set; otherwise skip gracefully
+        run: |
+          if [ -n "$ZOOM_ACCOUNT_ID" ] && [ -n "$ZOOM_CLIENT_ID" ] && [ -n "$ZOOM_CLIENT_SECRET" ]; then
+            python zoom_transcripts.py --zoom-api --since-days 8
+          else
+            echo "Zoom API credentials not configured — skipping transcript pull."
+            echo "Set ZOOM_ACCOUNT_ID, ZOOM_CLIENT_ID, ZOOM_CLIENT_SECRET in GitHub Secrets."
+          fi
 
+      # ── Step 3: Rebuild vector index ──────────────────────────────────────
       - name: Rebuild index
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python ingest.py
-
-      - name: Commit refreshed index
         run: |
-          git config user.name "reachbot-bot"
-          git config user.email "actions@github.com"
-          git add reachin_md transcripts index.npz
-          git commit -m "Weekly refresh: $(date -u +%Y-%m-%d)" || echo "No changes"
-          git push
+          if [ "${{ github.event.inputs.force_ingest }}" = "true" ]; then
+            python ingest.py --force
+          else
+            python ingest.py
+          fi
+
+      # ── Step 4: Commit updated index ──────────────────────────────────────
+      - name: Commit index.npz
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.npz transcripts/ reachin_md/
+          if git diff --cached --quiet; then
+            echo "Nothing changed — index is up to date."
+          else
+            git commit -m "chore: weekly index refresh $(date -u +%Y-%m-%d)"
+            git push
+          fi

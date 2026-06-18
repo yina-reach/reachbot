@@ -6,3 +6,10 @@ notion_id: db934533-06a8-41aa-bd61-561505b63c50
 
 # Washington Post
 
+**Category:** Business / Tech
+**LOCATION:** SF Bay Area
+**TITLE/ROLE:** AI and Tech
+**EMAIL:** jason.dean@wsj.com
+**Name:** Jason Dean
+**TWITTER:** @jasonrdean
+

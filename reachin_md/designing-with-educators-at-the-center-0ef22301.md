@@ -6,3 +6,10 @@ notion_id: 0ef22301-e171-4a60-a9f3-2535e76a2417
 
 # Designing With Educators at the Center
 
+**Source:** Reach
+**Format:** Article
+**Area:** Product
+**Description:** How Nearpod puts teachers at the center of product design
+**Tags:** product
+**Link:** https://www.reachcapital.com/2019/10/11/designing-with-educators-at-the-center/
+

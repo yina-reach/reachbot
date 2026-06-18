@@ -6,6 +6,13 @@ notion_id: 78915084-55b8-4595-91d6-79cb7a1dd7de
 
 # Hiring & Succeeding With Your 1st Head of Sales
 
+**Date:** 2024-03-01
+**Tags:** hiring, sales
+**Recording:** [Recording](https://us02web.zoom.us/rec/share/DVxhuW__bFDyO9U1BA9rFwwCKfCkvRznx-FAuUZ2AP1NSx5Ki5U0a-9-9IOdyZGW.HhgchI3ZUeKACsjt)
+Passcode: B!&Ew!2z
+**Org:** Dropbox, Google
+**Speaker:** [Armando Mann](https://www.linkedin.com/in/armandomann/)
+
 - https://share.fireflies.ai/embed/meetings/qTSktmzNrShe3NjP
 
 Welcome and Introduction (00:02 - 01:33)

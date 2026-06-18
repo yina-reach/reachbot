@@ -6,3 +6,10 @@ notion_id: ed521be5-e9d1-49ae-8f1b-915261f185d9
 
 # Sales as a Science and Go-to-Market Fit
 
+**Source:** Winning by Design
+**Format:** Slide Deck
+**Files & media:** https://www.slideshare.net/JaccovanderKooij/saastock-2019-keynote-sales-as-a-science-go-to-market-fit
+**Area:** Sales
+**Description:** Slides on the importance of the go-to-market (GTM) stage and the three key frameworks that govern SaaS sales
+**Tags:** SaaS, sales
+

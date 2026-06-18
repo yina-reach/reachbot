@@ -6,3 +6,10 @@ notion_id: dbae69cf-33e3-4413-b809-5279e0ad3d26
 
 # Make Customer Success a Core Competency of Your Edtech Startup
 
+**Source:** Reach
+**Format:** Article
+**Area:** Customer Success
+**Description:** If you will do just one thing right, make sure your early customers are successful and happy with your product.
+**Tags:** customer success
+**Link:** https://www.reachcapital.com/2018/10/18/make-customer-success-a-core-competency-of-your-edtech-startup/
+

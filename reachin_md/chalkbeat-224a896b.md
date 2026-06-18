@@ -6,3 +6,10 @@ notion_id: 224a896b-b9b6-800f-98ad-d56c179845c1
 
 # Chalkbeat
 
+**Category:** Education
+**LOCATION:** NY
+**TITLE/ROLE:** Editor, columnist
+**WRITER PAGE (STORIES):** https://www.chalkbeat.org/authors/matt-barnum/
+**EMAIL:** [mbarnum@chalkbeat.org](mailto:mbarnum@chalkbeat.org)
+**Name:** Matt Barnum
+

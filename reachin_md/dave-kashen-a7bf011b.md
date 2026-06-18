@@ -6,3 +6,8 @@ notion_id: a7bf011b-2c6e-46a5-b901-4a20e5b2024a
 
 # Dave Kashen
 
+**NOTES:** An entrepreneur himself; his coaching topics cover many areas beyond career
+**REACH PORTFOLIO / EDTECH ENGAGEMENT:** Lisa Sweeney
+**SERVICES OFFERED:** executive coaching, leadership training, culture development
+**CONTACT INFO:** [https://www.quantumleading.com/](https://www.quantumleading.com/)
+

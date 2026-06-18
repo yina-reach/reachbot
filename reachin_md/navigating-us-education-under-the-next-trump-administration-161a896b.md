@@ -6,6 +6,11 @@ notion_id: 161a896b-b9b6-80b2-bbc5-ef403d70e070
 
 # Navigating US Education Under the Next Trump Administration
 
+**Date:** 2024-12-09
+**Tags:** K-12, market trends, macro
+**Org:** Tyton Partners; US Dept. of Ed
+**Speaker:** [Adam Newman](https://www.linkedin.com/in/adam-j-newman-8441b8/) & [Joanne Weiss](https://www.linkedin.com/in/joanneweiss/)
+
 05:30: Federal Role in Education: Quick history 101 on the role of the federal government in education and key legislation such as the Elementary and Secondary Education Act and the Higher Education Act. Joanne outlines its key roles: funding (~10% of district budgets); special education; data collection and research, disseminating best practices.
 10:03: Anticipated Policy Changes Under the New Administration: Adam discusses potential focus areas for the new administration, highlighting ESA programs (now in 17 states; $175B potential TAM) that represent a significant shift in funding from public schools to alternative education options like charter and private schools. Iowa’s ESA dollars are growing quickly from $125M in year 1 to $500M in year 3 (2025-26).
 15:42: Budget Cuts and Their Implications: Joanne expresses skepticism about the likelihood of new federal education programs, as well as the prospect that the Department of Education will be eliminated. Discretionary funding programs can be cut easily, but changing laws governing major funding programs would be more challenging.

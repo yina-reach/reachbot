@@ -6,6 +6,12 @@ notion_id: a87bf9bd-1b82-4a57-b921-b31c76b9be17
 
 # Media & Press GTM
 
+**Date:** 2023-12-15
+**Tags:** PR
+**Recording:** [Recording and summary](/8de7f1ef645c42b9be59db15dcefb6af)
+**Org:** EdSurge, Forbes, WSJ
+**Speaker:** [Betsy Corcoran](https://www.linkedin.com/in/betsycorcoran/) & [G](https://www.linkedin.com/in/georgeanders/)[eorge Anders](https://www.linkedin.com/in/georgeanders/)
+
 Summary
 - The primary focus was on how to effectively tell stories in an oversaturated market. Betsy emphasized that businesses should aim to build trust, empathy, and their brand through storytelling but warned against struggling to cut through "noise" due to millions of blogs being published every day. She encouraged participants to think like journalists when crafting their narratives—considering what readers want rather than just pushing out information.
 - George added that many PR strategies are outdated today due to changes in media consumption habits. He argued that capturing people's attention requires catching trending waves (like AI), presenting authentic learnings or insights, understanding your audience's needs/wants/interests intimately, showing instead of telling your story authentically—and even taking control by telling it yourself via platforms such as LinkedIn where you can tailor content accordingly.

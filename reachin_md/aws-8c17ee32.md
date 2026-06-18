@@ -6,6 +6,13 @@ notion_id: 8c17ee32-fca3-4e4b-8383-260e90f83c8c
 
 # AWS
 
+**Link:** https://aws.amazon.com/startups
+**Reach point:** Tony Wan
+**Contact:** Sergio Zafra
+**Type:** Credits
+**Email:** [zafras@amazon.com](mailto:zafras@amazon.com)
+**Description:** Up to $100,000 in AWS cloud credits plus 1 year of free AWS Business Support with 24/7 access to cloud engineers.
+
  AWS Credit Packages 2026
 - Seed stage startups are eligible for $100,000 in credits: Apply using the instructions below. Note that “Seed” stage is determined by your investor - to receive this, your investor just needs to confirm that you are “seed stage.”
 - Series A stage startups are eligible for $200,000 in credits: Reach out to Sergio Zafra, [zafras@amazon.com](mailto:zafras@amazon.com) to access the $200k OrgID code and confirm round details.

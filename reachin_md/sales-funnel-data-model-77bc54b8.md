@@ -6,3 +6,10 @@ notion_id: 77bc54b8-053d-485f-bb80-2d9488a5788d
 
 #  Sales Funnel Data Model
 
+**Source:** Winning by Design
+**Format:** Article
+**Files & media:** https://drive.google.com/file/d/1yYk8HL9szgFae0HytGbADwjOGckfkZga/view
+**Area:** Sales
+**Description:** Basic design principles to make sure you measure sales funnel correctly and consistently drive insights
+**Tags:** sales
+

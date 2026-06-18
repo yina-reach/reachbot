@@ -6,6 +6,13 @@ notion_id: 1a5a896b-b9b6-8051-aa63-ca29b279f869
 
 # Chelsea Montgomery
 
+**Current Title:** Assistant Superintendent of Student Services, Atlanta Public Schools
+**LinkedIn:** https://www.linkedin.com/in/chelsea-a-montgomery-81231556/
+**Advisory Group:** 🎒 K-12
+**Areas of Expertise:** Programming, Student success, Support Services
+**Bio:** Chelsea Montgomery is the Assistant Superintendent of Student Services at Atlanta Public Schools. Her experience in student services positions her as a leader in supporting student well-being and academic success. Montgomery's unique value lies in her ability to develop and implement programs that enhance student outcomes and support services.
+**Email:** Cmontgomery0531@gmail.com
+
 Area(s) of Expertise: 
 - Multi-tiered systems of support
 - Evidence-based interventions

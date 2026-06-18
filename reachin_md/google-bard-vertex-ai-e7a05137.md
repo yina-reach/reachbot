@@ -6,3 +6,10 @@ notion_id: e7a05137-a2c9-45a1-b056-753421059122
 
 # Google Bard, Vertex & AI
 
+**Date:** 2023-06-30
+**Tags:** AI
+**Recording:** (not recorded)
+**Org:** Google
+**Speaker:** [Amina Al Sherif](https://www.linkedin.com/in/amina-al-sherif/)
+**Materials:** [Slides](https://drive.google.com/file/d/1bsRPgJ-9wHpXx3MUDyxW7bsytCF0tJiJ/view?usp=sharing)
+

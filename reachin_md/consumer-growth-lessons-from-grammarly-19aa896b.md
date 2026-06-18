@@ -6,6 +6,13 @@ notion_id: 19aa896b-b9b6-80f2-a819-ee60bb1379d4
 
 # Consumer Growth: Lessons from Grammarly
 
+**Date:** 2025-01-10
+**Tags:** growth
+**Recording:** [Recording](https://us02web.zoom.us/rec/share/A2MoVLk_qKVgmLHIy2YDkYRlzvMtwWMWijPUFfrz0NumCC0WqMzq7d2COpPNCT8j.3VB-qUfs984XWvOH?startTime=1736532233000)
+Passcode: X&Q485t&
+**Org:** Grammarly
+**Speaker:** [Yuriy Timen](https://www.linkedin.com/in/yuriytimen/)
+
 - https://share.fireflies.ai/embed/meetings/KX0sFqLLNtfeg4e2
 00:00 Intro and background
 05:02 Common Reasons for Stalled Growth (post Series A)

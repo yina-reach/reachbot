@@ -6,3 +6,7 @@ notion_id: f4ededf4-027f-4021-a2d4-4ca436fa7821
 
 # Berkery Noyes
 
+**URL:** https://berkerynoyes.com/industries/education/
+**Focus:** markets
+**Description:** Investment bank that publishes M&A trends in education industry
+

@@ -6,3 +6,10 @@ notion_id: ebd3b1ea-83e4-4b5c-a797-ddd72ef9ed56
 
 # Future of Work & Talent
 
+**Date:** 2023-06-09
+**Tags:** market trends, workforce
+**Recording:** [Recording](https://us02web.zoom.us/rec/share/EqWb92xc4l0As_HnZNTYLwQ13X3_1t63xMiraBwQGqVu6tA_5si81zSF39fJDakM._KgYVErHcSPHcutQ)
+passcode: .N01cMd@
+**Org:** IBM, Boeing
+**Speaker:** [Guillermo Miranda](https://www.linkedin.com/in/digitalmirandag/)
+

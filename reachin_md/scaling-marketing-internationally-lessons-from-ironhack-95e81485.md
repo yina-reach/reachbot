@@ -6,3 +6,10 @@ notion_id: 95e81485-d432-4d2a-8053-cb1db846ba6b
 
 # Scaling Marketing Internationally: Lessons from Ironhack
 
+**Source:** Brighteye Ventures
+**Format:** Article
+**Files & media:** https://www.brighteyevc.com/post/2019/05/06/edtechmarketingguideironhack
+**Area:** Marketing
+**Description:** Brighteye Ventures Edtech Marketing Guide Series
+**Tags:** marketing
+

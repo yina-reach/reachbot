@@ -6,3 +6,9 @@ notion_id: f977ac92-ccfb-4b9d-92fb-d58bd0b9cd8a
 
 # Work-Integrated Learning (2020)
 
+**Source:** Reach
+**Format:** Report
+**Files & media:** https://docs.google.com/presentation/d/1MKqULcLfnT7gvc2I3P8rVuUtWBStZxsCLsHe1eoOtxU/edit?usp=drivesdk
+**Area:** Sector Analysis
+**Description:** Presentation on work-integrated learning
+

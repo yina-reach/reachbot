@@ -6,6 +6,12 @@ notion_id: 174a896b-b9b6-80da-88c7-d33f30e63bb5
 
 # SEO Firms
 
+**Source:** Reach
+**Format:** Website
+**Area:** Marketing
+**Description:** Top SEO recommendations include Graphite (renowned in SV), Meaningful (led by ex-Graphite expert Orlando), and Elizabeth Douglas (strategic advisor from WikiHow).
+**Tags:** marketing, SEO
+
 ## Graphite
 Well known, and one of the most sought after SEO firms in SV, feature in various podcasts like Lenny’s podcast.
 - https://graphite.io/

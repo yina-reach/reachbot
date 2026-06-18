@@ -6,3 +6,9 @@ notion_id: 16004beb-cb2d-405c-bb3f-e606ee72f8a3
 
 # Myerhoff Consulting
 
+**NOTES:** former Head of Sales at EdSurge, understanding of K-12 and higher ed markets
+**SERVICES OFFERED:** sales strategy, partnership development, marketing, fractional leadership (CRO)
+**REACH CONTACT:** TW
+**CONTACT INFO:** alice@myerhoffconsulting.com
+**FOCUS:** Go-to-Market
+

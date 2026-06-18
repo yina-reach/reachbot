@@ -6,3 +6,6 @@ notion_id: 71e4c08c-746e-4041-b823-0731cc571047
 
 # Betts
 
+**SERVICES OFFERED:** Recruiting for GTM function
+**FOCUS:** Talent & Recruiting
+

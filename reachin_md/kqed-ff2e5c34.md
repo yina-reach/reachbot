@@ -6,3 +6,12 @@ notion_id: ff2e5c34-19f4-49b7-aa45-f48e8b9b476f
 
 # KQED
 
+**Category:** Education
+**LOCATION:** SF Bay Area
+**TITLE/ROLE:** Podcast Producer
+**WRITER PAGE (STORIES):** https://www.kqed.org/author/katrinaschwartz
+**EMAIL:** kschwartz@kqed.org
+**Name:** Katrina Schwartz
+**TWITTER:** @Kschwart
+**PORTFOLIO MENTIONS:** Tynker
+

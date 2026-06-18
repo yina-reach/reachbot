@@ -6,3 +6,10 @@ notion_id: 83f0feae-8335-4c70-8758-deeeb79efa49
 
 # 2019 Marketplace Benchmarks by Menlo Ventures
 
+**Source:** Menlo Ventures
+**Format:** Slide Deck
+**Files & media:** https://drive.google.com/file/d/0B2eCjHNmaBGZX2VmX3ZBLVpobjRJLWZJRWNISnEyVTVUNEtZ/view?usp=drivesdk&resourcekey=0-mh0w6zJLja_kWcc657nfHQ
+**Area:** Benchmarks
+**Description:** Benchmark metrics from both public and private marketplaces along with lessons learned from best-in-class marketplaces
+**Tags:** growth, marketplace
+

@@ -6,3 +6,7 @@ notion_id: 8cb569fe-746c-45f5-936f-1a5b130e0f19
 
 # EdSurge
 
+**URL:** https://www.edsurge.com/
+**Focus:** K-12, higher ed, edtech industry, early childhood
+**Description:** Early childhood, K-12 and higher ed news
+

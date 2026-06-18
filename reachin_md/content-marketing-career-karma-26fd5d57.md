@@ -6,3 +6,9 @@ notion_id: 26fd5d57-ab91-4bcb-a0bf-a22fca37fac9
 
 # Content Marketing & Career Karma
 
+**Date:** 2021-08-20
+**Tags:** marketing, founder journey
+**Recording:** [Recording](https://us02web.zoom.us/rec/share/MhxEKQI1Z7s2cNOMWfAZgOSJIjesk6tehVd9SjvbgGvhm4ERHcpHfSvYBqly6PNR.z422WT9-S_-2xZNi)
+passcode: 7.e1k2TS
+**Speaker:** [Ruben Harris](https://www.linkedin.com/in/rubenharris/) (Career Karma)
+

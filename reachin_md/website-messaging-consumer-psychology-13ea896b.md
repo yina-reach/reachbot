@@ -6,6 +6,13 @@ notion_id: 13ea896b-b9b6-81a1-8b05-cf70b8eda602
 
 # Website Messaging & Consumer Psychology
 
+**Date:** 2024-08-23
+**Tags:** marketing
+**Recording:** [Recording](https://us02web.zoom.us/rec/share/dB3mZWSph_xoR3NDqzEwOVM7v6PVFoblKSjAhpslKNiEgTH6fzAefNxqPjTrqZOd.zd-prLbN1a1kSpkE)
+Passcode: *w2JAm&H
+**Org:** Stanford
+**Speaker:** [Jonathan Levav](https://www.linkedin.com/in/jonathan-levav-0333329/)
+
 - https://share.fireflies.ai/embed/meetings/qJP1P5tRcH5dRku6
 Introduction (00:03 - 01:14)
 - Jonathan will discuss principles of cognition and perception, particularly in relation to landing pages and consumer behavior.

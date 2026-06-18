@@ -6,3 +6,9 @@ notion_id: 781f8a2c-6835-4c83-a9dd-7132e09596e8
 
 # Conklin Communications
 
+**REACH PORTFOLIO / EDTECH ENGAGEMENT:** referred by Cowboy Ventures
+**SERVICES OFFERED:** communications and media coaching for senior executives and spokespeople
+**REACH CONTACT:** CG
+**CONTACT INFO:** Laine Conklin
+laineconklin@me.com
+

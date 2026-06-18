@@ -6,3 +6,9 @@ notion_id: 70f5938b-fef2-4a3b-85a5-3594a236a8ae
 
 # Hiring Well: A Leader’s #1 Job!
 
+**Date:** 2021-02-05
+**Tags:** hiring
+**Recording:** [Recording](https://us02web.zoom.us/rec/share/uP3vf5QY_BYbpE2_OGKWHgW80SKRu6RN9wZME0fmnGtBtvh10vOYEu0JFD26ejgM.SJydUE4diG1pfTxL)
+passcode: USpp7VC#
+**Speaker:** [Greg Schott](https://www.linkedin.com/in/greg-schott-b27416/) (Mulesoft)
+

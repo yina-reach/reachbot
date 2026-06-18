@@ -6,6 +6,13 @@ notion_id: 36da896b-b9b6-8068-971c-dedbc6f37a42
 
 # Agentic Engineering
 
+**Date:** 2026-02-27
+**Tags:** AI, engineering, product
+**Recording:** [Recording link](https://us02web.zoom.us/rec/share/tJpnE7rBIriZ3WkuaVIyaBsHI3lcDWvrMq3hMD5WDs5afUP32gkMYYhm37_Jk2fO.cUCa0iZqEo_H65Cg?startTime=1772215397000)
+Passcode: #9!Dk2uR
+**Org:** Superconductor
+**Speaker:** [Arjun Singh](https://www.linkedin.com/in/arjun-singh-629216105/)
+
 1. Why Agentic Engineering Matters Now
 - We’re in a shift from “engineers typing code in an IDE” to “engineers managing fleets of AI agents that write and test code.”
 - Many teams have adopted tools like Cursor/Copilot, but:

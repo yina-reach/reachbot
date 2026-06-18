@@ -6,3 +6,9 @@ notion_id: adda93f9-74a0-4cde-9add-a54a7c36ac00
 
 # Jim Ferguson
 
+**NOTES:** - understands how old guard publishers work; worked at Achieve3000
+**SERVICES OFFERED:** - 2 day per week consultancy gigs on product management and strategy
+**REACH CONTACT:** JC
+**CONTACT INFO:** jkf2002@msn.com
+**FOCUS:** Product
+

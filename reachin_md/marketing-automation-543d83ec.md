@@ -6,3 +6,10 @@ notion_id: 543d83ec-7afe-4d2f-ac61-2220eaf76233
 
 # Marketing Automation
 
+**Source:** Ellis Crosby
+**Format:** Article
+**Files & media:** https://www.brighteyevc.com/post/marketing-automation-edtech-marketing-guide
+**Area:** Marketing
+**Description:** Brighteye Ventures Edtech Marketing Guide Series
+**Tags:** marketing
+

@@ -6,6 +6,13 @@ notion_id: 2402985f-fd2f-42ef-98ff-95a4d909a0f7
 
 # Post-ESSER K-12 Funding Landscape
 
+**Date:** 2023-09-15
+**Tags:** market trends, K-12
+**Recording:** [Recording](https://us02web.zoom.us/rec/share/nl5HBEWAFLqMJE6J74DxvOv1cPcYzg5KU-cwERa9dPcEjGE1zL5b9V6ud8G43OV3.iGLz5xH2eUiKZUZi)
+Passcode: f?id9y=J
+**Org:** RedRock Reports
+**Speaker:** [Jenny House](https://www.linkedin.com/in/jennifer-jenny-house-ph-d-93b2b31/)
+
 - https://share.fireflies.ai/embed/meetings/ar0Zd0V6fqmqNv7C
 Introduction (00:42-01:50)
 Budget Challenges (06:52-09:11)

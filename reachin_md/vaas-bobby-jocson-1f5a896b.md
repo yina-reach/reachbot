@@ -6,3 +6,11 @@ notion_id: 1f5a896b-b9b6-8087-b245-cddb31cfdb3d
 
 # VAAS / Bobby Jocson
 
+**NOTES:** Variety of payment options (project-based, monthly options)
+**Website:** https://www.videovaas.com/
+**REACH PORTFOLIO / EDTECH ENGAGEMENT:** Reach
+**SERVICES OFFERED:** Videos: Product animation and assets, long-form, and clips
+**REACH CONTACT:** VS
+**CONTACT INFO:** b[obby@videovaas.com](mailto:bobby@videovaas.com)
+**FOCUS:** Design & Creative
+

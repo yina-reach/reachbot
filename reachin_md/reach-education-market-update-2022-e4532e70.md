@@ -6,3 +6,11 @@ notion_id: e4532e70-d2bd-4fde-9158-eacdb7373bc5
 
 # Reach Education Market Update (2022)
 
+**Source:** Reach
+**Format:** Report
+**Files & media:** https://drive.google.com/file/d/1nLqsfAziT6J8mYyN4pfNPhyNaMOjcAEg/view
+**Sector:** Macro
+**Area:** Market Research
+**Description:** Data on the changing market conditions and their potential impact on the fundraising environment. We hope it offers some insights that may aid your decision-making for resource allocation and prioritization. We have added education-specific data to understand how the trends in our sector compare to the overall market.
+**Tags:** markets
+

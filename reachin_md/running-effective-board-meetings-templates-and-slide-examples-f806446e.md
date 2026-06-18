@@ -6,3 +6,10 @@ notion_id: f806446e-eba1-4425-a863-19ec7bfa9e41
 
 # Running Effective Board Meetings (templates and slide examples)
 
+**Source:** Keith Rabois
+**Format:** Blog
+**Files & media:** http://delian.io/lessons-4
+**Area:** Board Management
+**Description:** blog post on board management
+**Tags:** board, leadership
+

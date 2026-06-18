@@ -6,3 +6,7 @@ notion_id: afac1efa-0343-465d-859d-14bfa2214f40
 
 # HolonIQ
 
+**URL:** https://www.holoniq.com/research
+**Focus:** edtech industry
+**Description:** Research provider that regularly publishes data on global edtech industry trends
+

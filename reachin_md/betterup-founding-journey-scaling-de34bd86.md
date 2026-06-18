@@ -6,3 +6,9 @@ notion_id: de34bd86-518d-40c0-bac5-c09003cb04e4
 
 # BetterUp: Founding Journey & Scaling
 
+**Date:** 2022-12-02
+**Tags:** growth, founder journey
+**Recording:** [Recording](https://us02web.zoom.us/rec/share/xihelgeHZ7vZHml9J3tLbrRKqna3diKOwXgaMkJMs4OF3DeRwWsVR3nQ5E1dfvcX.d4M2EoOfYAdlqcaN)
+passcode: &7%*8Vz.
+**Speaker:** [Alexi Robichaux](https://www.linkedin.com/in/alexirobichaux/) (BetterUp)
+

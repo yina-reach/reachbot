@@ -6,3 +6,9 @@ notion_id: b547a0bd-5bca-4e25-af0b-36dc617e5fdf
 
 # Sample Monthly Email to Board
 
+**Source:** Reach
+**Format:** Template
+**Area:** Board Management
+**Tags:** board
+**Link:** https://docs.google.com/document/d/1p2FVqppT-ftkgBIkQwsnXf0S-gN9HJuf9bnzlnGzZHI/edit#heading=h.sduieoqt6saq
+

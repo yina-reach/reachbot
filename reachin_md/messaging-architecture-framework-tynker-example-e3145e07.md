@@ -6,3 +6,10 @@ notion_id: e3145e07-e178-41e3-b348-c513358f29a5
 
 # Messaging Architecture Framework - Tynker Example 
 
+**Source:** BAM Communications
+**Format:** Article
+**Files & media:** https://drive.google.com/file/d/0B2eCjHNmaBGZRW9TaFVpQWZZSnc/view?resourcekey=0-UdUbuSjzttvLQTutoW7GHw
+**Area:** Marketing
+**Description:** Tynker, one of our portfolio companies acquired by Byju’s, worked with BAM Communications to develop its messaging
+**Tags:** branding
+

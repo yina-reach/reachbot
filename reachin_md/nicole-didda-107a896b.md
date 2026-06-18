@@ -6,3 +6,8 @@ notion_id: 107a896b-b9b6-80d9-9148-c085dde50162
 
 # Nicole Didda
 
+**NOTES:** Has a strong background in communication and executive presence
+**SERVICES OFFERED:** executive coaching
+**REACH CONTACT:** JH
+**CONTACT INFO:** [https://www.sellerseaston.com/transformative-leadership-coaching](https://www.sellerseaston.com/transformative-leadership-coaching)
+

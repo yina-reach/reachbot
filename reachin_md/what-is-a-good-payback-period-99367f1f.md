@@ -6,3 +6,10 @@ notion_id: 99367f1f-2c91-4063-9ae1-e174a9181db3
 
 # What is a good payback period?
 
+**Source:** Lenny Rachitsky
+**Format:** Blog
+**Files & media:** https://www.lennysnewsletter.com/p/payback-period?s=r
+**Area:** Benchmarks
+**Tags:** growth
+**Link:** https://www.lennysnewsletter.com/p/payback-period?s=r
+

@@ -6,3 +6,11 @@ notion_id: 12e63ba6-6b2e-4af5-9704-1a1397b53516
 
 # Fast Company
 
+**Category:** Business / Tech
+**LOCATION:** NY
+**TITLE/ROLE:** Senior Writer
+**WRITER PAGE (STORIES):** https://www.fastcompany.com/user/ainsley-o-connell
+**EMAIL:** aharris@fastcompany.com
+**Name:** Ainsley Harris
+**TWITTER:** @ainsleyoc
+

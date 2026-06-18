@@ -6,3 +6,9 @@ notion_id: 4dd4a003-2faf-437e-8f32-a7bfd4ae0e6d
 
 # M'IDEA HUB
 
+**NOTES:** cold inbound to CG
+**SERVICES OFFERED:** Investor decks, sales presentations, explainer videos.
+**REACH CONTACT:** CG
+**CONTACT INFO:** Kirk Patel ([kirk@mideahub.com](mailto:kirk@mideahub.com))
+**FOCUS:** Marketing & PR
+

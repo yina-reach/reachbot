@@ -6,3 +6,8 @@ notion_id: 64f1a43f-6435-4e71-983e-3c195b4f777d
 
 # Erin Casey
 
+**NOTES:** mini-portfolio, comes highly recommended by Diva at Nimble
+**SERVICES OFFERED:** deck designer
+**REACH CONTACT:** WC
+**CONTACT INFO:** ecasey7@outlook.com
+

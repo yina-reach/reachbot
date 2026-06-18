@@ -6,3 +6,10 @@ notion_id: 312a896b-b9b6-804a-854e-e5c796bf2f21
 
 # Chronicle of Higher Ed
 
+**Category:** Education
+**LOCATION:** DC
+**TITLE/ROLE:** Senior Reporter
+**WRITER PAGE (STORIES):** https://www.chronicle.com/author/taylor-swaak
+**EMAIL:** [taylor.swaak@chronicle.com](mailto:taylor.swaak@chronicle.com)
+**Name:** Taylor Swaak
+

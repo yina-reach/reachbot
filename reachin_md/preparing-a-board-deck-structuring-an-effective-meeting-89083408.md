@@ -6,3 +6,10 @@ notion_id: 89083408-3791-45ef-baa8-46fea156e13f
 
 # Preparing a Board Deck & Structuring an Effective Meeting
 
+**Source:** Sequoia
+**Format:** Blog
+**Files & media:** https://articles.sequoiacap.com/preparing-a-board-deck
+**Area:** Board Management
+**Description:** blog from Sequoia Capital with great advice on what it means to “prepare just enough.” Calibration section is also useful.
+**Tags:** leadership, board
+

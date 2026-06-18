@@ -6,3 +6,10 @@ notion_id: 7d45524c-31b0-4c15-b350-7236a6002bfd
 
 # Strategica Partners
 
+**NOTES:** Team of strategic marketers, researchers, product leaders. Expertise in ed policy and growth strategy.
+**REACH PORTFOLIO / EDTECH ENGAGEMENT:** Edthena
+**SERVICES OFFERED:** positioning frameworks, branding, product launch strategies
+**REACH CONTACT:** JW
+**CONTACT INFO:** Rebecca Sadwick
+**FOCUS:** Marketing & PR
+

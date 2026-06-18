@@ -6,6 +6,14 @@ notion_id: 1bfa896b-b9b6-809d-bad8-c53514d29232
 
 # Navigating the Future of Work GTM Ecosystem
 
+**Date:** 2025-02-14
+**Deck / slides:** https://prod-files-secure.s3.us-west-2.amazonaws.com/2c857fe3-c851-49b6-a826-626221ac7566/4fce5d86-014f-4ec5-a924-c43caf21b1b7/Mapping_The_HR_Talent_and_Learning_Ecosystem_-_FALL_2024_%281%29.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QU5DTDJL%2F20260616%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260616T223821Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQD9Y787q%2FlMUiJEAwy0Cj8tBdTRg2zmvCNFxpPKHZEzAAIgLvrY6Am2QrEF4IQzSg5dEZ5lIt2Y5rub869WS0QJGoUq%2FwMIfxAAGgw2Mzc0MjMxODM4MDUiDP6bZvuRIacoiJZm8ircAwCitTcxYGy7NlbvhOlyW8u16H%2FhYQ5wjF36aSxhje4KzE4D2wXmvaKaRJcEqyWXJ4OgLmWGosyE3gcVnBbSIvy5mMLgAYE1elAty%2F4X%2BgJ9GRa14gXLYbF1aL%2FHy0nuVvG05K4VFz4ip4OTTor5tevDhKz6yklE2tZHoQy0AqBCjE2rtVJG26xl11u0fm1azeNbhORVh6RAudwGgJTgRiGQPv%2FtIDimyP34c5ynnQAtFyPjzMpExgXDsbGESHIXGhKe4XPP1IMYxQMAhs5HkLBIfvOpxRGA7NXlbi5YaDAtSkgKKWfOVeusMm1KPjLun1vQ0pOag9tNFB3cBiLFaR819Wa3xo390IKN5ReFJInZWdTuy8RGtuXSJX3ByCafbDuEnnSn9aTZb3WNgBQ9wdSwvjcIfD5%2B8bWsUQz9BFf0Yc8S%2Fl5zCH2Q%2FN3n5q08JHlA4HrFXk4fg9V8%2FCyBoUrW5OxuJ2ZWt1K2q%2Fcu%2BMuCMaptetKFiLWORAKfRodKhjAhjnM5dPc4A23PyFa0Ba7MYPBJ9QfgF6SPKsVYk6fI1P4F%2Fm3zp3e2Q1F0UC7nj7aXyhZp2fDhq1GCIeKdS3BHlBA%2BcylAingYfsxT3Qx1pURgtwY7btrbS3lRMMOZx9EGOqUBlqDxk9E2nh1LigOWa40YnO1Izd30KT9MYLvhLB7NCsv7fl1JbU5pteBbmRyFtzbGONuzzn4kLJxP%2FJgMVQ3iRkhalYYsrjl7Pn6PeQ2vapoD1t%2BH4psQWZd%2F%2BfbPrI4%2FzW%2Fahl0WXd8R0i59RMSLkNyWgjtnA%2F1GZr3HWAGn5JsUEfbYRSdYR9MtKbap%2Bsv60f5A7jIf%2FaLWHx%2Bnwsb9vNvDRS4e&X-Amz-Signature=011c83247a58a4d0e05d086dc90001e5049f899be354f9bb8e96dcaee7063ca0&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject
+**Tags:** marketing
+**Recording:** [Recording](https://us02web.zoom.us/rec/share/0bUpjBiX68OlyR3ZsiVToJrc0wHhZdHVWkWPuKZu2CzAfVvrgQnFlrhIH3ouqXwd.HYhhUFkpBbSr1VeB?startTime=1739556280000)
+Passcode: &ys%YF3U
+**Org:** The Edge of Work
+**Speaker:** [Al Dea](https://www.linkedin.com/in/itsaldea/)
+
 - https://share.fireflies.ai/embed/meetings/01JQ2MY69AFSWYB6JBHGC85H14
 01:04 - 02:49: Overview of HR Talent and Learning Ecosystem
 Al discusses the complexity of the HR talent and learning ecosystem, emphasizing the various players involved. He aims to provide a digestible overview that helps attendees understand how to leverage these elements to achieve their business goals, whether that involves customer development or finding partners.

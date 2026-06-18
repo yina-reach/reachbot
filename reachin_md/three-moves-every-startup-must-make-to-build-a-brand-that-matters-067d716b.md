@@ -6,3 +6,10 @@ notion_id: 067d716b-6dba-4f97-a03b-9dc81afd5b93
 
 # Three Moves Every Startup Must Make to Build a Brand That Matters
 
+**Source:** First Round Review
+**Format:** Article
+**Files & media:** https://review.firstround.com/three-moves-every-startup-founder-must-make-to-build-a-brand-that-matters
+**Area:** Marketing
+**Description:** Article about building a brand
+**Tags:** branding
+

@@ -6,6 +6,13 @@ notion_id: 265a896b-b9b6-802e-a617-c0db8db8544e
 
 # The Hard Truths About Building Sales Teams
 
+**Date:** 2025-09-05
+**Tags:** sales
+**Recording:** [Recording link](https://us02web.zoom.us/rec/share/jx11lldcresbIQpvw_MrILB3TOlpX1niDqTG19Flq435pL1XKUnrz5ryPF6g21zg.150p2itwN_Vw2lvO?startTime=1757091849000)
+Passcode: Mis?q5B*
+**Org:** Parchment, Instructure
+**Speaker:** [Kevin Martin](https://www.linkedin.com/in/kevinmartin4/)
+
 Parchment Growth Acceleration Through M&A
 - Parchment executed three strategic acquisitions to accelerate growth
   - Vertical integration for existing customers drove significant expansion

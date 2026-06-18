@@ -6,3 +6,7 @@ notion_id: b0e7e72d-d438-4e6f-9ddb-35f0094cda25
 
 # Greg Jenkins
 
+**REACH PORTFOLIO / EDTECH ENGAGEMENT:** referred by Cowboy Ventures
+**SERVICES OFFERED:** Executive Coaching, Media & Presentation Training
+**REACH CONTACT:** CG
+

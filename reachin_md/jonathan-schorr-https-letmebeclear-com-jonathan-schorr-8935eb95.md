@@ -6,3 +6,8 @@ notion_id: 8935eb95-d985-42e8-b5a9-802872d61b77
 
 # [Jonathan Schorr](https://letmebeclear.com/jonathan-schorr)
 
+**NOTES:** - communications director for US Dept of Ed
+**SERVICES OFFERED:** - communications, messaging
+**REACH CONTACT:** JC
+**CONTACT INFO:** schorrjonathan@gmail.com
+

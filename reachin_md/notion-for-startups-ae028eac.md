@@ -6,6 +6,13 @@ notion_id: ae028eac-0e34-498e-9af0-21f7fe418204
 
 # Notion for Startups
 
+**Link:** https://www.notion.so/startups
+**Reach point:** Tony Wan
+**Contact:** Yann Petretti
+**Type:** SaaS & Tools
+**Email:** yann@makenotion.com
+**Description:** 6 months free Plus Plan with unlimited AI access and priority access to Notion's Champions community of founders.
+
 What you get
 - 6 months of free Notion towards a Plus Plan
 - Unlimited AI for 6 months  (usually $10 per member per month!)

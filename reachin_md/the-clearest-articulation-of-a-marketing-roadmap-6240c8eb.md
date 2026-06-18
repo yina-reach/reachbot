@@ -6,3 +6,10 @@ notion_id: 6240c8eb-3238-423a-b656-2724ebba6ecc
 
 # The Clearest Articulation of a Marketing Roadmap 
 
+**Source:** Tomasz Tunguz
+**Format:** Article
+**Files & media:** https://tomtunguz.com/marketing-roadmap/
+**Area:** Marketing
+**Description:** A marketing framework unique in its simplicity and combination of strategy and tactics.
+**Tags:** marketing
+

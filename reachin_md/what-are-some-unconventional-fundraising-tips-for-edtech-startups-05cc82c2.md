@@ -6,3 +6,10 @@ notion_id: 05cc82c2-1cf3-4e91-b5d2-d8040e758856
 
 # What Are Some Unconventional Fundraising Tips for Edtech Startups?
 
+**Source:** Reach
+**Format:** Article
+**Area:** Fundraising
+**Description:** Guerrilla strategies from Nearpod co-founder and former CEO Guido Kovalskys
+**Tags:** fundraising
+**Link:** https://www.reachcapital.com/2017/08/04/what-are-some-unconventional-fundraising-tips-for-edtech-startups/
+

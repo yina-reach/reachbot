@@ -6,3 +6,9 @@ notion_id: c6282ca6-613f-4f8a-aaa8-793efcf15eb6
 
 # Matías Iturralde
 
+**NOTES:** Used by Coderhouse
+**REACH PORTFOLIO / EDTECH ENGAGEMENT:** Coderhouse
+**SERVICES OFFERED:** Fractional CFO
+**REACH CONTACT:** ES
+**CONTACT INFO:** [miturralde@gmail.com](mailto:miturralde@gmail.com)
+

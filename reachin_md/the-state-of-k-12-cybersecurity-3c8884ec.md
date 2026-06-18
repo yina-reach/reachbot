@@ -6,6 +6,14 @@ notion_id: 3c8884ec-2e60-4dd0-a292-77114e2a0893
 
 # The State of K-12 Cybersecurity
 
+**Date:** 2023-07-14
+**Tags:** cybersecurity
+**Recording:** [Recording](https://us02web.zoom.us/rec/share/U6m2PWseNs6eHM_SCJH6CLH4tSwPPeF2MrlbrvZZSNyAHNJrlpeU2WwUr3xIhl5g.0-csr9AMmhBFbNH1)
+Passcode: 8p0^RW9C
+**Org:** K12 SIX
+**Speaker:** [Doug Levin](https://www.linkedin.com/in/douglaslevin/)
+**Materials:** [Slides](https://drive.google.com/file/d/1DZnTF5cpdmHxf0-vhTFj1t0oKzm6C_C2/view?usp=sharing)
+
 - https://share.fireflies.ai/embed/meetings/UNuDVzyLdU98362c
 Doug’s Background and Research (02:23 - 13:07)
 - Doug provides more details about his background in education and cybersecurity, discussing his previous roles and the work of the K-12 Security Information Exchange.

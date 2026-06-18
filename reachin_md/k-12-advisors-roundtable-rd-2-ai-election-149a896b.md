@@ -6,6 +6,13 @@ notion_id: 149a896b-b9b6-819e-94cb-db69b4756ed3
 
 # K-12 Advisors Roundtable, Rd. 2 (AI, Election)
 
+**Date:** 2024-11-22
+**Tags:** K-12, AI, market trends
+**Recording:** [Recording](https://us02web.zoom.us/rec/share/3fP9JOKpCPpBRagYSG9HXrUaHUD9EkvvgC9h2ovO2nhDAgE_XNzuJhP2cS-aXaCK.HgFFuJZfW4BH2VKp)
+Passcode: 32Q=d^WH
+**Org:** School district leaders
+**Speaker:** Reach K-12 Advisors
+
 - https://share.fireflies.ai/embed/meetings/V0yzAxXyn71xdF78
 Intros and Current Priorities (00:01-13:55)
 - Absenteeism, personalized learning, dual enrollment, science of reading, teacher attendance, declining enrollment and school closure decisions

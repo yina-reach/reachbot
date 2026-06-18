@@ -6,3 +6,10 @@ notion_id: d33b724b-5b30-4866-947e-f040cd022951
 
 # SaaS Sales Efficiency
 
+**Date:** 2020-08-28
+**Tags:** sales
+**Recording:** [Recording](https://us02web.zoom.us/rec/share/1MJUPbfxzFxLEoHRtnvnaowqXZj8X6a8hCgdqfYKyRyD8Ob2rGLZyZiv7CD2pTUr) 
+passcode:
+xh@l5=y@
+**Speaker:** [Steve Kupfer](https://www.linkedin.com/in/kupfer/) (Reach, Red House)
+

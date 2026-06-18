@@ -6,3 +6,12 @@ notion_id: f1786da7-46e7-478d-b60c-fd2c43bfe9df
 
 # SF Standard
 
+**Category:** Business / Tech
+**LOCATION:** SF Bay Area
+**TITLE/ROLE:** Business Reporter
+**WRITER PAGE (STORIES):** https://sfstandard.com/author/kevin-truong/
+**EMAIL:** kevin@sfstandard.com
+**Name:** Kevin Truong
+**REACH CONNECTION:** TW
+**TWITTER:** @kevinbtruong
+

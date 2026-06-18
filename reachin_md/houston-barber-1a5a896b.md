@@ -6,6 +6,13 @@ notion_id: 1a5a896b-b9b6-806e-8668-cdf910e9e5fc
 
 # Houston Barber
 
+**Current Title:** Deputy Superintendent, Fayette County Public Schools (Lexington, KY)
+**LinkedIn:** https://www.linkedin.com/in/houston-barber-2491512a3/
+**Advisory Group:** 🎒 K-12
+**Areas of Expertise:** Student success, Outcome-based
+**Bio:** Houston Barber serves as the Deputy Superintendent of Fayette County Public Schools in Lexington, KY. He brings extensive experience as a high school science teacher, assistant principal, principal, and superintendent of the Frankfort Independent School District. Barber's unique value lies in his ability to champion student-centered approaches and innovative opportunities, enhancing community engagement and educational outcomes.
+**Email:** houston.barber@fayette.kyschools.us
+
 Area(s) of Expertise: 
 - Team Building
 - Financial Strategy

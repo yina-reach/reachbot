@@ -6,3 +6,9 @@ notion_id: 4a6a4fcb-275a-48ec-ab83-8024cef0fb42
 
 # Video Series: Building Scalable Sales Organizations
 
+**Source:** Jacco van der Kooij
+**Format:** Video
+**Files & media:** https://vimeopro.com/futureofsalesisnow/reachcapital/video/151492397
+**Area:** Sales
+**Tags:** team building, sales
+

@@ -6,3 +6,10 @@ notion_id: 5572d60b-b4fd-4aa2-9717-f0ee5b0db574
 
 # How to Create and Manage a Board
 
+**Source:** Y Combinator
+**Format:** Blog
+**Files & media:** https://www.ycombinator.com/library/3w-how-to-create-and-manage-a-board
+**Area:** Board Management
+**Description:** blog post on board management
+**Tags:** leadership, board
+

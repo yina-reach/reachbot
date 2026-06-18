@@ -6,3 +6,10 @@ notion_id: 0f0760c2-f45c-4e66-a030-d556cb74c783
 
 # Data-driven Branding: Lessons from Ornikar
 
+**Source:** Brighteye Ventures
+**Format:** Article
+**Files & media:** https://www.brighteyevc.com/post/2019/04/08/edtechmarketingguideornikar
+**Area:** Marketing
+**Description:** Brighteye Ventures Edtech Marketing Guide Series
+**Tags:** branding
+

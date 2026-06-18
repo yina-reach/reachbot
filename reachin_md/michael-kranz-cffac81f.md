@@ -6,3 +6,10 @@ notion_id: cffac81f-381a-428e-99eb-11acc765798b
 
 # Michael Kranz
 
+**NOTES:** Everything from bookkeeping to part-time CFO services
+**REACH PORTFOLIO / EDTECH ENGAGEMENT:** Lab4U, Mathpix
+**SERVICES OFFERED:** Accounting/financial services outsourcing for early stage startups
+**REACH CONTACT:** ES
+**CONTACT INFO:** mkranz@kranzassoc.com
+**FOCUS:** Finance & Accounting
+

@@ -6,3 +6,9 @@ notion_id: 3c5b98f2-4d40-4609-883d-d408bff48bb3
 
 # Center for Creative Leadership
 
+**NOTES:** trainings in Colorado Springs; other services as well
+**REACH PORTFOLIO / EDTECH ENGAGEMENT:** Recommended by Lisa Sweeney
+**SERVICES OFFERED:** intensive 1-week leadership training programs
+**CONTACT INFO:** [https://www.ccl.org/](https://www.ccl.org/)
+**FOCUS:** Leadership & Executive Coaching
+

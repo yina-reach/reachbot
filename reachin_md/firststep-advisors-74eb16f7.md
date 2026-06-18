@@ -6,3 +6,7 @@ notion_id: 74eb16f7-447f-4cfd-81f6-3e2c03e2220f
 
 # FirstStep Advisors
 
+**SERVICES OFFERED:** K-12 go-to-market, marketing and sales enablement.
+**CONTACT INFO:** Jim McVety
+jim@firststepadvisors.com
+

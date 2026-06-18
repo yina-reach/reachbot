@@ -6,6 +6,12 @@ notion_id: 1f5a896b-b9b6-809e-8841-d1a5982ed4cd
 
 # Awesomic
 
+**NOTES:** Monthly subscription
+**REACH PORTFOLIO / EDTECH ENGAGEMENT:** Scout Edu
+**SERVICES OFFERED:** Fractional design work
+**REACH CONTACT:** TW
+**FOCUS:** Design & Creative
+
 Awesomic is excited to offer an exclusive $5,000 credit for Reach Capital portfolio companies. With this deal, we’ll help you accelerate your product design and development with access to the top 1% of vetted talent through the Awesomic app.
 For Reach Capital Portfolio companies, we’re extending a $5,000 credit to help your business thrive.
 How It Works:

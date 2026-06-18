@@ -6,6 +6,13 @@ notion_id: 545fe79a-5b31-4935-a8ee-5c5d124363f1
 
 # GenAI for Marketing, Sales and Ops
 
+**Date:** 2024-04-12
+**Tags:** AI, marketing, biz ops
+**Recording:** [Recording](https://us02web.zoom.us/rec/share/3QsDzRP2GY0Ca2wk0O_f2YE9D90lN31XT_-GDx2pIAPP6nYIsVmbhM052yslSluz.gW_YppeA2onxUotr)
+Passcode: 4R126@PQ
+**Org:** CoachHub
+**Speaker:** [Pedro Cabrera](https://www.linkedin.com/in/cabrerapedro/)
+
 - https://share.fireflies.ai/embed/meetings/tQru18QROAk6mhka
 Introduction & GenAI Implementation (00:11) Pedro discusses the method of implementing GenAI into CoachHub specifically through the use of ChatGPT, and particularly how it can be prompted to act as a content manager for marketing campaigns.
 

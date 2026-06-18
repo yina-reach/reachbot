@@ -6,6 +6,13 @@ notion_id: 3707cd8b-04b3-4d07-b505-50c3c76106b5
 
 # Zendesk
 
+**Link:** https://www.zendesk.com/lp/vc-startup-partner/?ref=gen&partner_account=001PC000008ht7vYAA
+**Reach point:** Tony Wan
+**Contact:** Adam O’Donnell
+**Type:** SaaS & Tools
+**Email:** adam.odonnell@zendesk.com
+**Description:** 6 months free access to Zendesk Suite (<50 employees) or 30% off first year (50-249 employees) for customer service CRM platform.
+
 Startups that apply using the link below will gain access to a host of benefits designed to give them every advantage as they get set up with Zendesk and grow their business.
 It is important to note that in the first 12-18 months we offer a different set of benefits to startups depending on their size. That said, all startups are eligible for a few additional benefits provided by our startup teams:
 - Startup Success helps startups with their customer strategy and implementation

@@ -6,3 +6,10 @@ notion_id: 405bf5db-ea4d-468d-bafe-7709efa4897c
 
 # Ben Wallerstein / Whiteboard Advisors
 
+**NOTES:** Strong educator perspective. Knows who's who at the intersection of education policy and research.
+**REACH PORTFOLIO / EDTECH ENGAGEMENT:** Class Dojo, KickUp
+**SERVICES OFFERED:** Policy / political winds support. Communication and thought-leadership pieces. Lobbying. Strong with education media/PR.
+**REACH CONTACT:** JC
+**CONTACT INFO:** ben@whiteboardadvisors.com
+**FOCUS:** Policy & Government Affairs
+

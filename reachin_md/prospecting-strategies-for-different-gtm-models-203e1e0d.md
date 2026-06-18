@@ -6,3 +6,11 @@ notion_id: 203e1e0d-e085-4b13-988f-e88e963bae98
 
 # Prospecting Strategies for Different GTM Models
 
+**Source:** Winning by Design
+**Format:** Article
+**Files & media:** https://drive.google.com/file/d/1uAjrjafmmMckRyXck8fKagbL7xJ5Xp2p/view
+**Area:** Sales
+**Description:** Review of different prospecting methods for different prospecting strategies for different go-to-market (GTM) models.
+**Tags:** sales, marketing
+**Link:** https://drive.google.com/file/d/1uAjrjafmmMckRyXck8fKagbL7xJ5Xp2p/view
+

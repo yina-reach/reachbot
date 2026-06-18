@@ -6,3 +6,11 @@ notion_id: 75402961-b35f-4569-9c2f-3dfcc38fa35a
 
 # K-12 Buyer Personas: Guide for Sales Reps
 
+**Source:** Winning by Design
+**Format:** Slide Deck
+**Files & media:** https://drive.google.com/file/d/0B1ycPvRPnpaQUVFxR2JFa21mR28/view?usp=drivesdk&resourcekey=0-Drb7eP0-rLRlHNDEPtvWIQ
+**Sector:** K-12
+**Area:** Sales
+**Description:** Designed for sales reps to quick ly reference core buying personas and to frequently used frameworks from the Sales Playbook
+**Tags:** sales, customer success, purchasing
+

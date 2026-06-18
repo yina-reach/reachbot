@@ -6,6 +6,13 @@ notion_id: 352a896b-b9b6-80da-9c51-fe4487f7ed52
 
 # State of Healthcare Markets
 
+**Date:** 2026-04-03
+**Tags:** market trends, health
+**Recording:** [Recording](https://us02web.zoom.us/rec/share/LMEB81O4kOdRcC3ScffTI0cFRKf1U4EEr1RXpD6PEyeGFA53woUrZPsnH-eEJrJr.gUfe0r8vR-3u9ovq?startTime=1775235843000)
+Passcode: NMqu=NE5
+**Org:** Needham
+**Speaker:** [Ryan Macdonald](https://www.linkedin.com/in/ryan-macdonald-67404625/)
+
 How Health Tech Has Performed in Public Markets
 - Health tech has underperformed the IGV and S&P 500 since ChatGPT launched in late 2022, as investor attention shifted to AI infrastructure. Nvidia is up roughly 950% over that same period.
 - Health tech has outperformed since the Trump election win. The current administration has been more favorable to technology in drug development, clinical trials, and care delivery. HHS in particular has been pushing programs to integrate technology and drive better outcomes.

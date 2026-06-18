@@ -6,3 +6,10 @@ notion_id: 6ef7b207-3085-44a3-9782-46da4f791bac
 
 # Why Most Startups Don’t Get Press
 
+**Source:** First Round Review
+**Format:** Article
+**Files & media:** https://review.firstround.com/why-most-startups-dont-get-press
+**Area:** PR
+**Description:** Article on PR
+**Tags:** PR
+

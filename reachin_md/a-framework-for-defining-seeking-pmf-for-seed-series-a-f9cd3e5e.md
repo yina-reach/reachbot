@@ -6,3 +6,10 @@ notion_id: f9cd3e5e-aeb6-444c-bd1b-d16039241ddd
 
 # A Framework for Defining & Seeking PMF (for seed/ Series A)
 
+**Source:** Enjoy the Work
+**Format:** Slide Deck
+**Files & media:** https://drive.google.com/file/d/1IraPzTrwsKhbBNXsuvunYrVxidTJoEqt/view?usp=drivesdk
+**Area:** Product
+**Description:** By Mike Lewis and Ruben Ortega, Partners at Enjoy the Work
+**Tags:** PMF
+

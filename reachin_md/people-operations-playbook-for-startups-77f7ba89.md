@@ -6,6 +6,13 @@ notion_id: 77f7ba89-6645-4d30-914a-52efebc574e5
 
 # People Operations Playbook for Startups
 
+**Source:** Reach
+**Format:** Report
+**Files & media:** https://docs.google.com/document/d/1XZJeau70UkqTOUd2oaWfTDBLEcIBS8t1-Qrq5MAFIjA/edit?usp=drivesdk
+**Area:** HR & Hiring
+**Description:** Drawing on our own experience and curated content from founders, VCs and trusted organizations, the playbook for HR best practices 101
+**Tags:** leadership, management, culture, compensation
+
 Drawing on our own experience and curated content from founders, VCs and trusted organizations, the playbook is intended to:
 - help companies shape an intentional people strategy to optimize individual and team performance at all levels of the organization;
 - provide tactical guidance on 10 key areas of HR/people ops, including basics like hiring and compensation as well as cultural and soft-skill topics like leadership, managing, decision-making, and communication.

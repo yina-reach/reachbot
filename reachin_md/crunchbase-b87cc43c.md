@@ -6,3 +6,13 @@ notion_id: b87cc43c-287f-4ffd-b49a-3abb81e7ed29
 
 # Crunchbase
 
+**Category:** Business / Tech
+**LOCATION:** Austin
+**TITLE/ROLE:** Crunchbase
+**WRITER PAGE (STORIES):** https://news.crunchbase.com/author/mary-ann-azevedo/
+**EMAIL:** [maryannazev@gmail.com](mailto:maryannazev@gmail.com)
+**Name:** Mary Ann Azevedo
+**REACH CONNECTION:** JH
+**TWITTER:** @bayareawriter
+**PORTFOLIO MENTIONS:** Scout
+

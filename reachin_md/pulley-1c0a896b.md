@@ -6,6 +6,12 @@ notion_id: 1c0a896b-b9b6-8080-8ccc-f262e79f76fb
 
 # Pulley
 
+**Link:** https://pulley.com/
+**Reach point:** Jackie Dao
+**Type:** Finance & Accounting
+**Email:** partners@pulley.com
+**Description:** 20% off first year (up to $700) for equity and cap table management platform with 409A valuations and compliance tools.
+
 Reach Portfolio Perk
 Reach Capital portfolio companies get 20% off of their first year with Pulley (up to $700). To get started, please email Pulley at [partners@pulley.com](mailto:partners@pulley.com), let them know you’re an Reach Capital portfolio company, and they’ll assign you a dedicated onboarding specialist!
 About

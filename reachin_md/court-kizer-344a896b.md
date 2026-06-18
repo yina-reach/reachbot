@@ -6,6 +6,13 @@ notion_id: 344a896b-b9b6-80cd-8316-ecb518b04463
 
 # Court Kizer
 
+**NOTES:** Recently wrapped up leading AI product design at Harvard Business School and is currently helping Aware Health build their AI agent chat flows
+**Website:** https://kizer.me/
+**SERVICES OFFERED:** AI product design
+**REACH CONTACT:** TW/YL
+**CONTACT INFO:** [courtkizer@gmail.com](mailto:courtkizer@gmail.com)
+**FOCUS:** Design & Creative
+
 ### An offer for Reach portfolio companies
 To make it easy for any company considering working with me, I'm offering:
 - Introductory rate: $60/hr (down from my usual $125/hr)

@@ -6,3 +6,12 @@ notion_id: ab757980-6414-4ad6-b8bb-c93e94e19f19
 
 # Upstarts Media
 
+**Category:** Business / Tech
+**LOCATION:** NY
+**TITLE/ROLE:** Founder and Editor
+**WRITER PAGE (STORIES):** https://www.upstartsmedia.com/
+**EMAIL:** alex@upstartsmedia.com
+**Name:** Alex Konrad
+**REACH CONNECTION:** JH
+**TWITTER:** @alexrkonrad
+

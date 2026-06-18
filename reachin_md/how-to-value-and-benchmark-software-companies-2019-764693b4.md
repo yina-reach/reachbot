@@ -6,3 +6,9 @@ notion_id: 764693b4-7b2b-4bfe-95ed-994aabe288bd
 
 # How to Value and Benchmark Software Companies (2019)
 
+**Format:** Slide Deck
+**Files & media:** https://drive.google.com/file/d/0B2eCjHNmaBGZWm8yc1JjYzlPZFdGWk0xdmNMTUpBcjJBVS1v/view?usp=drivesdk&resourcekey=0-KByuX8rdMQ5kkRdVmYma4g
+**Area:** Benchmarks
+**Description:** Slide deck on “How to Value and Benchmark Software Companies.” Includes benchmarks for the five most important B2B SaaS metrics for public and private companies. See Slide 25 for benchmarks for private SaaS companies with $5-$50m ARR.
+**Tags:** SaaS
+

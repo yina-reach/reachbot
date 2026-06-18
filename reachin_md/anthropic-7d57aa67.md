@@ -6,6 +6,12 @@ notion_id: 7d57aa67-8486-42ca-89d5-6ba6d903ce81
 
 # Anthropic
 
+**Link:** https://claude.com/offers?offer_code=56835a6b-abe5-49a9-a979-0143b30c3da0
+**Reach point:** Tony Wan
+**Type:** Credits
+**Email:** [portfolio+reach@anthropic.com](mailto:portfolio%2Breach@anthropic.com), [ddelaney@anthropic.com](mailto:ddelaney@anthropic.com)
+**Description:** $15,000 in API credits, immediate tier 4 rate limit access, and 3 months free Claude for Teams (up to 5 seats) with priority support.
+
 > Please fill out [this](https://claude.com/offers?offer_code=56835a6b-abe5-49a9-a979-0143b30c3da0) form and someone from Anthropic will reach out to learn more about your use case and ensure you have everything you need to be successful with Claude. You will also receive:
 We’re pleased to welcome the Reach Capital portfolio to start building with Claude—Anthropic’s [family](https://docs.anthropic.com/claude/docs/models-overview) of state-of-the-art models that offers frontier performance, best-in-class vision capabilities and cutting-edge features. Choose from our family of models—Sonnet, Opus, and Haiku—to find the right mix of speed, intelligence, and cost for your use case.
 - Claude Code: Anthropic's agentic coding tool

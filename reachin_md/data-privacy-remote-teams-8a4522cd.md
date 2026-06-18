@@ -6,3 +6,9 @@ notion_id: 8a4522cd-6f82-449a-855b-ae377d966cd6
 
 # Data Privacy & Remote Teams
 
+**Date:** 2021-03-19
+**Tags:** privacy, people ops
+**Recording:** Recording
+passcode: D%5A+7F*
+**Speaker:** [Patricio “Pato” Echagüe](https://www.linkedin.com/in/patricioechague/) (Split Software)
+

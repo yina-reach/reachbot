@@ -6,3 +6,10 @@ notion_id: 7e9d4f05-35b3-486f-97c3-6f874f425860
 
 # Nick Morgan
 
+**NOTES:** Boston
+**REACH PORTFOLIO / EDTECH ENGAGEMENT:** referred by Cowboy Ventures
+**SERVICES OFFERED:** speaking coach, especially for talks
+**REACH CONTACT:** CG
+**CONTACT INFO:** nick@drnickmorgan.com
+**FOCUS:** Communications & Speaking
+

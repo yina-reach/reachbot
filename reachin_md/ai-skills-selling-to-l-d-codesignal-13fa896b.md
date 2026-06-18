@@ -6,6 +6,13 @@ notion_id: 13fa896b-b9b6-8148-99db-fab4d22334b0
 
 # AI, Skills & Selling to L&D - CodeSignal
 
+**Date:** 2024-11-15
+**Tags:** AI, sales, L&D, HR
+**Recording:** [Recording](https://us02web.zoom.us/rec/share/ircu_tPlxi2MhyrZxvPapL1a-qoM_JWmHZZ9838Mag1w8CJ43c0IJv3JSyrl0M4.5o0NneN1t6mvCK-e)
+Passcode: %bf2=u3b
+**Org:** CodeSignal
+**Speaker:** [Tigran Sloyan](https://www.linkedin.com/in/tigransloyan/)
+
 - https://share.fireflies.ai/embed/meetings/F2h04gZGveRgV0Yo
 Introduction and Background (00:03 - 01:47)
 - Tigran is the co-founder and CEO of CodeSignal, a leading skills platform focused on assessing and developing skills for individuals and teams.

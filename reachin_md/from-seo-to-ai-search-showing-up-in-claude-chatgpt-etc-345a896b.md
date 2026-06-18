@@ -6,6 +6,13 @@ notion_id: 345a896b-b9b6-80ea-a0c7-cf076eb6c784
 
 # From SEO to AI Search: Showing Up in Claude, ChatGPT, etc.
 
+**Date:** 2026-01-16
+**Tags:** growth, marketing, SEO
+**Recording:** [Recording link](https://us02web.zoom.us/rec/share/HNAxkglLliztcYx7hpcq_IUa_uHy5KoqAl7tg9JLkIAW1wZUh2UyZXKTzfCxqh4c.WCw2aSs9d6THknss?startTime=1768586710000)
+Passcode: 84f4@y3f
+**Org:** SaaS CMO Pro
+**Speaker:** [Bill Macaitis](https://www.linkedin.com/in/bmacaitis/)
+
 From SEO to AI Search: How to Show Up in ChatGPT, Claude, and Gemini
 1. Introduction & Background
   - 30+ years in online marketing

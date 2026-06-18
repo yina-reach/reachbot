@@ -6,3 +6,10 @@ notion_id: b7e02735-2f8f-4580-92fa-57a0c1e819e7
 
 #  B2B Sales Methodologies
 
+**Source:** Winning by Design
+**Format:** Article
+**Files & media:** https://drive.google.com/file/d/19RrhgMoxL2EK96wiLdgNh1JK4pyZA1ky/view
+**Area:** Sales
+**Description:** 4-pager with different types of selling techniques and who should use them
+**Tags:** sales
+

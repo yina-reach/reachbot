@@ -6,6 +6,13 @@ notion_id: 88e20435-2a07-4c06-8d58-d14290acfb62
 
 # The Sales Playbook: A Customer-Centric Methodology
 
+**Source:** Winning by Design
+**Format:** Report
+**Files & media:** https://drive.google.com/file/d/0B1ycPvRPnpaQU09leDVwcVloc1U/view?usp=drivesdk&resourcekey=0-uxnwb0FOZR79fq49P9rBGQ
+**Area:** Sales
+**Description:** The original step-by-step sales guide created specifically for Reach portfolio companies
+**Tags:** sales, leadership, team building
+
 Table of Contents
 1. METHODOLOGY: This covers the philosophy of a customer-centric organization, how a customer progresses through a journey, and how to build a customer-centric sales organization. CEOs, executive staff and sales leaders - take note!
 1. CUSTOMER: Consider this your go-to industry primer. Learn the structure and nuances of the edtech industry, understand the concerns of the key decision makers at schools and

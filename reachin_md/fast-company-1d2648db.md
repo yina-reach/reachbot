@@ -6,3 +6,12 @@ notion_id: 1d2648db-32ba-4e1b-b247-e5bd240a5451
 
 # Fast Company
 
+**Category:** Business / Tech
+**LOCATION:** SF Bay Area
+**TITLE/ROLE:** Tech Editor
+**WRITER PAGE (STORIES):** https://www.fastcompany.com/user/harry-mccracken
+**EMAIL:** hmccracken@fastcompany.com
+**Name:** Harry McCracken
+**TWITTER:** @harrymccracken
+**PORTFOLIO MENTIONS:** BrightBytes
+

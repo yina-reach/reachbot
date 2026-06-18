@@ -6,6 +6,13 @@ notion_id: 21da896b-b9b6-80b3-8eb2-f288b427c6a7
 
 # Anthropic’s Education POV & How College Students Use Claude
 
+**Date:** 2025-05-02
+**Tags:** AI, higher education
+**Recording:** [Recording link](https://us02web.zoom.us/rec/share/VscjEfhdMCwPy-tWC_2CXw-3kcJp2aoo2Iz6Nj2AfjvZ7YvaMe6LMT6xNmRlwj_9.JEpgkIvV-UBuvFpJ) 
+Passcode: %?jcIH8J
+**Org:** Anthropic
+**Speaker:** [Drew Bent](https://www.linkedin.com/in/drewbent/)
+
 - https://share.fireflies.ai/embed/meetings/01JTGW5TG0AKQRRN10ASCJTNKQ
 Introduction to Anthropic's Education Strategy (00:02 - 09:37)
 - Tony introduced Drew Bent, who leads education research at Anthropic

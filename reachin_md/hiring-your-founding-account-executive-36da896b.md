@@ -6,6 +6,14 @@ notion_id: 36da896b-b9b6-8098-bcd0-cabc8cacdd44
 
 # Hiring Your Founding Account Executive
 
+**Date:** 2026-03-06
+**Deck / slides:** https://docsend.com/view/j4fxyxe3m9nz3c96
+**Tags:** hiring, sales
+**Recording:** [Recording link](https://us02web.zoom.us/rec/share/If0utJ12W1K_uD3GzNQw2f48LkS7j-KQo4zy4XieQozYObk43aJgCwfN22wMlREF.qRTYOrmLq2Bb4z4F?startTime=1772820337000)
+Passcode: x^18h%Wb
+**Org:** Cuota
+**Speaker:** [Javier Ramírez Lugo](https://www.linkedin.com/in/javier-ramirez-lugo/)
+
 Founding AE Role
 - Multi-functional early-stage role:
   - Build outbound, run demos, set up CRM

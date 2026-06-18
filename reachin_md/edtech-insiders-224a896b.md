@@ -6,3 +6,9 @@ notion_id: 224a896b-b9b6-80cc-91bf-cc17fc89c1cf
 
 # Edtech Insiders
 
+**Category:** Education
+**TITLE/ROLE:** Co-Founder & CEO
+**WRITER PAGE (STORIES):** https://www.edtechinsiders.org/about
+**EMAIL:** [alexsarlin@gmail.com](mailto:alexsarlin@gmail.com)
+**Name:** Alex Sarlin
+

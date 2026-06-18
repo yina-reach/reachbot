@@ -6,3 +6,9 @@ notion_id: 486a1292-14f7-4dde-8ae2-effc96cbbe1f
 
 # Seed Funding: Guide for Startups
 
+**Source:** Carta
+**Format:** Blog
+**Area:** Fundraising
+**Tags:** fundraising
+**Link:** https://carta.com/blog/seed-funding/
+

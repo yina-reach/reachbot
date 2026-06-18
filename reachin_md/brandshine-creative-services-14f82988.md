@@ -6,3 +6,8 @@ notion_id: 14f82988-0204-4451-ab63-572bf2741ab5
 
 # BrandShine Creative Services
 
+**NOTES:** cold inbound to Reach
+**SERVICES OFFERED:** brand strategy
+**CONTACT INFO:** Asa Goldstein hello@brandshinecreative.com
+**FOCUS:** Marketing & PR
+

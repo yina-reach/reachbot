@@ -6,6 +6,14 @@ notion_id: 2c1a896b-b9b6-80d5-a1ec-c1ad03fda3b4
 
 # Generative Engine Optimization: What Is Old Is New Again
 
+**Date:** 2025-12-05
+**Deck / slides:** https://prod-files-secure.s3.us-west-2.amazonaws.com/2c857fe3-c851-49b6-a826-626221ac7566/6e9c3b8d-d2e8-48e3-acfc-6f74778f8f3d/GEO_-_Reach_Capital_AMA.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TZETPO6V%2F20260616%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260616T223724Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjELf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQC689JrVKwIOmTLhFFh5mkL7wZx5KQMg9%2BRMyvifBqsnAIhANT%2BhAKsTMTMTwH4%2BoWWHUfuAIN5lOmNo0lkif9Y298DKv8DCH8QABoMNjM3NDIzMTgzODA1Igzrp1jGYLbMwRv02BUq3ANj%2B1E9SCxS0v7muqoxThHa3EXJPfvUR0h5NI0CAX%2FqVpANf1i5yy04CTlDBMJvgHggMjvM8UIhGwlLQLxAz%2FI3kl0SrFAb2LXYnz8g33ytj5P%2BqIRUVkZUl%2BG2xbZLW448Oyyx7eP6iKCYOApCMSczw5doDqvtMx7JaM2ka1WpCyUnbchqlviNfzrH2Oii9DUut8%2FitBmi9INoR0kwusSO8cqVMth7JQO6bqu6iUGzO6kv550Nt7d2wx%2BpV4uw4qgC63rtBF%2BCoWtzcv8MKsExnZyG7zuznDuXgDiQN1RiUQUbVkgzmG2PC5H0XeDdYclAqN%2BY6NPaBKmh11sMMejT6c1rLBzaI9lDfddmkQSenautdPM40CCQFDrmg4lWXPEGBn04A6uwAsgH%2FNeqJFmzOPik7FLTuhrahzA6QzFtgVXiE0mUefGcMMMu4Xe386zdN970WA8IaO2CRFRCT5ND%2BWyZDbL8Ykm%2FzvDnyHvhjxZUpJOX%2ByZEgz84cwebeanLJ954VlMUhwb6SkRNs6oNrqgWE2lL1zM%2FTmq1O1AfVXMQykOd378aKCl%2FOrjiMxaVnFe6IEE%2FW7dzm5cy3ckHcEY8WxfpVH07%2F0MZQSybnCqaukGoxsekXZSy9jDzmMfRBjqkAU%2B7Rp5vLF0EkufhqpH79HGEuGMeI5gxJPt78jh6zqadx7hm5I6b3RhZPDL9LcDjuSa0KBgHqRLXPrZagLH%2BdlQBZhr99U996UvmoVRB1YXU4mHRZ8nmGQTU7FNC0NKUqw6FYUBRde4FsHpH2AGLocXr5j19wMRXBL80WPUYMfIiTtL%2FX7paCA8jz%2FJ2kNGeMXj0evujJkDLmCw3RSxNbMJ7h4bx&X-Amz-Signature=328a14c7efe111dbcd3f421f68f695a1cf1f26e22bfe358010e9ae22de70aa67&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject
+**Tags:** AI, growth
+**Recording:** [Recording](https://us02web.zoom.us/rec/share/pyBbC-MLpllcLsQzXMHVZmkbQAcmLOV7pu0bd293zGQk1NPIeLusYq4UKoo_IVj5.WKBrYkNkX6tTOfGB?startTime=1764958115000)
+Passcode: +U2h4^uE
+**Org:** Right Side Up
+**Speaker:** [Amy Scanlon](https://www.linkedin.com/in/amyjscanlon/) & [Tyler Elliston](https://www.linkedin.com/in/tylerelliston/)
+
 Generative Engine Optimization (GEO) Framework and Strategy
 The GEO approach revitalizes SEO by focusing on technical site optimization, intent-driven content, third-party syndication, and tailored reporting to drive growth through LLM citations.
 - The core GEO framework includes building a strong technical foundation, prioritizing prompts for content, adapting content for LLMs, syndicating content on authoritative third-party sites, and ongoing measurement (02:50)

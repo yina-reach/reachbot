@@ -6,3 +6,11 @@ notion_id: 90aaffc3-0ae3-408e-b4e7-70088ae63ae1
 
 # ReimagineWork (2023)
 
+**Source:** Reach
+**Format:** Report
+**Files & media:** https://reach.docsend.com/view/uxe8f2wgh2x9niu6
+**Sector:** Workforce
+**Area:** Market Research
+**Description:** Trends and innovations shaping the future of work
+**Tags:** corporate learning
+

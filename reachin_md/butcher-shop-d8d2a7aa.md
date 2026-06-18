@@ -6,3 +6,8 @@ notion_id: d8d2a7aa-9ce5-4f5d-bd61-41eb9b7bcb26
 
 # Butcher Shop
 
+**NOTES:** Consumer lifestyle brand agency, very edgy, smaller brand agency
+**REACH PORTFOLIO / EDTECH ENGAGEMENT:** Recommended by the Nimble team
+**REACH CONTACT:** Wayee
+**FOCUS:** Marketing & PR
+

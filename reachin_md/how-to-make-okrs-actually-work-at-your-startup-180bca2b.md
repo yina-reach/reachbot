@@ -6,3 +6,10 @@ notion_id: 180bca2b-407e-43cc-b8ce-352ed7893287
 
 # How to make OKRs actually work at your startup
 
+**Source:** First Round Review
+**Format:** Blog
+**Files & media:** https://review.firstround.com/How-to-Make-OKRs-Actually-Work-at-Your-Startup
+**Area:** HR & Hiring
+**Description:** Molly Graham shares from her experiences at Quip, Facebook, and Google about why scaling companies and teams is “crazy hard” and what you can do to make it easier on yourself and your team.
+**Tags:** management, growth
+

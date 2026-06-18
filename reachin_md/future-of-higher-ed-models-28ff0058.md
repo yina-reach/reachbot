@@ -6,3 +6,9 @@ notion_id: 28ff0058-8f0e-4ac5-ba79-2970d1be2016
 
 # Future of Higher Ed Models
 
+**Date:** 2020-07-17
+**Tags:** market trends, higher education
+**Recording:** [Recording](https://us02web.zoom.us/rec/share/uPxOCZz--EdJXKvnsV_QW4EKWdzVeaa813cX-qVfnUuQBvo_rxCBxdarkXF75Vkg)
+passcode: 3p#5#zv=
+**Speaker:** [Michael Horn](https://www.linkedin.com/in/michaelbhorn/)
+

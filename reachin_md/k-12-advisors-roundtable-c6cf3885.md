@@ -6,6 +6,13 @@ notion_id: c6cf3885-954b-42b3-a15b-37845b69deb8
 
 # K-12 Advisors Roundtable
 
+**Date:** 2024-07-26
+**Tags:** K-12, market trends, sales
+**Recording:** [Recording](https://us02web.zoom.us/rec/share/rVgyeNVAviH72Bti5I9G8LqgRJtUTspy5SNl3J-AucGxgU1Dy7TQcV6gC9EnvYfR.ZlFOGYIZmFA-zp9G)
+Passcode: g%BiQ6wv
+**Org:** School district leaders
+**Speaker:** Reach K-12 Advisors
+
 Introductions and District Overviews
 Chelsea Montgomery (Atlanta Public Schools)
 - Assistant Superintendent of Student Services

@@ -6,3 +6,10 @@ notion_id: 29fa896b-b9b6-802a-8318-cb9657e678a6
 
 # TechCrunch
 
+**Category:** Business / Tech
+**LOCATION:** NY
+**TITLE/ROLE:** Senior writer, VCs & Startups
+**WRITER PAGE (STORIES):** https://techcrunch.com/author/rebecca-szkutak/
+**EMAIL:** [rebecca.szkutak@techcrunch.com](mailto:rebecca.szkutak@techcrunch.com)
+**Name:** Rebecca Szutak
+

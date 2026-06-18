@@ -6,6 +6,13 @@ notion_id: 23ea896b-b9b6-806b-bfdf-dc5a7a6d3918
 
 # Telling Stories With Data
 
+**Date:** 2025-07-18
+**Tags:** marketing, content
+**Recording:** [Recording link](https://us02web.zoom.us/rec/share/-NPET2cOWJn63NS6aSOqvRGpEAvZIJxOtaQlFkIre5Ldbwi8aF7CwRoJoftjRFNf.f75KmfVU6d3mxUo5?startTime=1752858458000)
+Passcode: N?2N9?5i
+**Org:** ParentData
+**Speaker:** [Emily Oster](https://www.linkedin.com/in/emilyoster/)
+
 On Explaining Data to the Public
 - Core philosophy: People can understand graphs and data when presented clearly
   - “I have built a career on the idea that all people can understand graphs”

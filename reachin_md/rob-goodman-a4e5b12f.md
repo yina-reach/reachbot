@@ -6,3 +6,8 @@ notion_id: a4e5b12f-3291-4de9-9f63-4a46f3f3fa8d
 
 # Rob Goodman
 
+**NOTES:** Former Google Play, Head of Global Marketing, Google.
+**SERVICES OFFERED:** brand content marketing, product marketing
+**CONTACT INFO:** [rob@openverse.co](mailto:rob@openverse.co)
+**FOCUS:** Marketing & PR
+

@@ -6,6 +6,14 @@ notion_id: 1a5a896b-b9b6-80f7-b43e-d4ed38d92f22
 
 # Babak Mostaghimi
 
+**Current Title:** Founding Partner at LearnerStudio
+Former Assistant Superintendent, Gwinnett County Public Schools
+**LinkedIn:** https://www.linkedin.com/in/babakmostaghimi/
+**Advisory Group:** 🎒 K-12
+**Areas of Expertise:** Digital learning, Partnerships, Innovation
+**Bio:** Babak Mostaghimi is a Founding Partner at LearnerStudio and a former Assistant Superintendent at Gwinnett County Public Schools. His experience in educational leadership and innovation enables him to bring a unique perspective on learning environments. Mostaghimi's value lies in his ability to transform educational systems through strategic partnerships and innovative approaches.
+**Email:** babak@thelearnerstudio.org
+
 Area(s) of Expertise: 
 - AI in education
 - Early learning (birth-age 5)

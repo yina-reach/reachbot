@@ -6,3 +6,8 @@ notion_id: 6ed3df7e-8481-49da-a6b0-bfb2235fb2a2
 
 # GrowthForce
 
+**NOTES:** Recommended by contact at Apex.AI
+**SERVICES OFFERED:** outsourced accounting, bookkeeping, and controller services
+**REACH CONTACT:** JK
+**FOCUS:** Finance & Accounting
+

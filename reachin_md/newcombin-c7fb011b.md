@@ -6,3 +6,9 @@ notion_id: c7fb011b-754c-4973-b14d-3664190494ff
 
 # NewCombin
 
+**NOTES:** Clients include Hilton, Monsanto and other SMBs -  based in Argentina
+**SERVICES OFFERED:** Nearshore mobile & web software development
+**REACH CONTACT:** ES
+**CONTACT INFO:** ian.petersen@newcombin.com
+**FOCUS:** Engineering & Development
+

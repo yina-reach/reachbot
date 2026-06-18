@@ -6,3 +6,7 @@ notion_id: e17964ae-d501-4976-b895-9e4c6f213872
 
 # Whiteboard Advisors
 
+**URL:** https://whiteboardadvisors.com/
+**Focus:** policy, K-12, edtech industry
+**Description:** Education trends at the intersection of tech, policy and research
+

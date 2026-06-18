@@ -6,3 +6,11 @@ notion_id: 81f7509b-a514-4713-b3c3-015434a2d7b1
 
 # Freelance
 
+**Category:** Freelance
+**LOCATION:** London
+**TITLE/ROLE:** Writer and Editor, Defence Tech (formerly TechCrunch)
+**WRITER PAGE (STORIES):** https://www.linkedin.com/in/ingridlunden/
+**Name:** Ingrid Lunden
+**TWITTER:** @ingridlunden
+**PORTFOLIO MENTIONS:** Innovamat
+

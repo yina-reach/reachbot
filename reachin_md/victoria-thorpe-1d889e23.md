@@ -6,3 +6,9 @@ notion_id: 1d889e23-c833-414b-ba90-00696a34b753
 
 # Victoria Thorpe
 
+**NOTES:** - has MA in Education, worked for KIPP Fdn
+**REACH PORTFOLIO / EDTECH ENGAGEMENT:** Kidoma
+**SERVICES OFFERED:** - thought leadership
+**REACH CONTACT:** JC
+**CONTACT INFO:** victoriathorp@gmail.com
+

@@ -6,6 +6,13 @@ notion_id: 29ca896b-b9b6-8078-a89b-ef2aeaacec13
 
 # Stripe
 
+**Link:** https://stripe.com/startup-benefits/reach-capital
+**Reach point:** Tony Wan
+**Contact:** Jeronimo Ogarrio Martin del Campo
+**Type:** Credits
+**Email:** jeronimo@stripe.com
+**Description:** $5,000 in payment processing credits plus access to Stripe Startups program with expert guidance and exclusive events.
+
 Stripe offer for Reach Capital portfolio companies:$5,000 in credits + Stripe Startups program access
 Millions of companies of all sizes use Stripe online and in person to accept payments, send payouts, automate financial processes, and ultimately grow revenue.
 As a portfolio company of Reach Capital, Stripe is offering you:

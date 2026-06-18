@@ -6,3 +6,7 @@ notion_id: c81d7937-21e0-4156-a8c1-7116f58f5c67
 
 # Steve Blank
 
+**URL:** https://steveblank.com/
+**Focus:** growth, startups
+**Description:** Blog on company-building, tech, growth and markets by the startup guru
+

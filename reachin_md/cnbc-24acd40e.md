@@ -6,3 +6,11 @@ notion_id: 24acd40e-1fc0-46ed-85b2-3292e3be3743
 
 # CNBC
 
+**Category:** Business / Tech
+**LOCATION:** SF Bay Area
+**TITLE/ROLE:** Tech Reporter
+**WRITER PAGE (STORIES):** https://www.cnbc.com/lora-kolodny/
+**EMAIL:** loraekolodny@gmail.com
+**Name:** Lora Kolodny
+**TWITTER:** @lorakolodny
+

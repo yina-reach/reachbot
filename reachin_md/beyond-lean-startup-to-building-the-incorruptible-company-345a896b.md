@@ -6,6 +6,13 @@ notion_id: 345a896b-b9b6-8074-aabe-c00b56d9ed58
 
 # Beyond Lean Startup to Building the Incorruptible Company
 
+**Date:** 2026-04-10
+**Tags:** leadership
+**Recording:** [Recording](https://us02web.zoom.us/rec/share/XbH5Plq5STXSAcQiSp_ykt7gxTLBft_yhr_li6Tk8jWiYGjpRwwHfb5cRubXW1ks.6H5mmLo3Asx7DqaV?startTime=1775840752000)
+Passcode: %HYb+#36
+**Org:** Long-Term Stock Exchange, Lean Startup
+**Speaker:** [Eric Ries](https://www.linkedin.com/in/eries/)
+
 ### Book Genesis and Motivation
 - Wrote Incorruptible after witnessing repeated pattern/perceived inevitability of companies become unrecognizable by success - founders kicked out, lose control
 - Personal experience: tasted private equity takeover in restaurant food quality decline

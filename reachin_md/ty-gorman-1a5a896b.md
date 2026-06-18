@@ -6,6 +6,15 @@ notion_id: 1a5a896b-b9b6-804d-b8a6-c6a0eecd397d
 
 # Ty Gorman
 
+**Current Title:** Associate Principal of Instruction and Future Readiness
+
+Director of Innovation at Barrington School District 220
+**LinkedIn:** https://www.linkedin.com/in/ty-gorman-3800ba4/
+**Advisory Group:** 🎒 K-12
+**Areas of Expertise:** Innovation, L&D
+**Bio:** Ty Gorman was previously the Director of Innovation at Barrington School District 220. He specializes in integrating pedagogy, technology, and instructional environments using research in motivation and cognitive science. Gorman's unique value lies in his ability to apply scientific principles to improve learning ecosystems, making education more effective and engaging.
+**Email:** tgorman@barrington220.org
+
 Area(s) of Expertise: 
 - Blended learning
 - Grading reform

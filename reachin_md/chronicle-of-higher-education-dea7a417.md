@@ -6,3 +6,7 @@ notion_id: dea7a417-3de0-4e97-8270-22b154e30280
 
 # Chronicle of Higher Education
 
+**URL:** https://www.chronicle.com/
+**Focus:** higher ed
+**Description:** Higher ed news
+

@@ -6,3 +6,8 @@ notion_id: 0b418905-a0d9-4a57-9d91-3f05de4f1ca9
 
 # Maggie Morris
 
+**NOTES:** Consumer branding, web design, presentation/deck design
+**REACH PORTFOLIO / EDTECH ENGAGEMENT:** Recommended by Christina at Yay Lunch
+**REACH CONTACT:** WC
+**FOCUS:** Marketing & PR
+

@@ -6,3 +6,10 @@ notion_id: 634d1fb4-387f-4039-ab9e-2e7a49905264
 
 # Carbon Partners
 
+**NOTES:** Focus on Product, Marketing and Growth Leaders. B2B and B2C tech companies.
+**REACH PORTFOLIO / EDTECH ENGAGEMENT:** Referred by Michelle McHargue  at Costanoa
+**SERVICES OFFERED:** Marketing and Product executive search
+**REACH CONTACT:** WC
+**CONTACT INFO:** Ben Christian, ben@carbonpartners.io
+**FOCUS:** Talent & Recruiting
+

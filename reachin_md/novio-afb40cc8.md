@@ -6,3 +6,9 @@ notion_id: afb40cc8-ad4e-449c-a02e-bd6e0b27e272
 
 # Novio
 
+**NOTES:** - super experienced team
+- typical client base is more Fortne500 but Silicon Valley based and interested in working for startups too
+**SERVICES OFFERED:** - branding and storytellling for B2B and B2C
+**REACH CONTACT:** ES
+**CONTACT INFO:** leigh@novio.com
+

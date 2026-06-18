@@ -6,6 +6,13 @@ notion_id: 4017c778-dd78-4dd1-bac2-e25cac6230da
 
 # Executive Hiring in Edtech
 
+**Date:** 2023-07-28
+**Tags:** hiring
+**Recording:** [Recording (audio only)](https://drive.google.com/file/d/1VtDVlxQzzBOScCVmtL8MDXb8iq_6fV6t/view)
+**Org:** True Search
+**Speaker:** [Helen Resor](https://www.linkedin.com/in/helen-resor-67180717/)
+**Materials:** [Slides](https://docs.google.com/presentation/d/1FT6phb113TZC78QqZpmKtty0I_ptmJFNDWHOR3ETLh4/edit#slide=id.g25c5137049c_0_56)
+
 - https://share.fireflies.ai/embed/meetings/isj3AxuDKf1Eu6Z1
 Executive Search Process Overview (02:34 - 06:13)
 Helen outlines the typical timeline for an executive search, emphasizing the need for a calibration phase before officially starting the search. The importance of defining the role accurately and understanding the market is highlighted to avoid common pitfalls.

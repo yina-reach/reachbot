@@ -6,3 +6,7 @@ notion_id: c52278ee-ffbe-4fd9-aa41-f08f80efb972
 
 # Lee Crockett
 
+**NOTES:** Focus on women
+**SERVICES OFFERED:** - Path to Promotion- Founder to Leader- Executive Coaching
+**CONTACT INFO:** [https://leecrockett.com/](https://leecrockett.com/)
+

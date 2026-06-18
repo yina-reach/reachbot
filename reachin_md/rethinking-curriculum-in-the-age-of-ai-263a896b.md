@@ -6,6 +6,13 @@ notion_id: 263a896b-b9b6-80d0-8c5d-ecc3c9856409
 
 # Rethinking Curriculum in the Age of AI
 
+**Date:** 2025-08-15
+**Tags:** K-12, content, research
+**Recording:** [Recording link](https://us02web.zoom.us/rec/share/Tnk2ifrZsvMkex2Nep3hWRenc3GsJkRY8_B5sm9hGrDSkEOY62MARNSSK4WZ_e4_.EN4PLR5122emMTNj?startTime=1755277437000)
+Passcode: TPzUE9@P
+**Org:** Challenge Success, Stanford
+**Speaker:** [Denise Pope](https://www.linkedin.com/in/denise-clark-pope/)
+
 Current State of Student Engagement
 - Longitudinal data shows no meaningful change in student engagement since publishing “Doing School” over two decades ago.
 - Student engagement defined by ABCs framework:

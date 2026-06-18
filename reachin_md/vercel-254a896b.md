@@ -6,6 +6,13 @@ notion_id: 254a896b-b9b6-8022-9811-c76fbbfe457b
 
 # Vercel
 
+**Link:** https://vercel.com/startups/credits
+**Reach point:** Tony Wan
+**Contact:** Madison McIlwain
+**Type:** Credits
+**Email:** [madison.mcilwain@vercel.com](mailto:madison.mcilwain@vercel.com)
+**Description:** $12,000 in credits ($1,000/month for 1 year) for frontend cloud platform, plus exclusive events and team Slack access.
+
 ## Vercel for Startups Details
 Website: [https://vercel.com](https://vercel.com/)
 Service / Description: Vercel’s Frontend Cloud provides the developer experience and infrastructure to build, scale, and secure a faster, more personalized web. By providing the platform frontend teams love, Vercel unlocks developer potential and allows you to go from idea to global application in seconds.

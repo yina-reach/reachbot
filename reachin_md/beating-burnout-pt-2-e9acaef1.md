@@ -6,3 +6,8 @@ notion_id: e9acaef1-f20a-4aa5-83b8-2e90813b259b
 
 # Beating Burnout, Pt. 2
 
+**Date:** 2021-11-19
+**Tags:** people ops
+**Recording:** [Recording](https://scribe.ai/recording/nUbsfoLCIdOzzNlzTD6G?v=transcript)
+**Speaker:** [Jacinta M. Jiménez](https://www.linkedin.com/in/jacinta-m-jim%C3%A9nez-psyd-bcc-71881545/) (BetterUp)
+

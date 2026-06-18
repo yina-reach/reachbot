@@ -6,3 +6,11 @@ notion_id: d4bbbe25-33f2-459c-8d37-3876c9be83c6
 
 # What is a good growth rate?
 
+**Source:** Lenny Rachitsky
+**Format:** Blog
+**Files & media:** https://www.lennysnewsletter.com/p/what-is-a-good-growth-rate?s=r
+**Area:** Benchmarks
+**Description:** Lenny’s Newsletter blog post
+**Tags:** growth
+**Link:** https://www.lennysnewsletter.com/p/what-is-a-good-growth-rate?s=r
+

@@ -6,6 +6,13 @@ notion_id: 2c33b607-2315-410a-b0cd-e6e08ffcfdff
 
 # Microsoft for Startups
 
+**Link:** https://www.microsoft.com/en-us/startups
+**Reach point:** Tony Wan
+**Contact:** Ayo Haruna
+**Type:** Credits
+**Email:** [Ayobami.Haruna@microsoft.com](mailto:Ayobami.Haruna@microsoft.com)
+**Description:** Up to $200,000 in Azure credits over 2 years plus GitHub Enterprise, LinkedIn benefits, and dedicated technical support.
+
 > Microsoft for Startups offers a range of valuable benefits, including Azure credits — starting at $100,000 with the opportunity to increase up to $200,000 — access to Azure AI infrastructure and services, GitHub Enterprise, LinkedIn benefits, Visual Studio Enterprise, 24/7 Azure Standard Support, Go-To-Market benefits, and more. Startups also receive unlimited pairing sessions with Azure engineers. To access these benefits:
   - Visit [Microsoft for Startups Portal](https://public-usa.mkt.dynamics.com/api/orgs/09297819-0ba7-4c23-bc7e-63250644821b/r/Y6h_2nmPF0yHgDS5lFwCAAEAAAA?msdynmkt_target=%7B%22TargetUrl%22%3A%22https%253A%252F%252Fgo.microsoft.com%252Ffwlink%252F%253Flinkid%253D2325925%22%2C%22RedirectOptions%22%3A%7B%225%22%3Anull%2C%221%22%3Anull%7D%7D&msdynmkt_digest=nevwVG0dBn%2BuWDfJGCZo6xWuollbKlmVcZPe5vBDkz8%3D&msdynmkt_secretVersion=a3955a744d9049f88dd8bdc1907bf2bf)
   - Sign in with your Microsoft account or create a new account if you don't have one.

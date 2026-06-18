@@ -6,3 +6,9 @@ notion_id: 224a896b-b9b6-807f-b583-f25d7c923f0d
 
 # Second Opinion
 
+**Category:** Health
+**TITLE/ROLE:** Editor in Chief
+**WRITER PAGE (STORIES):** https://secondopinion.media/
+**EMAIL:** Christina@secondopinion.media
+**Name:** Christina Farr
+

@@ -6,6 +6,13 @@ notion_id: f5d8531d-e327-4ee9-baed-1a74fb2db810
 
 # Pricing
 
+**Date:** 2021-10-15
+**Tags:** product, sales, pricing
+**Recording:** [Recording](https://us02web.zoom.us/rec/play/4j9l1tVMny6wUChiws7cu8utzmKq15guXkmep5FZN9BhGLcghqoITu9oRyqILMf1eiA41CABMWTWp3Ql.aO1H2ERFmJoJsflq?canPlayFromShare=true&from=share_recording_detail&continueMode=true&componentName=rec-play&originRequestUrl=https%3A%2F%2Fus02web.zoom.us%2Frec%2Fshare%2F5ZY3hlt_wow5qrh9Awfg33pemYoclCS5NjptoFLc7SUbTQPJGCg-Bm1PDTtcTL84.s0xETG6ihQ7-Pkgm)
+passcode: YK*1#y5P
+**Org:** Simon-Kucher
+**Speaker:** [Eddie Hartman](https://www.linkedin.com/in/edward-hartman-1a6b2/)
+
 - https://share.fireflies.ai/embed/meetings/kWL8HrtcVazwb2VI
 Introduction to Pricing: Aimed at CEOs and founders, this talk covers all the topics in “[Monetizing Innovation](https://www.amazon.com/Monetizing-Innovation-Companies-Design-Product/dp/1119240867)” and puts them in a general framework for price optimization:
 1. Estimating willingness to pay

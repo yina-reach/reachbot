@@ -6,6 +6,13 @@ notion_id: 176a896b-b9b6-816d-8edf-eb10700a87e8
 
 # Job Moves: Building a Team That Hires You for the Job
 
+**Date:** 2025-01-08
+**Tags:** hiring, leadership, culture
+**Recording:** [Recording link](https://us02web.zoom.us/rec/share/_3Uyt93IynoBMAiLHQ4oCW02UrPrE59EFuyijVKv-f2iqpEHAWIzQIOdFpIQ1-h5.jOS0U5UvHfX4mJiZ?startTime=1736359663000)
+Passcode: T5R5s#?c
+**Org:** Job Moves
+**Speaker:** [Michael Horn](https://www.linkedin.com/in/michaelbhorn/) & [Bob Moesta](https://www.linkedin.com/in/bobmoesta/)
+
 - https://share.fireflies.ai/embed/meetings/awjnjEF8euaGWs2P
 00:00 - 03:03: Introduction and Background of Collaboration
 The conversation begins with an introduction by Michael and Bob, discussing their collaboration and the development of the "jobs to be done" theory. Bob, along with Clay Christensen and Ethan Bernstein, has worked on understanding why individuals "hire" jobs to make progress in their lives. This foundational insight led to the creation of a book aimed at helping individuals and organizations navigate career decisions.

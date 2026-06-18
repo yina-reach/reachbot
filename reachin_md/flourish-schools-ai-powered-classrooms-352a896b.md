@@ -6,6 +6,13 @@ notion_id: 352a896b-b9b6-80ab-a104-e52b7ecc220e
 
 # Flourish Schools & AI-Powered Classrooms
 
+**Date:** 2026-04-24
+**Tags:** K-12
+**Recording:** [Recording](https://us02web.zoom.us/rec/share/dq4KSUaV4A-7J96c4xr4FrTccuD_zSIT3yn5VdI7mwhT9Och_918vbn95fi4nqKf.d1eqla59GVCnW4Y5?startTime=1777050456000)
+Passcode: #b2%tKPv
+**Org:** Flourish Schools
+**Speaker:** [John Danner](https://www.linkedin.com/in/jwdanner/)
+
 Why John came back to building schools
 - Didn't plan to start schools again after Rocketship. What changed his mind: watching AI tutoring tools get used only briefly in classrooms when the technology could support much more.
 - Flourish started with a simple question: if AI can handle much of standards-based instruction, what should school look like if you design around that from scratch?

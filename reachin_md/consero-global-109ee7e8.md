@@ -6,3 +6,8 @@ notion_id: 109ee7e8-f904-4a2e-b1e9-a2cbf77aacf3
 
 # Consero Global
 
+**NOTES:** Ideal for PortCos hit $5MM ARR and above
+**SERVICES OFFERED:** Outsourced bookkeeping/CFO services
+**REACH CONTACT:** JD
+**CONTACT INFO:** casey@conseroglobal.com
+

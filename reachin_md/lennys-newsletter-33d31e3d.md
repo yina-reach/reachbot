@@ -6,3 +6,7 @@ notion_id: 33d31e3d-ebbd-4ed2-9378-3164c0fc78ee
 
 # Lenny’s Newsletter
 
+**URL:** https://www.lennysnewsletter.com/
+**Focus:** growth, markets
+**Description:** A weekly advice column about building product, driving growth, and accelerating your career. By Lenny Rachitsky
+

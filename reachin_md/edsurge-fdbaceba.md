@@ -6,3 +6,11 @@ notion_id: fdbaceba-bf71-4882-b137-b87d19b3fcff
 
 # EdSurge
 
+**Category:** Education
+**LOCATION:** DC
+**TITLE/ROLE:** Senior Editorial Director
+**WRITER PAGE (STORIES):** https://www.edsurge.com/writers/rebecca-koenig
+**EMAIL:** rebecca@edsurge.com
+**Name:** Rebecca Koenig
+**TWITTER:** @becky_koenig
+

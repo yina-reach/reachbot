@@ -6,3 +6,11 @@ notion_id: 31c31291-b8ca-4ba9-ad6f-3ec79b776982
 
 # Education Dive
 
+**Category:** Education
+**LOCATION:** DC
+**TITLE/ROLE:** Higher Ed Editor
+**WRITER PAGE (STORIES):** https://www.highereddive.com/editors/nschwartz/
+**EMAIL:** nschwartz@industrydive.com
+**Name:** Natalie Schwartz
+**TWITTER:** @nmschwartz23
+

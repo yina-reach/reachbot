@@ -6,3 +6,8 @@ notion_id: e9a6404d-8f92-4239-95c8-82d96c979965
 
 # Polonio
 
+**Website:** https://www.polonio.io/
+**SERVICES OFFERED:** Dev and design (see attached deck)
+**REACH CONTACT:** ES
+**FOCUS:** Engineering & Development
+

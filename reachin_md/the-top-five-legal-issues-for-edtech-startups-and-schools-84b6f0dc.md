@@ -6,3 +6,11 @@ notion_id: 84b6f0dc-608c-4a0b-bdbd-f1f9464fee09
 
 # The Top Five Legal Issues for Edtech Startups and Schools
 
+**Source:** EdSurge
+**Format:** Article
+**Files & media:** https://www.edsurge.com/news/2016-04-16-the-top-five-legal-issues-for-edtech-startups-and-schools
+**Sector:** K-12
+**Area:** Privacy
+**Description:** Primer on cybersecurity issues in schools and education
+**Tags:** privacy, cybersecurity
+

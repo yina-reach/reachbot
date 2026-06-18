@@ -6,3 +6,11 @@ notion_id: 9aa614a5-3a95-45b7-83e9-aef9b335c345
 
 # PBS NewsHour
 
+**Category:** Education
+**LOCATION:** DC
+**TITLE/ROLE:** Education Producer
+**WRITER PAGE (STORIES):** https://www.pbs.org/newshour/author/vpasquantonio
+**EMAIL:** vpasquantonio@newshour.org
+**Name:** Victoria Pasquantonio
+**TWITTER:** @vicpasquantonio
+

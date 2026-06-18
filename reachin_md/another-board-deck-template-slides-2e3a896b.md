@@ -6,3 +6,9 @@ notion_id: 2e3a896b-b9b6-80bf-8a7f-e14839b2bfe7
 
 # Another Board Deck Template (Slides)
 
+**Source:** Reach
+**Format:** Template
+**Area:** Board Management
+**Tags:** board
+**Link:** https://docs.google.com/presentation/d/1in0uFhUik8WqdVXNuAQQuHJyUy4uPTa_rC669E0Y-gE/edit?slide=id.p1#slide=id.p1
+
