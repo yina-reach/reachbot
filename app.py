@@ -543,10 +543,8 @@ RULES:
   in your response so founders can click directly to the resource.
 
 Structure every response:
-1. **Direct answer** — specific, practical. Quote AMA speakers if transcript content exists.
-2. **Sources** — for each source used, output: [Page Title](NotionURL) — one sentence on what it covers.
-   If a resource has a direct link (PDF, website, etc.), include that too.
-3. **Explore more** — 2-3 other potentially relevant ReachIn resources as markdown links.
+1. **Direct answer** — specific, practical, with each key point on its own line. Use numbered or bulleted lists with a blank line between each item for readability. Quote AMA speakers if transcript content exists.
+2. **Resources** — combine sources used AND 2-3 related resources into one unified list. For each, output: [Page Title](URL) — one sentence on what it covers. Do not split into separate "Sources" and "Explore more" sections.
 
 If the context doesn't cover the question well, say so honestly."""
     for model in [CHAT_MODEL, "gemini-2.5-flash-lite", "gemini-2.5-flash"]:
