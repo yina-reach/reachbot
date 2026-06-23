@@ -1,0 +1,56 @@
+---
+title: https://www.reachcapital.com/2017/08/04/what-are-some-unconventional-fundraising-tips-for-edtech-startups/
+source_url: https://www.reachcapital.com/2017/08/04/what-are-some-unconventional-fundraising-tips-for-edtech-startups/
+notion_source: What Are Some Unconventional Fundraising Tips for Edtech Startups?
+---
+
+What Are Some Unconventional Fundraising Tips for Edtech Startups?
+Hi Guido & Esteban,
+My edtech company has started achieving rapid user adoption and we believe we have a compelling story to start fundraising. As we get all of our ducks in a row to start approaching VCs, I’m wondering, is there a specific time where VCs are more actively looking for companies to invest in? Conversely, is there a downtime?
+— Time Sensitive
+Dear Time Sensitive,
+I want to start by saying that this post is not about the fundamentals of fundraising and what a startup needs to do to get funded. Also, if there’s even a small part of you that is still unclear about the vision for your company or concerned about product-market fit, then you should be fully focusing your energy on building your product and getting some early (ideally, paying) users before you get sidetracked with fundraising.
+For this post I’ll skip the “official” advice, which would involve talking about the right metrics to present, the quality and consistency of your deck, best practices for demonstrating product-market fit, etc. Esteban has already written about a few of these topics, including metrics and TAM. In this post I’ll share some guerrilla strategies from someone who has been fundraising in edtech for the past 5 years.
+I’ll make the obvious disclaimer that these are my opinions based primarily on experiences with Nearpod (including a few experiences that have stuck with me from friends of mine), so they are certainly not universal truths. However — and I say this humbly — given the $30M that Nearpod has raised to date , I think at least some of these tactics may actually work!
+My 10 Non-Obvious Tips on Fundraising for Edtech Startups
+1. Timing (per your question)
+Yes, seasonality plays a key role and you MUST take it into account. Obviously, there are exceptions, but in my experience the two big cycles for fundraising are:
+- Q3 pitch to close in Q4 — right before Thanksgiving or December holidays (Sept-Dec). Most edtech sales peak in the summer and early fall, so that’s the time when you should be selling and not fundraising. If you start having conversations in August and show consistently high numbers in the following months, investors will see great momentum. There’s nothing like being in a deep fundraising conversation and bringing in a big sale or finding lots of tweets of product love.
+- Q4 pitch to close in Q1: Start fundraising as the high sales season starts to slow down around October — expecting to close at the beginning of the following year. You should expect silence (no meetings, sometimes not even email replies) beginning in mid December until the second week of January.
+A round will typically takes 3–6 months from first meetings to close. Given that booking usually takes 2–3 weeks and that you want to close your round when you still have at least 3 months of cash in the bank, you actually need to start booking meetings about 8 months before you run out of cash, or you are already too late .
+Pro tip on timing: If you have a free or freemium product and you want to show traction for a Seed or Series A, consider raising during back-to-school season when your metrics are the hottest! When Remind was raising in 2014, their app was as HOT as it could be, even making it to top 10 iOS free apps overall (yes, overall… not just edu apps). Every investor wanted to be in!
+2. Fundraising Momentum
+When you decide that you have officially moved into “fundraising mode,” things should get serious and fundraising should be your number one priority as a founder/CEO. One of the main factors VCs will look for during this process is momentum. Here’s how I suggest you get the ball rolling:
+- Concentrate all pitches in the shortest window possible. 2–3 weeks is ideal. (Y ou can only fundraise and run a company at the same time for so long. If you extend your pitching window for too long, you’re going to lose steam in your business).
+- Book several meetings per day.
+- Take your first meetings with the most unlikely investors. These will be low-risk and you can tweak your pitch based on their feedback.
+- When you get at least a few firm commitments (let’s say ~50% of your round target), that’s a signal that you have some momentum in your round. Consolidate it by announcing to everyone you spoke to that there’s a closing date.
+Pro tip on term sheets: Even if you don’t have a lead, share a standard Term Sheet and start circulating it and getting feedback. In my experience, many early stage edtech investors don’t really want to lead a round, but they are still happy to invest if you get enough commitments and the terms are standard. Be aware that you need at least 50% commitments and hopefully before the closing date you’ll get another 20–30% more. About 70–80% of your target round is good enough for a closing. You may be able to close with less than that, but it’s risky as nobody likes to invest in an underfunded startup.
+(Comment from Esteban: If no investor wants to lead and you start circulating a term sheet that you’ve drafted, be 100% transparent that this is your draft. Eventually you will need to find somebody to put their name as the lead, which primarily entails conducting diligence and being the main point of contact (and support) between the different investors and you as the entrepreneur. The lead should be the investor writing the biggest check.)
+3. Present Relevant Data “Casually” and Impress Investors
+If they become interested in your pitch, VCs will always ask for data that’s not in your deck. That’s the perfect opportunity to impress them about how well you run your business and get them more curious about your metrics. Good examples of this would be to quickly pull up dashboards in Tableau to show that you have the right data and can speak through it on the spot. Other creative ways to do this is to show off your pipeline directly in Salesforce.com, or to casually access your PayPal reports showing lots of transactions.
+4. Leave your Ego at the Door
+Ego is a fundraising killer. You should gladly take meetings with anyone in a VC firm, not just the partners. This includes the most junior analyst or even the summer associate. It’s important that you respect them as if they were senior partners (they will be in no time!). Trust me, VC associates have both influence and access to very valuable information and they know their partners well, which is hugely important. If they’re passionate about you and your product, they may even advise you on how to effectively present to the partners.
+5. Tweet!
+You’d be surprised how much VCs check your company’s Twitter feed. I’m not suggesting you fake tweets, but some “nurturing” always helps! For example, re-post that killer integration with Google Classroom the day before your big VC meeting and hope that your true users will appreciate and share their love… here’s one of my re-posts from our integration with Microsoft SWAY last fall in the middle of our fundraising.
+6. Do Your Research
+Knowing a little bit about your audience can go a long away. VCs who have just had a “win” (big IPO or acquisition) are more likely to take on a riskier or less traditional investment such as edtech. Conversely, if they’ve been burned by ed before, they are going to take a lot of convincing unless your model is radically different.
+I would also say that VCs with kids tend to have a stronger personal interest in edtech and may empathize more with your product. The flip side of that is that their personal story usually does not represent the average American consumer, so make sure to stress real market conditions.
+7. Show Your Personal Motivations, But Avoid Delivering a Monologue
+Cut the BS on your personal story. “I saw the edtech light when I had kids” is very overdone. I get it, you want the best tools for you kids. Get to the real reason — and you’ll have more time to show off your product or share your traction.
+(Comment from Esteban: As a matter of fact, the best VCs will read pretty deeply into your mission and your personal motivations for starting your company. The best investors understand that the most important variable in a startup’s success is the founder and his/her team, and part of having a great team is understanding what’s motivating them and making them stick together. Maybe don’t overdo personal monologues, but remember that the best VCs don’t invest in products nor even in companies — they invest in people. Be genuine.)
+8. Don’t Say You Spend $0 on Marketing!
+It’s tempting to say you have spent $0 on marketing and that all the traction is 100% organic. But I recommend getting creative here. If your goal is to show virality — show how product love makes it happen. Here’s an actual slide from our deck:
+However, having spent $0 on marketing doesn’t show that you have a viral product, it shows that you don’t know how to calculate your CAC yet. Also, VCs know that at some point “word of mouth” will cease being your main top of the funnel driver and they will want to have an idea of how much you’ll need to spend to acquire new users. Start these experiments early! We were definitely guilty of this one the first time around.
+9. Identify a Clear Outcome After Every Meeting
+Every meeting should give you one of 3 outcomes:
+- YES I’m interested. (Best outcome)
+- NO. (Second best outcome if you learn something and you leave a good impression)
+- Maybe. (Worst outcome, unless you know exactly what they’d expect to become a YES)
+Push for an answer. “Maybes” are the worst because they are very misleading and can be a huge waste of your time. I have used the following line to drive a VC to a clear answer:
+“Hey, this startup is my life and I’m extremely passionate about what I’m doing here, so I only want to work with investors that think this is a ‘hell yeah!’ opportunity. What do you think?”
+90% of the time they would say “no,” but to me this was much better than a maybe!
+Pro tip on meetings: You will likely know very early in the meeting whether they are interested or not. If it’s a NO, let them talk. You’ll be surprised how much VCs share stuff they shouldn’t. Spend your time wisely learning as much as you can about the market, other investors in the space, and their thought process. It will help you in your next pitch!
+10. It’s Not Personal
+Never ever take it personal. Never get offended (unless they mistreat you, in that case report it!). Always follow up professionally and warmly. It’s a small market, and just because it wasn’t the right fit this time doesn’t mean it won’t be in the future. It pays off to be liked!!
+Hopefully these tips will help your fundraising efforts as you start getting your ducks in a row and approaching VCs. Let me know how they turn out. And if there are other interesting methods you’ve used to fundraise, feel free to write me a note or share a comment below!

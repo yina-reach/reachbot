@@ -33,6 +33,12 @@ jobs:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
         run: python reachin_export.py
 
+      # ── Step 1b: Fetch external links from Notion pages ──────────────────
+      - name: Fetch external article links
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+        run: python fetch_external_links.py
+
       # ── Step 2: Pull new Zoom transcripts (if API creds are configured) ───
       - name: Pull Zoom transcripts
         env:

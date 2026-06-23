@@ -4,3 +4,5 @@ numpy
 pyyaml
 notion-client
 python-slugify
+trafilatura
+requests
