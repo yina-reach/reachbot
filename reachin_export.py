@@ -187,6 +187,26 @@ def export_page(page):
     return fname
 
 
+def export_database(db):
+    """Export all rows of a Notion database as individual markdown files."""
+    db_id = db["id"]
+    title = "".join(t["plain_text"] for t in db.get("title", [])) or db_id
+    count, cursor = 0, None
+    while True:
+        resp = notion.databases.query(database_id=db_id, start_cursor=cursor, page_size=100)
+        for page in resp["results"]:
+            try:
+                export_page(page)
+                count += 1
+            except Exception as e:
+                print(f"  ! skipped row {page.get('id')}: {e}")
+        if not resp.get("has_more"):
+            break
+        cursor = resp["next_cursor"]
+        time.sleep(0.34)
+    return count
+
+
 def main():
     print("Searching all pages the integration can access...")
     count, cursor = 0, None
@@ -209,6 +229,30 @@ def main():
             break
         cursor = resp["next_cursor"]
         time.sleep(0.34)
+
+    # Also export database rows (Reach Advisors, Consultants, Media Contacts, etc.)
+    print("\nSearching databases...")
+    db_cursor = None
+    while True:
+        try:
+            resp = notion.search(
+                filter={"property": "object", "value": "data_source"},
+                start_cursor=db_cursor, page_size=100,
+            )
+        except APIResponseError as e:
+            print(f"  ! database search error: {e}")
+            break
+        for db in resp["results"]:
+            db_title = "".join(t["plain_text"] for t in db.get("title", [])) or db["id"]
+            print(f"  DB: {db_title}")
+            n = export_database(db)
+            count += n
+            print(f"    → {n} rows")
+        if not resp.get("has_more"):
+            break
+        db_cursor = resp["next_cursor"]
+        time.sleep(0.34)
+
     print(f"\nDone. {count} pages -> {OUT.resolve()}")
 
 

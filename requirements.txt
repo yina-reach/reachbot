@@ -1,8 +1,0 @@
-streamlit
-google-genai
-numpy
-pyyaml
-notion-client
-python-slugify
-trafilatura
-requests
