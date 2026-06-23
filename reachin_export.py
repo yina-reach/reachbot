@@ -190,7 +190,6 @@ def export_page(page):
 def export_database(db):
     """Export all rows of a Notion database as individual markdown files."""
     db_id = db["id"]
-    title = "".join(t["plain_text"] for t in db.get("title", [])) or db_id
     count, cursor = 0, None
     while True:
         resp = notion.databases.query(database_id=db_id, start_cursor=cursor, page_size=100)
