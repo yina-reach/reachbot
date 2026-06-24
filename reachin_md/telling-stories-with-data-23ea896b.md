@@ -2,9 +2,12 @@
 title: Telling Stories With Data
 source_url: https://app.notion.com/p/Telling-Stories-With-Data-23ea896bb9b6806bbfdfdc5a7a6d3918
 notion_id: 23ea896b-b9b6-806b-bfdf-dc5a7a6d3918
+category: Session Recordings
 ---
 
 # Telling Stories With Data
+
+Reach Capital Session Recordings
 
 **Date:** 2025-07-18
 **Tags:** marketing, content

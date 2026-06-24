@@ -2,9 +2,12 @@
 title: Brex
 source_url: https://app.notion.com/p/Brex-64d6a21e60d44928bb26c4218a60bc94
 notion_id: 64d6a21e-60d4-4928-bb26-c4218a60bc94
+category: Partner Access, Credits, Discounts
 ---
 
 # Brex
+
+Reach Capital Partner Access, Credits, Discounts
 
 **Link:** http://brex.com/reachcapital
 **Reach point:** Tony Wan

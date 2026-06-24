@@ -2,9 +2,12 @@
 title: Oddball
 source_url: https://app.notion.com/p/Oddball-be15cdb3cddc40d08481ee59f6e294d4
 notion_id: be15cdb3-cddc-40d0-8481-ee59f6e294d4
+category: Consultants & Coaches
 ---
 
 # Oddball
+
+Reach Capital Consultants & Coaches
 
 **REACH PORTFOLIO / EDTECH ENGAGEMENT:** AdmitHub
 **SERVICES OFFERED:** - forte is rapid prototyping but they'll also do anything else folks need front-end to back

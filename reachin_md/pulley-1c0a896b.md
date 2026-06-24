@@ -2,9 +2,12 @@
 title: Pulley
 source_url: https://app.notion.com/p/Pulley-1c0a896bb9b680808cccf262e79f76fb
 notion_id: 1c0a896b-b9b6-8080-8ccc-f262e79f76fb
+category: Partner Access, Credits, Discounts
 ---
 
 # Pulley
+
+Reach Capital Partner Access, Credits, Discounts
 
 **Link:** https://pulley.com/
 **Reach point:** Jackie Dao

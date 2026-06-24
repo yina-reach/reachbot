@@ -2,9 +2,12 @@
 title: Executive Hiring in Edtech
 source_url: https://app.notion.com/p/Executive-Hiring-in-Edtech-4017c778dd784dd1bac2e25cac6230da
 notion_id: 4017c778-dd78-4dd1-bac2-e25cac6230da
+category: Session Recordings
 ---
 
 # Executive Hiring in Edtech
+
+Reach Capital Session Recordings
 
 **Date:** 2023-07-28
 **Tags:** hiring

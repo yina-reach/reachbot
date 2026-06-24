@@ -2,9 +2,12 @@
 title: Court Kizer
 source_url: https://app.notion.com/p/Court-Kizer-344a896bb9b680cd8316ecb518b04463
 notion_id: 344a896b-b9b6-80cd-8316-ecb518b04463
+category: Consultants & Coaches
 ---
 
 # Court Kizer
+
+Reach Capital Consultants & Coaches
 
 **NOTES:** Recently wrapped up leading AI product design at Harvard Business School and is currently helping Aware Health build their AI agent chat flows
 **Website:** https://kizer.me/

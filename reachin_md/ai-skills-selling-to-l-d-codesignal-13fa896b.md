@@ -2,9 +2,12 @@
 title: AI, Skills & Selling to L&D - CodeSignal
 source_url: https://app.notion.com/p/AI-Skills-Selling-to-L-D-CodeSignal-13fa896bb9b6814899dbfab4d22334b0
 notion_id: 13fa896b-b9b6-8148-99db-fab4d22334b0
+category: Session Recordings
 ---
 
 # AI, Skills & Selling to L&D - CodeSignal
+
+Reach Capital Session Recordings
 
 **Date:** 2024-11-15
 **Tags:** AI, sales, L&D, HR

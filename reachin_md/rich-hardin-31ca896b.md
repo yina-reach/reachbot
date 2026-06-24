@@ -2,9 +2,12 @@
 title: Rich Hardin
 source_url: https://app.notion.com/p/Rich-Hardin-31ca896bb9b6813b8944de42b1de60cf
 notion_id: 31ca896b-b9b6-813b-8944-de42b1de60cf
+category: Reach Advisors
 ---
 
 # Rich Hardin
+
+Reach Capital Reach Advisors
 
 **Current Title:** TPA President, Edison Health Solutions
 **LinkedIn:** https://www.linkedin.com/in/richardhardin12/

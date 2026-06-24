@@ -2,9 +2,12 @@
 title: Ty Gorman
 source_url: https://app.notion.com/p/Ty-Gorman-1a5a896bb9b6804db8a6c6a0eecd397d
 notion_id: 1a5a896b-b9b6-804d-b8a6-c6a0eecd397d
+category: Reach Advisors
 ---
 
 # Ty Gorman
+
+Reach Capital Reach Advisors
 
 **Current Title:** Associate Principal of Instruction and Future Readiness
 

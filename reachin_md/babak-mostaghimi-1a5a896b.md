@@ -2,9 +2,12 @@
 title: Babak Mostaghimi
 source_url: https://app.notion.com/p/Babak-Mostaghimi-1a5a896bb9b680f7b43ed4ed38d92f22
 notion_id: 1a5a896b-b9b6-80f7-b43e-d4ed38d92f22
+category: Reach Advisors
 ---
 
 # Babak Mostaghimi
+
+Reach Capital Reach Advisors
 
 **Current Title:** Founding Partner at LearnerStudio
 Former Assistant Superintendent, Gwinnett County Public Schools

@@ -2,9 +2,12 @@
 title: Kimberley Morris Rosen
 source_url: https://app.notion.com/p/Kimberley-Morris-Rosen-207a896bb9b6809b863dd50dba8b6e90
 notion_id: 207a896b-b9b6-809b-863d-d50dba8b6e90
+category: Consultants & Coaches
 ---
 
 # Kimberley Morris Rosen
+
+Reach Capital Consultants & Coaches
 
 **NOTES:** Comes recommended by Sara Mauskopf.
 **REACH PORTFOLIO / EDTECH ENGAGEMENT:** Winnie

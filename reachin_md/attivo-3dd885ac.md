@@ -2,9 +2,12 @@
 title: Attivo
 source_url: https://app.notion.com/p/Attivo-3dd885ac563c4792a2c1c0142dc74102
 notion_id: 3dd885ac-563c-4792-a2c1-c0142dc74102
+category: Consultants & Coaches
 ---
 
 # Attivo
+
+Reach Capital Consultants & Coaches
 
 **NOTES:** Supports venture-backed, emerging growth companies; sectors served include: Enterprise SaaS, Consumer Tech, FinTech & Blockchain, Biotech & Healthcare; two of three founding partners are women.
 

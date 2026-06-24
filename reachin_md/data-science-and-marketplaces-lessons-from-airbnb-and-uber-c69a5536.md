@@ -2,9 +2,12 @@
 title: Data Science and Marketplaces: Lessons from Airbnb and Uber
 source_url: https://app.notion.com/p/Data-Science-and-Marketplaces-Lessons-from-Airbnb-and-Uber-c69a5536c3174e238e661d7300fd392f
 notion_id: c69a5536-c317-4e23-8e66-1d7300fd392f
+category: Session Recordings
 ---
 
 # Data Science and Marketplaces: Lessons from Airbnb and Uber
+
+Reach Capital Session Recordings
 
 **Date:** 2024-03-29
 **Tags:** data science, marketing, growth, marketplaces, hiring

@@ -2,9 +2,12 @@
 title: GenAI for Marketing, Sales and Ops
 source_url: https://app.notion.com/p/GenAI-for-Marketing-Sales-and-Ops-545fe79a5b314935a8ee5c5d124363f1
 notion_id: 545fe79a-5b31-4935-a8ee-5c5d124363f1
+category: Session Recordings
 ---
 
 # GenAI for Marketing, Sales and Ops
+
+Reach Capital Session Recordings
 
 **Date:** 2024-04-12
 **Tags:** AI, marketing, biz ops

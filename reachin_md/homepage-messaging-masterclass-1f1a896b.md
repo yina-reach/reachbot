@@ -2,9 +2,12 @@
 title: Homepage Messaging Masterclass
 source_url: https://app.notion.com/p/Homepage-Messaging-Masterclass-1f1a896bb9b6806d90bddb768a602159
 notion_id: 1f1a896b-b9b6-806d-90bd-db768a602159
+category: Session Recordings
 ---
 
 # Homepage Messaging Masterclass
+
+Reach Capital Session Recordings
 
 **Date:** 2025-05-09
 **Deck / slides:** https://docs.google.com/document/d/1qRSq6yI-EABApTrlgYinVM2O7hSSNjK0tWcOJIhhZOY/copy?usp=gmail_thread

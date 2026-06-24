@@ -2,9 +2,12 @@
 title: How to Plan and Build a Financial Plan
 source_url: https://app.notion.com/p/How-to-Plan-and-Build-a-Financial-Plan-560273eeadea4298925ebaab1c57773a
 notion_id: 560273ee-adea-4298-925e-baab1c57773a
+category: Session Recordings
 ---
 
 # How to Plan and Build a Financial Plan
+
+Reach Capital Session Recordings
 
 **Date:** 2022-06-24
 **Tags:** biz ops

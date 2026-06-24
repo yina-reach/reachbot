@@ -2,9 +2,12 @@
 title: Flourish Schools & AI-Powered Classrooms
 source_url: https://app.notion.com/p/Flourish-Schools-AI-Powered-Classrooms-352a896bb9b680aba104e52b7ecc220e
 notion_id: 352a896b-b9b6-80ab-a104-e52b7ecc220e
+category: Session Recordings
 ---
 
 # Flourish Schools & AI-Powered Classrooms
+
+Reach Capital Session Recordings
 
 **Date:** 2026-04-24
 **Tags:** K-12

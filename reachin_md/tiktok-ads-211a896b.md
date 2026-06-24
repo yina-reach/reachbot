@@ -2,9 +2,12 @@
 title: TikTok Ads 
 source_url: https://app.notion.com/p/TikTok-Ads-211a896bb9b680a08d18fdc08a54cd9b
 notion_id: 211a896b-b9b6-80a0-8d18-fdc08a54cd9b
+category: Partner Access, Credits, Discounts
 ---
 
 # TikTok Ads 
+
+Reach Capital Partner Access, Credits, Discounts
 
 **Link:** https://connect-tiktok-reachcap.splashthat.com/
 **Reach point:** Tony Wan

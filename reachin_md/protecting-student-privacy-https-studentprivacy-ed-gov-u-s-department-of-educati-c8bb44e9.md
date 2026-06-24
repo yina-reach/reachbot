@@ -2,9 +2,12 @@
 title: 🌐 [Protecting Student Privacy](https://studentprivacy.ed.gov/) | U.S. Department of Education
 source_url: https://app.notion.com/p/Protecting-Student-Privacy-U-S-Department-of-Education-c8bb44e9eb1540d6b0b50d7ffb4a9661
 notion_id: c8bb44e9-eb15-40d6-b0b5-0d7ffb4a9661
+category: Library Database
 ---
 
 # 🌐 [Protecting Student Privacy](https://studentprivacy.ed.gov/) | U.S. Department of Education
+
+Reach Capital Library Database
 
 **Format:** Report
 **Files & media:** https://studentprivacy.ed.gov/

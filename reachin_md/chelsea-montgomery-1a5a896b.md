@@ -2,9 +2,12 @@
 title: Chelsea Montgomery
 source_url: https://app.notion.com/p/Chelsea-Montgomery-1a5a896bb9b68051aa63ca29b279f869
 notion_id: 1a5a896b-b9b6-8051-aa63-ca29b279f869
+category: Reach Advisors
 ---
 
 # Chelsea Montgomery
+
+Reach Capital Reach Advisors
 
 **Current Title:** Assistant Superintendent of Student Services, Atlanta Public Schools
 **LinkedIn:** https://www.linkedin.com/in/chelsea-a-montgomery-81231556/

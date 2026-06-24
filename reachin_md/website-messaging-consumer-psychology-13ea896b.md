@@ -2,9 +2,12 @@
 title: Website Messaging & Consumer Psychology
 source_url: https://app.notion.com/p/Website-Messaging-Consumer-Psychology-13ea896bb9b681a18b05cf70b8eda602
 notion_id: 13ea896b-b9b6-81a1-8b05-cf70b8eda602
+category: Session Recordings
 ---
 
 # Website Messaging & Consumer Psychology
+
+Reach Capital Session Recordings
 
 **Date:** 2024-08-23
 **Tags:** marketing

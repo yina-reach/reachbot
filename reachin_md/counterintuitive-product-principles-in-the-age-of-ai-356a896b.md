@@ -2,9 +2,12 @@
 title: Counterintuitive Product Principles in the Age of AI
 source_url: https://app.notion.com/p/Counterintuitive-Product-Principles-in-the-Age-of-AI-356a896bb9b680d89f8cf5d674570bf2
 notion_id: 356a896b-b9b6-80d8-9f8c-f5d674570bf2
+category: Session Recordings
 ---
 
 # Counterintuitive Product Principles in the Age of AI
+
+Reach Capital Session Recordings
 
 **Date:** 2026-05-01
 **Tags:** product

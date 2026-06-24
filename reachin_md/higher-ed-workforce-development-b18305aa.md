@@ -2,9 +2,12 @@
 title: Higher Ed & Workforce Development
 source_url: https://app.notion.com/p/Higher-Ed-Workforce-Development-b18305aaa0254761beb4d810788725ea
 notion_id: b18305aa-a025-4761-beb4-d810788725ea
+category: Session Recordings
 ---
 
 # Higher Ed & Workforce Development
+
+Reach Capital Session Recordings
 
 **Date:** 2023-04-28
 **Tags:** market trends, higher education, workforce

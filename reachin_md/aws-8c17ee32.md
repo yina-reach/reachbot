@@ -2,9 +2,12 @@
 title: AWS
 source_url: https://app.notion.com/p/AWS-8c17ee32fca34e4b8383260e90f83c8c
 notion_id: 8c17ee32-fca3-4e4b-8383-260e90f83c8c
+category: Partner Access, Credits, Discounts
 ---
 
 # AWS
+
+Reach Capital Partner Access, Credits, Discounts
 
 **Link:** https://aws.amazon.com/startups
 **Reach point:** Tony Wan

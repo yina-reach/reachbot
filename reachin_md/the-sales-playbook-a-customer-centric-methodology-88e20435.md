@@ -2,9 +2,12 @@
 title: The Sales Playbook: A Customer-Centric Methodology
 source_url: https://app.notion.com/p/The-Sales-Playbook-A-Customer-Centric-Methodology-88e204352a074c068d58d14290acfb62
 notion_id: 88e20435-2a07-4c06-8d58-d14290acfb62
+category: Library Database
 ---
 
 # The Sales Playbook: A Customer-Centric Methodology
+
+Reach Capital Library Database
 
 **Source:** Winning by Design
 **Format:** Report

@@ -2,9 +2,12 @@
 title: Hiring & Succeeding With Your 1st Head of Sales
 source_url: https://app.notion.com/p/Hiring-Succeeding-With-Your-1st-Head-of-Sales-7891508455b8459591d679cb7a1dd7de
 notion_id: 78915084-55b8-4595-91d6-79cb7a1dd7de
+category: Session Recordings
 ---
 
 # Hiring & Succeeding With Your 1st Head of Sales
+
+Reach Capital Session Recordings
 
 **Date:** 2024-03-01
 **Tags:** hiring, sales

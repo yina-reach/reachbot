@@ -2,9 +2,12 @@
 title: Consumer Growth: Lessons from Grammarly
 source_url: https://app.notion.com/p/Consumer-Growth-Lessons-from-Grammarly-19aa896bb9b680f2a819ee60bb1379d4
 notion_id: 19aa896b-b9b6-80f2-a819-ee60bb1379d4
+category: Session Recordings
 ---
 
 # Consumer Growth: Lessons from Grammarly
+
+Reach Capital Session Recordings
 
 **Date:** 2025-01-10
 **Tags:** growth

@@ -2,9 +2,12 @@
 title: SixFifty
 source_url: https://app.notion.com/p/SixFifty-dd2edccb175f4074b76e4494b90112ad
 notion_id: dd2edccb-175f-4074-b76e-4494b90112ad
+category: Consultants & Coaches
 ---
 
 # SixFifty
+
+Reach Capital Consultants & Coaches
 
 **NOTES:** - technology arm of Wilson Sonsini
 - 30% discount to Reach portfolio companies

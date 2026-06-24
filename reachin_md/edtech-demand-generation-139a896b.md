@@ -2,9 +2,12 @@
 title: Edtech Demand Generation
 source_url: https://app.notion.com/p/Edtech-Demand-Generation-139a896bb9b68124a394cb63e681ccd3
 notion_id: 139a896b-b9b6-8124-a394-cb63e681ccd3
+category: Session Recordings
 ---
 
 # Edtech Demand Generation
+
+Reach Capital Session Recordings
 
 **Date:** 2024-04-19
 **Deck / slides:** https://docs.google.com/presentation/d/1O8tWmah33WzajXrIWnCG2bAcA6wFX-Jg/edit#slide=id.p3

@@ -2,9 +2,12 @@
 title: Notion for Startups
 source_url: https://app.notion.com/p/Notion-for-Startups-ae028eac0e34498e9af021f7fe418204
 notion_id: ae028eac-0e34-498e-9af0-21f7fe418204
+category: Partner Access, Credits, Discounts
 ---
 
 # Notion for Startups
+
+Reach Capital Partner Access, Credits, Discounts
 
 **Link:** https://www.notion.so/startups
 **Reach point:** Tony Wan

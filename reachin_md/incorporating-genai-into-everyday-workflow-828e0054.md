@@ -2,9 +2,12 @@
 title: Incorporating GenAI Into Everyday Workflow
 source_url: https://app.notion.com/p/Incorporating-GenAI-Into-Everyday-Workflow-828e0054a66b4d1bae61ab1211d1bb64
 notion_id: 828e0054-a66b-4d1b-ae61-ab1211d1bb64
+category: Session Recordings
 ---
 
 # Incorporating GenAI Into Everyday Workflow
+
+Reach Capital Session Recordings
 
 **Date:** 2023-05-12
 **Tags:** AI, product, biz ops

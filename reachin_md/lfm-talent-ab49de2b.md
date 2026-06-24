@@ -2,9 +2,12 @@
 title: LFM Talent
 source_url: https://app.notion.com/p/LFM-Talent-ab49de2bff9648a296afc8bed0173a0f
 notion_id: ab49de2b-ff96-48a2-96af-c8bed0173a0f
+category: Consultants & Coaches
 ---
 
 # LFM Talent
+
+Reach Capital Consultants & Coaches
 
 **NOTES:** Embedded Recruitment - LFM becomes an extension within your organization to drive your hiring operation. 
 Specialized Retained Search - a dedicated approach to identifying niche staff, sr leaders, or executives.

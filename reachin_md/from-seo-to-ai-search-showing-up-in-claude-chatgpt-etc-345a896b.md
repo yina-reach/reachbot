@@ -2,9 +2,12 @@
 title: From SEO to AI Search: Showing Up in Claude, ChatGPT, etc.
 source_url: https://app.notion.com/p/From-SEO-to-AI-Search-Showing-Up-in-Claude-ChatGPT-etc-345a896bb9b680eaa0c7cf076eb6c784
 notion_id: 345a896b-b9b6-80ea-a0c7-cf076eb6c784
+category: Session Recordings
 ---
 
 # From SEO to AI Search: Showing Up in Claude, ChatGPT, etc.
+
+Reach Capital Session Recordings
 
 **Date:** 2026-01-16
 **Tags:** growth, marketing, SEO

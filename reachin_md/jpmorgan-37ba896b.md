@@ -2,9 +2,12 @@
 title: JPMorgan
 source_url: https://app.notion.com/p/JPMorgan-37ba896bb9b680d78e3dd4fd74610d31
 notion_id: 37ba896b-b9b6-80d7-8e3d-d4fd74610d31
+category: Consultants & Coaches
 ---
 
 # JPMorgan
+
+Reach Capital Consultants & Coaches
 
 **SERVICES OFFERED:** Banking, Cap Table Management, and Growth Support
 **REACH CONTACT:** JH

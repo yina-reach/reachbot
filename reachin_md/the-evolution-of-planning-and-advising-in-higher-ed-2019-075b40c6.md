@@ -2,9 +2,12 @@
 title: The Evolution of Planning and Advising in Higher Ed (2019)
 source_url: https://app.notion.com/p/The-Evolution-of-Planning-and-Advising-in-Higher-Ed-2019-075b40c6701542adb60ab30e73bef494
 notion_id: 075b40c6-7015-42ad-b60a-b30e73bef494
+category: Library Database
 ---
 
 # The Evolution of Planning and Advising in Higher Ed (2019)
+
+Reach Capital Library Database
 
 **Source:** Tyton Partners
 **Format:** Report

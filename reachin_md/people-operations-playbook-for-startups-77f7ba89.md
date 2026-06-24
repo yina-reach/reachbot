@@ -2,9 +2,12 @@
 title: People Operations Playbook for Startups
 source_url: https://app.notion.com/p/People-Operations-Playbook-for-Startups-77f7ba8966454d30914a52efebc574e5
 notion_id: 77f7ba89-6645-4d30-914a-52efebc574e5
+category: Library Database
 ---
 
 # People Operations Playbook for Startups
+
+Reach Capital Library Database
 
 **Source:** Reach
 **Format:** Report

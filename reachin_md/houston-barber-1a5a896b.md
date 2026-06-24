@@ -2,9 +2,12 @@
 title: Houston Barber
 source_url: https://app.notion.com/p/Houston-Barber-1a5a896bb9b6806e8668cdf910e9e5fc
 notion_id: 1a5a896b-b9b6-806e-8668-cdf910e9e5fc
+category: Reach Advisors
 ---
 
 # Houston Barber
+
+Reach Capital Reach Advisors
 
 **Current Title:** Deputy Superintendent, Fayette County Public Schools (Lexington, KY)
 **LinkedIn:** https://www.linkedin.com/in/houston-barber-2491512a3/

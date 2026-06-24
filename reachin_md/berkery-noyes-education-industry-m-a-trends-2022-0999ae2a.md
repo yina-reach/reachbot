@@ -2,9 +2,12 @@
 title: Berkery Noyes Education Industry M&A Trends (2022)
 source_url: https://app.notion.com/p/Berkery-Noyes-Education-Industry-M-A-Trends-2022-0999ae2aa4174093b87311abacf8b6fc
 notion_id: 0999ae2a-a417-4093-b873-11abacf8b6fc
+category: Library Database
 ---
 
 # Berkery Noyes Education Industry M&A Trends (2022)
+
+Reach Capital Library Database
 
 **Source:** Berkery Noyes
 **Format:** Report

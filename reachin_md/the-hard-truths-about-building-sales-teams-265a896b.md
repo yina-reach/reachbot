@@ -2,9 +2,12 @@
 title: The Hard Truths About Building Sales Teams
 source_url: https://app.notion.com/p/The-Hard-Truths-About-Building-Sales-Teams-265a896bb9b6802ea617c0db8db8544e
 notion_id: 265a896b-b9b6-802e-a617-c0db8db8544e
+category: Session Recordings
 ---
 
 # The Hard Truths About Building Sales Teams
+
+Reach Capital Session Recordings
 
 **Date:** 2025-09-05
 **Tags:** sales

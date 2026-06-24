@@ -2,9 +2,12 @@
 title: K-12 State Funding Analysis (2020)
 source_url: https://app.notion.com/p/K-12-State-Funding-Analysis-2020-7bf8ebbcf7324e77acbec8b086a63bb2
 notion_id: 7bf8ebbc-f732-4e77-acbe-c8b086a63bb2
+category: Library Database
 ---
 
 # K-12 State Funding Analysis (2020)
+
+Reach Capital Library Database
 
 **Source:** RedRock Reports, Reach
 **Format:** Report

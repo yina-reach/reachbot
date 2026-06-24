@@ -2,9 +2,12 @@
 title: K-12 Advisors Roundtable
 source_url: https://app.notion.com/p/K-12-Advisors-Roundtable-c6cf3885954b42b3a15b37845b69deb8
 notion_id: c6cf3885-954b-42b3-a15b-37845b69deb8
+category: Session Recordings
 ---
 
 # K-12 Advisors Roundtable
+
+Reach Capital Session Recordings
 
 **Date:** 2024-07-26
 **Tags:** K-12, market trends, sales

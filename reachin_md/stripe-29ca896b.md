@@ -2,9 +2,12 @@
 title: Stripe
 source_url: https://app.notion.com/p/Stripe-29ca896bb9b68078a89bef2aeaacec13
 notion_id: 29ca896b-b9b6-8078-a89b-ef2aeaacec13
+category: Partner Access, Credits, Discounts
 ---
 
 # Stripe
+
+Reach Capital Partner Access, Credits, Discounts
 
 **Link:** https://stripe.com/startup-benefits/reach-capital
 **Reach point:** Tony Wan

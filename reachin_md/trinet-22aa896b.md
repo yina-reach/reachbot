@@ -2,9 +2,12 @@
 title: TriNet
 source_url: https://app.notion.com/p/TriNet-22aa896bb9b680d881c2cdf4eb5910d0
 notion_id: 22aa896b-b9b6-80d8-81c2-cdf4eb5910d0
+category: Partner Access, Credits, Discounts
 ---
 
 # TriNet
+
+Reach Capital Partner Access, Credits, Discounts
 
 **Link:** https://www.trinet.com/lp/peoplematter
 **Reach point:** Joshua Lesko
@@ -12,7 +15,7 @@ notion_id: 22aa896b-b9b6-80d8-81c2-cdf4eb5910d0
 **Type:** HR & Legal
 **Email:** [kim.thomas@trinet.com](mailto:kim.thomas@trinet.com) OR dara.sue@trinet.com
 **Description:** Up to 65% off monthly administrative fees for full-service HR platform including payroll, benefits, R&D tax credits, and equity management.
-**Files & media:** https://prod-files-secure.s3.us-west-2.amazonaws.com/2c857fe3-c851-49b6-a826-626221ac7566/6315f513-0e65-4c28-bc37-865e52e80b19/TriNet_Datasheet_VC_Portfolio_Companies.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667CPJ4DIH%2F20260623%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260623T172355Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFkaCXVzLXdlc3QtMiJIMEYCIQCFZ3BMhgTB03qvmbQnay1YnMStB51pgfTSyS%2B0olpOnAIhAOmGXLn7BIyXusNGroQ1ZlwcYMPwILo8XOq6%2B78TLTweKv8DCCEQABoMNjM3NDIzMTgzODA1IgyGnBWRaacNZXZDWHEq3ANo4ZBPDyzTbaYxjHLb%2FBuNZZsaYBwFKJPqIFhr3awnhn5Z9J9EzHMoS4WEq02VxllwmFQq0ZSZ2qI%2FLCL3MrlEPJTR2BL9tb7%2BUOwTPBHb2EuRnNFPVrXYFprl8YFff4uzgFxZMkmBTWhEYoQuVcNMsxnbbdX50NB3UECgciokG2AdEkO73IvK1qv9HWx8zYZuuQj4%2BQLaNAkiKV6H4Pjc0b3zjaWsPq%2B3hth0ZysgwrTxmCupkjFx9TgA7ei0bRg%2Fyb6YJ4deVtSGSwpnAvT3AKwbcRUi5Ux2iOv06kXU1OruhM9tmThHPq1rrmUEmUXzw5woVK3%2F8CcmY4E4SFA%2BgrL227obB3ZFo19wT42HqfcQwHNLv2yOMNtxM5jHR6vQyU%2BOXn%2BoGZ5%2F%2Fk%2BsbE7S5Ce5%2F7i3s4cjbPKeou%2FjRnmoUQuvJL%2FgDTYPVVTcltsfzUmoEnYAH3HWaKwUSE8NoZRjpt7onOCCW%2F%2BYiBzTzlTaHCnK8wBgwpRwrHwg3RhswQRML%2BTSH1xz5pHsh9cIab4xMX77LvyCkkHijb%2B74sI5hEvC3fIaLyjk45RPe7ZV%2BoaY%2FumzU%2BBc0KLIHXFY%2FTtX22Yh6JOSxZqXn9RYq7xcafTOSqtLFvUo8TC25urRBjqkAUbPVsIG1ydTbHu9cXFXebCmFgGKAogBI8au2mYrm37gfWPMjoRLmrMEvmaRja63VIHx%2BbSAQz2Cd5yA%2Bpogrnn5dzym1%2BE9YIPsfYSaOyQ0lpQ%2FBlBNOCNuMDf6BN3KhYVGH5MHyU5amzebUSd8B8BGfTgQdSo50kVlJOkGYE%2FoFIwUIziEOkrosW8MlWJgVLznD%2BPtz4dKvwM36Q%2B%2F%2FibcMtjA&X-Amz-Signature=c00b4114f604804717f761c8ea360ceeb0b6192f732e3305c0a97088184e4a91&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject
+**Files & media:** https://prod-files-secure.s3.us-west-2.amazonaws.com/2c857fe3-c851-49b6-a826-626221ac7566/6315f513-0e65-4c28-bc37-865e52e80b19/TriNet_Datasheet_VC_Portfolio_Companies.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UKRKXFKY%2F20260624%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260624T185704Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHAaCXVzLXdlc3QtMiJHMEUCIQCGRLYhOgbsE7yjFsuksPdG4xj24Neb8mytU6V%2BC%2Fw9owIgf5FtwsWlUMYSwllK1NBzf0PbwuDxQEGfD2iQ45hulp4q%2FwMIORAAGgw2Mzc0MjMxODM4MDUiDGpPAr7HMEPzWi8s4yrcA2kYfxSNYbikX8Mwu70t2Y%2Byht9Z5JK12vUxcLaXAFwxd9kzk8Z%2B0oADlCXjfh1dQcc4ybYbKb5Kjn%2Fnb1HkwCJMqnVEKNv5qZb%2FgKn%2BZtqWqHwKH7PMexMAatfFPINJtdZtxxs4v37i1J9JA8fpKmZxdD%2FukkZd7b992JXjhWScVHcIDJj39gm%2FNi8bJjqcXh8WDuABnFglSD1sucA7l%2BntEq3NkCGUSf1vkngURYMoAdskMEuazlPT4jBLIVJ6MOhHxNYMrGScamD%2FwTt2MjOjXHdoMIuSmbf%2Bqx%2BVy58GWrKva0lTH%2Bvs1NhBAZcYh4dqAVSVVd5IcpZIIYeB%2FAExCO7nMQCYTNPyoKa%2BhVQBpGUi%2BjUX9s1WmIhFtWIeuxeAFahw6saHIiCnIrsS%2F4y02AQxOa4STaDUTYIkTqfwXmWEqM3%2B%2Fis4Bk2Q1oN0dgdfvkQCakYlnOVD3GdB1k9%2Fzll3Zed72p9r7QCm38BE8CwVhNgdVpGY371Xk9b3VprmDxJyqtCsFO%2Fsk8cRqn5dfHrXmMxagb6d8sERei%2FJBkGX9KKyt7I5dzEAHt0cER3Gn%2FvKN9HrViyku2qIlgOk5fhF0ACXQEm3qdHmGiavbjAfs3yGl48doTHwMOr279EGOqUBzjfjf6G13co0O9kOw7lziOP1D0fea1TK1e234v4YW9%2B1HITWz4yDtWth0nnyHXLGwFOHMn0HTfjsFggnVLWARMzHeb4cx2ZyLp2snLT3sFvdK403DyJ5rjdzgS%2FnjmMGCDtma9gGuI8hQQY%2Fzfhurl%2BQtunqSQ1LcoaYViVcJiPPsUoO2Gf6B%2F0ryk25iu%2F2kcocekM8F%2BIqu7UJnHkX7Ozn8M%2Bj&X-Amz-Signature=62a2cc0296ae5f83660caf32b45695ac56c1c98b156aee9bffee35f0993d43ef&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject
 
 Get preferred access to TriNet’s full-service HR solutions, including up to 65% off monthly administrative fees.  See attached PDF for more details.
 > For discounted VC pricing, Reach Capital-backed companies should contact:

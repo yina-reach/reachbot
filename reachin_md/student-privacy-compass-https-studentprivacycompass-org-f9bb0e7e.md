@@ -2,9 +2,12 @@
 title: 🌐 [Student Privacy Compass](https://studentprivacycompass.org/)
 source_url: https://app.notion.com/p/Student-Privacy-Compass-f9bb0e7e9d8c452c87f4171e9c84a3ee
 notion_id: f9bb0e7e-9d8c-452c-87f4-171e9c84a3ee
+category: Library Database
 ---
 
 # 🌐 [Student Privacy Compass](https://studentprivacycompass.org/)
+
+Reach Capital Library Database
 
 **Format:** Website
 **Files & media:** https://studentprivacycompass.org/

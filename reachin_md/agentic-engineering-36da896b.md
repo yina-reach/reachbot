@@ -2,9 +2,12 @@
 title: Agentic Engineering
 source_url: https://app.notion.com/p/Agentic-Engineering-36da896bb9b68068971cdedbc6f37a42
 notion_id: 36da896b-b9b6-8068-971c-dedbc6f37a42
+category: Session Recordings
 ---
 
 # Agentic Engineering
+
+Reach Capital Session Recordings
 
 **Date:** 2026-02-27
 **Tags:** AI, engineering, product

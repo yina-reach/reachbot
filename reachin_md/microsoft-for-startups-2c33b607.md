@@ -2,9 +2,12 @@
 title: Microsoft for Startups
 source_url: https://app.notion.com/p/Microsoft-for-Startups-2c33b6072315410ab0cde6e08ffcfdff
 notion_id: 2c33b607-2315-410a-b0cd-e6e08ffcfdff
+category: Partner Access, Credits, Discounts
 ---
 
 # Microsoft for Startups
+
+Reach Capital Partner Access, Credits, Discounts
 
 **Link:** https://www.microsoft.com/en-us/startups
 **Reach point:** Tony Wan

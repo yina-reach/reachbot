@@ -2,9 +2,12 @@
 title: State of Healthcare Markets
 source_url: https://app.notion.com/p/State-of-Healthcare-Markets-352a896bb9b680da9c51fe4487f7ed52
 notion_id: 352a896b-b9b6-80da-9c51-fe4487f7ed52
+category: Session Recordings
 ---
 
 # State of Healthcare Markets
+
+Reach Capital Session Recordings
 
 **Date:** 2026-04-03
 **Tags:** market trends, health

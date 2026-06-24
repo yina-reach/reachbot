@@ -2,9 +2,12 @@
 title: Beyond Lean Startup to Building the Incorruptible Company
 source_url: https://app.notion.com/p/Beyond-Lean-Startup-to-Building-the-Incorruptible-Company-345a896bb9b68074aabec00b56d9ed58
 notion_id: 345a896b-b9b6-8074-aabe-c00b56d9ed58
+category: Session Recordings
 ---
 
 # Beyond Lean Startup to Building the Incorruptible Company
+
+Reach Capital Session Recordings
 
 **Date:** 2026-04-10
 **Tags:** leadership

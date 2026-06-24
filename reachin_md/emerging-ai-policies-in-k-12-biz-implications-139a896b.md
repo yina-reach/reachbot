@@ -2,9 +2,12 @@
 title: Emerging AI Policies in K-12 & Biz Implications
 source_url: https://app.notion.com/p/Emerging-AI-Policies-in-K-12-Biz-Implications-139a896bb9b6815ba73bcbc8cf187dc6
 notion_id: 139a896b-b9b6-815b-a73b-cbc8cf187dc6
+category: Session Recordings
 ---
 
 # Emerging AI Policies in K-12 & Biz Implications
+
+Reach Capital Session Recordings
 
 **Date:** 2024-04-05
 **Deck / slides:** https://docs.google.com/presentation/d/1ztE_M0bS_99zttc2K4HEYHq9F8O-T_C6cYEzveuEZaQ/edit#slide=id.g2c7bbd780a4_1_1219

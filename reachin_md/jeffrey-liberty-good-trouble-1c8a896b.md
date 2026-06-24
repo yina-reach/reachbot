@@ -2,9 +2,12 @@
 title: Jeffrey Liberty (Good Trouble)
 source_url: https://app.notion.com/p/Jeffrey-Liberty-Good-Trouble-1c8a896bb9b6804ea692fceb1046bd18
 notion_id: 1c8a896b-b9b6-804e-a692-fceb1046bd18
+category: Consultants & Coaches
 ---
 
 # Jeffrey Liberty (Good Trouble)
+
+Reach Capital Consultants & Coaches
 
 **NOTES:** Former VP of Partnerships at BetterLesson, principal and head of school. 20+ years in K-12 education, strong national network, 10+ years in high-growth Reach company. Lived in Brazil.
 **Website:** https://www.goodtroublesa.com/

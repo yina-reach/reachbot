@@ -2,9 +2,12 @@
 title: Awesomic
 source_url: https://app.notion.com/p/Awesomic-1f5a896bb9b6809e8841d1a5982ed4cd
 notion_id: 1f5a896b-b9b6-809e-8841-d1a5982ed4cd
+category: Consultants & Coaches
 ---
 
 # Awesomic
+
+Reach Capital Consultants & Coaches
 
 **NOTES:** Monthly subscription
 **REACH PORTFOLIO / EDTECH ENGAGEMENT:** Scout Edu

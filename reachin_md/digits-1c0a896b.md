@@ -2,9 +2,12 @@
 title: Digits
 source_url: https://app.notion.com/p/Digits-1c0a896bb9b6803dbe4bfd7c881bbaa5
 notion_id: 1c0a896b-b9b6-803d-be4b-fd7c881bbaa5
+category: Partner Access, Credits, Discounts
 ---
 
 # Digits
+
+Reach Capital Partner Access, Credits, Discounts
 
 **Link:** https://digits.com/partners/reach-capital/
 **Reach point:** Jackie Dao

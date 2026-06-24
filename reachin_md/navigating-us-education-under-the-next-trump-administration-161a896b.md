@@ -2,9 +2,12 @@
 title: Navigating US Education Under the Next Trump Administration
 source_url: https://app.notion.com/p/Navigating-US-Education-Under-the-Next-Trump-Administration-161a896bb9b680b2bbc5ef403d70e070
 notion_id: 161a896b-b9b6-80b2-bbc5-ef403d70e070
+category: Session Recordings
 ---
 
 # Navigating US Education Under the Next Trump Administration
+
+Reach Capital Session Recordings
 
 **Date:** 2024-12-09
 **Tags:** K-12, market trends, macro

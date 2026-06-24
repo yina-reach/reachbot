@@ -2,9 +2,12 @@
 title: Hiring Your Founding Account Executive
 source_url: https://app.notion.com/p/Hiring-Your-Founding-Account-Executive-36da896bb9b68098bcd0cabc8cacdd44
 notion_id: 36da896b-b9b6-8098-bcd0-cabc8cacdd44
+category: Session Recordings
 ---
 
 # Hiring Your Founding Account Executive
+
+Reach Capital Session Recordings
 
 **Date:** 2026-03-06
 **Deck / slides:** https://docsend.com/view/j4fxyxe3m9nz3c96

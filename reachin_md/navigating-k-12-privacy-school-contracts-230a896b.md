@@ -2,9 +2,12 @@
 title: Navigating K-12 Privacy & School Contracts
 source_url: https://app.notion.com/p/Navigating-K-12-Privacy-School-Contracts-230a896bb9b680a79711e8def4422b63
 notion_id: 230a896b-b9b6-80a7-9711-e8def4422b63
+category: Session Recordings
 ---
 
 # Navigating K-12 Privacy & School Contracts
+
+Reach Capital Session Recordings
 
 **Date:** 2025-07-11
 **Tags:** privacy, K-12

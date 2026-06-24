@@ -2,9 +2,12 @@
 title: Zendesk
 source_url: https://app.notion.com/p/Zendesk-3707cd8b04b34d07b50550c3c76106b5
 notion_id: 3707cd8b-04b3-4d07-b505-50c3c76106b5
+category: Partner Access, Credits, Discounts
 ---
 
 # Zendesk
+
+Reach Capital Partner Access, Credits, Discounts
 
 **Link:** https://www.zendesk.com/lp/vc-startup-partner/?ref=gen&partner_account=001PC000008ht7vYAA
 **Reach point:** Tony Wan

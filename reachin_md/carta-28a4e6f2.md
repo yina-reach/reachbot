@@ -2,9 +2,12 @@
 title: Carta
 source_url: https://app.notion.com/p/Carta-28a4e6f2da6f46ce8f5746e61cbb363e
 notion_id: 28a4e6f2-da6f-46ce-8f57-46e61cbb363e
+category: Partner Access, Credits, Discounts
 ---
 
 # Carta
+
+Reach Capital Partner Access, Credits, Discounts
 
 **Link:** https://carta.com/refer-company/portfolio/?utm_medium=email&utm_source=drip&utm_campaign=VC_Partner_Welcome&utm_content=EM01&mkt_tok=MjE0LUJURC0xMDMAAAGQI9cmOs0ZWISwfSmaYF4YNig9ZMdbfNOOc6mNRjmX-plLoIuCqCQy7BLmKvnDiDtHhXK6Z_3CTbKC0kkzE06pbcOE7CRjbBTcsZ8eaXM8Xwv2fhk
 **Reach point:** Tony Wan

@@ -2,9 +2,12 @@
 title: Startup Lessons from Leading ImagineK12 and Y Combinator
 source_url: https://app.notion.com/p/Startup-Lessons-from-Leading-ImagineK12-and-Y-Combinator-98bc8986b3be410fbf70face2e2d164b
 notion_id: 98bc8986-b3be-410f-bf70-face2e2d164b
+category: Session Recordings
 ---
 
 # Startup Lessons from Leading ImagineK12 and Y Combinator
+
+Reach Capital Session Recordings
 
 **Date:** 2024-01-19
 **Tags:** founder journey, growth, hiring, leadership

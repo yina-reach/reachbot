@@ -32,7 +32,21 @@ OVERLAP_WORDS = 60     # keep context across chunk boundaries
 
 def parse_md(path):
     """Return (metadata dict, body text) from a file with a YAML front-matter header."""
-    text = open(path, encoding="utf-8").read()
+    import time
+    text = None
+    for attempt in range(5):
+        try:
+            with open(path, encoding="utf-8") as f:
+                text = f.read()
+            break
+        except OSError as e:
+            # Transient filesystem stalls (e.g. Errno 60 timeout) — back off and retry
+            if attempt == 4:
+                print(f"  ! skipping {path} after read errors: {e}")
+                return {}, ""
+            time.sleep(2 * (attempt + 1))
+    if text is None:
+        return {}, ""
     meta = {}
     m = re.match(r"^---\n(.*?)\n---\n(.*)$", text, re.DOTALL)
     if m:
@@ -53,7 +67,7 @@ def chunk(words, size, overlap):
         i += size - overlap
 
 
-def embed_one(text, retries=6):
+def embed_one(text, retries=8):
     import time
     delay = 45
     for attempt in range(retries):
@@ -61,10 +75,17 @@ def embed_one(text, retries=6):
             r = _client.models.embed_content(model=EMBED_MODEL, contents=text)
             return r.embeddings[0].values
         except Exception as e:
-            if "429" in str(e) or "RESOURCE_EXHAUSTED" in str(e):
+            msg = str(e)
+            if "429" in msg or "RESOURCE_EXHAUSTED" in msg:
                 print(f"  rate limit — waiting {delay}s...")
                 time.sleep(delay)
                 delay = min(delay * 2, 120)
+            elif any(k in msg for k in ("RemoteProtocolError", "disconnected",
+                     "Connection", "timed out", "timeout", "503", "502", "500")):
+                # Transient network blip — short backoff and retry
+                wait = min(5 * (attempt + 1), 30)
+                print(f"  network blip ({type(e).__name__}) — retrying in {wait}s...")
+                time.sleep(wait)
             else:
                 raise
     raise RuntimeError(f"Failed to embed after {retries} retries")
@@ -90,11 +111,12 @@ def main():
         meta, body = parse_md(path)
         title = meta.get("title", os.path.basename(path))
         url = meta.get("source_url", "")
-        # Boost short advisor/consultant/contact profiles so they embed with context
-        notion_src = meta.get("notion_source", "") or url
-        is_profile = any(k in notion_src.lower() for k in ["advisor", "consultant", "coach", "contact", "scout"])
-        if is_profile and len(body.split()) < 100:
-            body = f"Reach Capital Network Profile\n\n{body}"
+        # Database rows carry a `category` (e.g. "Partner Access, Credits, Discounts").
+        # The export already prepends "Reach Capital <category>" to the body, but make
+        # sure short rows that slipped through still get that context for retrieval.
+        category = meta.get("category", "")
+        if category and "Reach Capital" not in body[:60] and len(body.split()) < 120:
+            body = f"Reach Capital {category}\n\n{body}"
         words = body.split()
         if not words:
             continue

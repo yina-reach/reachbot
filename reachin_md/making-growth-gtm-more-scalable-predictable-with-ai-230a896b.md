@@ -2,9 +2,12 @@
 title: Making Growth& GTM More Scalable, Predictable with AI 
 source_url: https://app.notion.com/p/Making-Growth-GTM-More-Scalable-Predictable-with-AI-230a896bb9b680bb86edf91605218073
 notion_id: 230a896b-b9b6-80bb-86ed-f91605218073
+category: Session Recordings
 ---
 
 # Making Growth& GTM More Scalable, Predictable with AI 
+
+Reach Capital Session Recordings
 
 **Date:** 2025-06-27
 **Tags:** AI, growth

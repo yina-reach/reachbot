@@ -2,9 +2,12 @@
 title: AI & Replit’s Journey
 source_url: https://app.notion.com/p/AI-Replit-s-Journey-b17a4b28558641f9ba14c1b8ae558396
 notion_id: b17a4b28-5586-41f9-ba14-c1b8ae558396
+category: Session Recordings
 ---
 
 # AI & Replit’s Journey
+
+Reach Capital Session Recordings
 
 **Date:** 2023-08-11
 **Tags:** AI, founder journey

@@ -2,9 +2,12 @@
 title: ElevenLabs
 source_url: https://app.notion.com/p/ElevenLabs-1faa896bb9b68088b72fe584cced536b
 notion_id: 1faa896b-b9b6-8088-b72f-e584cced536b
+category: Partner Access, Credits, Discounts
 ---
 
 # ElevenLabs
+
+Reach Capital Partner Access, Credits, Discounts
 
 **Link:** https://elevenlabs.io/startup-grants
 **Reach point:** Tony Wan

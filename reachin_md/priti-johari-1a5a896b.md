@@ -2,9 +2,12 @@
 title: Priti Johari
 source_url: https://app.notion.com/p/Priti-Johari-1a5a896bb9b680209362dbda0f321666
 notion_id: 1a5a896b-b9b6-8020-9362-dbda0f321666
+category: Reach Advisors
 ---
 
 # Priti Johari
+
+Reach Capital Reach Advisors
 
 **Current Title:** Executive Director of Learning and Innovation at Milpitas Unified School District
 **LinkedIn:** https://www.linkedin.com/in/priti-johari-5415496/

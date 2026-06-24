@@ -2,9 +2,12 @@
 title: Job Moves: Building a Team That Hires You for the Job
 source_url: https://app.notion.com/p/Job-Moves-Building-a-Team-That-Hires-You-for-the-Job-176a896bb9b6816d8edfeb10700a87e8
 notion_id: 176a896b-b9b6-816d-8edf-eb10700a87e8
+category: Session Recordings
 ---
 
 # Job Moves: Building a Team That Hires You for the Job
+
+Reach Capital Session Recordings
 
 **Date:** 2025-01-08
 **Tags:** hiring, leadership, culture

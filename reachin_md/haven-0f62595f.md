@@ -2,9 +2,12 @@
 title: Haven
 source_url: https://app.notion.com/p/Haven-0f62595fb4dd4051ae9f6d4b618f694c
 notion_id: 0f62595f-b4dd-4051-ae9f-6d4b618f694c
+category: Partner Access, Credits, Discounts
 ---
 
 # Haven
+
+Reach Capital Partner Access, Credits, Discounts
 
 **Link:** https://usehaven.co/
 **Reach point:** Tony Wan

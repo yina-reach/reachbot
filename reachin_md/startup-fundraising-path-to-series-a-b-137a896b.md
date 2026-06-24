@@ -2,9 +2,12 @@
 title: Startup Fundraising: Path to Series A & B
 source_url: https://app.notion.com/p/Startup-Fundraising-Path-to-Series-A-B-137a896bb9b6809281aff2bef1bf9c34
 notion_id: 137a896b-b9b6-8092-81af-f2bef1bf9c34
+category: Session Recordings
 ---
 
 # Startup Fundraising: Path to Series A & B
+
+Reach Capital Session Recordings
 
 **Date:** 2024-10-18
 **Tags:** market trends, fundraising

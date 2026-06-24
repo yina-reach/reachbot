@@ -2,9 +2,12 @@
 title: Edtech Conferences - Tips and Strategies
 source_url: https://app.notion.com/p/Edtech-Conferences-Tips-and-Strategies-d29d7163083b466d84001ed6fe786563
 notion_id: d29d7163-083b-466d-8400-1ed6fe786563
+category: Session Recordings
 ---
 
 # Edtech Conferences - Tips and Strategies
+
+Reach Capital Session Recordings
 
 **Date:** 2024-01-12
 **Tags:** marketing, community

@@ -2,9 +2,12 @@
 title: Vercel
 source_url: https://app.notion.com/p/Vercel-254a896bb9b680229811c76fbbfe457b
 notion_id: 254a896b-b9b6-8022-9811-c76fbbfe457b
+category: Partner Access, Credits, Discounts
 ---
 
 # Vercel
+
+Reach Capital Partner Access, Credits, Discounts
 
 **Link:** https://vercel.com/startups/credits
 **Reach point:** Tony Wan

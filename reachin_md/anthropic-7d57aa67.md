@@ -2,9 +2,12 @@
 title: Anthropic
 source_url: https://app.notion.com/p/Anthropic-7d57aa67848642ca89d56ba6d903ce81
 notion_id: 7d57aa67-8486-42ca-89d5-6ba6d903ce81
+category: Partner Access, Credits, Discounts
 ---
 
 # Anthropic
+
+Reach Capital Partner Access, Credits, Discounts
 
 **Link:** https://claude.com/offers?offer_code=56835a6b-abe5-49a9-a979-0143b30c3da0
 **Reach point:** Tony Wan

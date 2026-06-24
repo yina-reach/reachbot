@@ -2,9 +2,12 @@
 title: Managing Your Startup Board (Blog Series)
 source_url: https://app.notion.com/p/Managing-Your-Startup-Board-Blog-Series-3713077c766e4a34bb1ea61127e5a42b
 notion_id: 3713077c-766e-4a34-bb1e-a61127e5a42b
+category: Library Database
 ---
 
 # Managing Your Startup Board (Blog Series)
+
+Reach Capital Library Database
 
 **Source:** Mark Suster
 **Format:** Blog, Slide Deck

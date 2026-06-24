@@ -2,9 +2,12 @@
 title: The State of K-12 Cybersecurity
 source_url: https://app.notion.com/p/The-State-of-K-12-Cybersecurity-3c8884ec2e604dd0a29277114e2a0893
 notion_id: 3c8884ec-2e60-4dd0-a292-77114e2a0893
+category: Session Recordings
 ---
 
 # The State of K-12 Cybersecurity
+
+Reach Capital Session Recordings
 
 **Date:** 2023-07-14
 **Tags:** cybersecurity

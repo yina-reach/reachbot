@@ -2,9 +2,12 @@
 title: The Beauty of Amazon’s 6-Pager and Memo Writing Culture
 source_url: https://app.notion.com/p/The-Beauty-of-Amazon-s-6-Pager-and-Memo-Writing-Culture-625d5472ad8e4627a25754a1dd401815
 notion_id: 625d5472-ad8e-4627-a257-54a1dd401815
+category: Library Database
 ---
 
 # The Beauty of Amazon’s 6-Pager and Memo Writing Culture
+
+Reach Capital Library Database
 
 **Source:** Brad Porter
 **Format:** Blog

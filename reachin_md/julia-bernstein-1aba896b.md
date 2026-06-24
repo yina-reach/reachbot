@@ -2,9 +2,12 @@
 title: Julia Bernstein
 source_url: https://app.notion.com/p/Julia-Bernstein-1aba896bb9b680249dd0dffa9af0bec6
 notion_id: 1aba896b-b9b6-8024-9dd0-dffa9af0bec6
+category: Reach Advisors
 ---
 
 # Julia Bernstein
+
+Reach Capital Reach Advisors
 
 **Current Title:** Chief Operations Officer, Brightside Health
 **LinkedIn:** https://www.linkedin.com/in/jfbernstein/

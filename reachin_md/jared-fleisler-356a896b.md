@@ -2,9 +2,12 @@
 title: Jared Fleisler
 source_url: https://app.notion.com/p/Jared-Fleisler-356a896bb9b680eda5abe46ba1e90fdd
 notion_id: 356a896b-b9b6-80ed-a5ab-e46ba1e90fdd
+category: Consultants & Coaches
 ---
 
 # Jared Fleisler
+
+Reach Capital Consultants & Coaches
 
 **NOTES:** [Did an AMA in 2025 on Firing Fast with Confidence & Clarity](/31cf4bcab7864aaea4b00abe2c85c966?p=1e1a896bb9b680c39d0ed769c670d1b7&pm=c)
 **REACH PORTFOLIO / EDTECH ENGAGEMENT:** Recommended by Springboard CEO Gautam Tambay

@@ -2,9 +2,12 @@
 title: K-12 Advisors Roundtable, Rd. 2 (AI, Election)
 source_url: https://app.notion.com/p/K-12-Advisors-Roundtable-Rd-2-AI-Election-149a896bb9b6819e94cbdb69b4756ed3
 notion_id: 149a896b-b9b6-819e-94cb-db69b4756ed3
+category: Session Recordings
 ---
 
 # K-12 Advisors Roundtable, Rd. 2 (AI, Election)
+
+Reach Capital Session Recordings
 
 **Date:** 2024-11-22
 **Tags:** K-12, AI, market trends

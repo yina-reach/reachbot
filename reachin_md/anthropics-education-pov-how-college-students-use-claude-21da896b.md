@@ -2,9 +2,12 @@
 title: Anthropic’s Education POV & How College Students Use Claude
 source_url: https://app.notion.com/p/Anthropic-s-Education-POV-How-College-Students-Use-Claude-21da896bb9b680b38eb2f288b427c6a7
 notion_id: 21da896b-b9b6-80b3-8eb2-f288b427c6a7
+category: Session Recordings
 ---
 
 # Anthropic’s Education POV & How College Students Use Claude
+
+Reach Capital Session Recordings
 
 **Date:** 2025-05-02
 **Tags:** AI, higher education

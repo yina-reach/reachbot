@@ -2,9 +2,12 @@
 title: Media & Press GTM
 source_url: https://app.notion.com/p/Media-Press-GTM-a87bf9bd1b824a57b921b31c76b9be17
 notion_id: a87bf9bd-1b82-4a57-b921-b31c76b9be17
+category: Session Recordings
 ---
 
 # Media & Press GTM
+
+Reach Capital Session Recordings
 
 **Date:** 2023-12-15
 **Tags:** PR

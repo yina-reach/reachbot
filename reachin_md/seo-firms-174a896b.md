@@ -2,9 +2,12 @@
 title: SEO Firms
 source_url: https://app.notion.com/p/SEO-Firms-174a896bb9b680da88c7d33f30e63bb5
 notion_id: 174a896b-b9b6-80da-88c7-d33f30e63bb5
+category: Library Database
 ---
 
 # SEO Firms
+
+Reach Capital Library Database
 
 **Source:** Reach
 **Format:** Website

@@ -2,9 +2,12 @@
 title: K-12 Federal Funding Analysis (2020)
 source_url: https://app.notion.com/p/K-12-Federal-Funding-Analysis-2020-de2eacd4e9d24abaa1b8fd34e7fa09de
 notion_id: de2eacd4-e9d2-4aba-a1b8-fd34e7fa09de
+category: Library Database
 ---
 
 # K-12 Federal Funding Analysis (2020)
+
+Reach Capital Library Database
 
 **Source:** RedRock Reports, Reach
 **Format:** Report

@@ -2,9 +2,12 @@
 title: Pricing
 source_url: https://app.notion.com/p/Pricing-f5d8531de3274ee9baed1a74fb2db810
 notion_id: f5d8531d-e327-4ee9-baed-1a74fb2db810
+category: Session Recordings
 ---
 
 # Pricing
+
+Reach Capital Session Recordings
 
 **Date:** 2021-10-15
 **Tags:** product, sales, pricing

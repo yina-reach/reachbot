@@ -2,9 +2,12 @@
 title: Post-ESSER K-12 Funding Landscape
 source_url: https://app.notion.com/p/Post-ESSER-K-12-Funding-Landscape-2402985ffd2f42ef98ff95a4d909a0f7
 notion_id: 2402985f-fd2f-42ef-98ff-95a4d909a0f7
+category: Session Recordings
 ---
 
 # Post-ESSER K-12 Funding Landscape
+
+Reach Capital Session Recordings
 
 **Date:** 2023-09-15
 **Tags:** market trends, K-12

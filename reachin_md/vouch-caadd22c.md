@@ -2,9 +2,12 @@
 title: Vouch
 source_url: https://app.notion.com/p/Vouch-caadd22c2ac943e0b94736095f88ac76
 notion_id: caadd22c-2ac9-43e0-b947-36095f88ac76
+category: Partner Access, Credits, Discounts
 ---
 
 # Vouch
+
+Reach Capital Partner Access, Credits, Discounts
 
 **Link:** https://www.vouch.us/venture/reachcapital
 **Reach point:** Joshua Lesko

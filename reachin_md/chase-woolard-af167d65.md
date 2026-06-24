@@ -2,9 +2,12 @@
 title: Chase Woolard
 source_url: https://app.notion.com/p/Chase-Woolard-af167d65092645ad8d438504fe3ecc38
 notion_id: af167d65-0926-45ad-8d43-8504fe3ecc38
+category: Consultants & Coaches
 ---
 
 # Chase Woolard
+
+Reach Capital Consultants & Coaches
 
 **NOTES:** - Work on an hourly basis (~100/hr) vs. % of comp and price includes all of the tools, cap of 12 hours/week per search
 - It generally takes 9-12 weeks to make the hires, only do full time roles, will see 2 candidates a week on average

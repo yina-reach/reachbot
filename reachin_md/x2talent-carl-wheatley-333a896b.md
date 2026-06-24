@@ -2,9 +2,12 @@
 title: X2Talent / Carl Wheatley 
 source_url: https://app.notion.com/p/X2Talent-Carl-Wheatley-333a896bb9b68077a45ce550f7b25791
 notion_id: 333a896b-b9b6-8077-a45c-e550f7b25791
+category: Consultants & Coaches
 ---
 
 # X2Talent / Carl Wheatley 
+
+Reach Capital Consultants & Coaches
 
 **NOTES:** Carl and Jeremy, two designers themselves, have placed hundreds of designers across Meta, BCG Digital Ventures, and various fast-growing startups. Whether a founder is making their very first hire or building out their design org, X2Talent helps teams navigate the complexities of design hiring.
 **Website:** https://x2talent.com/

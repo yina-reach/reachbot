@@ -22,6 +22,7 @@ Output:
 This is the script the weekly scrape runs. For now, run it by hand to test the pull.
 """
 
+import json
 import os
 import sys
 import time
@@ -170,32 +171,59 @@ def extract_properties(page):
     return "\n".join(lines)
 
 
-def export_page(page):
+def export_page(page, category=None):
     title = page_title(page)
     url = page.get("url", "")
     props_text = extract_properties(page)
     body = render_page(page["id"])
     # Combine properties + body; skip if truly empty
     full_body = ""
+    # Tag database rows with their source category so retrieval matches queries
+    # like "what credits are available" or "who are the media contacts".
+    if category:
+        full_body += f"Reach Capital {category}\n\n"
     if props_text:
         full_body += props_text + "\n\n"
     if body.strip():
         full_body += body
-    header = f"---\ntitle: {title}\nsource_url: {url}\nnotion_id: {page['id']}\n---\n\n"
+    cat_meta = f"category: {category}\n" if category else ""
+    header = f"---\ntitle: {title}\nsource_url: {url}\nnotion_id: {page['id']}\n{cat_meta}---\n\n"
     fname = OUT / f"{slugify(title)[:80] or 'untitled'}-{page['id'][:8]}.md"
     fname.write_text(header + f"# {title}\n\n{full_body}", encoding="utf-8")
     return fname
 
 
-def export_database(db):
+def export_database(db, category=None):
     """Export all rows of a Notion database as individual markdown files."""
-    db_id = db["id"]
+    import urllib.request as _ur
+    # data_source objects have their own id; the real database id is in parent.database_id
+    parent = db.get("parent", {})
+    db_id = parent.get("database_id") or db["id"]
+    headers = {
+        "Authorization": f"Bearer {TOKEN}",
+        "Notion-Version": "2022-06-28",
+        "Content-Type": "application/json",
+    }
     count, cursor = 0, None
     while True:
-        resp = notion.databases.query(database_id=db_id, start_cursor=cursor, page_size=100)
+        body = {"page_size": 100}
+        if cursor:
+            body["start_cursor"] = cursor
+        req = _ur.Request(
+            f"https://api.notion.com/v1/databases/{db_id}/query",
+            data=json.dumps(body).encode(),
+            headers=headers,
+            method="POST",
+        )
+        try:
+            with _ur.urlopen(req, timeout=30) as r:
+                resp = json.loads(r.read())
+        except Exception as e:
+            print(f"    ! query failed: {e}")
+            return count
         for page in resp["results"]:
             try:
-                export_page(page)
+                export_page(page, category=category)
                 count += 1
             except Exception as e:
                 print(f"  ! skipped row {page.get('id')}: {e}")
@@ -244,7 +272,7 @@ def main():
         for db in resp["results"]:
             db_title = "".join(t["plain_text"] for t in db.get("title", [])) or db["id"]
             print(f"  DB: {db_title}")
-            n = export_database(db)
+            n = export_database(db, category=db_title)
             count += n
             print(f"    → {n} rows")
         if not resp.get("has_more"):
