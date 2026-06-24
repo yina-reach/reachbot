@@ -540,6 +540,12 @@ RULES:
   You may mention the AMA exists and link to it, but do not summarize it.
 - ALWAYS format every link as markdown: [Descriptive Title](https://url.here)
   Never output a bare URL — always wrap it in [text](url) format.
+- When you name a specific person or entity that came from the network — an advisor,
+  consultant, coach, scout, media contact, or partner/credit — hyperlink their NAME to
+  their Notion source_url the FIRST time you mention them in the answer body, e.g.
+  "[Myerhoff Consulting](https://www.notion.so/...) — sales strategy, fractional CRO".
+  These profile pages ARE valid sources; every named profile must be clickable, not just
+  the articles and recordings.
 - For deck/slide links: prefer linking to the Notion page (source_url) rather than raw S3/PDF URLs,
   which expire. You may mention "includes slides" or "includes deck" in the description.
   Only use a direct PDF/S3 URL if no Notion page URL is available.
