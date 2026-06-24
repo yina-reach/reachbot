@@ -90,6 +90,11 @@ def main():
         meta, body = parse_md(path)
         title = meta.get("title", os.path.basename(path))
         url = meta.get("source_url", "")
+        # Boost short advisor/consultant/contact profiles so they embed with context
+        notion_src = meta.get("notion_source", "") or url
+        is_profile = any(k in notion_src.lower() for k in ["advisor", "consultant", "coach", "contact", "scout"])
+        if is_profile and len(body.split()) < 100:
+            body = f"Reach Capital Network Profile\n\n{body}"
         words = body.split()
         if not words:
             continue

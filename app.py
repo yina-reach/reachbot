@@ -7,7 +7,7 @@ from google import genai
 
 EMBED_MODEL = "gemini-embedding-001"
 CHAT_MODEL  = "gemini-2.5-flash"
-TOP_K       = 12
+TOP_K       = 25
 
 def _secret(key, default=""):
     try:
@@ -531,6 +531,7 @@ Answer exclusively from the ReachIn context provided. Never fabricate facts or l
 
 CONTEXT FORMAT: Each block starts with [Title](NotionURL) then the page content.
 The content may contain **Link:** or **Files & media:** fields with direct resource URLs.
+The context may include Reach Capital Network Profiles for advisors, consultants, scouts, and media contacts — use these to answer questions about who is in the Reach network.
 
 RULES:
 - Only cite a source if it contains substantive information relevant to the question.
