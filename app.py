@@ -501,18 +501,43 @@ def load_index():
     d = np.load("index.npz", allow_pickle=True)
     v = d["vectors"].astype(np.float32)
     v /= (np.linalg.norm(v, axis=1, keepdims=True) + 1e-9)
-    return v, d["chunks"], d["titles"], d["urls"]
+    cats = d["categories"] if "categories" in d.files \
+        else np.array([""] * len(d["chunks"]), dtype=object)
+    return v, d["chunks"], d["titles"], d["urls"], cats
 
 MIN_BODY_CHARS = 120  # skip pure nav stubs / empty pages
 
-def retrieve(query, vectors, chunks, titles, urls):
+# Perk/discount/partnership questions should answer ONLY from the partner-deals
+# page, not pull in tangential pages. Detect intent + restrict the candidate pool.
+PERK_CATEGORY = "Partner Access, Credits, Discounts"
+PERK_KEYWORDS = (
+    "discount", "credit", "perk", "coupon", "promo", "voucher", "redeem",
+    "% off", "percent off", "free month", "free trial", "partner offer",
+    "partner deal", "partner discount", "partnership offer", "exclusive deal",
+)
+
+def _is_perk_query(q):
+    ql = q.lower()
+    return any(k in ql for k in PERK_KEYWORDS)
+
+def retrieve(query, vectors, chunks, titles, urls, categories):
     r = _client.models.embed_content(model=EMBED_MODEL, contents=query)
     q = np.array(r.embeddings[0].values, dtype=np.float32)
     q /= (np.linalg.norm(q) + 1e-9)
     scores = vectors @ q
+
+    # For perk/discount/partnership queries, only consider partner-deal chunks.
+    perk = _is_perk_query(query)
+    def allowed(i):
+        if not perk:
+            return True
+        return categories[i] == PERK_CATEGORY or PERK_CATEGORY.lower() in str(chunks[i]).lower()
+
     # Walk candidates in score order, skip thin/empty chunks
     results = []
     for i in np.argsort(-scores):
+        if not allowed(i):
+            continue
         raw = chunks[i].strip()
         # Strip the title line(s) — real body is everything after the first heading
         body_lines = [l for l in raw.split('\n')[1:] if l.strip()]
@@ -613,7 +638,7 @@ def md_to_html(md):
             out.append(f'<p>{p}</p>')
     return '\n'.join(out)
 
-vectors, chunks, titles, urls = load_index()
+vectors, chunks, titles, urls, categories = load_index()
 
 # ── Nav ────────────────────────────────────────────────────────────────────────
 st.markdown("""
@@ -733,7 +758,7 @@ if prompt:
   </div>
 </div>""", unsafe_allow_html=True)
 
-    hits    = retrieve(prompt, vectors, chunks, titles, urls)
+    hits    = retrieve(prompt, vectors, chunks, titles, urls, categories)
     context = "\n\n---\n\n".join(f"[{t}]({u})\n{c}" for c, t, u in hits)
     answer  = generate(context, prompt)
     ph.empty()

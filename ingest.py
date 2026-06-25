@@ -50,10 +50,16 @@ def parse_md(path):
     meta = {}
     m = re.match(r"^---\n(.*?)\n---\n(.*)$", text, re.DOTALL)
     if m:
-        try:
-            meta = yaml.safe_load(m.group(1)) or {}
-        except Exception:
-            meta = {}
+        # Parse the header as simple `key: value` lines, splitting on the FIRST
+        # ": " only. yaml.safe_load breaks on titles that contain a colon
+        # (e.g. "Startup Fundraising: Path to Series A & B"), which silently
+        # dropped the title + source_url and leaked the .md filename as a title.
+        for line in m.group(1).split("\n"):
+            if ": " in line:
+                k, v = line.split(": ", 1)
+                meta[k.strip()] = v.strip()
+            elif line.rstrip().endswith(":"):
+                meta[line.rstrip()[:-1].strip()] = ""
         body = m.group(2)
     else:
         body = text
@@ -109,8 +115,16 @@ def main():
     chunks, metas = [], []
     for path in files:
         meta, body = parse_md(path)
-        title = meta.get("title", os.path.basename(path))
-        url = meta.get("source_url", "")
+        title = (meta.get("title") or "").strip()
+        url = (meta.get("source_url") or "").strip()
+        # External articles store the URL as their title; use the real page title
+        # (notion_source) instead, and never fall back to a raw .md filename.
+        if not title or title.startswith("http"):
+            title = (meta.get("notion_source") or "").strip()
+        if not title:
+            # Last resort: humanize the filename (drop id suffix + extension)
+            base = re.sub(r"-[0-9a-f]{8}\.md$", "", os.path.basename(path))
+            title = re.sub(r"\.md$", "", base).replace("-", " ").strip().title()
         # Database rows carry a `category` (e.g. "Partner Access, Credits, Discounts").
         # The export already prepends "Reach Capital <category>" to the body, but make
         # sure short rows that slipped through still get that context for retrieval.
@@ -122,7 +136,7 @@ def main():
             continue
         for c in chunk(words, CHUNK_WORDS, OVERLAP_WORDS):
             chunks.append(f"{title}\n\n{c}")
-            metas.append({"title": title, "url": url})
+            metas.append({"title": title, "url": url, "category": category})
 
     print(f"{len(chunks)} chunks from {len(files)} files. Embedding...")
     vectors = []
@@ -147,6 +161,7 @@ def main():
         chunks=np.array(chunks, dtype=object),
         titles=np.array([m["title"] for m in metas], dtype=object),
         urls=np.array([m["url"] for m in metas], dtype=object),
+        categories=np.array([m.get("category", "") for m in metas], dtype=object),
     )
     print(f"Wrote index.npz ({arr.shape[0]} chunks, dim {arr.shape[1]}).")
 
