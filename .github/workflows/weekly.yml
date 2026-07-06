@@ -35,9 +35,15 @@ jobs:
 
       # ── Step 1b: Fetch external links from Notion pages ──────────────────
       - name: Fetch external article links
+        # Nice-to-have enrichment — never let a scrape failure block the index rebuild.
+        continue-on-error: true
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
-        run: python fetch_external_links.py
+        # trafilatura is a scraper-only dep, kept out of requirements.txt because
+        # it breaks the Streamlit Cloud build; install it just for this step.
+        run: |
+          pip install trafilatura
+          python fetch_external_links.py
 
       # ── Step 2: Pull new Zoom transcripts (if API creds are configured) ───
       - name: Pull Zoom transcripts
