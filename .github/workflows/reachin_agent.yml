@@ -9,8 +9,8 @@ name: ReachIn Connect Agent
 
 on:
   workflow_dispatch:
-  # schedule:
-  #   - cron: '*/15 * * * *'   # every 15 minutes
+  schedule:
+    - cron: '0 * * * *'   # every hour (safe on free-tier Actions minutes)
 
 jobs:
   poll:
