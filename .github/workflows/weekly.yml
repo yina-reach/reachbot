@@ -82,5 +82,11 @@ jobs:
             echo "Nothing changed — index is up to date."
           else
             git commit -m "chore: weekly index refresh $(date -u +%Y-%m-%d)"
-            git push
+            # Integrate any commits pushed to main while this ~30-min job ran,
+            # then push. Retry to survive a race with a concurrent push.
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push && exit 0
+              echo "push race — retrying ($i)"; sleep 5
+            done
+            echo "push failed after retries"; exit 1
           fi
