@@ -115,11 +115,10 @@ emails Tony a proposal → Tony replies `APPROVE` / `REJECT` / `USE: <db>` / `ED
 - `python email_agent.py --classify <url|file.pdf>` — test the brain, no email/write
 - `python email_agent.py --poll` — one full intake+approval cycle
 
-**To deploy (currently NOT live):**
-1. Add the 5 secrets (§3) to GitHub Actions.
-2. Test: Actions → "ReachIn Connect Agent" → Run workflow (after emailing a test item).
-3. Enable the schedule: uncomment the `schedule:` block in `reachin_agent.yml`
-   (recommend every 30–60 min — repo is private so Actions minutes count).
+**Deployment status: LIVE.** Secrets are set and `reachin_agent.yml` runs on an
+**hourly** cron (`0 * * * *`). Kept at 60 min so Actions minutes stay within the
+free tier alongside the weekly rebuild; tighten the cron if you upgrade the plan.
+To pause it, comment the `schedule:` block back out.
 
 **Safety:** only `@reachcapital.com` senders are treated as submissions; only Tony's
 replies can write to Notion; invalid select/multi-select values are dropped.
