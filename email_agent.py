@@ -483,7 +483,9 @@ def cmd_poll(verbose=True):
             log("  ✓ rejection handled")
 
     # ── 2) New submissions: inbox mail not yet proposed ─────────────────────
-    q = (f"-from:{me} -from:{tony} -label:{L_PENDING} -label:{L_FILED} "
+    # Don't exclude Tony here — he may submit too. Approvals are distinguished
+    # from submissions below by the In-Reply-To check, not by sender.
+    q = (f"-from:{me} -label:{L_PENDING} -label:{L_FILED} "
          f"-label:{L_REJECTED} -label:{L_DONE} -label:{L_IGNORED}")
     for uid in search_raw(M, q):
         msg = fetch_msg(M, uid)
