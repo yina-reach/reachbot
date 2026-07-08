@@ -18,8 +18,7 @@ refreshes the bot.
   `index.npz` once; serves `/chat` (SSE), `/health`, `/login`. Deploys to Fly.io. See `backend/README.md`.
 - `frontend/`          — **Next.js + shadcn/ui** React chat UI. Talks only to its own
   `/api/*` proxy routes → FastAPI. Deploys to Vercel. See `frontend/README.md`.
-- `app.py`             — **DEPRECATED** Streamlit UI, kept only until the React app is live in
-  production; then delete it and drop `streamlit` from `requirements.txt`.
+  (The old single-file Streamlit `app.py` was removed once the React app went live in prod.)
 - `.github/workflows/weekly.yml` — Monday cron: re-runs the ingest pipeline, commits the new
   `index.npz`, then `flyctl deploy`s the backend so it reloads the index.
 

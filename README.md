@@ -1,60 +1,57 @@
 # ReachBot
 
-A free/near-free AI assistant over Reach Capital's ReachIn resources. Founders ask
-questions in plain language; ReachBot answers from the ReachIn content and links the
-primary source (Notion page, AMA recording, etc.). Reach only ever updates Notion —
-ReachBot re-scrapes weekly on its own.
+An AI assistant over Reach Capital's ReachIn resources. Founders ask questions in
+plain language; ReachBot answers from the ReachIn content and links the primary source
+(Notion page, AMA recording, etc.). Reach only ever updates Notion — ReachBot re-scrapes
+weekly on its own.
 
-**Cost:** hosting is free; the only spend is the Gemini API key, ~$0–2/month.
+**Cost:** frontend hosting is free (Vercel); the backend runs a few dollars/month on
+Fly.io (scale-to-zero); plus the Gemini API key (~$0–2/month).
 
 ## Stack
+
+**Ingest pipeline** (produces the vector index):
 - `reachin_export.py` — pulls all ReachIn Notion pages to `reachin_md/` (markdown + source links)
+- `zoom_transcripts.py` — pulls AMA Zoom transcripts to `transcripts/`
 - `ingest.py` — chunks + embeds the content into `index.npz` (Gemini embeddings)
-- `app.py` — Streamlit chat UI, answers with Gemini Flash + citations
-- `.github/workflows/weekly.yml` — re-runs the export + re-embed every Monday (free GitHub Actions cron)
+
+**App** (two services):
+- `backend/` — **FastAPI** RAG service. Loads `index.npz`, retrieves, and streams the
+  Gemini answer as SSE. Deploys to Fly.io. See [`backend/README.md`](backend/README.md).
+- `frontend/` — **Next.js + shadcn/ui** chat UI. Talks only to its own `/api/*` proxy
+  routes → the backend. Deploys to Vercel. See [`frontend/README.md`](frontend/README.md).
+
+**Automation:**
+- `.github/workflows/weekly.yml` — re-runs the export + re-embed every Monday (GitHub
+  Actions cron), commits the new `index.npz`, and redeploys the backend.
 
 ## One-time setup
 1. **Notion integration:** create one at https://www.notion.so/my-integrations, copy
    the secret, and add it to the ReachIn top page (Connections menu).
-2. **Gemini API key:** https://aistudio.google.com/apikey (separate from any Gemini
-   subscription — this is pay-as-you-go, but cents-scale for this use).
-3. **Run locally to test:**
+2. **Gemini API key:** https://aistudio.google.com/apikey (pay-as-you-go, cents-scale).
+3. **Build the index locally:**
    ```
    pip install -r requirements.txt
-   export NOTION_TOKEN="secret_..."
+   export NOTION_TOKEN="ntn_..."
    export GEMINI_API_KEY="..."
    python reachin_export.py     # -> reachin_md/
+   python zoom_transcripts.py   # -> transcripts/  (optional; skip if no Zoom creds)
    python ingest.py             # -> index.npz
-   streamlit run app.py         # opens the chat locally
    ```
-4. **Add AMA transcripts** (optional but high value): put each transcript as a
-   markdown file in `transcripts/` with a header:
-   ```
-   ---
-   title: AMA with <speaker> — <topic>
-   source_url: <link to the Zoom recording>
-   ---
-   <transcript text>
-   ```
-   Re-run `ingest.py`.
+4. **Run the app locally** (two processes):
+   - Backend: `cd backend && python3 -m venv .venv && . .venv/bin/activate && pip install -r requirements.txt && INDEX_PATH=../index.npz uvicorn main:app --port 8000`
+   - Frontend: `cd frontend && npm install && npm run dev` (needs `.env.local` → `BACKEND_URL=http://127.0.0.1:8000`)
 
-## Deploy free (so founders can use it)
-1. Push this folder to a private GitHub repo.
-2. Go to https://share.streamlit.io, connect the repo, point it at `app.py`.
-3. In the app's **Secrets**, add:
-   ```
-   GEMINI_API_KEY = "..."
-   ACCESS_PASSWORD = "reachfounders"   # optional, keeps it Reach-only
-   ```
-4. You get a public URL to share with founders. Set a password if you want it gated.
+## Deploy
+- **Backend → Fly.io:** `fly deploy` from the repo root (see [`backend/README.md`](backend/README.md)).
+  Secrets via `fly secrets set`: `GEMINI_API_KEY`, `ACCESS_PASSWORD`, `SESSION_SECRET`, `ALLOWED_ORIGIN`.
+- **Frontend → Vercel:** deploy `frontend/` with `BACKEND_URL` set to the Fly URL.
 
 ## Automatic weekly refresh
-In the GitHub repo settings → Secrets → Actions, add `NOTION_TOKEN` and
-`GEMINI_API_KEY`. The workflow re-exports Notion, rebuilds the index, and commits it
-every Monday; Streamlit redeploys automatically. You can also trigger it by hand from
-the Actions tab.
+In GitHub repo settings → Secrets → Actions, add `NOTION_TOKEN`, `GEMINI_API_KEY`, and
+`FLY_API_TOKEN`. The workflow re-exports Notion, rebuilds the index, commits it, and
+redeploys the backend every Monday. You can also trigger it by hand from the Actions tab.
 
 ## Swapping the model
-`CHAT_MODEL` in `app.py` is the only thing to change to use a different/cheaper/
-stronger model. Embeddings model is `EMBED_MODEL` in both `ingest.py` and `app.py`
-(keep them matched).
+`CHAT_MODEL` in `backend/rag.py` is the only thing to change to use a different model.
+The embeddings model is `EMBED_MODEL` in both `ingest.py` and `backend/rag.py` (keep them matched).

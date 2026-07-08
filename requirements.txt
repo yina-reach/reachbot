@@ -1,4 +1,5 @@
-streamlit
+# Ingest pipeline deps (reachin_export.py, zoom_transcripts.py, ingest.py).
+# The app itself moved to frontend/ (Next.js) + backend/ (FastAPI, own requirements).
 google-genai
 numpy
 pyyaml
