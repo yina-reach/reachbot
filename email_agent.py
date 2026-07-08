@@ -308,8 +308,23 @@ def proposal_email(source, proposal):
     )
 
 def parse_proposal_blob(text):
-    m = re.search(r"@@PROPOSAL@@\s*(\{.*\})", text, re.S)
-    return json.loads(m.group(1)) if m else None
+    """Recover the embedded proposal JSON. Tolerant of email clients that wrap the
+    single-line blob and add '>' quote prefixes when replying/forwarding, and never
+    raises — returns None if it can't parse (the thread-lookup fallback then runs)."""
+    i = text.find("@@PROPOSAL@@")
+    if i == -1:
+        return None
+    tail = text[i + len("@@PROPOSAL@@"):]
+    tail = re.sub(r"(?m)^[>\s]+", "", tail)   # strip quote prefixes / leading ws per line
+    j = tail.find("{")
+    if j == -1:
+        return None
+    for candidate in (tail[j:], tail[j:].replace("\n", " ")):
+        try:
+            return json.JSONDecoder().raw_decode(candidate)[0]  # first object, ignore trailing
+        except Exception:
+            continue
+    return None
 
 def apply_reply_edits(proposal, reply_text):
     """Apply Tony's reply: returns (action, proposal). action in approve/reject/none."""
