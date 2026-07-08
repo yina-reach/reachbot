@@ -33,6 +33,7 @@ from slowapi.errors import RateLimitExceeded
 
 import rag
 from resource_types import classify
+from resource_fields import parse_fields
 
 MAX_QUESTION_CHARS = 2000  # reject oversized questions before embedding (cost guard)
 
@@ -128,6 +129,43 @@ def scope():
             counts[typ] = counts.get(typ, 0) + 1
         _scope_cache = {"total": len(seen), "by_type": counts}
     return _scope_cache
+
+
+_samples_cache = None
+
+
+@app.get("/samples")
+def samples():
+    """A couple of real, well-populated examples per resource type — powers the
+    /preview design page. Picks chunks that actually have parsed fields so the
+    cards preview with representative data."""
+    global _samples_cache
+    if _samples_cache is not None:
+        return _samples_cache
+    idx = rag.load_index()
+    by_type: dict = {}
+    seen_titles = set()
+    for i in range(len(idx.chunks)):
+        title = str(idx.titles[i])
+        if title in seen_titles:
+            continue
+        rtype = classify(title, str(idx.categories[i]))
+        bucket = by_type.setdefault(rtype, [])
+        if len(bucket) >= 2:
+            continue
+        fields = parse_fields(str(idx.chunks[i]), rtype)
+        # Prefer examples that actually have fields (skip bare external-link chunks).
+        if not fields and rtype in ("article", "report"):
+            continue
+        seen_titles.add(title)
+        bucket.append({
+            "title": title,
+            "url": str(idx.urls[i]),
+            "type": rtype,
+            "fields": fields,
+        })
+    _samples_cache = by_type
+    return by_type
 
 
 class LoginBody(BaseModel):
