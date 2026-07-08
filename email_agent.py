@@ -315,31 +315,43 @@ def parse_proposal_blob(text):
     if i == -1:
         return None
     tail = text[i + len("@@PROPOSAL@@"):]
-    tail = re.sub(r"(?m)^[>\s]+", "", tail)   # strip quote prefixes / leading ws per line
-    j = tail.find("{")
-    if j == -1:
-        return None
-    for candidate in (tail[j:], tail[j:].replace("\n", " ")):
+    unquoted = re.sub(r"(?m)^\s*>+\s?", "", tail)      # drop email quote prefixes ('> ')
+    # The blob was one line; email soft-wrap inserted CR/LF (incl. inside string
+    # values, which is invalid JSON). Collapse all CR/LF to a single space.
+    flat = re.sub(r"[\r\n]+", " ", unquoted)
+    for candidate in (unquoted, flat):
+        j = candidate.find("{")
+        if j == -1:
+            continue
         try:
-            return json.JSONDecoder().raw_decode(candidate)[0]  # first object, ignore trailing
+            return json.JSONDecoder().raw_decode(candidate[j:])[0]  # first object, ignore trailing
         except Exception:
             continue
     return None
 
 def apply_reply_edits(proposal, reply_text):
-    """Apply Tony's reply: returns (action, proposal). action in approve/reject/none."""
-    low = reply_text.lower()
+    """Apply Tony's reply: returns (action, proposal). action in approve/reject/none.
+    Only reads Tony's OWN words — the quoted original proposal (lines starting with
+    '>' or after the "On … wrote:" attribution) contains the keyword instructions and
+    field labels, which must not be mistaken for his commands/edits."""
+    own_lines = []
+    for ln in reply_text.splitlines():
+        if ln.lstrip().startswith(">") or re.match(r"\s*On .*wrote:\s*$", ln):
+            break
+        own_lines.append(ln)
+    own = "\n".join(own_lines)
+    low = own.lower()
     if re.search(r"\breject\b", low):
         return "reject", proposal
-    use = re.search(r"use:\s*(.+)", reply_text, re.I)
+    use = re.search(r"use:\s*(.+)", own, re.I)
     if use:
         cand = use.group(1).strip().splitlines()[0].strip()
         match = next((d for d in DATABASES if d.lower() == cand.lower()), None)
         if match and match != proposal["database"]:
             proposal["database"] = match  # re-fill happens in the poller before create
             proposal["_refill"] = True
-    # field overrides: "Prop: value" lines
-    for line in reply_text.splitlines():
+    # field overrides: "Prop: value" lines (from Tony's own text only)
+    for line in own.splitlines():
         m = re.match(r"\s*([A-Za-z][A-Za-z &/]+?):\s*(.+)", line)
         if not m:
             continue
@@ -355,6 +367,7 @@ def apply_reply_edits(proposal, reply_text):
     if re.search(r"\bapprove\b|\bedit\b", low) or use:
         return "approve", proposal
     return "none", proposal
+
 
 # ── Email plumbing (Stage 2) ────────────────────────────────────────────────
 IMAP_HOST, SMTP_HOST = "imap.gmail.com", "smtp.gmail.com"
