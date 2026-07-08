@@ -24,13 +24,30 @@ import json
 import os
 from typing import Optional
 
-from fastapi import Cookie, FastAPI, HTTPException
+from fastapi import Cookie, FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse, StreamingResponse
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
+from slowapi import Limiter
+from slowapi.errors import RateLimitExceeded
 
 import rag
 from resource_types import classify
+
+MAX_QUESTION_CHARS = 2000  # reject oversized questions before embedding (cost guard)
+
+
+def _client_key(request: Request) -> str:
+    """Rate-limit key = the real client IP. Behind the Vercel proxy + Fly, the
+    socket peer is an infra IP, so prefer the first hop in X-Forwarded-For;
+    fall back to the direct peer."""
+    xff = request.headers.get("x-forwarded-for")
+    if xff:
+        return xff.split(",")[0].strip()
+    return request.client.host if request.client else "127.0.0.1"
+
+
+limiter = Limiter(key_func=_client_key)
 
 ACCESS_PASSWORD = os.environ.get("ACCESS_PASSWORD", "")
 SESSION_SECRET = os.environ.get("SESSION_SECRET", "")
@@ -42,6 +59,17 @@ if ACCESS_PASSWORD and not SESSION_SECRET:
                        "set SESSION_SECRET to sign auth cookies.")
 
 app = FastAPI(title="ReachBot API")
+app.state.limiter = limiter
+
+
+@app.exception_handler(RateLimitExceeded)
+def _rate_limit_handler(request: Request, exc: RateLimitExceeded):
+    return JSONResponse(
+        status_code=429,
+        content={"detail": "Too many requests — please slow down and try again shortly."},
+    )
+
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[ALLOWED_ORIGIN],
@@ -107,7 +135,8 @@ class LoginBody(BaseModel):
 
 
 @app.post("/login")
-def login(body: LoginBody):
+@limiter.limit("5/minute")
+def login(request: Request, body: LoginBody):
     if not ACCESS_PASSWORD:
         return JSONResponse({"ok": True, "gated": False})
     if not hmac.compare_digest(body.password, ACCESS_PASSWORD):
@@ -129,17 +158,26 @@ def logout():
 
 
 class ChatBody(BaseModel):
-    question: str
+    # Hard cap at the schema layer too (returns 422 before the handler runs).
+    question: str = Field(max_length=10000)
 
 
 @app.post("/chat")
-def chat(body: ChatBody, rb_auth: Optional[str] = Cookie(default=None)):
+@limiter.limit("20/minute")
+def chat(request: Request, body: ChatBody, rb_auth: Optional[str] = Cookie(default=None)):
     if not _is_authed(rb_auth):
         raise HTTPException(status_code=401, detail="Unauthorized.")
 
     question = (body.question or "").strip()
     if not question:
         raise HTTPException(status_code=400, detail="Empty question.")
+    if len(question) > MAX_QUESTION_CHARS:
+        # Guard against cost amplification — an oversized question balloons the
+        # embed + prompt. Reject before doing any paid work.
+        raise HTTPException(
+            status_code=400,
+            detail=f"Question too long (max {MAX_QUESTION_CHARS} characters).",
+        )
 
     def sse(event: str, data) -> str:
         return f"event: {event}\ndata: {json.dumps(data)}\n\n"

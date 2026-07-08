@@ -5,3 +5,4 @@ uvicorn[standard]==0.39.0
 google-genai==1.47.0
 numpy==2.0.2
 pydantic==2.13.4
+slowapi==0.1.9
