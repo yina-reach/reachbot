@@ -18,6 +18,12 @@ COPY backend/*.py ./
 # this COPY and have the app pull it at boot instead (set INDEX_PATH).
 COPY index.npz ./index.npz
 
+# Drop privileges: run as a non-root user (defense-in-depth — a compromised
+# dependency shouldn't get root inside the container). /app is read-only to it,
+# which is fine since the app only reads the index and never writes to disk.
+RUN useradd --create-home --uid 10001 appuser
+USER appuser
+
 ENV INDEX_PATH=/app/index.npz \
     PORT=8080
 
