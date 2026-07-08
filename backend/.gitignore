@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+# index.npz is produced at repo root by ingest.py; not stored here.
+index.npz

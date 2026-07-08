@@ -1,0 +1,145 @@
+"use client";
+
+import { useEffect, useState } from "react";
+import { resourceDef } from "@/lib/resource-types";
+
+const NOTION_DB_URL =
+  "https://www.notion.so/reachcapital/ReachIn-1499d627cdb04c81a3e48c1f31f83199?source=copy_link";
+
+// Example questions spanning the three ways to use ReachBot: a precise lookup,
+// a synthesized interpretation across sources, and a browse-everything request.
+// Full sentences teach phrasing + set depth; the label names the mode.
+const PROMPTS: { label: string; text: string }[] = [
+  {
+    label: "Look up",
+    text: "What partner discounts are available for HR or payroll tools?",
+  },
+  {
+    label: "Synthesize",
+    text: "Across the AMAs, what do speakers say about pricing pilots vs. paid contracts?",
+  },
+  {
+    label: "Browse",
+    text: "Show me everything in ReachIn on K–12 go-to-market.",
+  },
+  {
+    label: "Find a contact",
+    text: "Who in the Reach network can advise on outbound sales?",
+  },
+];
+
+interface Scope {
+  total: number;
+  by_type: Record<string, number>;
+}
+
+// Order + label the scope chips. Only types with a nonzero count are shown.
+const SCOPE_ORDER: { type: string; singular: string; plural: string }[] = [
+  { type: "ama", singular: "AMA", plural: "AMAs" },
+  { type: "report", singular: "report", plural: "reports" },
+  { type: "article", singular: "article", plural: "articles" },
+  { type: "contact", singular: "contact", plural: "contacts" },
+  { type: "deal", singular: "deal", plural: "deals" },
+];
+
+export function Welcome() {
+  return (
+    <div className="flex flex-col items-center px-4 text-center">
+      <h1
+        className="mb-3 text-4xl font-medium tracking-tight sm:whitespace-nowrap sm:text-5xl"
+        style={{ fontFamily: '"p22-mackinac-pro", ui-serif, Georgia, serif' }}
+      >
+        {/* Mobile wraps "you find?" together to avoid a "find?" orphan; sm+ is one line. */}
+        What can I help{" "}
+        <span className="whitespace-nowrap">you find?</span>
+      </h1>
+      <p className="max-w-lg text-base text-muted-foreground">
+        Look up, synthesize, or browse ReachIn&apos;s curated resources—AMAs,
+        reports, advisors, benchmarks, credits, and more.
+      </p>
+    </div>
+  );
+}
+
+/**
+ * The example-prompt suggestions, rendered UNDER the input in the centered empty
+ * state. Kept separate from <Welcome> so the page can place them below the dock.
+ */
+export function PromptSuggestions({ onPick }: { onPick: (q: string) => void }) {
+  return (
+    <div className="mt-3 flex w-full flex-col gap-2">
+      {PROMPTS.map((p) => (
+        <button
+          key={p.text}
+          onClick={() => onPick(p.text)}
+          className="group flex flex-col gap-1 rounded-lg border border-border/60 px-4 py-3 text-left transition-colors hover:border-border hover:bg-accent"
+        >
+          <span className="text-[11px] font-medium uppercase tracking-wider text-muted-foreground/50 group-hover:text-muted-foreground">
+            {p.label}
+          </span>
+          <span className="text-base text-muted-foreground group-hover:text-foreground">
+            {p.text}
+          </span>
+        </button>
+      ))}
+    </div>
+  );
+}
+
+/**
+ * Scope breakdown chips + subtle Notion link. Placed at the very bottom of the
+ * empty state — builds trust ("curated, not open-ended") before the first query.
+ */
+export function ScopeFooter() {
+  const [scope, setScope] = useState<Scope | null>(null);
+
+  useEffect(() => {
+    fetch("/api/scope")
+      .then((r) => r.json())
+      .then((s) => setScope(s))
+      .catch(() => {});
+  }, []);
+
+  const chips =
+    scope && scope.total > 0
+      ? SCOPE_ORDER.map(({ type, singular, plural }) => {
+          const n = scope.by_type[type] ?? 0;
+          if (!n) return null;
+          const def = resourceDef(type);
+          const Icon = def.icon;
+          return (
+            <span
+              key={type}
+              className="inline-flex items-center gap-1.5 rounded-full border border-border/60 bg-card/40 px-2.5 py-1 text-xs text-muted-foreground"
+            >
+              <Icon className="size-3" style={{ color: def.color }} aria-hidden />
+              {n} {n === 1 ? singular : plural}
+            </span>
+          );
+        }).filter(Boolean)
+      : [];
+
+  return (
+    <div className="flex flex-col items-center gap-3 px-4 text-center">
+      {scope && scope.total > 0 && (
+        <>
+          <div className="text-xs font-medium text-muted-foreground/80">
+            {scope.total} curated sources
+          </div>
+          {/* Type breakdown is desktop-only; mobile keeps just the total + link. */}
+          <div className="hidden max-w-xl flex-wrap justify-center gap-1.5 sm:flex">
+            {chips}
+          </div>
+        </>
+      )}
+      <a
+        href={NOTION_DB_URL}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-xs text-muted-foreground/60 underline-offset-2 transition-colors hover:text-muted-foreground hover:underline"
+      >
+        Browse the full ReachIn library in Notion →
+      </a>
+    </div>
+  );
+}
