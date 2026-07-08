@@ -172,19 +172,26 @@ def fetch_url(url):
     return (m.group(1).strip() if m else ""), re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", html))[:9000]
 
 # ── Two-step brain: route, then fill ────────────────────────────────────────
-def _gen_json(prompt, retries=3):
+def _gen_json(prompt, retries=4):
     last = None
     for _ in range(retries):
         try:
             resp = client.models.generate_content(model="gemini-2.5-flash", contents=prompt)
-            raw = re.sub(r"^```(?:json)?|```$", "", resp.text.strip(), flags=re.M).strip()
+            txt = (getattr(resp, "text", None) or "").strip()
+            if not txt:
+                fr = None
+                try: fr = resp.candidates[0].finish_reason
+                except Exception: pass
+                last = f"empty response (finish_reason={fr})"
+                continue
+            raw = re.sub(r"^```(?:json)?|```$", "", txt, flags=re.M).strip()
             m = re.search(r"\{.*\}", raw, re.S)  # outermost JSON object
             if m:
                 return json.loads(m.group(0))
-            last = "no JSON object in response"
+            last = f"no JSON object in response: {raw[:200]!r}"
         except Exception as e:
-            last = e
-    raise ValueError(f"LLM returned no valid JSON after {retries} tries: {last}")
+            last = repr(e)
+    raise ValueError(f"no valid JSON after {retries} tries: {last}")
 
 def pick_database(content, source, title):
     catalog = "\n".join(f"- {n}: {d['purpose']}" for n, d in DATABASES.items())
@@ -195,9 +202,10 @@ def pick_database(content, source, title):
             f"Content (may be truncated):\n\"\"\"\n{content[:6000]}\n\"\"\"\n\n"
             f'Return ONLY JSON: {{"database":"<exact name>","confidence":"high|medium|low",'
             f'"reasoning":"<one sentence>"}}')
-    except Exception:
+    except Exception as e:
+        print(f"  ! routing classifier failed: {e}")
         out = {"database": "Library Database", "confidence": "low",
-               "reasoning": "defaulted — classifier could not parse a response"}
+               "reasoning": f"defaulted (classifier error: {str(e)[:120]})"}
     if out.get("database") not in DATABASES:
         out["database"] = "Library Database"
     return out
@@ -214,7 +222,8 @@ def fill_entry(db_name, content, source, title):
         f'Content (may be truncated):\n"""\n{content[:18000]}\n"""\n\n'
         f'Return ONLY a JSON object mapping property names to values. Use strings for '
         f'text/url/email/date/select and arrays of strings for multi-select.')
-    except Exception:
+    except Exception as e:
+        print(f"  ! fill classifier failed: {e}")
         fields = {}   # degrade to title/url/description backfill below
     # ensure a title exists
     title_prop = next((n for n, p in db_schema(DATABASES[db_name]["id"]).items()
@@ -260,10 +269,14 @@ def _remap_generic(db_name, generic):
             out[n] = generic["url"]
     return out
 
-def propose(content, source, title=""):
-    routing = pick_database(content, source, title)
+def propose(content, source, title="", note=""):
+    # A submitter's one-line note ("great fundraising resource for the Library")
+    # is strong routing signal — prepend it (labeled, since it may be a signature).
+    note = (note or "").strip()
+    ai = f"Note from the person who submitted this (may include an email signature — weigh accordingly):\n{note[:500]}\n\n---\n\n{content}" if note else content
+    routing = pick_database(ai, source, title)
     db = routing["database"]
-    fields = fill_entry(db, content, source, title)
+    fields = fill_entry(db, ai, source, title)
     return {"database": db, "confidence": routing.get("confidence"),
             "reasoning": routing.get("reasoning"), "fields": fields,
             "generic": _generic_snapshot(db, fields)}
@@ -369,7 +382,8 @@ def from_addr(msg):
     return email.utils.parseaddr(msg.get("From", ""))[1].lower()
 
 def extract_item(msg):
-    """(title, content, source) from an email: PDF attachment or first URL in body."""
+    """(title, content, source, note) from an email: PDF attachment or first URL in
+    body. `note` is the submitter's message text (used as routing signal)."""
     body, pdf, pdf_name = "", None, None
     for part in msg.walk():
         ctype, disp = part.get_content_type(), str(part.get("Content-Disposition") or "")
@@ -377,13 +391,15 @@ def extract_item(msg):
             pdf, pdf_name = part.get_payload(decode=True), _decode(part.get_filename()) or "attachment.pdf"
         elif ctype == "text/plain" and "attachment" not in disp:
             body += (part.get_payload(decode=True) or b"").decode("utf-8", "ignore")
+    body = body.strip()
     if pdf:
-        return pdf_name, extract_pdf(pdf), f"PDF attachment: {pdf_name}"
+        return pdf_name, extract_pdf(pdf), f"PDF attachment: {pdf_name}", body
     m = re.search(r"https?://[^\s>\])]+", body)
     if m:
         t, txt = fetch_url(m.group(0))
-        return (t or m.group(0)), txt, m.group(0)
-    return None, body.strip(), "no PDF or URL found"
+        note = body.replace(m.group(0), "").strip()  # body minus the URL itself
+        return (t or m.group(0)), txt, m.group(0), note
+    return None, body, "no PDF or URL found", ""
 
 # ── IMAP state helpers (Gmail labels) ───────────────────────────────────────
 def imap_login():
@@ -499,7 +515,7 @@ def cmd_poll(verbose=True):
             add_label(M, uid, L_IGNORED)
             log(f"  · ignored non-submission from {sender}")
             continue
-        title, content, source = extract_item(msg)
+        title, content, source, note = extract_item(msg)
         if source == "no PDF or URL found":
             _send(sender, "ReachIn Connect — please resend with a PDF or link",
                   "Thanks for the submission! I couldn't find a PDF attachment or a "
@@ -508,7 +524,7 @@ def cmd_poll(verbose=True):
             add_label(M, uid, L_PENDING)
             log(f"  · no content from {sender}; asked to resend")
             continue
-        proposal = propose(content, source, title)
+        proposal = propose(content, source, title, note=note)
         subj = f"ReachIn Connect: review — {proposal['generic'].get('title') or title or 'new item'}"
         _send(tony, subj, proposal_email(source, proposal))
         add_label(M, uid, L_PENDING)
