@@ -8,9 +8,17 @@ name: ReachIn Connect Agent
 # uncomment the `schedule` block to poll automatically.
 
 on:
-  workflow_dispatch:
+  workflow_dispatch:          # manual + external triggers (e.g. cron-job.org)
   schedule:
-    - cron: '0 * * * *'   # every hour (safe on free-tier Actions minutes)
+    # GitHub's scheduled runs are best-effort and often delayed on private repos.
+    # */30 gives more firing attempts; for guaranteed timing, drive workflow_dispatch
+    # from an external scheduler (see MAINTENANCE.md).
+    - cron: '*/30 * * * *'    # every 30 min (kept affordable via the pip cache below)
+
+# Don't pile up runs if one is slow/queued.
+concurrency:
+  group: reachin-agent
+  cancel-in-progress: false
 
 jobs:
   poll:
@@ -20,8 +28,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: requirements-agent.txt
       - name: Install deps
-        run: pip install --quiet google-genai pypdf trafilatura
+        run: pip install --quiet -r requirements-agent.txt
       - name: Poll inbox
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
