@@ -116,12 +116,39 @@ def schema_for_prompt(db_name):
             lines.append(f'- "{name}" (pick ANY that apply, only from: {_options(p)})')
     return "\n".join(lines)
 
-def create_row(db_name, fields):
+def notion_upload_file(name, data, content_type="application/pdf"):
+    """Upload bytes to Notion (2-step file upload) and return the file_upload id.
+    The id must be attached to a page within ~1 hour, so upload at file time."""
+    up = _napi("POST", "https://api.notion.com/v1/file_uploads",
+               {"filename": name[:900], "content_type": content_type})
+    b = "----reachinBOUNDARY7f3a2c"
+    pre = (f'--{b}\r\nContent-Disposition: form-data; name="file"; '
+           f'filename="{name}"\r\nContent-Type: {content_type}\r\n\r\n').encode()
+    body = pre + data + f"\r\n--{b}--\r\n".encode()
+    req = _ur.Request(up["upload_url"], data=body, method="POST",
+                      headers={"Authorization": f"Bearer {WTOK}", "Notion-Version": "2022-06-28",
+                               "Content-Type": f"multipart/form-data; boundary={b}"})
+    with _ur.urlopen(req, timeout=120) as r:
+        r.read()
+    return up["id"]
+
+def create_row(db_name, fields, attach=None):
     """Build a Notion row from {property_name: value}, coercing to each property's
     type and dropping any select/multi-select value not already in the vocabulary
-    (so the agent never invents new options)."""
+    (so the agent never invents new options). `attach` = (filename, bytes) uploads
+    and links the file into the database's files property."""
     props = db_schema(DATABASES[db_name]["id"])
     payload = {}
+    if attach and attach[1]:
+        fname, fbytes = attach
+        files_prop = next((n for n, p in props.items() if p["type"] == "files"), None)
+        if files_prop:
+            try:
+                fid = notion_upload_file(fname, fbytes)
+                payload[files_prop] = {"files": [{"type": "file_upload",
+                    "name": fname[:100], "file_upload": {"id": fid}}]}
+            except Exception as e:
+                print(f"  ! file upload/attach failed: {e}")
     for name, val in (fields or {}).items():
         if name not in props or val in (None, "", []):
             continue
@@ -473,13 +500,30 @@ def find_proposal_in_thread(M, uid):
             return p
     return None
 
-def file_proposal(proposal):
+def file_proposal(proposal, attach=None):
     """Create the Notion row, remapping fields if Tony changed the database."""
     db = proposal["database"]
     fields = proposal["fields"]
     if proposal.get("_refill") and proposal.get("generic"):
         fields = _remap_generic(db, proposal["generic"])
-    return create_row(db, fields)
+    return create_row(db, fields, attach=attach)
+
+def fetch_submission_pdf(M, msgid):
+    """Re-fetch the PDF from the original submission email (by Message-ID) so it can
+    be uploaded fresh at approval time (Notion uploads expire ~1h after creation)."""
+    if not msgid:
+        return None
+    mid = msgid.strip().strip("<>")
+    try:
+        for u in search_raw(M, f"rfc822msgid:{mid}"):
+            sm = fetch_msg(M, u)
+            for part in sm.walk():
+                if part.get_content_type() == "application/pdf":
+                    return (_decode(part.get_filename()) or "attachment.pdf",
+                            part.get_payload(decode=True))
+    except Exception as e:
+        print(f"  ! could not re-fetch submission PDF: {e}")
+    return None
 
 # ── Run modes ───────────────────────────────────────────────────────────────
 def cmd_classify(arg):
@@ -514,9 +558,12 @@ def cmd_poll(verbose=True):
         mid = msg.get("Message-ID")
         if action == "approve":
             try:
-                url = file_proposal(proposal)
+                # re-fetch the original PDF (if any) so it's attached to the row
+                attach = fetch_submission_pdf(M, proposal.get("_submission_msgid"))
+                url = file_proposal(proposal, attach=attach)
+                filed_note = " (with PDF)" if attach else ""
                 _send(tony, "Re: ReachIn Connect — filed ✅",
-                      f"Filed into {proposal['database']}:\n{url}", mid)
+                      f"Filed into {proposal['database']}{filed_note}:\n{url}", mid)
                 add_label(M, uid, L_DONE)
                 log(f"  ✓ filed approval → {proposal['database']}: {url}")
             except Exception as e:
@@ -553,6 +600,7 @@ def cmd_poll(verbose=True):
             log(f"  · no content from {sender}; asked to resend")
             continue
         proposal = propose(content, source, title, note=note)
+        proposal["_submission_msgid"] = msg.get("Message-ID")  # so approval can re-attach the PDF
         subj = f"ReachIn Connect: review — {proposal['generic'].get('title') or title or 'new item'}"
         _send(tony, subj, proposal_email(source, proposal))
         add_label(M, uid, L_PENDING)
