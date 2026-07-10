@@ -513,7 +513,9 @@ def fetch_submission_pdf(M, msgid):
     be uploaded fresh at approval time (Notion uploads expire ~1h after creation)."""
     if not msgid:
         return None
-    mid = msgid.strip().strip("<>")
+    # Message-IDs never contain spaces; strip '<>' and any whitespace the email
+    # line-wrapping/flattening may have injected into the value.
+    mid = re.sub(r"[<>\s]", "", msgid)
     try:
         for u in search_raw(M, f"rfc822msgid:{mid}"):
             sm = fetch_msg(M, u)
