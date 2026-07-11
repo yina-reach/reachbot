@@ -42,7 +42,8 @@ export default function PreviewPage() {
       {loaded &&
         TYPE_ORDER.map((type) => {
           const def = RESOURCE_TYPES[type];
-          const items = samples[type] ?? [];
+          // Show more contacts so the three sub-types (advisor / coach / media) are visible.
+          const items = (samples[type] ?? []).slice(0, type === "contact" ? 4 : 2);
           return (
             <section key={type} className="mb-14">
               <div className="mb-4 flex items-center gap-2">
@@ -99,6 +100,55 @@ export default function PreviewPage() {
             </section>
           );
         })}
+
+      {/* ── Mosaic lockup: all card types mixed together, masonry-packed ── */}
+      {loaded && (
+        <section className="mt-6 border-t pt-10">
+          <div className="mb-1 text-xs font-medium uppercase tracking-widest text-muted-foreground">
+            Lockup
+          </div>
+          <h2 className="mb-1 text-lg font-medium">Mixed resource grid</h2>
+          <p className="mb-6 max-w-xl text-sm text-muted-foreground">
+            All card types together, packed masonry-style — how a resource list
+            reads as one set when an answer cites across types.
+          </p>
+          <div className="[column-fill:balance] gap-4 [column-width:16rem] sm:[column-count:2] lg:[column-count:3]">
+            {interleave(TYPE_ORDER.flatMap((t) => samples[t] ?? [])).map((s, i) => (
+              <div key={i} className="mb-4 break-inside-avoid">
+                <ResourceCard source={s} />
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
     </div>
   );
+}
+
+/**
+ * Round-robin across types so the mosaic mixes card kinds instead of clustering
+ * all articles, then all reports, etc. Groups by type, then takes one from each
+ * in turn.
+ */
+function interleave(items: Source[]): Source[] {
+  const byType = new Map<string, Source[]>();
+  for (const s of items) {
+    const arr = byType.get(s.type) ?? [];
+    arr.push(s);
+    byType.set(s.type, arr);
+  }
+  const queues = [...byType.values()];
+  const out: Source[] = [];
+  let added = true;
+  while (added) {
+    added = false;
+    for (const q of queues) {
+      const next = q.shift();
+      if (next) {
+        out.push(next);
+        added = true;
+      }
+    }
+  }
+  return out;
 }

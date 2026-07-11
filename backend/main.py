@@ -145,19 +145,27 @@ def samples():
     idx = rag.load_index()
     by_type: dict = {}
     seen_titles = set()
+    # For contacts, span the three Notion sub-types instead of 4 of the same kind.
+    contact_cats_seen: dict = {}
     for i in range(len(idx.chunks)):
         title = str(idx.titles[i])
         if title in seen_titles:
             continue
-        rtype = classify(title, str(idx.categories[i]))
+        cat = str(idx.categories[i])
+        rtype = classify(title, cat)
         bucket = by_type.setdefault(rtype, [])
-        if len(bucket) >= 2:
+        if len(bucket) >= 4:  # 2 shown in the per-type section, the rest feed the mosaic
+            continue
+        # Keep contacts diverse: at most 2 per sub-category (advisor/coach/media).
+        if rtype == "contact" and contact_cats_seen.get(cat, 0) >= 2:
             continue
         fields = parse_fields(str(idx.chunks[i]), rtype)
         # Prefer examples that actually have fields (skip bare external-link chunks).
         if not fields and rtype in ("article", "report"):
             continue
         seen_titles.add(title)
+        if rtype == "contact":
+            contact_cats_seen[cat] = contact_cats_seen.get(cat, 0) + 1
         bucket.append({
             "title": title,
             "url": str(idx.urls[i]),

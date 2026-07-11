@@ -20,6 +20,10 @@ export interface CardField {
   emphasis?: boolean;
   /** render as small pill(s), splitting on commas (e.g. tags) */
   pills?: boolean;
+  /** render as a badge in the card's top-right corner instead of a labeled row */
+  badge?: boolean;
+  /** render as one inline muted line ("By Name") rather than a label/value grid row */
+  inline?: boolean;
 }
 
 export interface ResourceTypeDef {
@@ -37,9 +41,9 @@ export const RESOURCE_TYPES: Record<ResourceType, ResourceTypeDef> = {
     icon: FileText,
     color: "#7EB6FF",
     cardFields: [
+      { key: "sector", label: "Sector", badge: true },
       { key: "summary", label: "Summary", emphasis: true },
-      { key: "publisher", label: "Publisher" },
-      { key: "sector", label: "Sector" },
+      { key: "publisher", label: "By", inline: true },
     ],
   },
   report: {
@@ -47,10 +51,9 @@ export const RESOURCE_TYPES: Record<ResourceType, ResourceTypeDef> = {
     icon: BarChart3,
     color: "#B9A5FF",
     cardFields: [
+      { key: "sector", label: "Sector", badge: true },
       { key: "summary", label: "Summary", emphasis: true },
-      { key: "publisher", label: "Publisher" },
-      { key: "sector", label: "Sector" },
-      { key: "tags", label: "Tags", pills: true },
+      { key: "publisher", label: "By", inline: true },
     ],
   },
   contact: {
@@ -59,9 +62,9 @@ export const RESOURCE_TYPES: Record<ResourceType, ResourceTypeDef> = {
     color: "#4FD8A8",
     cardFields: [
       { key: "specialty", label: "Specialty", emphasis: true },
+      { key: "name", label: "Name" },
       { key: "role", label: "Role" },
       { key: "contact_info", label: "Contact" },
-      { key: "reach_contact", label: "Reach point" },
     ],
   },
   ama: {
@@ -69,10 +72,8 @@ export const RESOURCE_TYPES: Record<ResourceType, ResourceTypeDef> = {
     icon: Mic,
     color: "#FFC94D",
     cardFields: [
-      { key: "speaker", label: "Speaker" },
-      { key: "org", label: "Org" },
-      { key: "date", label: "Date" },
-      { key: "tags", label: "Tags", pills: true },
+      // `by` is synthesized in ResourceCard from speaker + org ("Name, Org").
+      { key: "by", label: "By", inline: true },
     ],
   },
   deal: {
@@ -80,11 +81,8 @@ export const RESOURCE_TYPES: Record<ResourceType, ResourceTypeDef> = {
     icon: Tag,
     color: "#FF8FC0",
     cardFields: [
+      { key: "category", label: "Type", badge: true },
       { key: "offer", label: "Offer", emphasis: true },
-      { key: "category", label: "Type" },
-      { key: "contact", label: "Contact" },
-      { key: "email", label: "Email" },
-      { key: "reach_point", label: "Reach point" },
     ],
   },
 };

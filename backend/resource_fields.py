@@ -70,11 +70,27 @@ def parse_fields(chunk: str, rtype: str) -> dict:
         })
 
     if rtype == "contact":
+        # Three sub-types with different Notion vocabularies:
+        #   Reach Advisors     → Current Title, Advisory Group, Areas of Expertise, LinkedIn
+        #   Consultants&Coaches→ SERVICES OFFERED / FOCUS, TITLE/ROLE, CONTACT INFO
+        #   Media Contacts     → Name, Category, TITLE/ROLE, EMAIL, WRITER PAGE
+        specialty = _first(raw, "areas of expertise", "services offered", "focus")
+        # Strip a leading emoji from the advisory group / media beat.
+        group = _first(raw, "advisory group", "category")
+        group = re.sub(r"^[^\w]+", "", group).strip()
+        if group and group.lower() not in specialty.lower():
+            specialty = f"{specialty} · {group}".strip(" ·") if specialty else group
+        contact = _first(raw, "contact info", "email", "writer page", "linkedin")
+        # "Current Title" (advisors) is a descriptive blurb — keep just the lead role.
+        role = _first(raw, "title/role", "current title")
+        role = re.split(r"\s{2,}|,\s|\bBoard member\b", role)[0].strip()
+        if len(role) > 70:
+            role = role[:70].rsplit(" ", 1)[0] + "…"
         return _compact({
-            "role": _first(raw, "title/role", "focus"),
-            "specialty": _first(raw, "services offered", "focus"),
-            "contact_info": _first(raw, "contact info"),
-            "reach_contact": _first(raw, "reach contact"),
+            "name": _first(raw, "name"),  # media/coach rows; advisors use the title
+            "role": role,
+            "specialty": specialty,
+            "contact_info": contact,
         })
 
     if rtype == "ama":
