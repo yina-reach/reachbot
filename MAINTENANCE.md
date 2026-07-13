@@ -87,6 +87,21 @@ secrets). Rotate anything that's ever been pasted into chat/email/Slack.
 fetch external links → pull Zoom transcripts (if creds set) → rebuild index →
 commit `index.npz`. **The Streamlit app auto-redeploys** when the repo changes.
 
+**The index rebuild is incremental:** `ingest.py` reuses the embedding vectors from
+the existing `index.npz` for any chunk whose text didn't change and only calls the
+Gemini embedding API for new/edited chunks — a typical Monday embeds a handful of
+chunks in seconds instead of re-embedding all ~8,800 (~2 h of rate-limit waiting,
+~5M tokens). Run `python ingest.py --force` (or the workflow's `force_ingest` input)
+to re-embed everything, e.g. after changing the chunking or embedding model.
+
+**AMA transcription** (`transcribe_recordings.py` + the "Transcribe AMA Recordings"
+workflow): finds Session Recordings rows that have a Google Drive recording link but
+no transcript, transcribes with Gemini, attaches a Transcript toggle + AI summary to
+the Notion page, and writes the transcript into `transcripts/` so the next index
+build embeds it. Zoom share links are passcode-gated and can't be auto-fetched —
+either add the Zoom API secrets (§3) so `weekly.yml` pulls transcripts directly, or
+re-upload those recordings to Drive.
+
 **If it fails:** Actions tab → open the red run → read the failing step's log.
 Common causes are in §8.
 

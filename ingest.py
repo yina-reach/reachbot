@@ -138,23 +138,44 @@ def main():
             chunks.append(f"{title}\n\n{c}")
             metas.append({"title": title, "url": url, "category": category})
 
-    print(f"{len(chunks)} chunks from {len(files)} files. Embedding...")
-    vectors = []
+    # Incremental embedding: reuse vectors from the existing index for chunks whose
+    # text is unchanged (chunk text is the cache key — any edit re-embeds that chunk).
+    # `--force` re-embeds everything.
+    force = "--force" in sys.argv
+    old_vecs = {}
+    if not force and os.path.exists("index.npz"):
+        try:
+            d = np.load("index.npz", allow_pickle=True)
+            old_vecs = {str(c): v for c, v in zip(d["chunks"], d["vectors"])}
+            print(f"Loaded {len(old_vecs)} existing chunk vectors for reuse.")
+        except Exception as e:
+            print(f"Could not read existing index ({e}) — doing a full re-embed.")
+
+    new_texts = [c for c in chunks if c not in old_vecs]
+    print(f"{len(chunks)} chunks from {len(files)} files — "
+          f"{len(chunks) - len(new_texts)} reused, {len(new_texts)} to embed...")
+
+    new_vecs = []
     checkpoint = "index_partial.npz"
-    start = 0
-    if os.path.exists(checkpoint):
+    if new_texts and os.path.exists(checkpoint):
         cp = np.load(checkpoint, allow_pickle=True)
-        vectors = list(cp["vectors"])
-        start = len(vectors)
-        print(f"  resuming from checkpoint: {start} already embedded")
+        # Only resume a checkpoint written for this same work list.
+        if "total" in cp.files and int(cp["total"]) == len(new_texts):
+            new_vecs = list(cp["vectors"])
+            print(f"  resuming from checkpoint: {len(new_vecs)} already embedded")
 
-    for i in range(start, len(chunks), 50):
-        vectors.extend(embed_batch(chunks[i:i + 50]))
-        done = min(i + 50, len(chunks))
-        print(f"  embedded {done}/{len(chunks)}")
-        np.savez_compressed(checkpoint, vectors=np.array(vectors, dtype=np.float32))
+    for i in range(len(new_vecs), len(new_texts), 50):
+        new_vecs.extend(embed_batch(new_texts[i:i + 50]))
+        done = min(i + 50, len(new_texts))
+        print(f"  embedded {done}/{len(new_texts)}")
+        np.savez_compressed(checkpoint,
+                            vectors=np.array(new_vecs, dtype=np.float32),
+                            total=len(new_texts))
 
-    arr = np.array(vectors, dtype=np.float32)
+    fresh = {t: v for t, v in zip(new_texts, new_vecs)}
+    vectors = [old_vecs[c] if c in old_vecs else fresh[c] for c in chunks]
+
+    arr = np.array([np.asarray(v, dtype=np.float32) for v in vectors], dtype=np.float32)
     # Store vectors as float16 to keep index.npz under GitHub's 100 MB file limit
     # (halves the largest component). app.py upcasts to float32 on load, so search
     # quality is unaffected.
