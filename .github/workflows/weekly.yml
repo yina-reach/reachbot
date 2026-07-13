@@ -46,16 +46,19 @@ jobs:
           python fetch_external_links.py
 
       # ── Step 2: Pull new Zoom transcripts (if API creds are configured) ───
+      # Nice-to-have: a Zoom scrape failure must never block the index rebuild.
       - name: Pull Zoom transcripts
+        continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           ZOOM_ACCOUNT_ID: ${{ secrets.ZOOM_ACCOUNT_ID }}
           ZOOM_CLIENT_ID: ${{ secrets.ZOOM_CLIENT_ID }}
           ZOOM_CLIENT_SECRET: ${{ secrets.ZOOM_CLIENT_SECRET }}
         # Only run if Zoom creds are set; otherwise skip gracefully
         run: |
           if [ -n "$ZOOM_ACCOUNT_ID" ] && [ -n "$ZOOM_CLIENT_ID" ] && [ -n "$ZOOM_CLIENT_SECRET" ]; then
-            python zoom_transcripts.py --zoom-api --since-days 8
+            python zoom_transcripts.py --since-days 8
           else
             echo "Zoom API credentials not configured — skipping transcript pull."
             echo "Set ZOOM_ACCOUNT_ID, ZOOM_CLIENT_ID, ZOOM_CLIENT_SECRET in GitHub Secrets."

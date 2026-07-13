@@ -171,6 +171,9 @@ def find_recordings() -> list:
             url = unwrap_url(m.group(1).rstrip(".,)"))
             if not url or "zoom.us" not in url:
                 continue
+            nearby = text[m.end():m.end() + 300]
+            pc_m = _PC_PATTERN.search(nearby)
+            passcode = pc_m.group(1).strip() if pc_m else None
             # Replace truncated URL + supplement passcode from Notion API
             if full_url_map:
                 url_key = url[:60]
@@ -182,9 +185,6 @@ def find_recordings() -> list:
                     url = api_entry["url"]
                     if not passcode and api_entry.get("passcode"):
                         passcode = api_entry["passcode"]
-            nearby = text[m.end():m.end() + 300]
-            pc_m = _PC_PATTERN.search(nearby)
-            passcode = pc_m.group(1).strip() if pc_m else None
             title_m = _TITLE_PAT.search(text)
             title = title_m.group(1).strip() if title_m else f.stem
             url_m = _URL_PAT.search(text)
