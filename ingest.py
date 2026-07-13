@@ -155,15 +155,18 @@ def main():
         np.savez_compressed(checkpoint, vectors=np.array(vectors, dtype=np.float32))
 
     arr = np.array(vectors, dtype=np.float32)
+    # Store vectors as float16 to keep index.npz under GitHub's 100 MB file limit
+    # (halves the largest component). app.py upcasts to float32 on load, so search
+    # quality is unaffected.
     np.savez_compressed(
         "index.npz",
-        vectors=arr,
+        vectors=arr.astype(np.float16),
         chunks=np.array(chunks, dtype=object),
         titles=np.array([m["title"] for m in metas], dtype=object),
         urls=np.array([m["url"] for m in metas], dtype=object),
         categories=np.array([m.get("category", "") for m in metas], dtype=object),
     )
-    print(f"Wrote index.npz ({arr.shape[0]} chunks, dim {arr.shape[1]}).")
+    print(f"Wrote index.npz ({arr.shape[0]} chunks, dim {arr.shape[1]}, float16).")
 
 
 if __name__ == "__main__":
