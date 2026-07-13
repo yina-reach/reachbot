@@ -12,7 +12,7 @@ Reach Capital Partner Access, Credits, Discounts
 **Link:** https://usehaven.co/
 **Reach point:** Tony Wan
 **Contact:** Cyrus Shirazi
-**Type:** Insurance & Tax
+**Type:** Finance & Accounting
 **Email:** [cyrus@tryhaventax.com](mailto:cyrus@tryhaventax.com)
 **Description:** 30% off R&D tax credit fees and 15% off bookkeeping and tax filing services for startup accounting and tax needs.
 

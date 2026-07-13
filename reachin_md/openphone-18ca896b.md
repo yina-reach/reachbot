@@ -11,7 +11,7 @@ Reach Capital Partner Access, Credits, Discounts
 
 **Link:** https://www.openphone.com/perks/reach-capital
 **Reach point:** Jackie Dao
-**Type:** SaaS & Tools
+**Type:** SaaS Tools
 **Description:** 20% discount for 6 months on collaborative business phone system that integrates calls, texts, and contacts in one workspace.
 
 OpenPhone brings your calls, texts, and contacts into a collaborative workspace.

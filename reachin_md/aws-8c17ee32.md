@@ -12,7 +12,7 @@ Reach Capital Partner Access, Credits, Discounts
 **Link:** https://aws.amazon.com/startups
 **Reach point:** Tony Wan
 **Contact:** Sergio Zafra
-**Type:** Credits
+**Type:** AI / Cloud Credits
 **Email:** [zafras@amazon.com](mailto:zafras@amazon.com)
 **Description:** Up to $100,000 in AWS cloud credits plus 1 year of free AWS Business Support with 24/7 access to cloud engineers.
 

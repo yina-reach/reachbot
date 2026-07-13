@@ -12,7 +12,7 @@ Reach Capital Partner Access, Credits, Discounts
 **Link:** https://vercel.com/startups/credits
 **Reach point:** Tony Wan
 **Contact:** Madison McIlwain
-**Type:** Credits
+**Type:** AI / Cloud Credits
 **Email:** [madison.mcilwain@vercel.com](mailto:madison.mcilwain@vercel.com)
 **Description:** $12,000 in credits ($1,000/month for 1 year) for frontend cloud platform, plus exclusive events and team Slack access.
 

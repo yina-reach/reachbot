@@ -12,7 +12,7 @@ Reach Capital Partner Access, Credits, Discounts
 **Link:** https://stripe.com/startup-benefits/reach-capital
 **Reach point:** Tony Wan
 **Contact:** Jeronimo Ogarrio Martin del Campo
-**Type:** Credits
+**Type:** SaaS Tools
 **Email:** jeronimo@stripe.com
 **Description:** $5,000 in payment processing credits plus access to Stripe Startups program with expert guidance and exclusive events.
 

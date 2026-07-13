@@ -11,7 +11,7 @@ Reach Capital Partner Access, Credits, Discounts
 
 **Link:** https://claude.com/offers?offer_code=56835a6b-abe5-49a9-a979-0143b30c3da0
 **Reach point:** Tony Wan
-**Type:** Credits
+**Type:** AI / Cloud Credits
 **Email:** [portfolio+reach@anthropic.com](mailto:portfolio%2Breach@anthropic.com), [ddelaney@anthropic.com](mailto:ddelaney@anthropic.com)
 **Description:** $15,000 in API credits, immediate tier 4 rate limit access, and 3 months free Claude for Teams (up to 5 seats) with priority support.
 

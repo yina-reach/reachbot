@@ -11,7 +11,7 @@ Reach Capital Partner Access, Credits, Discounts
 
 **Link:** https://www.vouch.us/venture/reachcapital
 **Reach point:** Joshua Lesko
-**Type:** Insurance & Tax
+**Type:** HR & Legal
 **Description:** 5% discount on business insurance coverage specifically designed for technology companies with 10 proprietary coverages.
 
 Vouch offers 10 proprietary insurance coverages engineered for technology companies. Reach portfolio companies are eligible for a 5% discount.

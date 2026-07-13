@@ -11,5 +11,5 @@ Reach Capital Good Reads
 
 **URL:** https://www.edsurge.com/
 **Focus:** K-12, higher ed, edtech industry, early childhood
-**Description:** Early childhood, K-12 and higher ed news
+**Description:** PreK-12 edtech perspectives, mostly from educator POV
 

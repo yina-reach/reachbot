@@ -12,7 +12,7 @@ Reach Capital Partner Access, Credits, Discounts
 **Link:** https://www.notion.so/startups
 **Reach point:** Tony Wan
 **Contact:** Yann Petretti
-**Type:** SaaS & Tools
+**Type:** SaaS Tools
 **Email:** yann@makenotion.com
 **Description:** 6 months free Plus Plan with unlimited AI access and priority access to Notion's Champions community of founders.
 

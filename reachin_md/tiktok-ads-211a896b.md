@@ -12,7 +12,7 @@ Reach Capital Partner Access, Credits, Discounts
 **Link:** https://connect-tiktok-reachcap.splashthat.com/
 **Reach point:** Tony Wan
 **Contact:** Sumair Ali
-**Type:** Credits
+**Type:** SaaS Tools
 **Email:** sumair.ali@bytedance.com
 **Description:** Up to $15,000 in matched advertising credits plus dedicated TikTok Ads Specialist support for campaign optimization.
 

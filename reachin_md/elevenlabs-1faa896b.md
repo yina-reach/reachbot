@@ -12,7 +12,7 @@ Reach Capital Partner Access, Credits, Discounts
 **Link:** https://elevenlabs.io/startup-grants
 **Reach point:** Tony Wan
 **Contact:** Jack McDermott
-**Type:** Credits
+**Type:** AI / Cloud Credits
 **Email:** [jackrmcdermott@gmail.com](mailto:jackrmcdermott@gmail.com)
 **Description:** 33 million characters of AI audio generation credits free for 12 months for voice technology and text-to-speech applications.
 

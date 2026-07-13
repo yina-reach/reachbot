@@ -12,7 +12,7 @@ Reach Capital Partner Access, Credits, Discounts
 **Link:** https://www.zendesk.com/lp/vc-startup-partner/?ref=gen&partner_account=001PC000008ht7vYAA
 **Reach point:** Tony Wan
 **Contact:** Adam O’Donnell
-**Type:** SaaS & Tools
+**Type:** SaaS Tools
 **Email:** adam.odonnell@zendesk.com
 **Description:** 6 months free access to Zendesk Suite (<50 employees) or 30% off first year (50-249 employees) for customer service CRM platform.
 

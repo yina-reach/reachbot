@@ -12,7 +12,7 @@ Reach Capital Partner Access, Credits, Discounts
 **Link:** https://www.celigo.com/
 **Reach point:** Chian Gong
 **Contact:** Ricardo Hernandez
-**Type:** SaaS & Tools
+**Type:** SaaS Tools
 **Email:** [ricardo.hernandez@celigo.com](mailto:ricardo.hernandez@celigo.com)
 **Description:** SaaS integration platform enabling automated workflows and processes across enterprise applications without coding.
 

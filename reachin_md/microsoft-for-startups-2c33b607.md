@@ -12,7 +12,7 @@ Reach Capital Partner Access, Credits, Discounts
 **Link:** https://www.microsoft.com/en-us/startups
 **Reach point:** Tony Wan
 **Contact:** Ayo Haruna
-**Type:** Credits
+**Type:** AI / Cloud Credits
 **Email:** [Ayobami.Haruna@microsoft.com](mailto:Ayobami.Haruna@microsoft.com)
 **Description:** Up to $200,000 in Azure credits over 2 years plus GitHub Enterprise, LinkedIn benefits, and dedicated technical support.
 
