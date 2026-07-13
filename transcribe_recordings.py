@@ -118,14 +118,28 @@ def attach_summary(pid, summary_md):
 # ── Recording download ──────────────────────────────────────────────────────
 def download_recording(href):
     """Return (bytes, ext) if the recording is a directly-fetchable media file, else None."""
+    from urllib.parse import quote
     m = re.search(r"drive\.google\.com/file/d/([A-Za-z0-9_-]+)", href)
     if not m:
         return None  # only handle direct Google Drive files for now
+    hdrs = {"User-Agent": "Mozilla/5.0"}
     url = f"https://drive.google.com/uc?export=download&id={m.group(1)}"
-    r = U.urlopen(U.Request(url, headers={"User-Agent": "Mozilla/5.0"}), timeout=300)
+    r = U.urlopen(U.Request(url, headers=hdrs), timeout=600)
     ct = r.headers.get("Content-Type", "")
     if "text/html" in ct:
-        return None  # not public / needs sign-in
+        # Large public files get a "can't scan for viruses" confirm page.
+        # Re-submit its form (carries id/confirm/uuid hidden fields); if there is
+        # no download form, the file needs sign-in and we skip it.
+        html = r.read().decode("utf-8", "replace")
+        action = re.search(r'action="([^"]*download[^"]*)"', html)
+        if not action:
+            return None
+        fields = dict(re.findall(r'name="([^"]+)"\s+value="([^"]*)"', html))
+        q = "&".join(f"{k}={quote(v)}" for k, v in fields.items())
+        r = U.urlopen(U.Request(f"{action.group(1)}?{q}", headers=hdrs), timeout=600)
+        ct = r.headers.get("Content-Type", "")
+        if "text/html" in ct:
+            return None
     data = r.read()
     ext = ".mp3" if "audio" in ct else (".mp4" if "video" in ct else ".bin")
     return data, ext
