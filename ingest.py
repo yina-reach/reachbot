@@ -129,6 +129,10 @@ def main():
         # The export already prepends "Reach Capital <category>" to the body, but make
         # sure short rows that slipped through still get that context for retrieval.
         category = meta.get("category", "")
+        # AMA transcript files carry no category front-matter — without one they'd
+        # classify as articles in the UI's resource cards instead of AMAs.
+        if not category and path.startswith("transcripts/"):
+            category = "Session Recordings"
         if category and "Reach Capital" not in body[:60] and len(body.split()) < 120:
             body = f"Reach Capital {category}\n\n{body}"
         # Thin "wrapper" pages — under ~50 words of original text whose only real
