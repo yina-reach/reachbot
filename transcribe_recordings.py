@@ -57,14 +57,31 @@ def recording_href(p):
             return t["href"]
     return ""
 
-def has_transcript(pid):
+def _transcript_headers(pid):
+    """Return (nonempty_found, first_empty_header_id) among transcript toggles/headings."""
     d = napi("GET", f"https://api.notion.com/v1/blocks/{pid}/children?page_size=100")
+    empty_id = None
     for b in d.get("results", []):
         t = b["type"]
         if (t == "toggle" or (t.startswith("heading") and b.get(t, {}).get("is_toggleable"))) and \
            "transcript" in "".join(x.get("plain_text", "") for x in b.get(t, {}).get("rich_text", [])).lower():
-            return True
-    return False
+            if b.get("has_children"):
+                return True, None
+            if empty_id is None:
+                empty_id = b["id"]
+    return False, empty_id
+
+def has_transcript(pid):
+    # An empty "Transcript" heading (no children) doesn't count as a transcript.
+    return _transcript_headers(pid)[0]
+
+def page_video_url(pid):
+    """Fresh presigned URL of a Notion-hosted video embedded on the page, if any."""
+    d = napi("GET", f"https://api.notion.com/v1/blocks/{pid}/children?page_size=100")
+    for b in d.get("results", []):
+        if b["type"] == "video" and b["video"].get("type") == "file":
+            return b["video"]["file"]["url"]
+    return ""
 
 def _para(t):
     return {"object": "block", "type": "paragraph", "paragraph": {"rich_text": [{"type": "text", "text": {"content": t}}]}}
@@ -85,11 +102,14 @@ def to_paragraphs(body):
     return blocks
 
 def attach_transcript(pid, transcript):
-    resp = napi("PATCH", f"https://api.notion.com/v1/blocks/{pid}/children",
-                {"children": [{"object": "block", "type": "heading_3",
-                    "heading_3": {"rich_text": [{"type": "text", "text": {"content": "Transcript"}}],
-                                  "is_toggleable": True}}]})
-    hid = resp["results"][0]["id"]
+    # Reuse an existing empty "Transcript" toggle/heading rather than adding a second one.
+    hid = _transcript_headers(pid)[1]
+    if hid is None:
+        resp = napi("PATCH", f"https://api.notion.com/v1/blocks/{pid}/children",
+                    {"children": [{"object": "block", "type": "heading_3",
+                        "heading_3": {"rich_text": [{"type": "text", "text": {"content": "Transcript"}}],
+                                      "is_toggleable": True}}]})
+        hid = resp["results"][0]["id"]
     paras = to_paragraphs(transcript)
     for i in range(0, len(paras), 100):
         napi("PATCH", f"https://api.notion.com/v1/blocks/{hid}/children", {"children": paras[i:i + 100]})
@@ -117,8 +137,16 @@ def attach_summary(pid, summary_md):
 
 # ── Recording download ──────────────────────────────────────────────────────
 def download_recording(href):
-    """Return (bytes, ext) if the recording is a directly-fetchable media file, else None."""
+    """Return (bytes, ext) if the recording is a directly-fetchable media file, else None.
+    Handles public Google Drive files and Notion-hosted videos (href 'notion-video:<pid>')."""
     from urllib.parse import quote
+    if href.startswith("notion-video:"):
+        # Presigned S3 URLs expire — fetch a fresh one right before downloading.
+        url = page_video_url(href.split(":", 1)[1])
+        if not url:
+            return None
+        r = U.urlopen(U.Request(url, headers={"User-Agent": "Mozilla/5.0"}), timeout=600)
+        return r.read(), ".mp4"
     m = re.search(r"drive\.google\.com/file/d/([A-Za-z0-9_-]+)", href)
     if not m:
         return None  # only handle direct Google Drive files for now
@@ -149,6 +177,7 @@ def transcribe(data, ext):
     with tempfile.NamedTemporaryFile(suffix=ext, delete=False) as tf:
         tf.write(data); path = tf.name
     up = client.files.upload(file=path)
+    os.unlink(path)  # local temp no longer needed once uploaded — don't leak GBs
     while getattr(up.state, "name", str(up.state)) == "PROCESSING":
         time.sleep(5); up = client.files.get(name=up.name)
     resp = None
@@ -163,8 +192,10 @@ def transcribe(data, ext):
             break
         except Exception as e:
             msg = str(e)
-            if attempt < 4 and ("503" in msg or "UNAVAILABLE" in msg or "429" in msg
-                                or "RESOURCE_EXHAUSTED" in msg):
+            transient = any(k in msg for k in (
+                "503", "UNAVAILABLE", "429", "RESOURCE_EXHAUSTED", "500", "502",
+                "disconnected", "Connection", "timed out", "timeout", "RemoteProtocol"))
+            if attempt < 4 and transient:
                 wait = 45 * (attempt + 1)
                 print(f"  … gemini busy, retrying in {wait}s")
                 time.sleep(wait)
@@ -210,6 +241,8 @@ def targets():
         href = recording_href(p)
         if "drive.google.com/file/d/" in href:
             out.append((ti, pid, href))
+        elif page_video_url(pid):
+            out.append((ti, pid, f"notion-video:{pid}"))
     return out
 
 def main():
