@@ -151,12 +151,27 @@ def transcribe(data, ext):
     up = client.files.upload(file=path)
     while getattr(up.state, "name", str(up.state)) == "PROCESSING":
         time.sleep(5); up = client.files.get(name=up.name)
-    resp = client.models.generate_content(
-        model="gemini-2.5-flash",
-        contents=[up, "Transcribe this recording verbatim as a clean, readable transcript. "
-                      "Label speaker turns where discernible (e.g. 'Host:', 'Speaker:'). "
-                      "Output only the transcript text."],
-        config=genai.types.GenerateContentConfig(max_output_tokens=65536))
+    resp = None
+    for attempt in range(5):
+        try:
+            resp = client.models.generate_content(
+                model="gemini-2.5-flash",
+                contents=[up, "Transcribe this recording verbatim as a clean, readable transcript. "
+                              "Label speaker turns where discernible (e.g. 'Host:', 'Speaker:'). "
+                              "Output only the transcript text."],
+                config=genai.types.GenerateContentConfig(max_output_tokens=65536))
+            break
+        except Exception as e:
+            msg = str(e)
+            if attempt < 4 and ("503" in msg or "UNAVAILABLE" in msg or "429" in msg
+                                or "RESOURCE_EXHAUSTED" in msg):
+                wait = 45 * (attempt + 1)
+                print(f"  … gemini busy, retrying in {wait}s")
+                time.sleep(wait)
+                continue
+            try: client.files.delete(name=up.name)
+            except Exception: pass
+            raise
     try: client.files.delete(name=up.name)
     except Exception: pass
     return resp.text or ""
