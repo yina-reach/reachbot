@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Weekly-safe: ensure every Session Recordings page with a Transcript also has an AI summary.
+"""Ensure every Session Recordings page with a Transcript also has an AI summary.
 
 Detection: an AI summary (as written by gen_summaries.py / transcribe_recordings.py)
 is >=2 top-level all-bold paragraphs (section headers) plus >=3 bulleted items.

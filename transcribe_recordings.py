@@ -170,9 +170,20 @@ Transcript:
 {t}"""
 
 def summarize(title, transcript):
-    r = client.models.generate_content(model="gemini-2.5-flash",
-        contents=SUM_PROMPT.format(title=title, t=transcript[:40000]))
-    return r.text or ""
+    prompt = SUM_PROMPT.format(title=title, t=transcript[:40000])
+    for model in ("gemini-2.5-flash", "gemini-2.5-flash-lite", "gemini-2.5-flash"):
+        try:
+            r = client.models.generate_content(model=model, contents=prompt)
+            return r.text or ""
+        except Exception as e:
+            msg = str(e)
+            if "503" in msg or "UNAVAILABLE" in msg:
+                time.sleep(15); continue   # overloaded — wait, then try next model
+            if "429" in msg or "RESOURCE_EXHAUSTED" in msg:
+                m = re.search(r"retry[^']*'(\d+)s'", msg)
+                time.sleep(int(m.group(1)) if m else 20); continue
+            raise
+    return ""
 
 # ── Driver ──────────────────────────────────────────────────────────────────
 def targets():
