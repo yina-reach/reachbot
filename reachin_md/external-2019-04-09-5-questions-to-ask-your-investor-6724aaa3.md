@@ -1,0 +1,46 @@
+---
+title: https://www.reachcapital.com/2019/04/09/5-questions-to-ask-your-investor/
+source_url: https://www.reachcapital.com/2019/04/09/5-questions-to-ask-your-investor/
+notion_source: How to Find the Right Investor for Your Edtech Startup: 5 Questions to Ask
+---
+
+How to Find the Right Investor for Your Startup: 5 Questions to Ask
+Dear Esteban,
+I am ready to start fundraising for my startup and I am not sure how to think about different types of VCs I should target. There seem to be new funds forming daily and I don’t know how to navigate the funding landscape. Can you help me think about different VC types and how I might find the right investor for my edtech startup?
+Sincerely,
+Options Overload
+Dear Options Overload,
+Thanks for your questions. I understand how confusing the VC landscape can be for entrepreneurs. My partner Jennifer Carolan has great thoughts on how to think about what different VCs can contribute to startups based on their stage of development, so I’ll let her answer this question for you.
+— Esteban
+5 Questions to Ask Your Investor:
+Venture capital is in flux. There is a blurring of boundaries between early-stage investors and mezzanine/growth investors. Many reasons account for this change including: larger round sizes, increase in opportunity funds, more strategic investors, and growth investors seeking lower valuations. At Reach, we invest alongside investors across a range of stages: pre-seed to private equity to growth venture capital.
+There are positive aspects to this changing dynamic. I have found some private equity investors to be quite knowledgeable about K-12 and Higher Ed, especially SaaS edtech companies, and a few firms have a strong track record of investing in the space over time. Later stage investors tend to be more metrics-focused, which has improved performance and focus for some later stage edtech companies.
+As founders navigate the rapidly changing sea of investors, it’s wise to make sure your investors understand the stage of growth your company is in (e.g. pre-product, pre product-market fit, scale-up etc). Ideally, you find a firm and partner who has invested and has stayed involved in a spate of great edtech companies from pre product-market fit through growth.
+It’s often true that at the earliest stages of investment, selecting your investor may be a luxury you don’t have, but if you do (or may in your next round), here are 5 questions to consider.
+1. What experience have other edtech founders and CEOs had with this firm and investor?
+Reach out to other founders and CEOs who have worked with the VC and ask them questions about their experience. For example:
+- What is the cadence and form of communications with the investor (texts, emails, board letters, walk and talks, etc). What is the tone of the communication: encouraging, honest, straightforward, supportive, controlling, negative?
+- Are you comfortable sharing bad news or challenges with the investor? Why or why not?
+- What are the top 3 value-adds the investor has provided to accelerate growth?
+- Describe a difficult situation and how the investor supported you throughout it.
+- Have you had access to the entire firm and other partners? Has the investor shared his or her network to your advantage?
+2. How many pre- product-market fit companies has the firm or partner invested in? What were the results?
+Pre- product-market fit companies are entirely different than growth stage companies in their focus, hiring, metrics and time allocation, just to name a few. It’s the reason why employees who joined Google/Facebook/Twitter long after product-market fit was secured have a much different skill set than the founding teams who were trying to stay alive and figure out their business models. Similarly, early stage investors tend to be very different than growth investors. It’s important that you have investors aligned with your stage of growth. In general terms, here are some key differences:
+- Early stage investors understand that a startup’s job is to iterate from idea to product-market fit. Steve Blank defines a startup as: “a temporary organization used to search for a repeatable and scalable business model.”
+- Growth investors typically invest once the company has achieved a repeatable, scalable business model and is working on scaling its systems, people and product(s). As such, growth investors will focus more on metrics, margins and the dashboards to present this data and review longitudinal trends.
+- Early stage investors should have expertise in some area that maps to your needs like consumer, education or technical. These expertise ought to help founding teams’ efforts at iterating to achieve product-market fit. They should have a strong network in that area and be able to make key connections for the team.
+- Growth investors’ expertise tends to be more generalized across different industries and business models. They may be SaaS experts but know how to support business-building across edtech, enterprise or healthcare.
+- Early stage investors “get” that you may not yet have systems in place like HR or that your finances live in one spreadsheet on your desktop. Early stage investors ought to provide resources like playbooks on how to set up a sales organization or how to develop your employee handbook and HR practices.
+- Growth investors will expect these systems to be in place and often have a great network of C-level executives to formalize and lead these initiatives within your organization.
+3. How has your firm supported fundraising for your portfolio companies?
+Most early stage investment rounds are designed for an 18–24 month runway. That means you will likely be back to market in about a year to raise money again. Early stage investors ought to have a strong network of follow-on funders for a seed extension or a Series A.
+- Ask your prospective investor for details on how many investor introductions they make, what syndicates they have helped pull together and how deep their investor network is. Try to get at how much they actually hustle for their founders. Do they lob in a form email to other investors or do they call investors and be persuasive on why they invested?
+- An important nuance here is to understand the reputation of that firm in the broader investing landscape. Will an introduction from firm X carry weight with other investors? Often, in the early stage space, later stage investors will look to specialization as a signal for market knowledge. For example, Arch Venture Partners is an early stage science/biotech fund with a remarkable reputation for finding or founding the best biotech companies. Other investors know that an Arch portfolio company introduction is solid and the Arch team has validated their IP/foundational science. In edtech, select a firm that has a strong reputation amongst follow-on investors for deep knowledge and understanding of the market.
+4. What is your approach to delivering honest and truthful feedback?
+Venture capital has become very competitive so investors have a perverse incentive to err on the side of overly positive feedback while holding back on the more honest feedback. (New investors to the space, even more so.) This dynamic is dangerous for early stage companies and I have seen it play out in ways that have destroyed promising companies. What a startup needs is investors who are trusted by their founders and can share honest and truthful feedback.
+As a startup seeks product-market fit, communication cycles with investors tend to be shorter because of the rapid learning and course adjustments that must take place in order to better tailor the product for the customer. For our earliest-stage companies, we are often meeting with them weekly if not more. Some companies even work out of our office to facilitate more frequent communication. Communication is critical for startups trying to get a foothold in the market.
+Developing a relationship with your investor that is built on trust — knowing that you are both aligned for the best interests of the company — is foundational to facilitate open and honest feedback.
+5. What kinds of resources and supports do you provide?
+Venture capital platforms have become en vogue; there are even groups of people across venture funds who meet to discuss effective platform supports. What matters is that the supports actually save you time and are aligned to what you actually need at your stage of growth. As “Lean Startup” author Eric Ries said, “Startups don’t starve, they drown (in too many ideas).”
+Do you need another cocktail hour with a panel on customer success, or do you need 10 good candidates for your open marketing spec? VCs may offer both but do your research to find out what playbooks, resources, talent and services they can offer. Ask for examples or access to their online founder portal. Test them out with a burning question/need you have at the moment.
+Some areas you can probe into: recruiting/hiring/network support; specific HR playbook/materials/workshops; sales services (how to set up your sales org, software reviews, sector-focused sales expertise, customer archetypes); market data and materials such as purchased analyst reports; compliance and legal issues specific to your field (e.g. privacy); and product support.

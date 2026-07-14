@@ -1,0 +1,42 @@
+name: Transcribe AMA Recordings
+
+on:
+  schedule:
+    # Mondays 4 AM UTC — before the 6 AM weekly index rebuild, so any transcript
+    # committed here (and its Notion toggle + AI summary) makes the same-day index.
+    - cron: "0 4 * * 1"
+  workflow_dispatch:
+    inputs:
+      args:
+        description: "args for transcribe_recordings.py (--dry-run or --go)"
+        required: false
+        default: "--dry-run"
+
+jobs:
+  transcribe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install --quiet google-genai
+      - name: Transcribe
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          NOTION_WRITE_TOKEN: ${{ secrets.NOTION_WRITE_TOKEN }}
+        # Scheduled runs have no inputs — default them to --go (real runs);
+        # manual dispatches keep their chosen arg (default --dry-run).
+        run: python transcribe_recordings.py ${{ github.event.inputs.args || '--go' }}
+      - name: Commit any new transcripts
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add transcripts/ 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "no new transcript files"
+          else
+            git commit -m "Add AI-transcribed AMA recordings"
+            for i in 1 2 3; do git pull --rebase origin main && git push && break; sleep 5; done
+          fi

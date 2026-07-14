@@ -1,0 +1,10 @@
+# Ingest pipeline deps (reachin_export.py, zoom_transcripts.py, ingest.py)
+# plus streamlit for the legacy app.py, which stays deployed as the live bot
+# until the frontend/ (Next.js) + backend/ (FastAPI) stack is verified in prod.
+streamlit
+google-genai
+numpy
+pyyaml
+notion-client
+python-slugify
+requests

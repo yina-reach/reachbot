@@ -1,0 +1,30 @@
+# Fly.io config for the ReachBot backend (FastAPI RAG service).
+# Lives at repo root so the Docker build context includes index.npz.
+#
+# First deploy:
+#   fly launch --no-deploy            # creates the app; keep this fly.toml
+#   fly secrets set GEMINI_API_KEY=... ACCESS_PASSWORD=... SESSION_SECRET=... ALLOWED_ORIGIN=https://<your-vercel-app>
+#   fly deploy
+#
+# The index (~100MB) is baked into the image. The 512MB VM below holds the index
+# (~100MB) + normalized float32 vectors in RAM; bump memory if you see OOM.
+
+app = "reachbot-backend"          # change to your Fly app name
+primary_region = "sjc"            # pick one near your users
+
+[build]
+  dockerfile = "backend/Dockerfile"
+
+[env]
+  PORT = "8080"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = "stop"     # scale to zero when idle (cold start reloads index)
+  auto_start_machines = true
+  min_machines_running = 0
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "1gb"                  # index + vectors comfortably; 512mb is tight
