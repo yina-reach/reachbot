@@ -57,11 +57,24 @@ def recording_href(p):
             return t["href"]
     return ""
 
+def page_blocks(pid):
+    """ALL top-level blocks (paginated — pages can exceed the 100-block page size)."""
+    out, cur = [], None
+    while True:
+        url = f"https://api.notion.com/v1/blocks/{pid}/children?page_size=100"
+        if cur:
+            url += f"&start_cursor={cur}"
+        d = napi("GET", url)
+        out += d.get("results", [])
+        if not d.get("has_more"):
+            break
+        cur = d["next_cursor"]
+    return out
+
 def _transcript_headers(pid):
     """Return (nonempty_found, first_empty_header_id) among transcript toggles/headings."""
-    d = napi("GET", f"https://api.notion.com/v1/blocks/{pid}/children?page_size=100")
     empty_id = None
-    for b in d.get("results", []):
+    for b in page_blocks(pid):
         t = b["type"]
         if (t == "toggle" or (t.startswith("heading") and b.get(t, {}).get("is_toggleable"))) and \
            "transcript" in "".join(x.get("plain_text", "") for x in b.get(t, {}).get("rich_text", [])).lower():
@@ -77,8 +90,7 @@ def has_transcript(pid):
 
 def page_video_url(pid):
     """Fresh presigned URL of a Notion-hosted video embedded on the page, if any."""
-    d = napi("GET", f"https://api.notion.com/v1/blocks/{pid}/children?page_size=100")
-    for b in d.get("results", []):
+    for b in page_blocks(pid):
         if b["type"] == "video" and b["video"].get("type") == "file":
             return b["video"]["file"]["url"]
     return ""
