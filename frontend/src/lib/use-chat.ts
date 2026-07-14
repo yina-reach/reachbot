@@ -19,6 +19,13 @@ export function useChat() {
       if (busy) return;
       setBusy(true);
 
+      // Recent turns (before this question) so the backend can resolve
+      // follow-ups like "more on that". Capped to match the API's limit.
+      const history = messages
+        .filter((m) => m.content && !m.streaming)
+        .slice(-6)
+        .map((m) => ({ role: m.role, content: m.content }));
+
       // Append the user message + a placeholder assistant message (streaming).
       setMessages((m) => [
         ...m,
@@ -39,7 +46,7 @@ export function useChat() {
         const res = await fetch("/api/chat", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ question }),
+          body: JSON.stringify({ question, history }),
         });
 
         if (res.status === 401) {
@@ -108,7 +115,7 @@ export function useChat() {
       }
       return {};
     },
-    [busy]
+    [busy, messages]
   );
 
   return { messages, busy, send };

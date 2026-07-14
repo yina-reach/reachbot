@@ -203,9 +203,17 @@ def logout():
     return resp
 
 
+class ChatTurn(BaseModel):
+    role: str = Field(max_length=16)
+    content: str = Field(max_length=8000)
+
+
 class ChatBody(BaseModel):
     # Hard cap at the schema layer too (returns 422 before the handler runs).
     question: str = Field(max_length=10000)
+    # Recent conversation turns (oldest first) so follow-ups resolve. Optional —
+    # an empty list keeps the old single-turn behavior. Capped to bound cost.
+    history: list[ChatTurn] = Field(default_factory=list, max_length=12)
 
 
 @app.post("/chat")
@@ -232,7 +240,11 @@ def chat(request: Request, body: ChatBody, rb_auth: Optional[str] = Cookie(defau
         # Wrap the WHOLE body: retrieval (embed call) can fail too, and if it raises
         # after the response headers are sent the client gets a silent empty stream.
         try:
-            hits = rag.retrieve(question)
+            history = [{"role": t.role, "content": t.content} for t in body.history]
+            # Follow-ups ("more on that") embed poorly — retrieve with a
+            # history-resolved standalone query, but answer the raw question.
+            search_q = rag.standalone_query(question, history)
+            hits = rag.retrieve(search_q)
             sources = [
                 {"title": t, "url": u, "type": classify(t, cat)}
                 for _c, t, u, cat in hits
@@ -240,7 +252,7 @@ def chat(request: Request, body: ChatBody, rb_auth: Optional[str] = Cookie(defau
             yield sse("sources", sources)
 
             context = rag.build_context(hits)
-            for token in rag.generate_stream(context, question):
+            for token in rag.generate_stream(context, question, history):
                 yield sse("token", token)
         except Exception as e:  # never leak a stack trace to the client stream
             yield sse("token", f"\n\n_An error occurred: {type(e).__name__}._")

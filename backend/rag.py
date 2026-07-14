@@ -45,6 +45,59 @@ CONTEXT FORMAT: Each block starts with [Title](NotionURL) then the page content.
 The content may contain **Link:** or **Files & media:** fields with direct resource URLs.
 The context may include Reach Capital Network Profiles for advisors, consultants, scouts, and media contacts — use these to answer questions about who is in the Reach network.
 
+STEP 1 — CLASSIFY, THEN ANSWER. Silently route every query into exactly ONE response
+type below and follow its structure. Do not name the type in your answer.
+
+1. RESOURCE-FIRST — the user wants one specific fact or artifact (a code, a date, a
+   contact, a named doc). Structure: one clause of prose (max 20 words), then 1–3
+   resource links. The linked line carries the detail; do NOT repeat in prose a fact
+   (code, date, contact, stat) that already appears on the resource line.
+2. SUMMARY-FIRST — the user wants interpretation or synthesis. Structure: the direct
+   answer in the FIRST sentence, then supporting detail with inline citations woven
+   into sentences ("...according to Maria's AMA"). One source: 40–80 words. Multiple
+   sources: 80–150 words, citing at most 3 by name — name the two strongest and add
+   "and a few others" if more apply. Never stack 5 citations in one paragraph.
+3. BROWSE / ENUMERATE — the user wants a menu, not an answer. Trigger on breadth
+   PHRASING ("what do you have on...", "show me all...", "everything related to..."),
+   not on topic. Structure: a list of [Title](URL) lines with one short descriptor
+   each, NO synthesis. Past ~8 results, show the strongest 8 and end with "want the
+   full list?". A specific single-answer question is never enumerate.
+4. NOT-FOUND — nothing in the context covers it. State the gap plainly in 1–2
+   sentences. NEVER fill the gap with general AI knowledge disguised as a
+   knowledge-base answer; if general knowledge would genuinely help, label it
+   explicitly ("Outside the ReachIn knowledge base: ...").
+5. LOW-CONFIDENCE / PARTIAL MATCH — the context is adjacent but doesn't directly
+   answer. Answer only what's supported and flag the mismatch ("The closest resource
+   covers X, not exactly what you asked"). Don't overstate relevance.
+6. CONFLICTING SOURCES — two sources disagree (old vs. new report, two advisors).
+   Surface both, attribute each, note recency if relevant. Never silently average
+   the numbers or pick a winner.
+7. DISAMBIGUATION — ask a clarifying question ONLY when ALL three hold: (a) answering
+   the most likely interpretation would be WRONG (not just broader), (b) the query maps
+   to 2+ specific named resources with materially different answers, (c) no reasonable
+   default exists. Then ask ONE question offering the concrete named options. If any
+   condition fails, answer with the most reasonable default and state the assumption in
+   one clause ("using the most recent (Q2 2026) report..."). Never stack questions.
+8. OUT-OF-SCOPE REDIRECT — the question belongs to a different tool or isn't
+   knowledge-base material. Name what's actually needed and point there; don't force
+   an answer from the wrong source.
+9. META / CAPABILITY — "what can you help with?" / "what's in here?". Answer with the
+   actual knowledge-base categories: AMA & session recordings, reports & research,
+   articles & good reads, advisors/consultants/media contacts, partner credits &
+   discounts.
+
+STALENESS (applies to any type): if the best available source may be outdated
+(an old vintage or a superseded report), append a short trailing caveat
+("— from the 2023 report, the most recent in ReachIn"), never a blocking disclaimer.
+
+LENGTH DISCIPLINE:
+- Hard ceiling ~150 words of prose unless the user explicitly asked for depth
+  ("walk me through", "compare", "give me the full picture").
+- Length tracks evidence density, not completeness: a single thin data point gets a
+  short honest answer, not padding.
+- End with an opt-in next step ("Want the full report?") rather than front-loading
+  every possible angle.
+
 RULES:
 - Only cite a source if it contains substantive information relevant to the question.
   Do NOT cite a page that only has a title with no real body content.
@@ -62,11 +115,13 @@ RULES:
   which expire. You may mention "includes slides" or "includes deck" in the description.
   Only use a direct PDF/S3 URL if no Notion page URL is available.
 
-Structure every response:
-1. **Direct answer** — specific, practical, with each key point on its own line. Use numbered or bulleted lists with a blank line between each item for readability. Quote AMA speakers if transcript content exists.
-2. **Resources** — combine sources used AND 2-3 related resources into one unified list. For each, output: [Page Title](URL) — one sentence on what it covers. Do not split into separate "Sources" and "Explore more" sections.
-
-If the context doesn't cover the question well, say so honestly."""
+FORMATTING: use short paragraphs or bulleted lists with a blank line between items.
+Quote AMA speakers when transcript content exists. For RESOURCE-FIRST and SUMMARY-FIRST
+answers, end with a single **Resources** list (max 3 entries: the sources you used,
+plus a related pick if genuinely useful) — [Page Title](URL) — one sentence each. Do
+not split into separate "Sources" and "Explore more" sections. BROWSE, NOT-FOUND, and
+META answers need no Resources section (the list, gap, or category overview IS the
+answer)."""
 
 
 class _Index:
@@ -140,16 +195,50 @@ def build_context(hits) -> str:
     return "\n\n---\n\n".join(f"[{t}]({u})\n{c}" for c, t, u, _cat in hits)
 
 
-def generate_stream(context: str, question: str) -> Iterator[str]:
+def standalone_query(question: str, history) -> str:
+    """Rewrite a follow-up ("more on that", "who ran it?") into a self-contained
+    retrieval query using the chat so far. Falls back to the raw question."""
+    if not history:
+        return question
+    convo = "\n".join(
+        f"{'User' if m.get('role') == 'user' else 'ReachBot'}: {str(m.get('content', ''))[:500]}"
+        for m in history[-6:]
+    )
+    try:
+        resp = _client.models.generate_content(
+            model="gemini-2.5-flash-lite",
+            contents=(
+                "Rewrite the user's latest message as ONE self-contained search query "
+                "for a knowledge base, resolving pronouns and references from the "
+                "conversation. If it is already self-contained, return it unchanged. "
+                "Output only the query, nothing else.\n\n"
+                f"Conversation:\n{convo}\n\nLatest message: {question}"
+            ),
+        )
+        q = (resp.text or "").strip()
+        return q if 0 < len(q) < 400 else question
+    except Exception:
+        return question
+
+
+def generate_stream(context: str, question: str, history=()) -> Iterator[str]:
     """Yield answer text chunks. Same model fallback + quota handling as the
-    Streamlit version, but streamed token-by-token."""
-    contents = f"Context:\n{context}\n\nQuestion: {question}"
+    Streamlit version, but streamed token-by-token. `history` is a list of
+    {role: "user"|"assistant", content: str} dicts; recent turns are included
+    so follow-ups resolve, while the Context always applies to the LATEST question."""
+    turns = [
+        {"role": "user" if m.get("role") == "user" else "model",
+         "parts": [{"text": str(m.get("content", ""))[:4000]}]}
+        for m in list(history)[-6:]
+    ]
+    turns.append({"role": "user",
+                  "parts": [{"text": f"Context:\n{context}\n\nQuestion: {question}"}]})
     config = genai.types.GenerateContentConfig(system_instruction=SYSTEM_PROMPT)
 
     for model in [CHAT_MODEL, "gemini-2.5-flash-lite", "gemini-2.5-flash"]:
         try:
             stream = _client.models.generate_content_stream(
-                model=model, contents=contents, config=config,
+                model=model, contents=turns, config=config,
             )
             for event in stream:
                 if getattr(event, "text", None):

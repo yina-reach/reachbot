@@ -12,8 +12,9 @@ export const dynamic = "force-dynamic";
  */
 export async function POST(req: NextRequest) {
   let question = "";
+  let history: unknown = [];
   try {
-    ({ question } = await req.json());
+    ({ question, history = [] } = await req.json());
   } catch {
     return NextResponse.json({ error: "Invalid body." }, { status: 400 });
   }
@@ -26,7 +27,7 @@ export async function POST(req: NextRequest) {
       "Content-Type": "application/json",
       ...(token ? { Cookie: `${AUTH_COOKIE}=${token}` } : {}),
     },
-    body: JSON.stringify({ question }),
+    body: JSON.stringify({ question, history }),
   });
 
   if (upstream.status === 401) {
