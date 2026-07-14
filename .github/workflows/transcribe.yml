@@ -1,6 +1,10 @@
 name: Transcribe AMA Recordings
 
 on:
+  schedule:
+    # Mondays 4 AM UTC — before the 6 AM weekly index rebuild, so any transcript
+    # committed here (and its Notion toggle + AI summary) makes the same-day index.
+    - cron: "0 4 * * 1"
   workflow_dispatch:
     inputs:
       args:
@@ -22,7 +26,9 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           NOTION_WRITE_TOKEN: ${{ secrets.NOTION_WRITE_TOKEN }}
-        run: python transcribe_recordings.py ${{ github.event.inputs.args }}
+        # Scheduled runs have no inputs — default them to --go (real runs);
+        # manual dispatches keep their chosen arg (default --dry-run).
+        run: python transcribe_recordings.py ${{ github.event.inputs.args || '--go' }}
       - name: Commit any new transcripts
         run: |
           git config user.name  "github-actions[bot]"

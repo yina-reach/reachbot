@@ -58,11 +58,27 @@ jobs:
         # Only run if Zoom creds are set; otherwise skip gracefully
         run: |
           if [ -n "$ZOOM_ACCOUNT_ID" ] && [ -n "$ZOOM_CLIENT_ID" ] && [ -n "$ZOOM_CLIENT_SECRET" ]; then
+            # The Zoom share-page scraper drives a headless browser.
+            pip install --quiet playwright
+            python -m playwright install --with-deps chromium
             python zoom_transcripts.py --since-days 8
           else
             echo "Zoom API credentials not configured — skipping transcript pull."
             echo "Set ZOOM_ACCOUNT_ID, ZOOM_CLIENT_ID, ZOOM_CLIENT_SECRET in GitHub Secrets."
           fi
+
+      # ── Step 2b: Mirror new transcripts onto their Notion pages ───────────
+      # zoom_transcripts.py only writes repo files (for the index). These two
+      # idempotent scripts keep Notion consistent: a Transcript toggle on every
+      # matched page, and an AI summary wherever a transcript exists without one.
+      - name: Attach transcripts + AI summaries to Notion pages
+        continue-on-error: true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          NOTION_WRITE_TOKEN: ${{ secrets.NOTION_WRITE_TOKEN }}
+        run: |
+          python add_transcripts.py --go
+          python ensure_summaries.py --go
 
       # ── Step 3: Rebuild vector index ──────────────────────────────────────
       - name: Rebuild index
