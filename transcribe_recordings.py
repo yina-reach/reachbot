@@ -176,6 +176,22 @@ def download_recording(href):
 def transcribe(data, ext):
     with tempfile.NamedTemporaryFile(suffix=ext, delete=False) as tf:
         tf.write(data); path = tf.name
+    # Video costs ~263 tokens/sec — an hour-plus recording exceeds the model's
+    # context and 400s. Audio is ~32 tokens/sec, so extract it when ffmpeg exists
+    # (GitHub runners always have it; locally it's optional).
+    if ext != ".mp3":
+        import shutil, subprocess
+        ff = shutil.which("ffmpeg") or ("/opt/homebrew/bin/ffmpeg" if os.path.exists("/opt/homebrew/bin/ffmpeg") else None)
+        if ff:
+            apath = path + ".mp3"
+            try:
+                subprocess.run([ff, "-y", "-i", path, "-vn", "-acodec", "libmp3lame",
+                                "-b:a", "64k", apath], check=True, timeout=1800,
+                               stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+                os.unlink(path); path = apath
+                print(f"  … extracted audio ({os.path.getsize(apath)//1_000_000} MB mp3)")
+            except Exception:
+                pass  # fall back to uploading the original video
     up = client.files.upload(file=path)
     os.unlink(path)  # local temp no longer needed once uploaded — don't leak GBs
     while getattr(up.state, "name", str(up.state)) == "PROCESSING":
