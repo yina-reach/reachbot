@@ -1,11 +1,11 @@
 # Putting ReachBot on Slack — options & process
 
 Goal: let people ask ReachBot questions from Slack instead of (or in addition to)
-the Streamlit web app — possibly for Reach's portfolio companies.
+the web app — possibly for Reach's portfolio companies.
 
-The **brain doesn't change**: it's the same `retrieve()` + Gemini answer that
-`app.py` already does. What changes is the *surface* (how users talk to it) and
-the *hosting* (where the code that answers Slack lives).
+The **brain doesn't change**: it's the same `retrieve()` + Gemini answer the backend
+(`backend/rag.py`) already does. What changes is the *surface* (how users talk to it)
+and the *hosting* (where the code that answers Slack lives).
 
 ---
 
@@ -47,8 +47,8 @@ cleanly with the existing Python code.
 @-mentions it and gets an answer with source links, same as the web app.
 
 **Build outline (~1 day):**
-1. Refactor the shared brain out of `app.py` into a small `core.py`
-   (`load_index()`, `retrieve()`, `generate()`), imported by both Streamlit and Slack.
+1. The shared brain already lives in `backend/rag.py` (`load_index()`, `retrieve()`,
+   `generate_stream()`) — import it, or have the Slack bot call the backend's `/chat`.
 2. Write `slack_bot.py` using Bolt in **Socket Mode**:
    ```python
    @app.command("/reachbot")
@@ -72,7 +72,7 @@ cleanly with the existing Python code.
 Two sub-paths, very different in effort:
 
 ### B1. Just share the web app (zero extra work)
-The Streamlit app is already a shareable URL. Send portfolio companies the link
+The web app is already a shareable URL. Send portfolio companies the link
 (optionally behind the existing password gate). This is the **80/20** — no Slack
 work at all, works on any device. Worth doing first regardless.
 
@@ -106,5 +106,6 @@ complexity is purely Slack distribution + hosting, not the content.
    Slack and there's an owner to run it long-term.
 
 ## Prerequisite either way
-Factor `load_index` / `retrieve` / `generate` out of `app.py` into `core.py` so the
-Slack app and the web app share one implementation and never drift.
+The shared RAG logic already lives in `backend/rag.py` (`load_index` / `retrieve` /
+`generate_stream`). The Slack app should reuse it — import the module, or just call the
+backend's `/chat` endpoint — so the Slack and web surfaces never drift.

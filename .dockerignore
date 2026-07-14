@@ -1,0 +1,18 @@
+# Keep the backend image small — only backend/*.py + index.npz are needed.
+.claude/
+scratchpad/
+frontend/
+reachin_md/
+transcripts/
+__pycache__/
+**/__pycache__/
+*.pyc
+.git/
+.github/
+.venv/
+backend/.venv/
+index_partial.npz
+*.md
+!backend/requirements.txt
+.env
+.DS_Store
