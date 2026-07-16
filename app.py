@@ -602,7 +602,27 @@ def _is_perk_query(q):
     ql = q.lower()
     return any(k in ql for k in PERK_KEYWORDS)
 
+# Dynamic retrieval thresholds — calibrated on real score curves (2026-07-16),
+# kept identical to backend/rag.py. See RESPONSE_DESIGN.md §6.
+TIER_STRONG = 0.70
+TIER_PARTIAL = 0.60
+MARGIN = 0.08
+TIER_CAPS = {"strong": TOP_K, "partial": 12, "weak": 5}
+MIN_KEEP = 4
+_BROWSE_RE = re.compile(
+    r"what do (?:you|we) have|show me (?:all|everything)|everything (?:on|about|"
+    r"related to)|list (?:all|everything)|what(?:'s| is) (?:in|available)|browse",
+    re.IGNORECASE)
+
+QUALITY_LABELS = {
+    "strong": "STRONG — the knowledge base covers this well",
+    "partial": "PARTIAL — closest matches are adjacent, not direct",
+    "weak": "WEAK — nothing in the knowledge base matches this well",
+}
+
 def retrieve(query, vectors, chunks, titles, urls, categories):
+    """Return (hits, quality): retrieval depth adapts to the score curve, and
+    `quality` tells the model how good the coverage really is."""
     r = _client.models.embed_content(model=EMBED_MODEL, contents=query)
     q = np.array(r.embeddings[0].values, dtype=np.float32)
     q /= (np.linalg.norm(q) + 1e-9)
@@ -610,26 +630,62 @@ def retrieve(query, vectors, chunks, titles, urls, categories):
 
     # For perk/discount/partnership queries, only consider partner-deal chunks.
     perk = _is_perk_query(query)
+    browse = bool(_BROWSE_RE.search(query))
     def allowed(i):
         if not perk:
             return True
         return categories[i] == PERK_CATEGORY or PERK_CATEGORY.lower() in str(chunks[i]).lower()
 
-    # Walk candidates in score order, skip thin/empty chunks
-    results = []
+    # Walk candidates in score order, skip thin/empty chunks, keep scores
+    ranked = []
     for i in np.argsort(-scores):
         if not allowed(i):
             continue
         raw = chunks[i].strip()
-        # Strip the title line(s) — real body is everything after the first heading
         body_lines = [l for l in raw.split('\n')[1:] if l.strip()]
         body = '\n'.join(body_lines).strip()
         if len(body) < MIN_BODY_CHARS:
             continue   # nav stub, empty AMA header, etc.
-        results.append((raw, str(titles[i]), str(urls[i]), str(categories[i])))
-        if len(results) >= TOP_K:
+        ranked.append((float(scores[i]), raw, str(titles[i]), str(urls[i]), str(categories[i])))
+        if len(ranked) >= 40:
             break
-    return results
+
+    if not ranked:
+        return [], {"tier": "weak", "top": 0.0, "kept": 0}
+
+    top = ranked[0][0]
+    tier = "strong" if top >= TIER_STRONG else ("partial" if top >= TIER_PARTIAL else "weak")
+
+    if browse and tier != "weak":
+        # Breadth query: best chunk per page, up to 15 distinct sources —
+        # margin logic would starve these (one hub page matches, then a cliff).
+        seen, picked = set(), []
+        for s, raw, t, u, cat in ranked:
+            if s < TIER_PARTIAL or t in seen:
+                continue
+            seen.add(t)
+            picked.append((s, raw, t, u, cat))
+            if len(picked) >= 15:
+                break
+    else:
+        # Keep only chunks near the best match. Weak evidence gets LESS context
+        # on purpose: 5 chunks let the model name "the closest thing" honestly;
+        # 25 noise chunks tempt it to overreach.
+        floor = top - MARGIN
+        picked = [h for h in ranked if h[0] >= floor][:TIER_CAPS[tier]]
+        if len(picked) < MIN_KEEP:
+            picked = ranked[:MIN_KEEP]
+        if not perk:
+            per_page = {}
+            capped = []
+            for h in picked:
+                per_page[h[2]] = per_page.get(h[2], 0) + 1
+                if per_page[h[2]] <= 3:   # one long transcript can't hog context
+                    capped.append(h)
+            picked = capped
+
+    hits = [(raw, t, u, cat) for _s, raw, t, u, cat in picked]
+    return hits, {"tier": tier, "top": round(top, 3), "kept": len(hits)}
 
 def standalone_query(question, history):
     """Rewrite a follow-up ("more on that", "who ran it?") into a self-contained
@@ -664,6 +720,12 @@ Answer exclusively from the ReachIn context provided. Never fabricate facts or l
 CONTEXT FORMAT: Each block starts with [Title](NotionURL) then the page content.
 The content may contain **Link:** or **Files & media:** fields with direct resource URLs.
 The context may include Reach Capital Network Profiles for advisors, consultants, scouts, and media contacts — use these to answer questions about who is in the Reach network.
+
+The context begins with a RETRIEVAL QUALITY line — a measured signal of how well the
+knowledge base covers this question. Let it anchor your routing: STRONG → answer
+normally. PARTIAL → default to LOW-CONFIDENCE framing; only answer plainly if a chunk
+truly nails the question. WEAK → default to NOT-FOUND; the chunks you see are the
+least-bad matches, not real coverage — do not stitch them into a confident answer.
 
 STEP 1 — CLASSIFY, THEN ANSWER. Silently route every query into exactly ONE response
 type below and follow its structure. Do not name the type in your answer.
@@ -1061,8 +1123,10 @@ if prompt:
 </div>""", unsafe_allow_html=True)
 
     search_q = standalone_query(prompt, st.session_state.history)
-    hits    = retrieve(search_q, vectors, chunks, titles, urls, categories)
-    context = "\n\n---\n\n".join(f"[{t}]({u})\n{c}" for c, t, u, _cat in hits)
+    hits, quality = retrieve(search_q, vectors, chunks, titles, urls, categories)
+    context = (f"RETRIEVAL QUALITY: {QUALITY_LABELS[quality['tier']]} "
+               f"({quality['kept']} chunks passed the relevance bar).\n\n"
+               + "\n\n---\n\n".join(f"[{t}]({u})\n{c}" for c, t, u, _cat in hits))
     answer  = generate(context, prompt, st.session_state.history)
     ph.empty()
 

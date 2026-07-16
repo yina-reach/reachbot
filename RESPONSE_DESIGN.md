@@ -100,6 +100,32 @@ useful:
 **Attribution stays consistent either way:** external destinations are described
 as "via ReachIn's <category> resources" — never as something found on the open web.
 
+## 6. Evidence-aware retrieval (dynamic thresholding)
+
+Retrieval depth adapts to the similarity-score curve instead of always returning a
+fixed top-25. Calibrated 2026-07-16 on real queries (top scores: on-topic ~0.73–0.80,
+adjacent ~0.66, off-topic ~0.54):
+
+- **Coverage tier from the absolute top score:** ≥ 0.70 STRONG · 0.60–0.70 PARTIAL ·
+  < 0.60 WEAK.
+- **Dynamic cutoff:** keep chunks within 0.08 of the best match. Lookup queries cliff
+  fast (3–8 survive → fewer distractors); synthesis plateaus (up to 25); WEAK is
+  capped at 5 — *less* context on purpose, because 25 noise chunks tempt the model to
+  overreach, while 5 let it honestly name "the closest thing."
+- **Browse queries** (breadth phrasing) skip margin logic: best chunk per page, up to
+  15 distinct sources ≥ 0.60 — the user wants the catalog, not depth.
+- **Diversity guard:** max 3 chunks per page (except perk queries, where one page
+  legitimately holds all the deals), so a single long transcript can't hog context.
+- **The model is told what retrieval found:** context opens with a
+  `RETRIEVAL QUALITY: STRONG/PARTIAL/WEAK` line, and the prompt anchors routing to it
+  — STRONG answers normally, PARTIAL defaults to low-confidence framing, WEAK
+  defaults to not-found. This grounds the trust-critical types in a *measured*
+  signal instead of the model's own judgment of the chunks.
+
+Thresholds live at the top of `retrieve()` in both implementations. If the embedding
+model or chunking ever changes, re-run the calibration (score curves shift) before
+trusting the old numbers.
+
 ---
 
 *Maintained alongside the prompt — if you change one, change the other. The prompt

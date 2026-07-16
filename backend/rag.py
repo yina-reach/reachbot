@@ -45,6 +45,12 @@ CONTEXT FORMAT: Each block starts with [Title](NotionURL) then the page content.
 The content may contain **Link:** or **Files & media:** fields with direct resource URLs.
 The context may include Reach Capital Network Profiles for advisors, consultants, scouts, and media contacts — use these to answer questions about who is in the Reach network.
 
+The context begins with a RETRIEVAL QUALITY line — a measured signal of how well the
+knowledge base covers this question. Let it anchor your routing: STRONG → answer
+normally. PARTIAL → default to LOW-CONFIDENCE framing; only answer plainly if a chunk
+truly nails the question. WEAK → default to NOT-FOUND; the chunks you see are the
+least-bad matches, not real coverage — do not stitch them into a confident answer.
+
 STEP 1 — CLASSIFY, THEN ANSWER. Silently route every query into exactly ONE response
 type below and follow its structure. Do not name the type in your answer.
 
@@ -169,8 +175,29 @@ def _is_perk_query(q: str) -> bool:
     return any(k in ql for k in PERK_KEYWORDS)
 
 
+# ── Dynamic retrieval thresholds (calibrated on real score curves 2026-07-16;
+#    see RESPONSE_DESIGN.md §6) ────────────────────────────────────────────────
+# Absolute top-score tiers: on-topic queries top ~0.73-0.80, adjacent ~0.66,
+# off-topic ~0.54 — cleanly separable.
+TIER_STRONG = 0.70    # solid coverage
+TIER_PARTIAL = 0.60   # adjacent / partial coverage
+MARGIN = 0.08         # keep chunks within this of the top score
+# How many chunks each tier may pass to the model. Weak evidence gets LESS
+# context on purpose: 25 noise chunks tempt the model to overreach; 5 lets it
+# name "the closest thing" and honestly route to not-found/low-confidence.
+TIER_CAPS = {"strong": TOP_K, "partial": 12, "weak": 5}
+MIN_KEEP = 4          # never starve the model entirely
+
+_BROWSE_RE = re.compile(
+    r"what do (?:you|we) have|show me (?:all|everything)|everything (?:on|about|"
+    r"related to)|list (?:all|everything)|what(?:'s| is) (?:in|available)|browse",
+    re.IGNORECASE)
+
+
 def retrieve(query: str):
-    """Return list of (raw_chunk, title, url, category) top hits."""
+    """Return (hits, quality). hits = [(raw_chunk, title, url, category)];
+    quality = {tier, top, kept} describing evidence strength, surfaced to the
+    model so not-found/low-confidence routing is grounded in scores."""
     idx = load_index()
     vectors, chunks, titles, urls, categories = (
         idx.vectors, idx.chunks, idx.titles, idx.urls, idx.categories,
@@ -181,13 +208,15 @@ def retrieve(query: str):
     scores = vectors @ q
 
     perk = _is_perk_query(query)
+    browse = bool(_BROWSE_RE.search(query))
 
     def allowed(i):
         if not perk:
             return True
         return categories[i] == PERK_CATEGORY or PERK_CATEGORY.lower() in str(chunks[i]).lower()
 
-    results = []
+    # Walk candidates in score order, skipping thin chunks; keep scores.
+    ranked = []
     for i in np.argsort(-scores):
         if not allowed(i):
             continue
@@ -196,14 +225,59 @@ def retrieve(query: str):
         body = '\n'.join(body_lines).strip()
         if len(body) < MIN_BODY_CHARS:
             continue  # nav stub, empty AMA header, etc.
-        results.append((raw, str(titles[i]), str(urls[i]), str(categories[i])))
-        if len(results) >= TOP_K:
+        ranked.append((float(scores[i]), raw, str(titles[i]), str(urls[i]), str(categories[i])))
+        if len(ranked) >= 40:  # enough headroom for browse dedup + margin cuts
             break
-    return results
+
+    if not ranked:
+        return [], {"tier": "weak", "top": 0.0, "kept": 0}
+
+    top = ranked[0][0]
+    tier = "strong" if top >= TIER_STRONG else ("partial" if top >= TIER_PARTIAL else "weak")
+
+    if browse and tier != "weak":
+        # Breadth query: one best chunk per PAGE, up to 15 distinct sources.
+        # Margin logic would starve these — "what do you have on X" often nails
+        # one hub page then cliffs, but the user wants the catalog.
+        seen, picked = set(), []
+        for s, raw, t, u, cat in ranked:
+            if s < TIER_PARTIAL or t in seen:
+                continue
+            seen.add(t)
+            picked.append((s, raw, t, u, cat))
+            if len(picked) >= 15:
+                break
+    else:
+        # Dynamic cutoff relative to the best match: lookups cliff fast (3-8
+        # survive), synthesis plateaus (cap applies), off-topic is flat+low
+        # (weak tier cap applies).
+        floor = top - MARGIN
+        picked = [h for h in ranked if h[0] >= floor][:TIER_CAPS[tier]]
+        if len(picked) < MIN_KEEP:
+            picked = ranked[:MIN_KEEP]
+        if not perk:
+            # Diversity guard: one long transcript can't hog the context.
+            per_page = {}
+            capped = []
+            for h in picked:
+                per_page[h[2]] = per_page.get(h[2], 0) + 1
+                if per_page[h[2]] <= 3:
+                    capped.append(h)
+            picked = capped
+
+    hits = [(raw, t, u, cat) for _s, raw, t, u, cat in picked]
+    return hits, {"tier": tier, "top": round(top, 3), "kept": len(hits)}
 
 
-def build_context(hits) -> str:
-    return "\n\n---\n\n".join(f"[{t}]({u})\n{c}" for c, t, u, _cat in hits)
+def build_context(hits, quality=None) -> str:
+    body = "\n\n---\n\n".join(f"[{t}]({u})\n{c}" for c, t, u, _cat in hits)
+    if quality:
+        label = {"strong": "STRONG — the knowledge base covers this well",
+                 "partial": "PARTIAL — closest matches are adjacent, not direct",
+                 "weak": "WEAK — nothing in the knowledge base matches this well"}[quality["tier"]]
+        body = (f"RETRIEVAL QUALITY: {label} "
+                f"({quality['kept']} chunks passed the relevance bar).\n\n{body}")
+    return body
 
 
 def standalone_query(question: str, history) -> str:

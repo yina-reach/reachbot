@@ -244,14 +244,14 @@ def chat(request: Request, body: ChatBody, rb_auth: Optional[str] = Cookie(defau
             # Follow-ups ("more on that") embed poorly — retrieve with a
             # history-resolved standalone query, but answer the raw question.
             search_q = rag.standalone_query(question, history)
-            hits = rag.retrieve(search_q)
+            hits, quality = rag.retrieve(search_q)
             sources = [
                 {"title": t, "url": u, "type": classify(t, cat)}
                 for _c, t, u, cat in hits
             ]
             yield sse("sources", sources)
 
-            context = rag.build_context(hits)
+            context = rag.build_context(hits, quality)
             for token in rag.generate_stream(context, question, history):
                 yield sse("token", token)
         except Exception as e:  # never leak a stack trace to the client stream
