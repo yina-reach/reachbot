@@ -15,6 +15,9 @@ When Teachers Learn a Complete View of Asian American History, Students Benefit
 Finding Your Voice Isn't Just For Students. It's For Teachers, Too
 Minnie Phan: A Young Girl and the Power of Art
 Book Reading Goals for Young Readers with Traci Thomas
+The Habits of 7 Highly Effective Schools
+How We Made the Expanded KQED California Voter Guide
+How to Talk to Kids of Traumatic News: Expert Tips
 Player sponsored by
 window.__IS_SSR__=true
 window.__INITIAL_STATE__={
@@ -890,6 +893,198 @@ window.__INITIAL_STATE__={
 },
 "isLoading": false,
 "fetchFailed": false
+},
+"mindshift_64790": {
+"type": "attachments",
+"id": "mindshift_64790",
+"meta": {
+"index": "attachments_1716263798",
+"site": "mindshift",
+"id": "64790",
+"found": true
+},
+"title": "Hechinger Report Proof Points Featured Image",
+"publishDate": 1727478396,
+"status": "inherit",
+"parent": 64787,
+"modified": 1727478440,
+"caption": "Allison Shelley for EDUimages",
+"credit": null,
+"altTag": "An adult overlooks three students shoulders as they work on computers.",
+"description": null,
+"imgSizes": {
+"medium": {
+"file": "https://cdn.kqed.org/wp-content/uploads/sites/23/2024/09/Hechinger-Report-Proof-Points-Featured-Image-800x533.png",
+"width": 800,
+"height": 533,
+"mimeType": "image/png"
+},
+"large": {
+"file": "https://cdn.kqed.org/wp-content/uploads/sites/23/2024/09/Hechinger-Report-Proof-Points-Featured-Image-1020x680.png",
+"width": 1020,
+"height": 680,
+"mimeType": "image/png"
+},
+"thumbnail": {
+"file": "https://cdn.kqed.org/wp-content/uploads/sites/23/2024/09/Hechinger-Report-Proof-Points-Featured-Image-160x107.png",
+"width": 160,
+"height": 107,
+"mimeType": "image/png"
+},
+"medium_large": {
+"file": "https://cdn.kqed.org/wp-content/uploads/sites/23/2024/09/Hechinger-Report-Proof-Points-Featured-Image-768x512.png",
+"width": 768,
+"height": 512,
+"mimeType": "image/png"
+},
+"1536x1536": {
+"file": "https://cdn.kqed.org/wp-content/uploads/sites/23/2024/09/Hechinger-Report-Proof-Points-Featured-Image-1536x1024.png",
+"width": 1536,
+"height": 1024,
+"mimeType": "image/png"
+},
+"post-thumbnail": {
+"file": "https://cdn.kqed.org/wp-content/uploads/sites/23/2024/09/Hechinger-Report-Proof-Points-Featured-Image-672x372.png",
+"width": 672,
+"height": 372,
+"mimeType": "image/png"
+},
+"twentyfourteen-full-width": {
+"file": "https://cdn.kqed.org/wp-content/uploads/sites/23/2024/09/Hechinger-Report-Proof-Points-Featured-Image-1038x576.png",
+"width": 1038,
+"height": 576,
+"mimeType": "image/png"
+},
+"kqedFullSize": {
+"file": "https://cdn.kqed.org/wp-content/uploads/sites/23/2024/09/Hechinger-Report-Proof-Points-Featured-Image.png",
+"width": 1920,
+"height": 1280
+}
+},
+"isLoading": false,
+"fetchFailed": false
+},
+"news_12005198": {
+"type": "attachments",
+"id": "news_12005198",
+"meta": {
+"index": "attachments_1716263798",
+"site": "news",
+"id": "12005198",
+"found": true
+},
+"title": "Santa Clara County Demonstrates Its Voting Center Operations And Guidelines",
+"publishDate": 1726680583,
+"status": "inherit",
+"parent": 12005193,
+"modified": 1726682932,
+"caption": "A voter fills out his ballot while early voting at the Santa Clara County registrar of voters office on Oct. 13, 2020, in San José.",
+"credit": "Justin Sullivan/Getty Images",
+"altTag": "A man wearing a mask votes at a voting booth.",
+"description": null,
+"imgSizes": {
+"medium": {
+"file": "https://cdn.kqed.org/wp-content/uploads/sites/10/2024/09/GettyImages-1280031491-800x519.jpg",
+"width": 800,
+"height": 519,
+"mimeType": "image/jpeg"
+},
+"large": {
+"file": "https://cdn.kqed.org/wp-content/uploads/sites/10/2024/09/GettyImages-1280031491-1020x661.jpg",
+"width": 1020,
+"height": 661,
+"mimeType": "image/jpeg"
+},
+"thumbnail": {
+"file": "https://cdn.kqed.org/wp-content/uploads/sites/10/2024/09/GettyImages-1280031491-160x104.jpg",
+"width": 160,
+"height": 104,
+"mimeType": "image/jpeg"
+},
+"post-thumbnail": {
+"file": "https://cdn.kqed.org/wp-content/uploads/sites/10/2024/09/GettyImages-1280031491-672x372.jpg",
+"width": 672,
+"height": 372,
+"mimeType": "image/jpeg"
+},
+"twentyfourteen-full-width": {
+"file": "https://cdn.kqed.org/wp-content/uploads/sites/10/2024/09/GettyImages-1280031491-1024x576.jpg",
+"width": 1024,
+"height": 576,
+"mimeType": "image/jpeg"
+},
+"kqedFullSize": {
+"file": "https://cdn.kqed.org/wp-content/uploads/sites/10/2024/09/GettyImages-1280031491.jpg",
+"width": 1024,
+"height": 664
+}
+},
+"isLoading": false,
+"fetchFailed": false
+},
+"news_11875482": {
+"type": "attachments",
+"id": "news_11875482",
+"meta": {
+"index": "attachments_1716263798",
+"site": "news",
+"id": "11875482",
+"found": true
+},
+"parent": 11764070,
+"imgSizes": {
+"twentyfourteen-full-width": {
+"file": "https://ww2.kqed.org/app/uploads/sites/10/2019/07/pexels-ketut-subiyanto-4473797-1038x576.jpg",
+"width": 1038,
+"mimeType": "image/jpeg",
+"height": 576
+},
+"thumbnail": {
+"file": "https://ww2.kqed.org/app/uploads/sites/10/2019/07/pexels-ketut-subiyanto-4473797-160x107.jpg",
+"width": 160,
+"mimeType": "image/jpeg",
+"height": 107
+},
+"post-thumbnail": {
+"file": "https://ww2.kqed.org/app/uploads/sites/10/2019/07/pexels-ketut-subiyanto-4473797-672x372.jpg",
+"width": 672,
+"mimeType": "image/jpeg",
+"height": 372
+},
+"kqedFullSize": {
+"file": "https://ww2.kqed.org/app/uploads/sites/10/2019/07/pexels-ketut-subiyanto-4473797.jpg",
+"width": 1920,
+"height": 1280
+},
+"large": {
+"file": "https://ww2.kqed.org/app/uploads/sites/10/2019/07/pexels-ketut-subiyanto-4473797-1020x680.jpg",
+"width": 1020,
+"mimeType": "image/jpeg",
+"height": 680
+},
+"1536x1536": {
+"file": "https://ww2.kqed.org/app/uploads/sites/10/2019/07/pexels-ketut-subiyanto-4473797-1536x1024.jpg",
+"width": 1536,
+"mimeType": "image/jpeg",
+"height": 1024
+},
+"medium": {
+"file": "https://ww2.kqed.org/app/uploads/sites/10/2019/07/pexels-ketut-subiyanto-4473797-800x533.jpg",
+"width": 800,
+"mimeType": "image/jpeg",
+"height": 533
+}
+},
+"publishDate": 1622058072,
+"modified": 1674620884,
+"caption": "When traumatic events like shootings are in the news, how should you best discuss them with kids — or, given their age, should you?",
+"description": null,
+"title": "pexels-ketut-subiyanto-4473797",
+"credit": "Ketut Subiyanto/Pexels",
+"status": "inherit",
+"altTag": "A woman and a child lie facing each other on their sides, talking",
+"isLoading": false,
+"fetchFailed": false
 }
 },
 "audioPlayerReducer": {
@@ -922,8 +1117,9 @@ window.__INITIAL_STATE__={
 ],
 "title": "KQED Contributor",
 "bio": "Ki Sung is Managing Editor of Digital News at KQED. She is former Senior Editor of MindShift and worked at NPR before joining KQED in 2014.",
-"avatar": "https://secure.gravatar.com/avatar/4ab131bca80bafb89a073bf2348fce93?s=600&d=blank&r=g",
+"avatar": "https://secure.gravatar.com/avatar/64271e01dc95486c133be56937739045b7c00c990525bf9add12d3dd4f0433c9?s=600&d=blank&r=g",
 "twitter": null,
+"bluesky": null,
 "facebook": null,
 "instagram": null,
 "linkedin": null,
@@ -950,11 +1146,21 @@ window.__INITIAL_STATE__={
 "headData": {
 "title": "Ki Sung | KQED",
 "description": "KQED Contributor",
-"ogImgSrc": "https://secure.gravatar.com/avatar/4ab131bca80bafb89a073bf2348fce93?s=600&d=blank&r=g",
-"twImgSrc": "https://secure.gravatar.com/avatar/4ab131bca80bafb89a073bf2348fce93?s=600&d=blank&r=g"
+"ogImgSrc": "https://secure.gravatar.com/avatar/64271e01dc95486c133be56937739045b7c00c990525bf9add12d3dd4f0433c9?s=600&d=blank&r=g",
+"twImgSrc": "https://secure.gravatar.com/avatar/64271e01dc95486c133be56937739045b7c00c990525bf9add12d3dd4f0433c9?s=600&d=blank&r=g"
 },
 "isLoading": false,
 "link": "/author/ksung"
+},
+"byline_mindshift_64787": {
+"type": "authors",
+"id": "byline_mindshift_64787",
+"meta": {
+"override": true
+},
+"slug": "byline_mindshift_64787",
+"name": "Jill Barshay, The Hechinger Report",
+"isLoading": false
 },
 "mjacksonretondo": {
 "type": "authors",
@@ -1021,7 +1227,7 @@ window.__INITIAL_STATE__={
 "meta": {
 "index": "authors_1716337520",
 "id": "4596",
-"score": 6.9255953,
+"score": 6.11305,
 "site": "authors"
 },
 "name": "Ki Sung",
@@ -1035,8 +1241,9 @@ window.__INITIAL_STATE__={
 ],
 "title": "KQED Contributor",
 "bio": "Ki Sung is Managing Editor of Digital News at KQED. She is former Senior Editor of MindShift and worked at NPR before joining KQED in 2014.",
-"avatar": "https://secure.gravatar.com/avatar/4ab131bca80bafb89a073bf2348fce93?s=600&d=blank&r=g",
+"avatar": "https://secure.gravatar.com/avatar/64271e01dc95486c133be56937739045b7c00c990525bf9add12d3dd4f0433c9?s=600&d=blank&r=g",
 "twitter": null,
+"bluesky": null,
 "facebook": null,
 "instagram": null,
 "linkedin": null,
@@ -1060,7 +1267,12 @@ window.__INITIAL_STATE__={
 ]
 }
 ],
-"headData": {},
+"headData": {
+"title": "Ki Sung | KQED",
+"description": "KQED Contributor",
+"ogImgSrc": "https://secure.gravatar.com/avatar/64271e01dc95486c133be56937739045b7c00c990525bf9add12d3dd4f0433c9?s=600&d=blank&r=g",
+"twImgSrc": "https://secure.gravatar.com/avatar/64271e01dc95486c133be56937739045b7c00c990525bf9add12d3dd4f0433c9?s=600&d=blank&r=g"
+},
 "isLoading": false,
 "hasAllInfo": true,
 "blocks": [
@@ -1073,7 +1285,7 @@ window.__INITIAL_STATE__={
 "meta": {
 "index": "authors_1716337520",
 "id": "4596",
-"score": 6.9255953
+"score": 6.11305
 },
 "name": "Ki Sung",
 "firstName": "Ki",
@@ -1084,8 +1296,9 @@ window.__INITIAL_STATE__={
 "staff_mastheads": "[Circular]",
 "title": "KQED Contributor",
 "bio": "Ki Sung is Managing Editor of Digital News at KQED. She is former Senior Editor of MindShift and worked at NPR before joining KQED in 2014.",
-"avatar": "https://secure.gravatar.com/avatar/4ab131bca80bafb89a073bf2348fce93?s=600&d=blank&r=g",
+"avatar": "https://secure.gravatar.com/avatar/64271e01dc95486c133be56937739045b7c00c990525bf9add12d3dd4f0433c9?s=600&d=blank&r=g",
 "twitter": null,
+"bluesky": null,
 "facebook": null,
 "instagram": null,
 "linkedin": null,
@@ -1093,8 +1306,8 @@ window.__INITIAL_STATE__={
 "headData": {
 "title": "Ki Sung | KQED",
 "description": "KQED Contributor",
-"ogImgSrc": "https://secure.gravatar.com/avatar/4ab131bca80bafb89a073bf2348fce93?s=600&d=blank&r=g",
-"twImgSrc": "https://secure.gravatar.com/avatar/4ab131bca80bafb89a073bf2348fce93?s=600&d=blank&r=g"
+"ogImgSrc": "https://secure.gravatar.com/avatar/64271e01dc95486c133be56937739045b7c00c990525bf9add12d3dd4f0433c9?s=600&d=blank&r=g",
+"twImgSrc": "https://secure.gravatar.com/avatar/64271e01dc95486c133be56937739045b7c00c990525bf9add12d3dd4f0433c9?s=600&d=blank&r=g"
 },
 "isLoading": false,
 "link": "/author/ksung",
@@ -2240,6 +2453,432 @@ window.__INITIAL_STATE__={
 ],
 "featImg": "mindshift_65037",
 "label": "mindshift_21942"
+},
+"mindshift_64787": {
+"type": "posts",
+"id": "mindshift_64787",
+"meta": {
+"index": "posts_1716263798",
+"site": "mindshift",
+"id": "64787",
+"score": null,
+"sort": [
+1727690536000
+]
+},
+"guestAuthors": [],
+"slug": "the-habits-of-7-highly-effective-schools",
+"title": "The Habits of 7 Highly Effective Schools",
+"publishDate": 1727690536,
+"format": "standard",
+"headTitle": "The Habits of 7 Highly Effective Schools | KQED",
+"labelTerm": {
+"term": 21847,
+"site": "mindshift"
+},
+"content": "\u003cp>Everybody is trying to find ways to help students catch up after the pandemic. One \u003ca href=\"https://tntp.org/publication/the-opportunity-makers/\">new data analysis\u003c/a> suggests some promising ideas.\u003c/p>\n\u003cp>\u003ca href=\"https://tntp.org/\">TNTP\u003c/a>, a nonprofit based in New York that advocates for improving K-12 education, wanted to identify schools that are the most effective at helping kids recover academically and understand what those schools are doing differently. These are not schools where students post the highest test scores, but schools where kids learn more each school year than students typically do.\u003c/p>\n\u003cp>TNTP researchers plunged into a giant pool of data housed at \u003ca href=\"https://edopportunity.org/\">Stanford University \u003c/a> that tracked hundreds of millions of students’ scores on state tests at more than half the elementary and middle schools in the nation from 2009 to 2018. The researchers found that at 28,000 of the 51,000 elementary and middle schools in the database, students entered third grade or middle school below grade level. TNTP calculated that the top 5 percent of these start-behind schools – 1,345 of them – were helping students learn at least 1.3 year’s worth of material every year, based on how test scores improved as students progressed from grade to grade. In other words, the students at the top 5 percent of the start-behind schools learned the equivalent of an extra full year or more of math and reading every three years.\u003c/p>\n\u003cp>“Growing at this rate allows most students to catch up to grade level during their time in school,” concluded the \u003ca href=\"https://tntp.org/publication/the-opportunity-makers/\">report\u003c/a>, which was released in September 2024.\u003c/p>\n\u003cp>Previous researchers conducted a similar analysis in \u003ca href=\"https://cepa.stanford.edu/content/educational-opportunity-early-and-middle-childhood-using-full-population-administrative-data-study-variation-place-and-age\">2017 with whole school districts\u003c/a> instead of individual schools. In that study, \u003ca href=\"https://www.nytimes.com/interactive/2017/12/05/upshot/a-better-way-to-compare-public-schools.html\">Chicago emerged as\u003c/a> the nation’s most effective school district. Like the schools in the 2024 analysis, Chicago didn’t post the highest test scores, but its students were progressing the most each year.\u003c/p>\n\u003cp>[ad fullwidth]\u003c/p>\n\u003cp>“There are many schools that are effective at helping students learn, even in high-poverty communities,” said Sean Reardon, a Stanford sociologist who was part of the team that developed the Stanford Education Data Archive. “The TNTP report uses our data to identify some of them and then digs in to understand what makes them particularly effective. This is exactly what we hoped people would do with the data.”\u003c/p>\n\u003cp>TNTP did identify seven of the 1,345 highly effective schools that it selected to study in depth. Only one of the seven schools had a majority Black population, reflecting the fact that Black students are underrepresented at the most effective schools.\u003c/p>\n\u003cp>The seven schools ranged widely. Some were large. Some were small. Some were city schools with many Hispanic students. Others were mostly white, rural schools. They used different instructional materials and did a lot of things differently, but TNTP teased out three traits that it thought these schools had in common.\u003c/p>\n\u003ch2>\u003cstrong>Seven of the 1,345 schools where students started behind but made large learning gains over a decade from 2009 to 2018\u003c/strong>\u003c/h2>\n\u003cp> \u003c/p>\n\u003cfigure id=\"attachment_64791\" class=\"wp-caption aligncenter\" style=\"max-width: 977px\">\u003cimg loading=\"lazy\" decoding=\"async\" class=\"wp-image-64791 size-full\" src=\"https://cdn.kqed.org/wp-content/uploads/sites/23/2024/09/TNTP-Map.png\" alt=\"\" width=\"977\" height=\"408\" srcset=\"https://cdn.kqed.org/wp-content/uploads/sites/23/2024/09/TNTP-Map.png 977w, https://cdn.kqed.org/wp-content/uploads/sites/23/2024/09/TNTP-Map-800x334.png 800w, https://cdn.kqed.org/wp-content/uploads/sites/23/2024/09/TNTP-Map-160x67.png 160w, https://cdn.kqed.org/wp-content/uploads/sites/23/2024/09/TNTP-Map-768x321.png 768w\" sizes=\"(max-width: 977px) 100vw, 977px\">\u003cfigcaption class=\"wp-caption-text\">Red dots represent the seven schools that TNTP named and studied in depth. Green dots represent all 1,345 schools that TNTP identified as producing large annual gains in learning for students who entered school behind grade level. Source: TNTP Opportunity Makers report 2024.\u003c/figcaption>\u003c/figure>\n\u003cp>“What we found was not a silver-bullet solution, a perfect curriculum, or a rockstar principal,” the report said. “Instead, these schools shared a commitment to doing three core things well: they create a culture of belonging, deliver consistent grade-level instruction, and build a coherent instructional program.\u003c/p>\n\u003cp>According to TNTP’s classroom observations, students received good or strong instruction in nine out of 10 classrooms. “Across all classrooms, the steady accumulation of good lessons—not unattainably perfect ones—sets trajectory-changing schools apart,” the report said, contrasting this consistent level of “good” with \u003ca href=\"https://opportunitymyth.tntp.org/\">its earlier observation\u003c/a> that most U.S. schools have some good teaching, but there is a lot of variation from one classroom to the next.\u003c/p>\n\u003cp>In addition to good instruction, TNTP said that students in these seven schools were receiving grade-level content in their English and math classes although most students were behind. Teachers in each school used the same shared curriculum. According to the TNTP report, only about a third of elementary school teachers nationwide say they “mostly use” the curriculum adopted by their school. At Trousdale County Elementary in Tennessee, one of the exemplar schools, 80 percent of teachers said they did.\u003c/p>\n\u003cp>While many education advocates are pushing for the \u003ca href=\"https://www.aei.org/events/the-case-for-curriculum-reform/\">adoption of better curriculum as a lever to improve schools\u003c/a>, “It’s possible to get trajectory-changing results without a perfect curriculum,” TNTP wrote in its report.\u003c/p>\n\u003cp>Teachers also had regular, scheduled sessions to collaborate, discuss their instruction, and note what did and did not work. “Everyone holds the same high expectations and works together to improve,” the report said.\u003c/p>\n\u003cp>The schools also gave students extra instruction to fill knowledge gaps and extra practice to solidify their skills. These extra support classes, called “intervention blocks,” are now commonplace at many low-income schools, but TNTP noted one major difference at the seven schools they studied. The intervention blocks were connected to what students were learning in their main classrooms. That requires school leaders to make sure that interventionists, classroom aides and the main classroom teachers have time to talk and collaborate during the school day.\u003c/p>\n\u003cp>These seven schools all had strong principals. Although many of the principals came and left during the decade that TNTP studied, the schools maintained strong results.\u003c/p>\n\u003cp>The seven schools also emphasized student-teacher relationships and built a caring community. At Brightwood, a small charter school in Washington, D.C., that serves an immigrant population, staff members try to learn the names of every student and to be collectively responsible for both their academics and well-being. During one staff meeting, teachers wrote more than 250 student names on giant pads of paper. Teachers put check marks by each child they felt like they had a genuine relationship with and then brainstormed ways to reach the students without checks.\u003c/p>\n\u003cp>At New Heights Academy Charter School in New York City, each teacher contacts 10 parents a week—by text, email, or phone—and logs the calls in a journal. Teachers don’t just call when something goes wrong. They also reach out to parents to talk about an “A” on a test, academic improvement, or good attendance, the report said.\u003c/p>\n\u003cp>It’s always risky to highlight what successful schools are doing because other educators might be tempted to just copy ideas. But TNTP warns that every school is different. What works in one place might not in another. The organization’s advice for schools is to change one practice at a time, perhaps starting with a category that the school is already pretty good at, and improve it. TNTP warns against trying to change too many things at once.\u003c/p>\n\u003cp>TNTP’s view is that any school can become a highly effective school, and that there aren’t particular educational philosophies or materials that a school must use to accomplish this rare feat. A lot of it is simply about increasing communication among teachers, between teachers and students, and with families. It’s a bit like weight-loss diets that don’t dictate which foods you can and cannot eat, as long as you eat less and exercise more. It’s the basic principles that matter most.\u003c/p>\n\u003cp>\u003cem>Contact staff writer \u003c/em>\u003ca href=\"https://hechingerreport.org/author/jill-barshay/\">\u003cem>Jill Barshay\u003c/em>\u003c/a>\u003cem> at (212) 678-3595 or barshay@hechingerreport.org\u003c/em>.\u003c/p>\n\u003cp>[ad floatright]\u003c/p>\n\u003cp>\u003cem>This story about \u003c/em>\u003ca href=\"https://hechingerreport.org/proof-points-tntp-effective-schools/\">\u003cem>how to catch up at school\u003c/em>\u003c/a>\u003cem> was written by Jill Barshay and produced by \u003c/em>\u003ca href=\"https://hechingerreport.org/special-reports/higher-education/\">The Hechinger Report\u003c/a>\u003cem>, a nonprofit, independent news organization focused on inequality and innovation in education. Sign up for \u003c/em>\u003ca href=\"https://hechingerreport.org/proofpoints/\">\u003cem>Proof Points\u003c/em>\u003c/a>\u003cem> and other \u003c/em>\u003ca href=\"https://hechingerreport.org/newsletters/\">\u003cem>Hechinger newsletters\u003c/em>\u003c/a>\u003cem>.\u003c/em>\u003c/p>\n\n",
+"blocks": [],
+"excerpt": "Nonprofit counts more than 1,300 U.S. schools where students beat the odds.",
+"status": "publish",
+"parent": 0,
+"modified": 1729134473,
+"stats": {
+"hasAudio": false,
+"hasVideo": false,
+"hasChartOrMap": false,
+"iframeSrcs": [],
+"hasGoogleForm": false,
+"hasGallery": false,
+"hasHearkenModule": false,
+"hasPolis": false,
+"paragraphCount": 23,
+"wordCount": 1335
+},
+"headData": {
+"title": "The Habits of 7 Highly Effective Schools | KQED",
+"description": "Nonprofit counts more than 1,300 U.S. schools where students beat the odds.",
+"ogTitle": "",
+"ogDescription": "",
+"ogImgId": "",
+"twTitle": "",
+"twDescription": "",
+"twImgId": "",
+"schema": {
+"@context": "https://schema.org",
+"@type": "Article",
+"headline": "The Habits of 7 Highly Effective Schools",
+"datePublished": "2024-09-30T03:02:16-07:00",
+"dateModified": "2024-10-16T20:07:53-07:00",
+"image": "https://cdn.kqed.org/wp-content/uploads/2020/02/KQED-OG-Image@1x.png"
+}
+},
+"sticky": false,
+"nprByline": "Jill Barshay, The Hechinger Report",
+"excludeFromSiteSearch": "Include",
+"showOnAuthorArchivePages": "Yes",
+"articleAge": "0",
+"path": "/mindshift/64787/the-habits-of-7-highly-effective-schools",
+"audioTrackLength": null,
+"parsedContent": [
+{
+"type": "contentString",
+"content": "\u003cdiv class=\"post-body\">\u003cp>\u003cp>Everybody is trying to find ways to help students catch up after the pandemic. One \u003ca href=\"https://tntp.org/publication/the-opportunity-makers/\">new data analysis\u003c/a> suggests some promising ideas.\u003c/p>\n\u003cp>\u003ca href=\"https://tntp.org/\">TNTP\u003c/a>, a nonprofit based in New York that advocates for improving K-12 education, wanted to identify schools that are the most effective at helping kids recover academically and understand what those schools are doing differently. These are not schools where students post the highest test scores, but schools where kids learn more each school year than students typically do.\u003c/p>\n\u003cp>TNTP researchers plunged into a giant pool of data housed at \u003ca href=\"https://edopportunity.org/\">Stanford University \u003c/a> that tracked hundreds of millions of students’ scores on state tests at more than half the elementary and middle schools in the nation from 2009 to 2018. The researchers found that at 28,000 of the 51,000 elementary and middle schools in the database, students entered third grade or middle school below grade level. TNTP calculated that the top 5 percent of these start-behind schools – 1,345 of them – were helping students learn at least 1.3 year’s worth of material every year, based on how test scores improved as students progressed from grade to grade. In other words, the students at the top 5 percent of the start-behind schools learned the equivalent of an extra full year or more of math and reading every three years.\u003c/p>\n\u003cp>“Growing at this rate allows most students to catch up to grade level during their time in school,” concluded the \u003ca href=\"https://tntp.org/publication/the-opportunity-makers/\">report\u003c/a>, which was released in September 2024.\u003c/p>\n\u003cp>Previous researchers conducted a similar analysis in \u003ca href=\"https://cepa.stanford.edu/content/educational-opportunity-early-and-middle-childhood-using-full-population-administrative-data-study-variation-place-and-age\">2017 with whole school districts\u003c/a> instead of individual schools. In that study, \u003ca href=\"https://www.nytimes.com/interactive/2017/12/05/upshot/a-better-way-to-compare-public-schools.html\">Chicago emerged as\u003c/a> the nation’s most effective school district. Like the schools in the 2024 analysis, Chicago didn’t post the highest test scores, but its students were progressing the most each year.\u003c/p>\n\u003cp>\u003c/p>\u003c/div>",
+"attributes": {
+"named": {},
+"numeric": []
+}
+},
+{
+"type": "component",
+"content": "",
+"name": "ad",
+"attributes": {
+"named": {
+"label": "fullwidth"
+},
+"numeric": [
+"fullwidth"
+]
+}
+},
+{
+"type": "contentString",
+"content": "\u003cdiv class=\"post-body\">\u003cp>\u003c/p>\n\u003cp>“There are many schools that are effective at helping students learn, even in high-poverty communities,” said Sean Reardon, a Stanford sociologist who was part of the team that developed the Stanford Education Data Archive. “The TNTP report uses our data to identify some of them and then digs in to understand what makes them particularly effective. This is exactly what we hoped people would do with the data.”\u003c/p>\n\u003cp>TNTP did identify seven of the 1,345 highly effective schools that it selected to study in depth. Only one of the seven schools had a majority Black population, reflecting the fact that Black students are underrepresented at the most effective schools.\u003c/p>\n\u003cp>The seven schools ranged widely. Some were large. Some were small. Some were city schools with many Hispanic students. Others were mostly white, rural schools. They used different instructional materials and did a lot of things differently, but TNTP teased out three traits that it thought these schools had in common.\u003c/p>\n\u003ch2>\u003cstrong>Seven of the 1,345 schools where students started behind but made large learning gains over a decade from 2009 to 2018\u003c/strong>\u003c/h2>\n\u003cp> \u003c/p>\n\u003cfigure id=\"attachment_64791\" class=\"wp-caption aligncenter\" style=\"max-width: 977px\">\u003cimg loading=\"lazy\" decoding=\"async\" class=\"wp-image-64791 size-full\" src=\"https://cdn.kqed.org/wp-content/uploads/sites/23/2024/09/TNTP-Map.png\" alt=\"\" width=\"977\" height=\"408\" srcset=\"https://cdn.kqed.org/wp-content/uploads/sites/23/2024/09/TNTP-Map.png 977w, https://cdn.kqed.org/wp-content/uploads/sites/23/2024/09/TNTP-Map-800x334.png 800w, https://cdn.kqed.org/wp-content/uploads/sites/23/2024/09/TNTP-Map-160x67.png 160w, https://cdn.kqed.org/wp-content/uploads/sites/23/2024/09/TNTP-Map-768x321.png 768w\" sizes=\"(max-width: 977px) 100vw, 977px\">\u003cfigcaption class=\"wp-caption-text\">Red dots represent the seven schools that TNTP named and studied in depth. Green dots represent all 1,345 schools that TNTP identified as producing large annual gains in learning for students who entered school behind grade level. Source: TNTP Opportunity Makers report 2024.\u003c/figcaption>\u003c/figure>\n\u003cp>“What we found was not a silver-bullet solution, a perfect curriculum, or a rockstar principal,” the report said. “Instead, these schools shared a commitment to doing three core things well: they create a culture of belonging, deliver consistent grade-level instruction, and build a coherent instructional program.\u003c/p>\n\u003cp>According to TNTP’s classroom observations, students received good or strong instruction in nine out of 10 classrooms. “Across all classrooms, the steady accumulation of good lessons—not unattainably perfect ones—sets trajectory-changing schools apart,” the report said, contrasting this consistent level of “good” with \u003ca href=\"https://opportunitymyth.tntp.org/\">its earlier observation\u003c/a> that most U.S. schools have some good teaching, but there is a lot of variation from one classroom to the next.\u003c/p>\n\u003cp>In addition to good instruction, TNTP said that students in these seven schools were receiving grade-level content in their English and math classes although most students were behind. Teachers in each school used the same shared curriculum. According to the TNTP report, only about a third of elementary school teachers nationwide say they “mostly use” the curriculum adopted by their school. At Trousdale County Elementary in Tennessee, one of the exemplar schools, 80 percent of teachers said they did.\u003c/p>\n\u003cp>While many education advocates are pushing for the \u003ca href=\"https://www.aei.org/events/the-case-for-curriculum-reform/\">adoption of better curriculum as a lever to improve schools\u003c/a>, “It’s possible to get trajectory-changing results without a perfect curriculum,” TNTP wrote in its report.\u003c/p>\n\u003cp>Teachers also had regular, scheduled sessions to collaborate, discuss their instruction, and note what did and did not work. “Everyone holds the same high expectations and works together to improve,” the report said.\u003c/p>\n\u003cp>The schools also gave students extra instruction to fill knowledge gaps and extra practice to solidify their skills. These extra support classes, called “intervention blocks,” are now commonplace at many low-income schools, but TNTP noted one major difference at the seven schools they studied. The intervention blocks were connected to what students were learning in their main classrooms. That requires school leaders to make sure that interventionists, classroom aides and the main classroom teachers have time to talk and collaborate during the school day.\u003c/p>\n\u003cp>These seven schools all had strong principals. Although many of the principals came and left during the decade that TNTP studied, the schools maintained strong results.\u003c/p>\n\u003cp>The seven schools also emphasized student-teacher relationships and built a caring community. At Brightwood, a small charter school in Washington, D.C., that serves an immigrant population, staff members try to learn the names of every student and to be collectively responsible for both their academics and well-being. During one staff meeting, teachers wrote more than 250 student names on giant pads of paper. Teachers put check marks by each child they felt like they had a genuine relationship with and then brainstormed ways to reach the students without checks.\u003c/p>\n\u003cp>At New Heights Academy Charter School in New York City, each teacher contacts 10 parents a week—by text, email, or phone—and logs the calls in a journal. Teachers don’t just call when something goes wrong. They also reach out to parents to talk about an “A” on a test, academic improvement, or good attendance, the report said.\u003c/p>\n\u003cp>It’s always risky to highlight what successful schools are doing because other educators might be tempted to just copy ideas. But TNTP warns that every school is different. What works in one place might not in another. The organization’s advice for schools is to change one practice at a time, perhaps starting with a category that the school is already pretty good at, and improve it. TNTP warns against trying to change too many things at once.\u003c/p>\n\u003cp>TNTP’s view is that any school can become a highly effective school, and that there aren’t particular educational philosophies or materials that a school must use to accomplish this rare feat. A lot of it is simply about increasing communication among teachers, between teachers and students, and with families. It’s a bit like weight-loss diets that don’t dictate which foods you can and cannot eat, as long as you eat less and exercise more. It’s the basic principles that matter most.\u003c/p>\n\u003cp>\u003cem>Contact staff writer \u003c/em>\u003ca href=\"https://hechingerreport.org/author/jill-barshay/\">\u003cem>Jill Barshay\u003c/em>\u003c/a>\u003cem> at (212) 678-3595 or barshay@hechingerreport.org\u003c/em>.\u003c/p>\n\u003cp>\u003c/p>\u003c/div>",
+"attributes": {
+"named": {},
+"numeric": []
+}
+},
+{
+"type": "component",
+"content": "",
+"name": "ad",
+"attributes": {
+"named": {
+"label": "floatright"
+},
+"numeric": [
+"floatright"
+]
+}
+},
+{
+"type": "contentString",
+"content": "\u003cdiv class=\"post-body\">\u003cp>\u003c/p>\n\u003cp>\u003cem>This story about \u003c/em>\u003ca href=\"https://hechingerreport.org/proof-points-tntp-effective-schools/\">\u003cem>how to catch up at school\u003c/em>\u003c/a>\u003cem> was written by Jill Barshay and produced by \u003c/em>\u003ca href=\"https://hechingerreport.org/special-reports/higher-education/\">The Hechinger Report\u003c/a>\u003cem>, a nonprofit, independent news organization focused on inequality and innovation in education. Sign up for \u003c/em>\u003ca href=\"https://hechingerreport.org/proofpoints/\">\u003cem>Proof Points\u003c/em>\u003c/a>\u003cem> and other \u003c/em>\u003ca href=\"https://hechingerreport.org/newsletters/\">\u003cem>Hechinger newsletters\u003c/em>\u003c/a>\u003cem>.\u003c/em>\u003c/p>\n\n\u003c/div>\u003c/p>",
+"attributes": {
+"named": {},
+"numeric": []
+}
+}
+],
+"link": "/mindshift/64787/the-habits-of-7-highly-effective-schools",
+"authors": [
+"byline_mindshift_64787"
+],
+"programs": [
+"mindshift_21847"
+],
+"categories": [
+"mindshift_21504",
+"mindshift_21848"
+],
+"tags": [
+"mindshift_21186",
+"mindshift_21269"
+],
+"featImg": "mindshift_64790",
+"label": "mindshift_21847"
+},
+"news_12005193": {
+"type": "posts",
+"id": "news_12005193",
+"meta": {
+"index": "posts_1716263798",
+"site": "news",
+"id": "12005193",
+"score": null,
+"sort": [
+1726682403000
+]
+},
+"guestAuthors": [],
+"slug": "how-we-made-the-expanded-kqed-california-voter-guide",
+"title": "How We Made the Expanded KQED California Voter Guide ",
+"publishDate": 1726682403,
+"format": "standard",
+"headTitle": "How We Made the Expanded KQED California Voter Guide | KQED",
+"labelTerm": {
+"site": "news"
+},
+"content": "\u003cp>KQED’s award-winning voter guide is back — this year with information on \u003ci>every\u003c/i> race in the Bay Area.\u003c/p>\n\u003cp>KQED staffers are committed to making information about the election easy to understand, accessible and free for the public. We have a team of about 100 reporters, editors and producers working to inform you about the measures and candidates you’ll vote on in the 2024 November general election.\u003c/p>\n\u003cp>\u003ca href=\"https://www.kqed.org/voterguide\">\u003cimg loading=\"lazy\" decoding=\"async\" class=\"alignright wp-image-12005203\" src=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2024/09/Screen-Shot-2024-09-18-at-10.35.05-AM.png\" alt=\"A screenshot of the KQED Voter Guide\" width=\"293\" height=\"201\" srcset=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2024/09/Screen-Shot-2024-09-18-at-10.35.05-AM.png 846w, https://cdn.kqed.org/wp-content/uploads/sites/10/2024/09/Screen-Shot-2024-09-18-at-10.35.05-AM-800x548.png 800w, https://cdn.kqed.org/wp-content/uploads/sites/10/2024/09/Screen-Shot-2024-09-18-at-10.35.05-AM-160x110.png 160w\" sizes=\"(max-width: 293px) 100vw, 293px\">\u003c/a>\u003ca href=\"https://www.kqed.org/voterguide\">The KQED Voter Guide\u003c/a> continues to serve you information about California-wide contests, including the 10 state ballot propositions and the U.S. Senate race.\u003c/p>\n\u003cp>Plus, we are also including every local election in all nine Bay Area counties for the first time. That means we have information about every controversial measure, every school board race, every city or town council race and every local supervisorial and legislative race to help you become a better-informed voter.\u003c/p>\n\u003cp>The KQED team has been listening to your feedback. And we are now covering all local elections because you told us you want more details about local measures and contests for which reliable information can be difficult to find.\u003c/p>\n\u003cp>[ad fullwidth]\u003c/p>\n\u003cp>We adhere to \u003ca href=\"https://www.kqed.org/about/code-ethics\">KQED’s code of ethics\u003c/a>, which means our news staff are prohibited from contributing to electoral candidates or campaigns in any way. Why? Because we are committed to ensuring there are no conflicts of interest in the information we bring to you.\u003c/p>\n\u003cp>This voter guide takes about six months to create but builds on the work we do every election. Our team fanned out across the Bay Area to interview candidates and gather documents filed with each county’s elections office. We then worked to make the information that appeared in the voter guide relevant and easy to use.\u003c/p>\n\u003cp>However, you’ll see in some local races, there are no candidate statements. That’s because local elections officials are still processing some statements, or the candidate didn’t reply to our interview request in time. As we continue covering every race in the nine counties, we hope to hear more from everyone in our local communities.\u003c/p>\n\u003cp>\u003c/p>\n\u003cp>And once polls are closed on election night, be sure to come back to KQED.org so you can see real-time results and find out which candidates won and which measures passed.\u003c/p>\n\n",
+"blocks": [],
+"excerpt": "The KQED Voter Guide continues to serve you information about California-wide contests, including the 10 state ballot propositions and the U.S. Senate race. Plus, we are also including every local election in all nine Bay Area counties for the first time.",
+"status": "publish",
+"parent": 0,
+"modified": 1728425302,
+"stats": {
+"hasAudio": false,
+"hasVideo": false,
+"hasChartOrMap": false,
+"iframeSrcs": [],
+"hasGoogleForm": false,
+"hasGallery": false,
+"hasHearkenModule": false,
+"hasPolis": false,
+"paragraphCount": 11,
+"wordCount": 386
+},
+"headData": {
+"title": "How We Made the Expanded KQED California Voter Guide | KQED",
+"description": "The KQED Voter Guide continues to serve you information about California-wide contests, including the 10 state ballot propositions and the U.S. Senate race. Plus, we are also including every local election in all nine Bay Area counties for the first time.",
+"ogTitle": "",
+"ogDescription": "",
+"ogImgId": "",
+"twTitle": "",
+"twDescription": "",
+"twImgId": "",
+"schema": {
+"@context": "https://schema.org",
+"@type": "NewsArticle",
+"headline": "How We Made the Expanded KQED California Voter Guide ",
+"datePublished": "2024-09-18T11:00:03-07:00",
+"dateModified": "2024-10-08T15:08:22-07:00",
+"image": "https://cdn.kqed.org/wp-content/uploads/2020/02/KQED-OG-Image@1x.png",
+"isAccessibleForFree": "True",
+"publisher": {
+"@type": "NewsMediaOrganization",
+"@id": "https://www.kqed.org/#organization",
+"name": "KQED",
+"logo": "https://cdn.kqed.org/wp-content/uploads/2020/02/KQED-OG-Image@1x.png",
+"url": "https://www.kqed.org",
+"sameAs": [
+"https://www.facebook.com/KQED",
+"https://twitter.com/KQED",
+"https://www.instagram.com/kqed/",
+"https://www.tiktok.com/@kqedofficial",
+"https://www.linkedin.com/company/kqed",
+"https://www.youtube.com/channel/UCeC0IOo7i1P_61zVUWbJ4nw"
+]
+}
+}
+},
+"sticky": false,
+"nprStoryId": "kqed-12005193",
+"excludeFromSiteSearch": "Include",
+"articleAge": "0",
+"path": "/news/12005193/how-we-made-the-expanded-kqed-california-voter-guide",
+"audioTrackLength": null,
+"parsedContent": [
+{
+"type": "contentString",
+"content": "\u003cdiv class=\"post-body\">\u003cp>\u003cp>KQED’s award-winning voter guide is back — this year with information on \u003ci>every\u003c/i> race in the Bay Area.\u003c/p>\n\u003cp>KQED staffers are committed to making information about the election easy to understand, accessible and free for the public. We have a team of about 100 reporters, editors and producers working to inform you about the measures and candidates you’ll vote on in the 2024 November general election.\u003c/p>\n\u003cp>\u003ca href=\"https://www.kqed.org/voterguide\">\u003cimg loading=\"lazy\" decoding=\"async\" class=\"alignright wp-image-12005203\" src=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2024/09/Screen-Shot-2024-09-18-at-10.35.05-AM.png\" alt=\"A screenshot of the KQED Voter Guide\" width=\"293\" height=\"201\" srcset=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2024/09/Screen-Shot-2024-09-18-at-10.35.05-AM.png 846w, https://cdn.kqed.org/wp-content/uploads/sites/10/2024/09/Screen-Shot-2024-09-18-at-10.35.05-AM-800x548.png 800w, https://cdn.kqed.org/wp-content/uploads/sites/10/2024/09/Screen-Shot-2024-09-18-at-10.35.05-AM-160x110.png 160w\" sizes=\"(max-width: 293px) 100vw, 293px\">\u003c/a>\u003ca href=\"https://www.kqed.org/voterguide\">The KQED Voter Guide\u003c/a> continues to serve you information about California-wide contests, including the 10 state ballot propositions and the U.S. Senate race.\u003c/p>\n\u003cp>Plus, we are also including every local election in all nine Bay Area counties for the first time. That means we have information about every controversial measure, every school board race, every city or town council race and every local supervisorial and legislative race to help you become a better-informed voter.\u003c/p>\n\u003cp>The KQED team has been listening to your feedback. And we are now covering all local elections because you told us you want more details about local measures and contests for which reliable information can be difficult to find.\u003c/p>\n\u003cp>\u003c/p>\u003c/div>",
+"attributes": {
+"named": {},
+"numeric": []
+}
+},
+{
+"type": "component",
+"content": "",
+"name": "ad",
+"attributes": {
+"named": {
+"label": "fullwidth"
+},
+"numeric": [
+"fullwidth"
+]
+}
+},
+{
+"type": "contentString",
+"content": "\u003cdiv class=\"post-body\">\u003cp>\u003c/p>\n\u003cp>We adhere to \u003ca href=\"https://www.kqed.org/about/code-ethics\">KQED’s code of ethics\u003c/a>, which means our news staff are prohibited from contributing to electoral candidates or campaigns in any way. Why? Because we are committed to ensuring there are no conflicts of interest in the information we bring to you.\u003c/p>\n\u003cp>This voter guide takes about six months to create but builds on the work we do every election. Our team fanned out across the Bay Area to interview candidates and gather documents filed with each county’s elections office. We then worked to make the information that appeared in the voter guide relevant and easy to use.\u003c/p>\n\u003cp>However, you’ll see in some local races, there are no candidate statements. That’s because local elections officials are still processing some statements, or the candidate didn’t reply to our interview request in time. As we continue covering every race in the nine counties, we hope to hear more from everyone in our local communities.\u003c/p>\n\u003cp>\u003c/p>\n\u003cp>And once polls are closed on election night, be sure to come back to KQED.org so you can see real-time results and find out which candidates won and which measures passed.\u003c/p>\n\n\u003c/div>\u003c/p>",
+"attributes": {
+"named": {},
+"numeric": []
+}
+}
+],
+"link": "/news/12005193/how-we-made-the-expanded-kqed-california-voter-guide",
+"authors": [
+"4596"
+],
+"categories": [
+"news_8",
+"news_13"
+],
+"tags": [
+"news_32839",
+"news_17968"
+],
+"featImg": "news_12005198",
+"label": "news"
+},
+"news_11764070": {
+"type": "posts",
+"id": "news_11764070",
+"meta": {
+"index": "posts_1716263798",
+"site": "news",
+"id": "11764070",
+"score": null,
+"sort": [
+1725648626000
+]
+},
+"guestAuthors": [],
+"slug": "how-to-talk-with-kids-after-a-traumatic-event",
+"title": "How to Talk to Kids of Traumatic News: Expert Tips",
+"publishDate": 1725648626,
+"format": "standard",
+"headTitle": "How to Talk to Kids of Traumatic News: Expert Tips | KQED",
+"labelTerm": {},
+"content": "\u003cp>This week, \u003ca href=\"https://www.npr.org/2024/09/05/nx-s1-5101890/apalachee-high-school-shooting-charges-investigation\">a 14-year-old Georgia high school student was charged as an adult\u003c/a> with four counts of felony murder for allegedly using an assault-style rifle to kill two students and two teachers in the hallway outside his algebra classroom, according to authorities.\u003c/p>\n\u003cp>The shooting at Apalachee High School in Winder, about an hour’s drive from Atlanta, is \u003ca href=\"https://projects.apnews.com/features/2023/mass-killings/index.html\">the latest among dozens of school shootings across the U.S. in recent years\u003c/a>, including especially deadly ones in Newtown, Connecticut; Parkland, Florida; and Uvalde, Texas.\u003c/p>\n\u003cp>The media coverage of these events are once again prompting conversations about how to talk with kids about the news — especially \u003ca href=\"https://www.kqed.org/news/11996268/gun-violence-mental-health-support-compensation-bay-area\">gun violence.\u003c/a> Such acts of violence are disturbing for children to witness, but kid also are exposed to scary-sounding news and alarming imagery when similar traumatic events occur around the country.\u003c/p>\n\u003cp>Schools in the United States have become more prepared for mass shootings in recent years, which has meant learning how to talk with kids about active shooters and “bad guys” on school campuses. While \u003ca href=\"https://www.npr.org/sections/ed/2018/08/27/640323347/the-school-shootings-that-werent\">the incidence of on-campus shootings is extremely low\u003c/a>, they’re something many teachers and parents have prepared for.\u003c/p>\n\u003cp>“The most helpful thing for parents to share with their kids is that these events are rare and that adults are there to protect them,” said Stephen Brock, professor of psychology at CSU Sacramento. “We can’t deny the reality of these things, but kids need to be reassured with these facts.”\u003c/p>\n\u003cp>Some kids find out about the news by seeing it themselves or hearing it discussed at school, at home or in their communities. Young children can especially be harmed by this exposure, so experts recommend restricting their access to traumatic news. Kids old enough to have smartphones will likely get misinformation on the internet and social media, so it’s even more important for parents and caregivers to support their kids.\u003c/p>\n\u003cp>Here are some key steps parents and caregivers can take:\u003c/p>\n\u003ch2>Remind kids that they are safe\u003c/h2>\n\u003cp>Children need to be reassured by their caregivers that they are safe. \u003ca href=\"https://www.apa.org/helpcenter/talking-to-children\">The American Psychological Association says, above all, reassure\u003c/a>:\u003c/p>\n\u003cp>“ … reassure your children that you will do everything you know how to do to keep them safe and to watch out for them. Reassure them that you will be available to answer any questions or talk about this topic again in the future. Reassure them that they are loved.”\u003c/p>\n\u003ch2>Limit young children’s exposure to traumatic news\u003c/h2>\n\u003cp>Young children have less developed skills to separate facts from fears, so psychologists recommend minimizing a child’s exposure to traumatic news.\u003c/p>\n\u003cp>“When kids see the news, even if they are not a resident of [the affected place], they have the mistaken perception that they could be shot at any time,” said Brock. “For little ones, turn [the news] off.”\u003c/p>\n\u003cp>And sometimes, that fear is transferred to children through adult behavior. If adults are behaving in an anxious or fearful manner, kids will pick up on that, especially those in primary grades and younger.\u003c/p>\n\u003cp>“Kids will look to adults to see how scared they should be,” said Brock.\u003c/p>\n\u003cp>[ad fullwidth]\u003c/p>\n\u003ch2>Observe your kids for verbal and nonverbal cues\u003c/h2>\n\u003cp>A parent might overhear a child talking about a traumatic news event, or the child might ask about it. If it looks like the child is curious, engage the child in conversation, said Brock, adding, “Let their questions be your guide.”\u003c/p>\n\u003cp>But not all kids can verbalize what they’re feeling, so look for changes in behavior. According to \u003ca href=\"https://www.nasponline.org/resources-and-publications/resources-and-podcasts/school-climate-safety-and-crisis/school-violence-resources/talking-to-children-about-violence-tips-for-parents-and-teachers\">the “Talking to Children About Violence: Tips for Parents and Teachers” report\u003c/a> from the National Association of School Psychologists (NASP), caregivers are advised to:\u003c/p>\n\u003cp>“Watch for clues that they may want to talk, such as hovering around while you do the dishes or yard work. Some children prefer writing, playing music, or doing an art project as an outlet. Young children may need concrete activities (such as drawing, looking at picture books, or imaginative play) to help them identify and express their feelings.”\u003c/p>\n\u003cp>But if the child is not aware or expressing any interest in a traumatic event, it’s best to not bring it up.\u003c/p>\n\u003cp>“You don’t want to interject traumatic events into a child,” said Brock, who co-authored the report.\u003c/p>\n\u003ch2>Talk with your kids in a way that’s developmentally appropriate\u003c/h2>\n\u003cp>Parents can talk with kids about anything, but it must be developmentally appropriate. Communicating with a 15-year-old is going to be different from talking with a 4-year-old. The \u003ca href=\"https://www.nasponline.org/resources-and-publications/resources-and-podcasts/school-climate-safety-and-crisis/school-violence-resources/talking-to-children-about-violence-tips-for-parents-and-teachers\">NASP\u003c/a> has this advice on how to explain traumas, especially in schools, to different age groups:\u003c/p>\n\u003cp>\u003cem>\u003cstrong>Early elementary school children\u003c/strong> need brief, simple information that should be balanced with reassurances that their schools and homes are safe and that adults are there to protect them. Give simple examples of school safety like reminding children about exterior doors being locked, child monitoring efforts on the playground, and emergency drills practiced during the school day.\u003c/em>\u003c/p>\n\u003cp>\u003cem>\u003cstrong>Upper elementary and early middle school children\u003c/strong> will be more vocal in asking questions about whether they truly are safe and what is being done at their school. They may need assistance separating reality from fantasy. Discuss efforts of school and community leaders to provide safe schools.\u003c/em>\u003c/p>\n\u003cp>\u003cem>\u003cstrong>Upper middle school and high school students\u003c/strong> will have strong and varying opinions about the causes of violence in schools and society. They will share concrete suggestions about how to make school safer and how to prevent tragedies in society. Emphasize the role that students have in maintaining safe schools by following school safety guidelines (e.g., not providing building access to strangers, reporting strangers on campus, reporting threats to the school safety made by students or community members, etc.), communicating any personal safety concerns to school administrators, and accessing support for emotional needs.\u003c/em>\u003c/p>\n\u003cp>Teens need guidance from their parents, too, especially since they’re absorbing the chatter on social media networks and direct messages from friends. Kids with phones will likely see graphic images through friends and news updates, which can create added trauma and anxiety. \u003ca href=\"https://www.commonsensemedia.org/blog/explaining-the-news-to-our-kids\">Common Sense Media advises parents to check in\u003c/a> on their teens:\u003c/p>\n\u003cp>“Since, in many instances, teens will have absorbed the news independently of you, talking with them can offer great insights into their developing politics and their senses of justice and morality. It will also help you get a sense of what they already know or have learned about the situation from their own social networks. It will also give you the opportunity to throw your own insights into the mix (just don’t dismiss theirs, since that will shut down the conversation immediately).”\u003c/p>\n\u003ch2>Maintain a normal routine\u003c/h2>\n\u003cp>Brock said, to the extent that it’s possible, maintain a normal routine. This will be helpful for the kid who’s frightened or anxious about a traumatic event.\u003c/p>\n\u003cp>“The more typical the routine, the more reassuring it can be,” he said.\u003c/p>\n\u003cp>\u003cem>This story contains reporting by the Associated Press, and KQED’s Carly Severn and Spencer Whitney also contributed to this story. A previous version of this story was published on July 15, 2024.\u003c/em>\u003c/p>\n\u003cp>[ad floatright]\u003c/p>\n",
+"blocks": [],
+"excerpt": "How can parents and caregivers talk with their children about traumatic events they might be seeing in the news — in developmentally appropriate ways?",
+"status": "publish",
+"parent": 0,
+"modified": 1746460449,
+"stats": {
+"hasAudio": false,
+"hasVideo": false,
+"hasChartOrMap": false,
+"iframeSrcs": [],
+"hasGoogleForm": false,
+"hasGallery": false,
+"hasHearkenModule": false,
+"hasPolis": false,
+"paragraphCount": 29,
+"wordCount": 1228
+},
+"headData": {
+"title": "Discussing Disturbing News with Kids: A Parent's Guide | KQED",
+"description": "Learn effective strategies to talk with your kids about disturbing news, helping them process information and manage their emotions in a healthy way.",
+"ogTitle": "",
+"ogDescription": "",
+"ogImgId": "",
+"twTitle": "",
+"twDescription": "",
+"twImgId": "",
+"socialTitle": "Discussing Disturbing News with Kids: A Parent's Guide | KQED",
+"socialDescription": "Learn effective strategies to talk with your kids about disturbing news, helping them process information and manage their emotions in a healthy way.",
+"schema": {
+"@context": "https://schema.org",
+"@type": "NewsArticle",
+"headline": "How to Talk to Kids of Traumatic News: Expert Tips",
+"datePublished": "2024-09-06T11:50:26-07:00",
+"dateModified": "2025-05-05T08:54:09-07:00",
+"image": "https://cdn.kqed.org/wp-content/uploads/2020/02/KQED-OG-Image@1x.png",
+"isAccessibleForFree": "True",
+"publisher": {
+"@type": "NewsMediaOrganization",
+"@id": "https://www.kqed.org/#organization",
+"name": "KQED",
+"logo": "https://cdn.kqed.org/wp-content/uploads/2020/02/KQED-OG-Image@1x.png",
+"url": "https://www.kqed.org",
+"sameAs": [
+"https://www.facebook.com/KQED",
+"https://twitter.com/KQED",
+"https://www.instagram.com/kqed/",
+"https://www.tiktok.com/@kqedofficial",
+"https://www.linkedin.com/company/kqed",
+"https://www.youtube.com/channel/UCeC0IOo7i1P_61zVUWbJ4nw"
+]
+}
+}
+},
+"source": "News",
+"sourceUrl": "https://www.kqed.org/news/",
+"sticky": false,
+"templateType": "standard",
+"featuredImageType": "standard",
+"excludeFromSiteSearch": "Include",
+"articleAge": "0",
+"path": "/news/11764070/how-to-talk-with-kids-after-a-traumatic-event",
+"audioTrackLength": null,
+"parsedContent": [
+{
+"type": "contentString",
+"content": "\u003cdiv class=\"post-body\">\u003cp>\u003cp>This week, \u003ca href=\"https://www.npr.org/2024/09/05/nx-s1-5101890/apalachee-high-school-shooting-charges-investigation\">a 14-year-old Georgia high school student was charged as an adult\u003c/a> with four counts of felony murder for allegedly using an assault-style rifle to kill two students and two teachers in the hallway outside his algebra classroom, according to authorities.\u003c/p>\n\u003cp>The shooting at Apalachee High School in Winder, about an hour’s drive from Atlanta, is \u003ca href=\"https://projects.apnews.com/features/2023/mass-killings/index.html\">the latest among dozens of school shootings across the U.S. in recent years\u003c/a>, including especially deadly ones in Newtown, Connecticut; Parkland, Florida; and Uvalde, Texas.\u003c/p>\n\u003cp>The media coverage of these events are once again prompting conversations about how to talk with kids about the news — especially \u003ca href=\"https://www.kqed.org/news/11996268/gun-violence-mental-health-support-compensation-bay-area\">gun violence.\u003c/a> Such acts of violence are disturbing for children to witness, but kid also are exposed to scary-sounding news and alarming imagery when similar traumatic events occur around the country.\u003c/p>\n\u003cp>Schools in the United States have become more prepared for mass shootings in recent years, which has meant learning how to talk with kids about active shooters and “bad guys” on school campuses. While \u003ca href=\"https://www.npr.org/sections/ed/2018/08/27/640323347/the-school-shootings-that-werent\">the incidence of on-campus shootings is extremely low\u003c/a>, they’re something many teachers and parents have prepared for.\u003c/p>\n\u003cp>“The most helpful thing for parents to share with their kids is that these events are rare and that adults are there to protect them,” said Stephen Brock, professor of psychology at CSU Sacramento. “We can’t deny the reality of these things, but kids need to be reassured with these facts.”\u003c/p>\n\u003cp>Some kids find out about the news by seeing it themselves or hearing it discussed at school, at home or in their communities. Young children can especially be harmed by this exposure, so experts recommend restricting their access to traumatic news. Kids old enough to have smartphones will likely get misinformation on the internet and social media, so it’s even more important for parents and caregivers to support their kids.\u003c/p>\n\u003cp>Here are some key steps parents and caregivers can take:\u003c/p>\n\u003ch2>Remind kids that they are safe\u003c/h2>\n\u003cp>Children need to be reassured by their caregivers that they are safe. \u003ca href=\"https://www.apa.org/helpcenter/talking-to-children\">The American Psychological Association says, above all, reassure\u003c/a>:\u003c/p>\n\u003cp>“ … reassure your children that you will do everything you know how to do to keep them safe and to watch out for them. Reassure them that you will be available to answer any questions or talk about this topic again in the future. Reassure them that they are loved.”\u003c/p>\n\u003ch2>Limit young children’s exposure to traumatic news\u003c/h2>\n\u003cp>Young children have less developed skills to separate facts from fears, so psychologists recommend minimizing a child’s exposure to traumatic news.\u003c/p>\n\u003cp>“When kids see the news, even if they are not a resident of [the affected place], they have the mistaken perception that they could be shot at any time,” said Brock. “For little ones, turn [the news] off.”\u003c/p>\n\u003cp>And sometimes, that fear is transferred to children through adult behavior. If adults are behaving in an anxious or fearful manner, kids will pick up on that, especially those in primary grades and younger.\u003c/p>\n\u003cp>“Kids will look to adults to see how scared they should be,” said Brock.\u003c/p>\n\u003cp>\u003c/p>\u003c/div>",
+"attributes": {
+"named": {},
+"numeric": []
+}
+},
+{
+"type": "component",
+"content": "",
+"name": "ad",
+"attributes": {
+"named": {
+"label": "fullwidth"
+},
+"numeric": [
+"fullwidth"
+]
+}
+},
+{
+"type": "contentString",
+"content": "\u003cdiv class=\"post-body\">\u003cp>\u003c/p>\n\u003ch2>Observe your kids for verbal and nonverbal cues\u003c/h2>\n\u003cp>A parent might overhear a child talking about a traumatic news event, or the child might ask about it. If it looks like the child is curious, engage the child in conversation, said Brock, adding, “Let their questions be your guide.”\u003c/p>\n\u003cp>But not all kids can verbalize what they’re feeling, so look for changes in behavior. According to \u003ca href=\"https://www.nasponline.org/resources-and-publications/resources-and-podcasts/school-climate-safety-and-crisis/school-violence-resources/talking-to-children-about-violence-tips-for-parents-and-teachers\">the “Talking to Children About Violence: Tips for Parents and Teachers” report\u003c/a> from the National Association of School Psychologists (NASP), caregivers are advised to:\u003c/p>\n\u003cp>“Watch for clues that they may want to talk, such as hovering around while you do the dishes or yard work. Some children prefer writing, playing music, or doing an art project as an outlet. Young children may need concrete activities (such as drawing, looking at picture books, or imaginative play) to help them identify and express their feelings.”\u003c/p>\n\u003cp>But if the child is not aware or expressing any interest in a traumatic event, it’s best to not bring it up.\u003c/p>\n\u003cp>“You don’t want to interject traumatic events into a child,” said Brock, who co-authored the report.\u003c/p>\n\u003ch2>Talk with your kids in a way that’s developmentally appropriate\u003c/h2>\n\u003cp>Parents can talk with kids about anything, but it must be developmentally appropriate. Communicating with a 15-year-old is going to be different from talking with a 4-year-old. The \u003ca href=\"https://www.nasponline.org/resources-and-publications/resources-and-podcasts/school-climate-safety-and-crisis/school-violence-resources/talking-to-children-about-violence-tips-for-parents-and-teachers\">NASP\u003c/a> has this advice on how to explain traumas, especially in schools, to different age groups:\u003c/p>\n\u003cp>\u003cem>\u003cstrong>Early elementary school children\u003c/strong> need brief, simple information that should be balanced with reassurances that their schools and homes are safe and that adults are there to protect them. Give simple examples of school safety like reminding children about exterior doors being locked, child monitoring efforts on the playground, and emergency drills practiced during the school day.\u003c/em>\u003c/p>\n\u003cp>\u003cem>\u003cstrong>Upper elementary and early middle school children\u003c/strong> will be more vocal in asking questions about whether they truly are safe and what is being done at their school. They may need assistance separating reality from fantasy. Discuss efforts of school and community leaders to provide safe schools.\u003c/em>\u003c/p>\n\u003cp>\u003cem>\u003cstrong>Upper middle school and high school students\u003c/strong> will have strong and varying opinions about the causes of violence in schools and society. They will share concrete suggestions about how to make school safer and how to prevent tragedies in society. Emphasize the role that students have in maintaining safe schools by following school safety guidelines (e.g., not providing building access to strangers, reporting strangers on campus, reporting threats to the school safety made by students or community members, etc.), communicating any personal safety concerns to school administrators, and accessing support for emotional needs.\u003c/em>\u003c/p>\n\u003cp>Teens need guidance from their parents, too, especially since they’re absorbing the chatter on social media networks and direct messages from friends. Kids with phones will likely see graphic images through friends and news updates, which can create added trauma and anxiety. \u003ca href=\"https://www.commonsensemedia.org/blog/explaining-the-news-to-our-kids\">Common Sense Media advises parents to check in\u003c/a> on their teens:\u003c/p>\n\u003cp>“Since, in many instances, teens will have absorbed the news independently of you, talking with them can offer great insights into their developing politics and their senses of justice and morality. It will also help you get a sense of what they already know or have learned about the situation from their own social networks. It will also give you the opportunity to throw your own insights into the mix (just don’t dismiss theirs, since that will shut down the conversation immediately).”\u003c/p>\n\u003ch2>Maintain a normal routine\u003c/h2>\n\u003cp>Brock said, to the extent that it’s possible, maintain a normal routine. This will be helpful for the kid who’s frightened or anxious about a traumatic event.\u003c/p>\n\u003cp>“The more typical the routine, the more reassuring it can be,” he said.\u003c/p>\n\u003cp>\u003cem>This story contains reporting by the Associated Press, and KQED’s Carly Severn and Spencer Whitney also contributed to this story. A previous version of this story was published on July 15, 2024.\u003c/em>\u003c/p>\n\u003cp>\u003c/p>\u003c/div>",
+"attributes": {
+"named": {},
+"numeric": []
+}
+},
+{
+"type": "component",
+"content": "",
+"name": "ad",
+"attributes": {
+"named": {
+"label": "floatright"
+},
+"numeric": [
+"floatright"
+]
+}
+},
+{
+"type": "contentString",
+"content": "\u003cdiv class=\"post-body\">\u003cp>\u003c/p>\n\u003c/div>\u003c/p>",
+"attributes": {
+"named": {},
+"numeric": []
+}
+}
+],
+"link": "/news/11764070/how-to-talk-with-kids-after-a-traumatic-event",
+"authors": [
+"4596"
+],
+"programs": [
+"news_72"
+],
+"categories": [
+"news_34168",
+"news_457",
+"news_6188",
+"news_8",
+"news_33520"
+],
+"tags": [
+"news_32707",
+"news_2043",
+"news_25066",
+"news_26309",
+"news_26310",
+"news_18543",
+"news_17762",
+"news_18939",
+"news_2109",
+"news_18541",
+"news_29513",
+"news_2138",
+"news_20675"
+],
+"featImg": "news_11875482",
+"label": "source_news_11764070"
 }
 },
 "podcastsReducer": {
@@ -3257,10 +3896,10 @@ window.__INITIAL_STATE__={
 "isFetching": false,
 "latestQuery": {
 "from": 0,
-"size": 9
+"size": 12
 },
 "vitalsOnly": false,
-"totalRequested": 9,
+"totalRequested": 12,
 "isLoading": false,
 "isLoadingMore": true,
 "total": {
@@ -3276,7 +3915,10 @@ window.__INITIAL_STATE__={
 "mindshift_65703",
 "mindshift_65612",
 "mindshift_65390",
-"mindshift_65035"
+"mindshift_65035",
+"mindshift_64787",
+"news_12005193",
+"news_11764070"
 ],
 "complete": true
 }
@@ -3681,6 +4323,16 @@ window.__INITIAL_STATE__={
 "slug": "guiaelectoral",
 "link": "/guiaelectoral",
 "taxonomy": "site"
+},
+"source_news_11764070": {
+"type": "terms",
+"id": "source_news_11764070",
+"meta": {
+"override": true
+},
+"name": "News",
+"link": "https://www.kqed.org/news/",
+"isLoading": false
 },
 "mindshift_21942": {
 "type": "terms",
@@ -4957,6 +5609,760 @@ window.__INITIAL_STATE__={
 "slug": "school-libraries",
 "isLoading": false,
 "link": "/mindshift/tag/school-libraries"
+},
+"mindshift_21848": {
+"type": "terms",
+"id": "mindshift_21848",
+"meta": {
+"index": "terms_1716263798",
+"site": "mindshift",
+"id": "21848",
+"found": true
+},
+"relationships": {},
+"featImg": null,
+"name": "Podcast",
+"description": null,
+"taxonomy": "category",
+"headData": {
+"twImgId": null,
+"twTitle": null,
+"ogTitle": null,
+"ogImgId": null,
+"twDescription": null,
+"description": null,
+"title": "Podcast Archives - KQED Mindshift",
+"ogDescription": null
+},
+"ttid": 21120,
+"slug": "podcast",
+"isLoading": false,
+"link": "/mindshift/category/podcast"
+},
+"mindshift_21186": {
+"type": "terms",
+"id": "mindshift_21186",
+"meta": {
+"index": "terms_1716263798",
+"site": "mindshift",
+"id": "21186",
+"found": true
+},
+"relationships": {},
+"featImg": null,
+"name": "improvement science",
+"description": null,
+"taxonomy": "tag",
+"headData": {
+"twImgId": null,
+"twTitle": null,
+"ogTitle": null,
+"ogImgId": null,
+"twDescription": null,
+"description": null,
+"title": "improvement science Archives | KQED Mindshift",
+"ogDescription": null
+},
+"ttid": 20458,
+"slug": "improvement-science",
+"isLoading": false,
+"link": "/mindshift/tag/improvement-science"
+},
+"mindshift_21269": {
+"type": "terms",
+"id": "mindshift_21269",
+"meta": {
+"index": "terms_1716263798",
+"site": "mindshift",
+"id": "21269",
+"found": true
+},
+"relationships": {},
+"featImg": null,
+"name": "school improvement",
+"description": null,
+"taxonomy": "tag",
+"headData": {
+"twImgId": null,
+"twTitle": null,
+"ogTitle": null,
+"ogImgId": null,
+"twDescription": null,
+"description": null,
+"title": "school improvement Archives | KQED Mindshift",
+"ogDescription": null
+},
+"ttid": 20541,
+"slug": "school-improvement",
+"isLoading": false,
+"link": "/mindshift/tag/school-improvement"
+},
+"news_8": {
+"type": "terms",
+"id": "news_8",
+"meta": {
+"index": "terms_1716263798",
+"site": "news",
+"id": "8",
+"found": true
+},
+"relationships": {},
+"featImg": null,
+"name": "News",
+"description": null,
+"taxonomy": "category",
+"headData": {
+"twImgId": null,
+"twTitle": null,
+"ogTitle": null,
+"ogImgId": null,
+"twDescription": null,
+"description": null,
+"title": "News Archives | KQED News",
+"ogDescription": null
+},
+"ttid": 8,
+"slug": "news",
+"isLoading": false,
+"link": "/news/category/news"
+},
+"news_13": {
+"type": "terms",
+"id": "news_13",
+"meta": {
+"index": "terms_1716263798",
+"site": "news",
+"id": "13",
+"found": true
+},
+"relationships": {},
+"name": "Politics",
+"slug": "politics",
+"taxonomy": "category",
+"description": null,
+"featImg": null,
+"headData": {
+"title": "Politics | KQED News",
+"description": null,
+"ogTitle": null,
+"ogDescription": null,
+"ogImgId": null,
+"twTitle": null,
+"twDescription": null,
+"twImgId": null
+},
+"ttid": 13,
+"isLoading": false,
+"link": "/news/category/politics"
+},
+"news_32839": {
+"type": "terms",
+"id": "news_32839",
+"meta": {
+"index": "terms_1716263798",
+"site": "news",
+"id": "32839",
+"found": true
+},
+"relationships": {},
+"featImg": null,
+"name": "Election 2024",
+"description": null,
+"taxonomy": "tag",
+"headData": {
+"twImgId": null,
+"twTitle": null,
+"ogTitle": null,
+"ogImgId": null,
+"twDescription": null,
+"description": null,
+"title": "Election 2024 Archives | KQED News",
+"ogDescription": null
+},
+"ttid": 32856,
+"slug": "election-2024",
+"isLoading": false,
+"link": "/news/tag/election-2024"
+},
+"news_17968": {
+"type": "terms",
+"id": "news_17968",
+"meta": {
+"index": "terms_1716263798",
+"site": "news",
+"id": "17968",
+"found": true
+},
+"relationships": {},
+"name": "Politics",
+"slug": "politics",
+"taxonomy": "tag",
+"description": null,
+"featImg": null,
+"headData": {
+"title": "Politics | KQED News",
+"description": null,
+"ogTitle": null,
+"ogDescription": null,
+"ogImgId": null,
+"twTitle": null,
+"twDescription": null,
+"twImgId": null
+},
+"ttid": 18002,
+"isLoading": false,
+"link": "/news/tag/politics"
+},
+"news_72": {
+"type": "terms",
+"id": "news_72",
+"meta": {
+"index": "terms_1716263798",
+"site": "news",
+"id": "72",
+"found": true
+},
+"relationships": {},
+"featImg": "https://ww2.kqed.org/app/uploads/sites/10/2014/10/TCR-2-Logo-Web-Banners-03.png",
+"name": "The California Report",
+"description": null,
+"taxonomy": "program",
+"headData": {
+"twImgId": null,
+"twTitle": null,
+"ogTitle": null,
+"ogImgId": null,
+"twDescription": null,
+"description": null,
+"title": "The California Report Archives | KQED News",
+"ogDescription": null
+},
+"ttid": 6969,
+"slug": "the-california-report",
+"isLoading": false,
+"link": "/news/program/the-california-report"
+},
+"news_34168": {
+"type": "terms",
+"id": "news_34168",
+"meta": {
+"index": "terms_1716263798",
+"site": "news",
+"id": "34168",
+"found": true
+},
+"relationships": {},
+"name": "Guides and Explainers",
+"slug": "guides-and-explainers",
+"taxonomy": "category",
+"description": null,
+"featImg": null,
+"headData": {
+"title": "Guides and Explainers Archives | KQED News",
+"description": null,
+"ogTitle": null,
+"ogDescription": null,
+"ogImgId": null,
+"twTitle": null,
+"twDescription": null,
+"twImgId": null
+},
+"ttid": 34185,
+"isLoading": false,
+"link": "/news/category/guides-and-explainers"
+},
+"news_457": {
+"type": "terms",
+"id": "news_457",
+"meta": {
+"index": "terms_1716263798",
+"site": "news",
+"id": "457",
+"found": true
+},
+"relationships": {},
+"featImg": null,
+"name": "Health",
+"description": null,
+"taxonomy": "category",
+"headData": {
+"twImgId": null,
+"twTitle": null,
+"ogTitle": null,
+"ogImgId": null,
+"twDescription": null,
+"description": null,
+"title": "Health Archives | KQED News",
+"ogDescription": null
+},
+"ttid": 16998,
+"slug": "health",
+"isLoading": false,
+"link": "/news/category/health"
+},
+"news_6188": {
+"type": "terms",
+"id": "news_6188",
+"meta": {
+"index": "terms_1716263798",
+"site": "news",
+"id": "6188",
+"found": true
+},
+"relationships": {},
+"featImg": null,
+"name": "Law and Justice",
+"description": null,
+"taxonomy": "category",
+"headData": {
+"twImgId": null,
+"twTitle": null,
+"ogTitle": null,
+"ogImgId": null,
+"twDescription": null,
+"description": null,
+"title": "Law and Justice Archives | KQED News",
+"ogDescription": null
+},
+"ttid": 6212,
+"slug": "law-and-justice",
+"isLoading": false,
+"link": "/news/category/law-and-justice"
+},
+"news_33520": {
+"type": "terms",
+"id": "news_33520",
+"meta": {
+"index": "terms_1716263798",
+"site": "news",
+"id": "33520",
+"found": true
+},
+"relationships": {},
+"featImg": null,
+"name": "Podcast",
+"description": null,
+"taxonomy": "category",
+"headData": {
+"twImgId": null,
+"twTitle": null,
+"ogTitle": null,
+"ogImgId": null,
+"twDescription": null,
+"description": null,
+"title": "Podcast Archives | KQED News",
+"ogDescription": null
+},
+"ttid": 33537,
+"slug": "podcast",
+"isLoading": false,
+"link": "/news/category/podcast"
+},
+"news_32707": {
+"type": "terms",
+"id": "news_32707",
+"meta": {
+"index": "terms_1716263798",
+"site": "news",
+"id": "32707",
+"found": true
+},
+"relationships": {},
+"featImg": null,
+"name": "audience-news",
+"description": null,
+"taxonomy": "tag",
+"headData": {
+"twImgId": null,
+"twTitle": null,
+"ogTitle": null,
+"ogImgId": null,
+"twDescription": null,
+"description": null,
+"title": "audience-news Archives | KQED News",
+"ogDescription": null
+},
+"ttid": 32724,
+"slug": "audience-news",
+"isLoading": false,
+"link": "/news/tag/audience-news"
+},
+"news_2043": {
+"type": "terms",
+"id": "news_2043",
+"meta": {
+"index": "terms_1716263798",
+"site": "news",
+"id": "2043",
+"found": true
+},
+"relationships": {},
+"featImg": null,
+"name": "children",
+"description": null,
+"taxonomy": "tag",
+"headData": {
+"twImgId": null,
+"twTitle": null,
+"ogTitle": null,
+"ogImgId": null,
+"twDescription": null,
+"description": null,
+"title": "children Archives | KQED News",
+"ogDescription": null
+},
+"ttid": 2058,
+"slug": "children",
+"isLoading": false,
+"link": "/news/tag/children"
+},
+"news_25066": {
+"type": "terms",
+"id": "news_25066",
+"meta": {
+"index": "terms_1716263798",
+"site": "news",
+"id": "25066",
+"found": true
+},
+"relationships": {},
+"featImg": null,
+"name": "Gilroy",
+"description": null,
+"taxonomy": "tag",
+"headData": {
+"twImgId": null,
+"twTitle": null,
+"ogTitle": null,
+"ogImgId": null,
+"twDescription": null,
+"description": null,
+"title": "Gilroy Archives | KQED News",
+"ogDescription": null
+},
+"ttid": 25083,
+"slug": "gilroy",
+"isLoading": false,
+"link": "/news/tag/gilroy"
+},
+"news_26309": {
+"type": "terms",
+"id": "news_26309",
+"meta": {
+"index": "terms_1716263798",
+"site": "news",
+"id": "26309",
+"found": true
+},
+"relationships": {},
+"featImg": null,
+"name": "Gilroy Garlic Festival shooting",
+"description": null,
+"taxonomy": "tag",
+"headData": {
+"twImgId": null,
+"twTitle": null,
+"ogTitle": null,
+"ogImgId": null,
+"twDescription": null,
+"description": null,
+"title": "Gilroy Garlic Festival shooting Archives | KQED News",
+"ogDescription": null
+},
+"ttid": 26326,
+"slug": "gilroy-garlic-festival-shooting",
+"isLoading": false,
+"link": "/news/tag/gilroy-garlic-festival-shooting"
+},
+"news_26310": {
+"type": "terms",
+"id": "news_26310",
+"meta": {
+"index": "terms_1716263798",
+"site": "news",
+"id": "26310",
+"found": true
+},
+"relationships": {},
+"featImg": null,
+"name": "Gilroy shooting",
+"description": null,
+"taxonomy": "tag",
+"headData": {
+"twImgId": null,
+"twTitle": null,
+"ogTitle": null,
+"ogImgId": null,
+"twDescription": null,
+"description": null,
+"title": "Gilroy shooting Archives | KQED News",
+"ogDescription": null
+},
+"ttid": 26327,
+"slug": "gilroy-shooting",
+"isLoading": false,
+"link": "/news/tag/gilroy-shooting"
+},
+"news_18543": {
+"type": "terms",
+"id": "news_18543",
+"meta": {
+"index": "terms_1716263798",
+"site": "news",
+"id": "18543",
+"found": true
+},
+"relationships": {},
+"featImg": null,
+"name": "Health",
+"description": null,
+"taxonomy": "tag",
+"headData": {
+"twImgId": null,
+"twTitle": null,
+"ogTitle": null,
+"ogImgId": null,
+"twDescription": null,
+"description": null,
+"title": "Health Archives | KQED News",
+"ogDescription": null
+},
+"ttid": 466,
+"slug": "health",
+"isLoading": false,
+"link": "/news/tag/health"
+},
+"news_17762": {
+"type": "terms",
+"id": "news_17762",
+"meta": {
+"index": "terms_1716263798",
+"site": "news",
+"id": "17762",
+"found": true
+},
+"relationships": {},
+"featImg": null,
+"name": "kids",
+"description": null,
+"taxonomy": "tag",
+"headData": {
+"twImgId": null,
+"twTitle": null,
+"ogTitle": null,
+"ogImgId": null,
+"twDescription": null,
+"description": null,
+"title": "kids Archives | KQED News",
+"ogDescription": null
+},
+"ttid": 17796,
+"slug": "kids",
+"isLoading": false,
+"link": "/news/tag/kids"
+},
+"news_18939": {
+"type": "terms",
+"id": "news_18939",
+"meta": {
+"index": "terms_1716263798",
+"site": "news",
+"id": "18939",
+"found": true
+},
+"relationships": {},
+"featImg": null,
+"name": "mass shootings",
+"description": null,
+"taxonomy": "tag",
+"headData": {
+"twImgId": null,
+"twTitle": null,
+"ogTitle": null,
+"ogImgId": null,
+"twDescription": null,
+"description": null,
+"title": "mass shootings Archives | KQED News",
+"ogDescription": null
+},
+"ttid": 18956,
+"slug": "mass-shootings",
+"isLoading": false,
+"link": "/news/tag/mass-shootings"
+},
+"news_2109": {
+"type": "terms",
+"id": "news_2109",
+"meta": {
+"index": "terms_1716263798",
+"site": "news",
+"id": "2109",
+"found": true
+},
+"relationships": {},
+"featImg": null,
+"name": "mental health",
+"description": null,
+"taxonomy": "tag",
+"headData": {
+"twImgId": null,
+"twTitle": null,
+"ogTitle": null,
+"ogImgId": null,
+"twDescription": null,
+"description": null,
+"title": "mental health Archives | KQED News",
+"ogDescription": null
+},
+"ttid": 2124,
+"slug": "mental-health",
+"isLoading": false,
+"link": "/news/tag/mental-health"
+},
+"news_18541": {
+"type": "terms",
+"id": "news_18541",
+"meta": {
+"index": "terms_1716263798",
+"site": "news",
+"id": "18541",
+"found": true
+},
+"relationships": {},
+"featImg": null,
+"name": "San Jose",
+"description": null,
+"taxonomy": "tag",
+"headData": {
+"twImgId": null,
+"twTitle": null,
+"ogTitle": null,
+"ogImgId": null,
+"twDescription": null,
+"description": null,
+"title": "San Jose Archives | KQED News",
+"ogDescription": null
+},
+"ttid": 91,
+"slug": "san-jose",
+"isLoading": false,
+"link": "/news/tag/san-jose"
+},
+"news_29513": {
+"type": "terms",
+"id": "news_29513",
+"meta": {
+"index": "terms_1716263798",
+"site": "news",
+"id": "29513",
+"found": true
+},
+"relationships": {},
+"featImg": null,
+"name": "san jose shooting",
+"description": null,
+"taxonomy": "tag",
+"headData": {
+"twImgId": null,
+"twTitle": null,
+"ogTitle": null,
+"ogImgId": null,
+"twDescription": null,
+"description": null,
+"title": "san jose shooting Archives | KQED News",
+"ogDescription": null
+},
+"ttid": 29530,
+"slug": "san-jose-shooting",
+"isLoading": false,
+"link": "/news/tag/san-jose-shooting"
+},
+"news_2138": {
+"type": "terms",
+"id": "news_2138",
+"meta": {
+"index": "terms_1716263798",
+"site": "news",
+"id": "2138",
+"found": true
+},
+"relationships": {},
+"featImg": null,
+"name": "trauma",
+"description": null,
+"taxonomy": "tag",
+"headData": {
+"twImgId": null,
+"twTitle": null,
+"ogTitle": null,
+"ogImgId": null,
+"twDescription": null,
+"description": null,
+"title": "trauma Archives | KQED News",
+"ogDescription": null
+},
+"ttid": 2153,
+"slug": "trauma",
+"isLoading": false,
+"link": "/news/tag/trauma"
+},
+"news_20675": {
+"type": "terms",
+"id": "news_20675",
+"meta": {
+"index": "terms_1716263798",
+"site": "news",
+"id": "20675",
+"found": true
+},
+"relationships": {},
+"featImg": null,
+"name": "VTA",
+"description": null,
+"taxonomy": "tag",
+"headData": {
+"twImgId": null,
+"twTitle": null,
+"ogTitle": null,
+"ogImgId": null,
+"twDescription": null,
+"description": null,
+"title": "VTA Archives | KQED News",
+"ogDescription": null
+},
+"ttid": 20692,
+"slug": "vta",
+"isLoading": false,
+"link": "/news/tag/vta"
+},
+"news_33733": {
+"type": "terms",
+"id": "news_33733",
+"meta": {
+"index": "terms_1716263798",
+"site": "news",
+"id": "33733",
+"found": true
+},
+"relationships": {},
+"featImg": null,
+"name": "News",
+"description": null,
+"taxonomy": "interest",
+"headData": {
+"twImgId": null,
+"twTitle": null,
+"ogTitle": null,
+"ogImgId": null,
+"twDescription": null,
+"description": null,
+"title": "News Archives | KQED News",
+"ogDescription": null
+},
+"ttid": 33750,
+"slug": "news",
+"isLoading": false,
+"link": "/news/interest/news"
 }
 },
 "userPermissionsReducer": {

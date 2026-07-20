@@ -5,8 +5,22 @@ notion_source: Education Dive
 ---
 
 Natalie Schwartz
-Senior Editor | @nmschwartz23Natalie covers ed tech, online education and for-profit colleges for Higher Ed Dive. She reported on crime in southeastern Louisiana before moving back to Maryland to cover higher education. Outside of work, Natalie enjoys reading, searching for the best brunch spot in Baltimore and binging competition reality TV.
-1314 articles by Natalie Schwartz
+Senior Editor | @nmschwartz23Natalie Schwartz is a higher education journalist with over a decade of reporting and editing experience. As Higher Ed Dive’s senior editor, she writes and edits work that helps college leaders navigate a complicated and rapidly changing sector. Natalie's coverage areas include federal higher education policy, the U.S. Department of Education, major lawsuits and college leadership. She holds bachelor’s degrees in journalism and English language and literature from the University of Maryland, College Park. Prior to Higher Ed Dive, she worked at The Houma Courier, a daily newspaper in Louisiana. You can contact Natalie at [email protected] or on LinkedIn.
+1321 articles by Natalie Schwartz
+- 
+                        Faith in higher ed slips: 38% of adults report high confidenceJuly 14, 2026
+- 
+                        Another wave of Education Department regulations is comingJuly 8, 2026
+- 
+                        Moody’s downgrades Brown University’s outlook to negativeJuly 7, 2026
+- 
+                        Florida state board bans undocumented students from college systemJuly 2, 2026
+- 
+                        Another round of Education Department regulations is coming, official saysJune 30, 2026
+- 
+                        Supreme Court upholds bans on transgender athletes in women’s college sportsJune 30, 2026
+- 
+                        Democrats move to impeach McMahon for Education Department dismantlingJune 25, 2026
 - 
                         Week in review: Syracuse leader warns of ‘new normal’June 22, 2026
 - 
@@ -43,17 +57,3 @@ Senior Editor | @nmschwartz23Natalie covers ed tech, online education and for-pr
                         Appeals court dismisses AAUP, AFT lawsuit over Columbia funding freezeMay 19, 2026
 - 
                         Education Department releases final rule for Workforce PellMay 18, 2026
-- 
-                        Week in Review: Moody’s lowers Columbia’s outlookMay 18, 2026
-- 
-                        DOJ alleges Yale’s medical school discriminates against applicantsMay 14, 2026
-- 
-                        McMahon grilled over professional degree definition, OCR caseloadMay 14, 2026
-- 
-                        Bard College president to retire following probe into his ties to EpsteinMay 5, 2026
-- 
-                        Stanford faces Education Department probe over racial discrimination allegationsApril 29, 2026
-- 
-                        3 insights from McMahon’s testimony on the Education Department’s budget proposalApril 28, 2026
-- 
-                        Court blocks Education Department’s data demands for over 170 more collegesApril 27, 2026

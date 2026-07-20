@@ -7,6 +7,18 @@ notion_source: OpenAI
 Cookbook
 Recipes to help you build with OpenAI models.
 Featured
+Trigger a Workspace Agent from the API
+ChatGPT
+GPT Image Generation Models Prompting Guide
+ImagesVision
+Macro Evals for Agentic Systems
+Evals
+Codex Prompting Guide
+CodexResponses
+Using PLANS.md for multi-hour problem solving
+Codex
+Build an Agent Improvement Loop with Traces, Evals, and Codex
+Agents SDKCodexEvals
 Popular
 Web Search and States with Responses API
 FunctionsResponses
@@ -21,7 +33,11 @@ ReasoningResponses
 Build an Agent Improvement Loop with Traces, Evals, and Codex
 Agents SDKCodexEvals
 All98
-Trigger a Workspace Agent from the API
+Enabling Long-Term Agent Memory with Oracle AI Agent Memory
+Agents SDK
+Jul 16, 2026Build a Speaker-Aware Meeting Intelligence Pipeline with Audio Diarization
+Audio
+Jun 18, 2026Trigger a Workspace Agent from the API
 ChatGPT
 Jun 18, 2026SchemaFlow: Agentic Database Change Impact Analysis, SQL Generation, and Eval Guardrails
 Agents SDKEvals
@@ -97,8 +113,7 @@ Oct 29, 2025Build Code Review with the Codex SDK
 Codex
 Oct 21, 2025Build, deploy, and optimize agentic workflows with AgentKit
 Evals
-Oct 17, 2025Building with Realtime Mini
-Oct 11, 2025Using PLANS.md for multi-hour problem solving
+Oct 17, 2025Using PLANS.md for multi-hour problem solving
 Codex
 Oct 7, 2025Building resilient prompts using an evaluation flywheel
 Evals
@@ -185,9 +200,7 @@ Apr 14, 2025Evaluating Agents with Langfuse
 Agents SDKEvals
 Mar 31, 2025Multi-Tool Orchestration with RAG approach using OpenAI's Responses API
 FunctionsResponses
-Mar 28, 2025Multi-Language One-Way Translation with the Realtime API
-AudioSpeech
-Mar 24, 2025Web Search and States with Responses API
+Mar 28, 2025Web Search and States with Responses API
 FunctionsResponses
 Mar 11, 2025Doing RAG on PDFs using File Search in the Responses API
 FunctionsResponses

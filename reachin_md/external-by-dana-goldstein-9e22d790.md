@@ -15,6 +15,7 @@ Journalistic Ethics
 As a Times journalist, I share the values and adhere to the standards of integrity outlined in the paper’s Ethical Journalism handbook.
 Education is a universal experience, but one that brings up vexing personal and political divisions. I strive in my reporting to examine contentious issues from multiple angles and speak to a diverse array of individuals. I observe classrooms, attend school board meetings and interview parents, teachers and students. I also read widely, from government reports, research journals, historical accounts and many other sources.
 Alberto Carvalho resigned Sunday, months after the F.B.I. raided his home and office. He came to Los Angeles from Miami with a reputation for raising student test scores but also made missteps.
+By Shawn Hubler, Dana Goldstein and Livia Albeck-Ripka
 Special education programs and the civil rights office will be moved out of the Education Department, the most aggressive move yet by the Trump administration to dismantle the agency.
 The law, which creates the first-ever federal voucher program, is designed, in part, to lure Democrats. It’s unclear how many blue states will sign up.
 The San Francisco school board approved a plan to restore algebra as an option at all middle schools, more than a decade after it was removed over equity concerns.

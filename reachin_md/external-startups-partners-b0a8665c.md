@@ -5,6 +5,7 @@ notion_source: Linear
 ---
 
 01A
+10x Founders
 11.2 Capital
 1752vc
 20VC
@@ -27,6 +28,8 @@ Afore Capital
 Agentic Builders Inc
 Agoranov
 AI BEAVERS
+AI Champions
+AI Exec Board
 AI Grant
 AI Nation
 AI Startup Factory
@@ -54,6 +57,7 @@ Argon Ventures
 Armada Investment AG
 Asan Nanum Foundation
 Astylab
+ATDC at Georgia Tech
 AtomPoint
 Attio
 Aurelia Ventures
@@ -61,9 +65,11 @@ Axeleo Capital
 Axial VC
 Axibator
 Babasú Ventures
+BAG Ventures
 Bain Capital Ventures
 Base10 Partners
 Basis Set Ventures
+Bertelsmann India Investments
 Bessemer Venture Partners
 Beta University
 Better Capital
@@ -79,6 +85,7 @@ BLinC Invest
 Bloccelerate
 Block71
 Bloomberg Beta
+Bloomhaus Ventures AG
 bm-t beteiligungsmanagement thüringen
 boldstart
 Boost Capital Partners
@@ -91,7 +98,9 @@ Buidlers Tribe
 Buildergroop
 Caffeinated Capital
 Cambrian VC
+Campus Fund
 Canary
+Cannage Capital
 CapitalOven
 Carbon13
 Catalyst CHS Investor LLC
@@ -115,6 +124,7 @@ Conector Start Up Accelerator
 Constructor Startup Accelerator
 Contrary Capital
 Coral Capital
+Costanoa Ventures
 Cota Capital
 Cotidiano
 Cowboy Ventures
@@ -134,6 +144,7 @@ Defy.vc
 Denver Ventures
 Digital Ocean Ventures
 Dimension
+Direction Ventures
 DLabs Incubator Association (ISB I-Venture)
 DNX Ventures
 Dogpatch Labs
@@ -157,6 +168,7 @@ Entourage
 Entrepreneur First
 Entrepreneurs Roundtable Accelerator
 EquityList
+Esade eWorks
 Ethereal Ventures
 European Founders Network
 Everywhere Ventures
@@ -184,9 +196,11 @@ Float
 Floodgate
 Flyer One Ventures
 Forerunner Ventures
+Fortify Ventures
 Forum Ventures
 FOUNDA MET
 Foundation Capital
+Founded by Few
 Founder Mode
 Founder Ventures
 Founderly
@@ -216,6 +230,7 @@ Grayscale Ventures
 Greylock
 Gründergarasjen AS
 Gutter
+Gyan Vihar Incubation Centre
 Haatch
 Hailstone Labs
 Hanken Business Lab
@@ -245,12 +260,14 @@ Ikigai Ventures
 illusian
 Imagine Ventures
 imec.istart
+Imperial Enterprise Lab
 INCUBATE
 Index Ventures
 Infinity Constellation
 Inflection Point Ventures
 Initialized
 Innovation Fund
+Innovation Scaleup Advisors
 innoWerft Walldorf GmbH
 Insignia Ventures Partners
 Inspired Capital
@@ -323,11 +340,13 @@ MiraclePlus
 Molt AI Corp
 Molten Ventures
 Monk's Hill Ventures
+Monochrome Capital
 Moringa Ventures
 Moxxie Ventures
 Multiply Ventures
 Munich Institute of Robotics and Machine Intelligence
 Mustard Seed Maze
+MXV Capital
 N49P
 NAP
 Natal Studio
@@ -374,10 +393,13 @@ Platanus
 Platform Venture Studio
 Play Ventures
 Point Nine
+Portfoliya.uz
+Portugal Fintech
 Position Ventures
 Powerhouse Ventures
 Practica Capital
 Precursor Ventures
+Prequel Ventures
 Project A
 Project A Ventures
 Protocol Labs
@@ -427,7 +449,9 @@ Seven Seven Six
 Seven Stars Ventures
 SFC Capital
 Ship26
+Shiva
 Sie Ventures
+Silver Ridge Advisors LLC
 Silverline Capital
 Simple Ventures
 Skala
@@ -443,6 +467,7 @@ Speedinvest
 Spira Labs
 Spotlight Strategic Partners
 Square Peg
+SSC Venture Partners
 Stage 2 Capital
 StageOne Ventures
 StageXero
@@ -469,6 +494,7 @@ Studio Monk
 Sturgeon Capital
 Supercell Investments
 Supermoon
+Surface Ventures
 Susa Ventures
 Swanlaab Venture Factory
 Swiss Founders Fund
@@ -492,11 +518,13 @@ The Product Folks
 The Residency
 The Spartan Group
 The Yield Lab LATAM
+TheVentures
 Thrive Capital
 Tidal Ventures
 Tidepool Labs
 Tiny VC
 TinySeed
+Tiptop VC
 Titan Capital
 TLV Partners
 Together Fund
@@ -510,6 +538,7 @@ Ulu Ventures
 Uncork Capital
 Underline Ventures
 Unicorn Factory Lisboa
+Unifold
 UNITEC
 Universal Asset Management
 Upekkha
@@ -539,6 +568,7 @@ Will Ventures
 Wischoff Ventures
 WTFund
 WTIA
+xdeck
 xfin5 Dubai
 XFounders
 Y Combinator
@@ -548,4 +578,5 @@ YSpace at York University
 Z Venture Capital
 Z47
 Z5 Capital
+Zendesk
 Zero Prime Ventures

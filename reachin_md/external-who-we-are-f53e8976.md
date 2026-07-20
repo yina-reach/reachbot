@@ -22,6 +22,9 @@ I love the early-stage journey, particularly uncovering the magical intersection
 Mike Lewis
 General Partner
 Over the last 20 years, I’ve founded and successfully exited three startups. First was… more
+Evan Schell
+Director of Partnerships
+I began my career in tech by joining an early stage startup in Pittsburgh…. more
 Our Core Values
 How we show up
 Say the Hard Thing

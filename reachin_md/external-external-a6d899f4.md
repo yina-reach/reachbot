@@ -40,6 +40,6 @@ VIEW AREAS OF EXPERTISE
 Subscribe for
 Leadership Updates
 Δ
-Facebook
+Company
 This field is for validation purposes and should be left unchanged.
 Email

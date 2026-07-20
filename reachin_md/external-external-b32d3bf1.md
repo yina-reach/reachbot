@@ -49,4 +49,4 @@ Mitigate risk and fines while growing your founding team. Automate employment la
 Discover SixFifty
 See the latest in employment law.
 Ready to get started?
-Join hundreds of businesses that have used SixFifty for employment law management.
+Join the 500,000+ businesses that use SixFifty for employment law management.

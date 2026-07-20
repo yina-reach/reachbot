@@ -5,8 +5,20 @@ notion_source: Education Dive
 ---
 
 Roger Riddell
-Senior Editor | @K12DiveRogerAs editor, Roger brings several years of experience in web and magazine writing to K-12 Dive. He grew up in Kentucky and graduated from the University of Louisville in 2009 with a BS in Communication. He later earned an MS in Journalism from Northwestern University's Medill School of Journalism.
-1897 articles by Roger Riddell
+Senior Editor | @K12DiveRogerRoger began freelancing for what was then Education Dive shortly after its launch in 2012. He became the publication’s first full-time editor in 2013 and oversaw the launch of what is now K-12 Dive in February 2014. Since then, he has helped guide daily coverage, as well as K-12 Dive’s ongoing “Lessons In Leadership” Q&A series and the production of features and packages that have won numerous Azbee and Jesse H. Neal awards. Roger contributed one part to the 2025 Azbee Award-winning package “Education Extortion.”
+1903 articles by Roger Riddell
+- 
+                        Week In Review: Education Department targets predators in schoolsJuly 20, 2026
+- 
+                        Week In Review: Chronic absenteeism continues to vex school systemsJuly 13, 2026
+- 
+                        Here’s what you need to know about key topics shaping K-12July 8, 2026
+- 
+                        Inside the Education Department’s interagency agreementsJuly 6, 2026
+- 
+                        Week In Review: A landmark Supreme Court ruling and a major testing company acquisitionJuly 6, 2026
+- 
+                        This North Carolina district is guaranteeing a career-connected learning experienceJune 24, 2026
 - 
                         Week In Review: New Ed Dept interagency agreements and a district’s library overhaulJune 22, 2026
 - 
@@ -45,15 +57,3 @@ Senior Editor | @K12DiveRogerAs editor, Roger brings several years of experience
                         Week In Review: A $17.25M student data privacy settlement and the end of ESSERApril 6, 2026
 - 
                         The average length of current superintendents’ tenure? 5.4 yearsMarch 27, 2026
-- 
-                        Week In Review: Outcomes-based ed tech contracts and K-12 policies in courtMarch 23, 2026
-- 
-                        How the new NYC schools chief plans to improve rigor and equityMarch 19, 2026
-- 
-                        Week In Review: How states’ K-12 funding proportions have changedMarch 16, 2026
-- 
-                        Week In Review: McMahon marks first year in officeMarch 9, 2026
-- 
-                        6 ways to prioritize the whole child in school psychology evaluationsMarch 3, 2026
-- 
-                        Week In Review: The special education population is on the riseMarch 2, 2026

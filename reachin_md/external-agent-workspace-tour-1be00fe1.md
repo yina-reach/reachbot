@@ -6,7 +6,6 @@ notion_source: Zendesk
 
 Skip to main content
 Watch video demos
-Watch video demos
 Start a free trial
 Watch video demos
 Start a free trial

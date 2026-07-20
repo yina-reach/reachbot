@@ -8,10 +8,14 @@ Resources hub
 News & Insights
 						All					
 					
+			Preserving What’s Human: Our Journey With GPTZero		
+									
+				James Kim				
+									Read	
 			The Brain Science Behind Learning and Technology for Students		
 									
 				Steve Kupfer				
-									Read	
+										
 			Where the Edtech Backlash Is Missing Nuance		
 									
 				Tony Wan				
@@ -27,7 +31,7 @@ News & Insights
 			The State of Early-Stage Fundraising in 2026		
 									
 				Caoimhe MacRunnels				
-										
+									Read	
 			Why We Invested in Journify Learning		
 									
 				Steve Kupfer				
@@ -35,7 +39,7 @@ News & Insights
 			Announcing Cobalt Collective		
 									
 				Jennifer Carolan				
-									Read	
+										
 			What It Takes to Be a Brilliant Engineer with Jared Silver		
 									
 				Valentina Suarez				
@@ -43,13 +47,11 @@ News & Insights
 			The Financial Infrastructure for School Choice: Why We Invested in Pathfinder		
 									
 				Caoimhe MacRunnels				
-										
+									Read	
 			Designing the Future With Replit Co-Founder Haya Odeh		
 									
 				Tony Wan				
-									Read	
+										
 			Fortune 500 Powers for Main Street: How AI is Unlocking the SMB Economy		
 									
-				Enzo Cavalie				
-										
-			Work, Health, and Edtech Conference Calendar
+				Enzo Cavalie

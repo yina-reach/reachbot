@@ -10,7 +10,7 @@ category: Session Recordings
 Reach Capital Session Recordings
 
 **Date:** 2025-03-21
-**Deck / slides:** https://prod-files-secure.s3.us-west-2.amazonaws.com/2c857fe3-c851-49b6-a826-626221ac7566/c3639511-0fbb-4182-ad63-0bebe8a4b6c8/Culture_by_Design___Building_the_Right_People_Systems_at_Every_Stage_of_Growth.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664NTUGAXI%2F20260713%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260713T161031Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCIQCbK%2BxaaHJJB4KV14N8hqJGObzuiXY40fi38ODiDdszhgIgYsz0cM5kHVhRRvaIIiHZSNJLpO8cAWIoO0hNLXI7jRgq%2FwMIARAAGgw2Mzc0MjMxODM4MDUiDMEqRPJNXuy8pIJ%2BaSrcA4gYTS%2BqDCfY7oEaK7w4njdyHZojeQ%2BSzsS%2BZM9eJk9aq88M5hOZE2dXzpAvIpTS4x9TcTyd8nqqPZDjdx4yc5%2FH0PEb4eHAjVx00nI3aYxrplBYjB33E1AAxGcoikTJ94Ek1%2Bkud9AjdhQ8b9B37SJgkgr6RfGZYmxfhYoBfWu5cZpMlqN%2B%2FCW%2BssFvh6P1CKQFH%2BX%2BD1y7AfYQDFrUdwaLaPY72Xj99T%2B%2B7FX7k1%2FXkmtbEan5QSdMAkXBOg0nX1EatX88idgwaYIlF0Us%2BNeB0dBiYTvRZSY28QLtqIddIes7RBQg6saL9l5xKIqXO79cNAygjapFjFVYINVRb4Mt9MIhgw932tdEg%2BZUxBD320w6fRTWSwtEigO70OxYC7A%2FDTpHsiG%2F4TTZBnbz5WoFyX2dO5MIY2mw77Zx1xRvpYQPVtw0DL3QClkVymPnSjW3UuERN4MPAEe9BVO4ak7h1Ajsdp95VdmCU6rJr2TKj0D8ObvQYwvBo01QmKjrry%2FBbznGmZLF9QIuKR6BfL57jUqxwR1EKt1pQo7hsJz%2F%2FsEHNeuPmY8oRvXi3t7k2Rn3BkPKySs1QVt3znfV7xD8qM7eVS4E1h63PQ3bJ0nqw7M3%2FwVtHEzWnWiWMJuY1NIGOqUB%2BREmeiHVy7WTLRATeykczwaIs4t9tRMRkSa90bhH3tFxmfvpXEtQf6N%2B3iFXXr6ooAypDUr0qWw8Xy%2BA1gytPNDXVkusrr5SCai0wP5VqxjZsig2mrntvyYe8ASUWroKMtKN5%2Bb2d5LjxQO45tFbD5r27R0LgTiuEOi3FGMzBt6w6TYH6QTz1%2BxJphZ5lbQLWtZsVQopPimamVaUAWo7Ncz64EGp&X-Amz-Signature=19a738fbdacbe199bb8ec66752882d4be4ff984af40edf6ffbe81d385b2ada81&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject
+**Deck / slides:** https://prod-files-secure.s3.us-west-2.amazonaws.com/2c857fe3-c851-49b6-a826-626221ac7566/c3639511-0fbb-4182-ad63-0bebe8a4b6c8/Culture_by_Design___Building_the_Right_People_Systems_at_Every_Stage_of_Growth.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UBJ6CV7T%2F20260720%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260720T092643Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIG3oNKssNaxdZa%2BbfTwGigyl7gt%2BC1aX0oAomExFMNz5AiEAisp5OjJjVvjSrscWksMezmm9kwsIr5q4%2FimxGxAlSNMqiAQIov%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDGGePJe8zFlvYpyH0yrcA0yN6lMeWOClXNSnpLwXDp4BncmIjsn3%2FQti5UxsMcc%2FH%2B765ZPKGWISWcgz1atBtaYn4WBi57myC6AHB2u8OsNkgJl8HeGyYqCDKOnCJLuAeSdkzhkCclR8pwFgDUxf1ef%2FJgEIe2Gi8sbUsiRHvQlivBVhhAhvUHnVid1SrIoW0NVEMctSvU80Sv%2FGMWfioes%2BaAzMmsXQXsU1YZcqYez6A2KkDL78N0gted6apFi9pq8jhP5R2xqINqDIqoq4T0azNwfsgG%2FMshv2wXiVNRqBilxLOowgi%2FnBoy7fsHlmGF1Ohe6NruoDTAVxQwhUpkLTUYAOaALD13pxcHTyrz%2F6rzc5NJv6GMuf%2B2bBKDzR0EfvY%2Bur2LkFqqjym16h3BK5NG0uBi8RC9wu9OUqXenO95uuvkCamGDD6V1PBF%2F7VQ9KSXkqv7BD8uv%2FLM47Elbhb0WN0nQMMntsUV%2FeTxRLi1o%2Fhr%2BhHv0eTobo%2F3D%2FpGO2uFYSawgFDriPB2XOR0dOka9CljKoU%2FgUO3A%2BJAHXcKhtBIWsUU06ITLBqNtSyQNR0xCZZGE5dQ6B14DVwiYKdAP4fpqA%2FmGq2BlXTBRzWa3llR%2Fab6%2FHBBjUZKDdSIs5w6c7%2Fz6Jt42iMOfL99IGOqUB%2Bzy9563syqOWQf7uHl%2B98UsutIlwFh59ba4wN0CcGRatLYvaho5ACp9Bzlgyk3edhCoj9KZxI%2BHFhGM8R9Uf%2F4mNdXBXtYPaz5fixTNznHl7sdUsLS%2Byhxkm5BMJ0zihr7AyHC8hER4WAOnuehO1aF3ULO%2FDV2uFkE7LHOHmYy3sheHlxS29%2FrqZf8dHrAu%2FPbvr4cBpboq3lPvImhXNo1G9UnmI&X-Amz-Signature=b478bc875e32d1ed8ffe19e306a0c1fbef590386a68847021e1ee6e89b0c4ecc&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject
 **Tags:** people ops, leadership
 **Recording:** [Recording](https://us02web.zoom.us/rec/share/uZ9NoCrtGW7NKSa4JmVJVQt-qq9rIXq09VtZknD_hnJ6UQu0bG_YxA5azp5njEq1.8UFjI1FNFGN4zguO?startTime=1742576630000)
 Passcode: 0.HgKb^4
@@ -174,3 +174,43 @@ Becky discusses the idea of culture resets, suggesting that they can energize te
 **Speaker:** All right. Have a good. Good Friday. Have a good weekend.
 
 **Speaker:** Bye.
+Culture: Start Early, Scale Smart
+- Don't over-engineer formal systems at 1-10 people; focus on product/market fit and getting work out.
+- Begin intentional culture design and leadership behavior at 50-70 people, as your personal ethos starts to scale.
+- Understand that culture can be descriptive (what already is) or prescriptive (what you want it to be).
+- Unintentional culture growth can lead to significant downstream issues and unintended consequences at 100+ people.
+Prioritize People Systems
+- The employee life cycle spans Attraction, Hiring, Onboarding, Development/Growth, Engagement/Retention, and Exiting/Alumni relations.
+- Initially, prioritize **Hiring** (often your first people hire is a recruiter) and **Onboarding** (setting people up for success).
+- Quickly follow with **Development & Growth** (performance, feedback); these are crucial before 50 people.
+- **Engagement & Retention** (benefits, compensation) can be built out later, as early startup excitement often motivates and retains talent.
+- Proactively move dedicated team members to new roles every 1.5-2 years to provide new experiences and utilize their skills differently.
+Master Feedback Culture
+- Cultivate a "fast-feedback culture" early; it’s a critical habit that scales productivity and ensures the best ideas surface.
+- Feedback should be regular, normalized, and in service of individual and business growth, not personal attacks.
+- Ask individuals how they prefer to receive feedback (reinforcing positive behaviors vs. redirecting areas for improvement).
+- As a leader, actively ask for and visibly accept feedback to model desired behavior and build trust across the organization.
+- Understand that "being nice is giving feedback"; it's a kindness to help people get better and grow.
+Effective Performance Management
+- Implement lightweight performance check-ins pretty early; avoid heavy, bureaucratic processes that hinder work.
+- Consider options like annual check-ins, 360 feedback, or quarterly check-ins (e.g., Snap's quarterly ratings and bonuses for top performers).
+- Be decisive with low performers: allowing them to linger is toxic, decreases overall team productivity, and breeds resentment.
+- "Going slow to go fast" means removing performance issues promptly; teams are often appreciative and willing to step up.
+- Use clear expectation-setting tools like OKRs or goal setting to provide direction and enable fast movement.
+Founders Set The Tone
+- Culture fundamentally comes from the founder(s); people will look to you for cues on how to behave and what truly matters.
+- Explicitly establish company values; decide if and how they'll be measured in performance systems (e.g., Snap's "kind, smart, creative").
+- "Practice what you preach": Your actions are constantly watched and mimicked, making consistency between words and deeds crucial.
+- Be the "grownup in the room"; own difficult messages (e.g., layoffs) and align with company messaging, even when it's hard.
+- Ensure follow-through on all processes; a reputation for inconsistent initiatives erodes trust and discredits future efforts.
+Lead With Clarity & Intent
+- Create absolute clarity: People move fastest when they precisely know what they're working towards. This is a leader's biggest superpower.
+- Find an owner for people systems, whether an internal hire (often a jack-of-all-trades HR person) or a dedicated team member.
+- Keep systems simple initially: Google Docs or spreadsheets can effectively manage performance reviews before investing in complex HRIS modules.
+- Design your system with clear parameters for feedback and performance expectations (e.g., rating scales, check-in frequency).
+- Draft a "Leadership Narrative" (like Ray Dalio's Principles) to articulate your beliefs, commitments, and expectations for the team.
+The Leader's Essential Mindset
+- **Leveled-up mindset:** Make decisions for the greater good of the company and investors, transcending personal preferences or attachments.
+- **Multiplier mindset:** Delegate effectively to amplify your impact through others, avoiding the trap of owning everything yourself.
+- **Self-awareness:** Assume feedback is correct for a moment ("try it on"); it's hardest for us to see ourselves accurately.
+- **Intentionality:** Proactively design your culture and systems to avoid letting them grow organically with unintended, negative consequences.

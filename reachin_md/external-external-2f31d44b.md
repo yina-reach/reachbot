@@ -9,100 +9,100 @@ The Latest
 - 
                                         
                                             
-                                                California                                            
-                                            Why Some California Schools Get Three Times More Funding Than Others
+                                                Ohio                                            
+                                            Book Bans, Censorship and Funding Fears Challenge Ohio Public School Librarians
 - 
                                         
                                             
-                                                opinion                                            
-                                            Schools Must Make Social Capital an Essential Part of Students’ Education
+                                                4Fams                                            
+                                            NYC’s Mayor Asked for Parents’ Opinions on Schools. Here’s What Some Have to Say
 - 
                                         
                                             
-                                                Louisiana                                            
-                                            Gov. Landry, Legislative Leaders Push Back on Teacher Stipend Plan Opposition
+                                                mississippi                                            
+                                            Mississippi Teachers Say the Process to Buy Classroom Supplies Is Worse
 - 
                                         
                                             
-                                                childcare                                            
-                                            What Does It Really Cost To Plan Summer Care for Kids? These Moms Show Us the Receipts
+                                                Hawaii                                            
+                                            Hawaiʻi Teachers Take Learning Outside in Summer Workshop
 - 
                                         
                                             
-                                                Oregon                                            
-                                            State Education Officials Recommend Repealing, Replacing Compulsory School Attendance Rules
+                                                Connecticut                                            
+                                            Connecticut Sues, Again, Over Withheld School Mental Health Grants
 - 
                                         
                                             
-                                                Indiana                                            
-                                            Indianapolis Teacher Merit Pay in Charter Schools Gets Increasing Philanthropic Support
+                                                literary history                                            
+                                            The Dark History of The Catcher in the Rye
 - 
                                         
                                             
-                                                opinion                                            
-                                            Findings Offer a Math Playbook for California Schools
-- 
-                                        
-                                            
-                                                Juneteenth                                            
-                                            Juneteenth Reminds Us of Black Americans’ Long Struggle for Education Following End of Slavery
-- 
-                                        
-                                            
-                                                opinion                                            
-                                            For Students in Unstable Housing, Strong Relationships Need Strong Systems
-- 
-                                        
-                                            
-                                                Once in a Lifetime                                            
-                                            NYC Kids, Parents on Missing School for the Knicks Parade
+                                                Charlie Kirk                                            
+                                            Teachers Punished Over Charlie Kirk Posts Winning Millions
 - 
                                         
                                             
                                                 California                                            
-                                            California Lawmakers Pass Budget With Billions More for Education as Newsom Negotiations Begin
+                                            California Allocates Dedicated Funding to Identify Homeless Students
 - 
                                         
                                             
-                                                childcare                                            
-                                            Americans Agree That Childcare Is Expensive. Democrats Are Running on It
+                                                analysis                                            
+                                            The Big-District Superintendent Pipeline Has Run Dry. What Can School Boards Do?
 - 
                                         
                                             
-                                                early childhood education                                            
-                                            Teacher Turnover in the Early Years Is High. More Credentialing May Help
+                                                New York                                            
+                                            The Nation’s Largest School System Is Expanding Special Education for Its Youngest Learners
 - 
                                         
                                             
-                                                opinion                                            
-                                            What School and District Leaders Need to Know Before They Invest in AI
+                                                special education                                            
+                                            Report: Education Department Scaled Back Special Education Monitoring
 - 
                                         
                                             
-                                                immigration                                            
-                                            Supreme Court Ruling Nears on Hugely Consequential Birthright Citizenship Case
+                                                higher education                                            
+                                            The Massive Collapse in College Confidence Isn’t Getting Any Better
 - 
                                         
                                             
-                                                Missouri                                            
-                                            Childcare Centers Across Missouri Grapple with Staff Retention Issues
-- 
-                                        
-                                            
-                                                Kansas                                            
-                                            Undocumented Kansas High School Graduates Find Themselves Increasingly Targeted
-- 
-                                        
-                                            
-                                                opinion                                            
-                                            Faster, Cheaper, Job-Related: Students Demand Flexible Credentials After HS
-- 
-                                        
-                                            
-                                                immigration                                            
-                                            International Teachers Needed in U.S. Classrooms Threatened by Visa Delays, Fees
+                                                Big Picture                                            
+                                            Exclusive: Study Finds Boston Charters Fell Off in 2010s, Recovered During COVID
 - 
                                         
                                             
                                                 Artificial Intelligence                                            
-                                            Study: Giving Kids Access to AI Tutors Doesn’t Mean They’ll Use Them
+                                            Anthropic Launches Claude for Teachers to Influence America’s Classrooms
+- 
+                                        
+                                            
+                                                opinion                                            
+                                            The Mismatch Between Childcare Policy and Parental Preferences
+- 
+                                        
+                                            
+                                                Indiana                                            
+                                            Indiana Sets Standards for 4-Day School Week Waivers
+- 
+                                        
+                                            
+                                                opinion                                            
+                                            The Best Intervention Curriculum May Already Be in Your Classrooms
+- 
+                                        
+                                            
+                                                opinion                                            
+                                            The Border Is Breaking My Students’ Hearts. It Broke Mine, Too
+- 
+                                        
+                                            
+                                                college readiness                                            
+                                            UC Board of Regents Wants Recommendations By End of Academic Year on SAT/ACT
+- 
+                                        
+                                            
+                                                California                                            
+                                            Short Thousands of Bilingual Teachers, California Schools Turn to High School Students

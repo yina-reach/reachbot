@@ -5,13 +5,13 @@ notion_source: EdSurge
 ---
 
 News
-EdSurge Podcast
-Podcast: Your Kids Know More About AI Than You Do
-Schools are racing to write AI policies, but what if the policy is not the first step?
+Higher Education
+These Hip-Hop Artists Were Already Teaching
+A new degree program credentials hip-hop artists to bring communal, real-world learning to the classroom.
 News
-EdSurge Podcast
-Podcast: Your Kids Know More About AI Than You Do
-Schools are racing to write AI policies, but what if the policy is not the first step?
+Higher Education
+These Hip-Hop Artists Were Already Teaching
+A new degree program credentials hip-hop artists to bring communal, real-world learning to the classroom.
 NEWSLETTERS
 STAY AHEAD IN EDUCATION.
 Sign up for EdSurge newsletters for timely news, insights and analysis.
@@ -23,11 +23,6 @@ This Week with EdSurge
 Hosted by Ira Apfel and our talented reporting team, this essential weekly podcast cuts through the hype to deliver the rigorous, human-centered journalism you need to understand the fast-evolving future of education.
 VIEW ALL PODCASTSFollow us on TikTok
 for quick, smart takes on the future of education—trends, tools, and stories shaping how we learn.
-Voices of Change
-Teaching and Learning
-Opinion
-Artificial Intelligence
-Why College Degrees Matter in the Age of AI
 Jobs
 Your Next Education Opportunity Starts Here
 Explore openings across teaching, technology, research, operations, and beyond, with new roles added regularly from innovators across the education landscape.

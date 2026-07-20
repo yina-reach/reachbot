@@ -1,0 +1,37 @@
+---
+title: https://www.reachcapital.com/2019/10/11/designing-with-educators-at-the-center/
+source_url: https://www.reachcapital.com/2019/10/11/designing-with-educators-at-the-center/
+notion_source: Designing With Educators at the Center
+---
+
+Designing With Educators at the Center
+Dear Guido,
+I’m an early stage ed tech founder ready to do a major overhaul of our product design. Version 1 has gained good traction despite being very simplistic. Could you provide advice on making smart UX/UI decisions during our redesign and going forward?
+Sincerely,
+— Redesign Deliberation
+Dear Redesign,
+Thanks for this great question! I’m glad to hear your product has seen some adoption in its earliest iteration. Now that you’ve tested your product market fit with a basic prototype, you are smart to begin thinking intentionally about how you craft user experience. Nearpod has been through a similar evolution, growing from a basic prototype to our current product offering. Over time, we built a team that is highly responsive to teachers’ and administrators’ needs. I’m proud of how we connect ourselves with educators and design with their priorities and feedback at center. To speak to this in-depth, I’ll call on Kirsten Powers, Director of UX at Nearpod, along with Product Managers Kelly Yuen and Rachel Leopold.
+Designing with Users at the Center
+How do you make smart design decisions for edtech? You involve educators deeply and meaningfully throughout the entire research and design process.
+Three key ways to involve users in product design that we’ll discuss in this post are:
+- Seeking out educator voices at every stage of launching a new product or designing a new feature
+- Keeping lines of communication open for continued feedback and idea sourcing
+- Seeing the product in action (in classrooms!)
+Seeking Out Educator Voices
+To examine how we might center educator input throughout the entire design and development process, we’ll talk through every stage in the life of a new feature at Nearpod.
+- Generative Research: We start by doing a lot of listening. We schedule 10–15 hours of user interviews, using a script to ensure we hit the same key questions in each session. We’re intentional about recruiting educators from different backgrounds, geographies, school environments and roles as well as those with different types of tech accessibility to ensure we’re capturing the full picture. In these research sessions, we try to learn about the educators’ feelings toward the new idea that we’re presenting them with, as well as their day-to-day routines and challenges. If there’s a parallel that we can draw, we push them to share what they like and dislike about other products in the realm we’re working on. We attempt to adhere to the RITE protocol, interviewing on M/W/F and adjusting our prototype on Tu/Th, but adapting to teachers’ schedules takes priority. Being inclusive of diverse teacher perspectives also means being flexible to different time zones!
+- User Feedback in the Roadmap: After distilling findings from the research sessions, the team members who conducted the interviews will present the results to the broader product team, as well as cross-team stakeholders, as objectively as possible. The research informs which design options are chosen and impacts the roadmap for the feature. The development team then works to design a minimum viable product (MVP).
+- Getting educator eyes early: As soon as we have the MVP, it’s time to start battle testing it. We begin bringing in educators at the earliest iterations to see the design and, eventually, click through it. Throughout the design process, we keep ourselves in a repeated cycle of testing, adjusing, testing, adjusting, testing, then adjusting again. Once we’ve reached a point where the feedback is overwhelmingly positive and all major issues or sticking points have been resolved, then we’re ready to release the feature to a beta group. Our go-to beta group is Nearpod PioNears, and we stay in close communication with them throughout the beta test. Based on their feedback, we make changes and add improvements to the roadmap of the feature.
+- Guiding users through UI/UX changes: When we launch a new feature or redesign a much-beloved one, we make sure to message the changes through multiple channels: in-app announcements, social media, FAQs, and implementation guides. We know time is a scarce resource for teachers and that any change to an educational tool they’re accustomed to using has an impact on their day. We strive to create a seamless experience for educators, both through the changes we make to Nearpod and the way we roll them out.
+Keeping Communication Open
+Outside the structured process of involving users in decisions during a design or redesign project, listening is still the most important product design tool out there. Once a launch period has passed, we move into the “forever” phase of keeping our antennae up and channels open for feedback.
+I’ll share a few examples of how we continually engage with users at Nearpod to spark ideas.
+Open Feedback Channels: Nearpod keeps a few channels perpetually open for user feedback.
+- Facebook Groups: 3 Facebook groups are home to thousands of educators who are sharing suggestions and feedback around the clock. These groups are monitored by the Nearpod team and suggestions are cataloged.
+- Feedback Email Address: Any user or internal team member can email feedback@nearpod.com, suggestions@nearpod.com or can go to nearpod.com/feedback with suggestions and feedback.
+- Every item that comes in through our feedback channels gets logged and tallied. We don’t ignore repetitive suggestions, because the repetition eventually becomes the pattern. User feedback patterns help us to prioritize the development pipeline and deliver the most impactful updates faster.
+Creating Conversation: Creating opportunities to interact with users allows us to connect with them in unique ways. For example, we brought an early beta version of a new feature to the Nearpod Transform, our educator conference. We got hundreds of eyes on the feature over the course of the weekend and made some key design adjustments based on their feedback.
+Seeing it Live
+Observing the product in action is critical to our processes. Seeing educators and students use and interact with Nearpod in the classroom provides us with key information for how the product can improve. There are a number of external factors that happen in a school and a classroom that might impact Nearpod, such as Internet and device access, and it’s challenging to imagine these scenarios without seeing them. We regularly schedule classroom visits to ensure we are always up to date with how the product is being used, and to be mindful of the classroom and school environment that the product lives in.
+Conclusion
+The key to making user-centric product design decisions is simply listening. If you create opportunities for users to share feedback and ideas, then incorporate those learnings into design decisions, then the user’s needs will be reflected in the “final” product. I say “final” because no product is ever done improving. Involving user feedback in a design process for a new feature or large redesign is a great place to start, but I would encourage continuous open channels of communication with users. Keeping the conversation going is what will allow you to prioritize your pipeline, source new ideas, and respond rapidly to user feedback.

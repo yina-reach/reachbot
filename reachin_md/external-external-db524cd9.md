@@ -4,16 +4,14 @@ source_url: https://www.edweek.org/
 notion_source: Education Week
 ---
 
-Artificial Intelligence
+Federal
         
       
       
-        What the Research Says
-      
     
     
     
-      AI Changes Its Feedback on Students' Writing When It Knows Their Race, Gender
+      The Ed. Department Calls for a Crackdown on Teacher Sexual Misconduct
     
     
         
@@ -27,7 +25,7 @@ Artificial Intelligence
   
     
   
-AI makes judgments based on the writer's characteristics—a problem if teachers use it as a writing coach.
+The agency released new guidance for schools and launched 20 new probes into school districts.
     
     
     
@@ -45,14 +43,14 @@ AI makes judgments based on the writer's characteristics—a problem if teachers
     
       
         
-        School & District Management
+        Artificial Intelligence
         
       
       
     
     
     
-      Carvalho Resigns as L.A. Unified Superintendent Amid Federal Investigation
+      Anthropic Launches Claude for Teachers. Why Some Critics Are Concerned
     
     
         
@@ -66,7 +64,7 @@ AI makes judgments based on the writer's characteristics—a problem if teachers
   
     
   
-Alberto Carvalho has been under FBI investigation for four months after a failed AI chatbot venture.
+The new AI tool for teachers joins others already in the market.  
     
     
     
@@ -84,14 +82,16 @@ Alberto Carvalho has been under FBI investigation for four months after a failed
     
       
         
-        Student Well-Being & Movement
+        Special Education
         
       
       
+        Video
+      
     
     
     
-      'Anxious Generation' Author Jonathan Haidt and Others Tackle Tech Overuse
+      Inside a Summer School Program for Special Education Students
     
     
         
@@ -105,7 +105,7 @@ Alberto Carvalho has been under FBI investigation for four months after a failed
   
     
   
-An EdWeek forum explored creative solutions to encourage students to move away from screens and devices.
+Academic support offered between school years is especially important for students with learning differences.
     
     
     
@@ -130,7 +130,7 @@ An EdWeek forum explored creative solutions to encourage students to move away f
     
     
     
-      More States Require Personal Finance. But Does It Actually Work?
+      How States Are Streamlining College Admissions—and Who Benefits
     
     
         
@@ -144,7 +144,48 @@ An EdWeek forum explored creative solutions to encourage students to move away f
   
     
   
-Personal finance education can influence behavior positively with specific strategies. 
+Direct-admissions programs aim to streamline the college admissions process.
+    
+    
+    
+    
+      
+        
+      
+    
+        
+            
+                
+                    
+    
+    
+    
+      
+        
+        School & District Management
+        
+      
+      
+        Opinion
+      
+    
+    
+    
+      This Is What Teachers Want From Their Leaders
+    
+    
+        
+  
+ 
+                
+            
+        
+    
+  
+  
+    
+  
+School and district administrators should take note of this feedback from educators.
     
     
     
@@ -166,53 +207,10 @@ Personal finance education can influence behavior positively with specific strat
         
       
       
-        Q&A
-      
     
     
     
-      Momentum Builds to Expand Coding Education to Learning About AI 'Under the Hood'
-    
-    
-        
-  
- 
-                
-            
-        
-    
-  
-  
-    
-  
-CodeAI CEO talks about artificial intelligence and the future of computer science education.
-    
-    
-    
-    
-      
-        
-      
-    
-        
-            
-                
-                    
-    
-    
-    
-      
-        
-        Social Studies
-        
-      
-      
-        Opinion
-      
-    
-    
-    
-      Why I Use a Business School Model to Teach History
+      Lessons on AI for Elementary Students: 'Teach Them Good Habits Now'
     
     
         
@@ -226,7 +224,7 @@ CodeAI CEO talks about artificial intelligence and the future of computer scienc
   
     
   
-Students who can see themselves in historical figures learn how to debate respectfully. 
+Teachers want to help their youngest students become familiar with AI's potential—and its limits.
     
     
     
@@ -328,7 +326,7 @@ President Trump has repeatedly proposed axing the feds' biggest investment in pr
     
       
         
-        Assessment
+        Special Education
         
       
       
@@ -337,14 +335,14 @@ President Trump has repeatedly proposed axing the feds' biggest investment in pr
     
     
     
-      From Data to Decisions: How Data Should Shape Instruction, Not Just Measure It
+      Spotlight on the Future of Special Education: Compliance, Data, and Transformation
     
     
         
   
     
   
-Find out how educators are shifting to real-time, strengths-based data to guide teaching, differentiation, and support.
+Special ed is evolving fast, driven by compliance, data, accessible tech, and smarter supports for students with disabilities.
     
     
     
@@ -362,43 +360,29 @@ Find out how educators are shifting to real-time, strengths-based data to guide 
     
       
         
-        School & District Management
+        Reading & Literacy
         
       
       
-        Quiz
+        Spotlight
       
     
     
     
-      Quiz Yourself: How Much Do You Know About Events and PD for K-12 Educators?
+      From Teacher Overload to Literacy Impact
     
     
         
   
     
   
-From peer-led sessions to AI training, see how well you understand today’s K-12 professional development priorities.
+New research, literacy shifts, and teacher support strategies are reshaping instruction and classroom practice nationwide.
     
     
     
     
       
         
-      
-    
-        
-            
-        
-    
-  This content is provided by our sponsor. It is not written by and does not necessarily reflect the views of Education Week's editorial staff.
-This practical guide helps district and school leaders identify and address implementation challenges, prioritize what matters most using...
-    
-    
-    
-    
-    
-    
       
     
         
@@ -406,7 +390,21 @@ This practical guide helps district and school leaders identify and address impl
         
     
   This content is provided by our sponsor. It is not written by and does not necessarily reflect the views of Education Week's editorial staff.
-AI is already showing up across district workflows — often faster than guidance, alignment, or visibility. Explore new insights from 1,05...
+Read the article to see how small, intentional changes can help your district tighten compliance, reduce friction, and maximize the value...
+    
+    
+    
+    
+    
+    
+      
+    
+        
+            
+        
+    
+  This content is provided by our sponsor. It is not written by and does not necessarily reflect the views of Education Week's editorial staff.
+This informative guide shows how to drive teacher self-reflection, goal-setting, and professional growth.
     
     
     
@@ -477,6 +475,170 @@ Support Staff Jobs
     
       
         
+        School & District Management
+        
+      
+      
+        Video
+      
+    
+    
+    
+      Two Principals, One Agenda: Keep Kids Safe From Immigration Action
+    
+    
+        
+  
+ 
+                
+            
+        
+    
+  
+  
+    
+  
+Two principals talk to Education Week about how to work through the fear and chaos of ICE action.
+    
+    
+    
+    
+      
+        
+      
+    
+        
+            
+                
+                    
+    
+    
+    
+      
+        
+        Early Childhood
+        
+      
+      
+        Video
+      
+    
+    
+    
+      How Play Carts Can Transform Early Education
+    
+    
+        
+  
+ 
+                
+            
+        
+    
+  
+  
+    
+  
+Play carts make it easy to follow Connecticut’s play-based learning mandate.
+    
+    
+    
+    
+      
+        
+      
+    
+        
+            
+                
+                    
+    
+    
+    
+      
+        
+        Early Childhood
+        
+      
+      
+        Video
+      
+    
+    
+    
+      A Charter School Finds 'Looping' Strategy Benefits Youngest Students
+    
+    
+        
+  
+ 
+                
+            
+        
+    
+  
+  
+    
+  
+Capital City Public Charter School, the first parent-founded charter school in the nation’s capital, takes a unique approach to early learning. 
+    
+    
+    
+    
+      
+        
+      
+    
+        
+            
+                
+                    
+    
+    
+    
+      
+        
+        Artificial Intelligence
+        
+      
+      
+        Video
+      
+    
+    
+    
+      What AI Use Guidelines Should Look Like for Schools
+    
+    
+        
+  
+ 
+                
+            
+        
+    
+  
+  
+    
+  
+Many teachers say they are not getting good guidance on how to use AI responsibly and effectively.
+    
+    
+    
+    
+      
+        
+      
+    
+        
+            
+                
+                    
+    
+    
+    
+      
+        
         Education Funding
         
       
@@ -518,16 +680,16 @@ A school district has waited four years and counting to begin work on a tornado 
     
       
         
-        College & Workforce Readiness
+        Sales & Marketing
         
       
       
-        Video
+        Market Analysis
       
     
     
     
-      How a "Reverse Career Fair" Can Launch High Schoolers Into the Real World
+      We Walked Through ISTE With a Superintendent. Here's What Vendors Did Right — And Wrong
     
     
         
@@ -541,7 +703,7 @@ A school district has waited four years and counting to begin work on a tornado 
   
     
   
-It flips the traditional model and allows students to set up booths to display their talents to employers.
+One hour on the ISTE exhibit floor offers a window into the notable differences in how sales representatives connect with K-12 officials, and where they're likely leaving money on the table.
     
     
     
@@ -559,57 +721,16 @@ It flips the traditional model and allows students to set up booths to display t
     
       
         
-        Artificial Intelligence
+        Regulation & Policy
         
       
       
-        Video
+        Market Analysis
       
     
     
     
-      Will AI Help or Overwhelm Students? Teachers Weigh In
-    
-    
-        
-  
- 
-                
-            
-        
-    
-  
-  
-    
-  
-Even as teachers across the country experiment with AI, many are skeptical of its role in classrooms, and whether it will undermine student learning. 
-    
-    
-    
-    
-      
-        
-      
-    
-        
-            
-                
-                    
-    
-    
-    
-      
-        
-        Artificial Intelligence
-        
-      
-      
-        Video
-      
-    
-    
-    
-      How AI Complicates Student Well-Being. What Schools Should Know
+      The Next Challenge for K-12 Ed-Tech: Proving Classroom Screen Time Is Worth It
     
     
         
@@ -623,89 +744,7 @@ Even as teachers across the country experiment with AI, many are skeptical of it
   
     
   
-Many kids cannot tell the difference between an AI-driven chatbot and genuine human understanding.
-    
-    
-    
-    
-      
-        
-      
-    
-        
-            
-                
-                    
-    
-    
-    
-      
-        
-        Mathematics
-        
-      
-      
-        Video
-      
-    
-    
-    
-      The Algebra Hurdle: One School's Strategy to Help Students Clear It
-    
-    
-        
-  
- 
-                
-            
-        
-    
-  
-  
-    
-  
-An EdWeek video describes an Indiana school's use of tutoring and courses with different levels of rigor to help students.
-    
-    
-    
-    
-      
-        
-      
-    
-        
-            
-                
-                    
-    - College & Workforce Readiness Webinar The Road to Opportunity: Making CTE Accessible for AllSponsorThis content is provided by our sponsor. It is not written by and does not necessarily reflect the views of Education Week's editorial staff.Recruitment & Retention Webinar New Hire, No Laptop, No Login: Preventing Day-One DisruptionSponsorThis content is provided by our sponsor. It is not written by and does not necessarily reflect the views of Education Week's editorial staff.
-    
-    
-      
-        
-        Meeting District Needs
-        
-      
-      
-        Exclusive Data
-      
-    
-    
-    
-      Can Vendor-Provided Professional Development Compete With Internal PD?
-    
-    
-        
-  
- 
-                
-            
-        
-    
-  
-  
-    
-  
-How useful educators and K-12 leaders find vendor PD can vary by their level of influence on the purchasing decision, as well as what grade level they're focused on, the data show.
+Facing backlash from parents and educators, a growing number of states and school districts are experimenting with policies that curb screen time and require schools to be more intentional about when — and why — students use digital devices.
     
     
     
@@ -732,7 +771,7 @@ How useful educators and K-12 leaders find vendor PD can vary by their level of 
     
     
     
-      Sales Strategies for a 'Weird' Market: How to Get in the Door with A District Leader
+      Need to Get Sales and Marketing on the Same Page? Try These Techniques
     
     
         
@@ -746,7 +785,7 @@ How useful educators and K-12 leaders find vendor PD can vary by their level of 
   
     
   
-Capitalizing on new opportunities may call for a sales strategy refresh in this market. Getting creative can help unblock a bottleneck.
+A sales expert turned marketer shares the lessons he's learned for building teams that work well together, and what works to move school districts toward a sale.
     
     
     
@@ -764,57 +803,16 @@ Capitalizing on new opportunities may call for a sales strategy refresh in this 
     
       
         
-        Education Market
+        Financing & Investment
         
       
       
-        Exclusive Data
+        K-12 Dealmaking
       
     
     
     
-      School Districts Are Making Cuts. Here's What Is Being Reduced This Budget Cycle
-    
-    
-        
-  
- 
-                
-            
-        
-    
-  
-  
-    
-  
-New EdWeek Market Brief survey data shows the majority of administrators are reducing spending in some categories, and the impact is spread across a broad range of areas that vendors target.
-    
-    
-    
-    
-      
-        
-      
-    
-        
-            
-                
-                    
-    
-    
-    
-      
-        
-        Education Market
-        
-      
-      
-        K-12 Market News
-      
-    
-    
-    
-      Join EdWeek Market Brief’s Intel Briefings at ISTE
+      PD Platform Secures Investment From PE Firm Achieve Partners
     
     
         
@@ -828,4 +826,4 @@ New EdWeek Market Brief survey data shows the majority of administrators are red
   
     
   
-EdWeek Market Brief's editorial team will offer insights on trends in district policy and purchasing at the upcoming mega ed-tech show.
+The company was founded in 2014 by former teachers in an effort to connect PD with instructional outcomes.

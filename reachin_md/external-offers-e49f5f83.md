@@ -17,6 +17,6 @@ Claude models
 - Sonnet: Best for high-volume use case
 - Haiku: Our most cost-effective models
 Getting started is easy
-Questions? Reach out to [email protected]
+Questions? Reach out to partnerships@anthropic.com
 Invalid offer
 Looks like you're trying to get an offer that is not valid or no longer available.

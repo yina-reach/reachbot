@@ -8,8 +8,6 @@ Why buy five tools when one does it better?
 Apollo replaces your data provider, outreach platform, dialer, enrichment, and CRM—saving teams thousands each year.
 or
 By signing up, I agree to Apollo's Terms of Service and Privacy Policy.
-or
-By signing up, I agree to Apollo's Terms of Service and Privacy Policy.
 Join over 600,000 companies using Apollo
 Andrew Froning
 BDR Leader

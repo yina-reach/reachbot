@@ -4,9 +4,8 @@ source_url: https://whiteboardadvisors.com/
 notion_source: Whiteboard Advisors
 ---
 
-The Next National Education Agenda is Taking Shape
-When we invest in public education, toward what end?
-Photo by Allison Shelley/Complete College Photo Library
+Back to Basics: An Exclusive Q&A with Louisiana Superintendent Cade Brumley
+“Louisiana has proven we do not have to stay at the bottom of every good list and the top of every bad list.”
 Subscribe to Whiteboard Notes
 Stay up-to-date on the latest education policy and industry news with our weekly update read by thousands of education leaders, investors, grantmakers, and entrepreneurs.
 Substance Meets Strategy

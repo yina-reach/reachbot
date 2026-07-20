@@ -5,6 +5,7 @@ notion_source: HolonIQ
 ---
 
 Powered by HolonIQ's Global Impact Intelligence Platform.
+July 14, 2026
 June 10, 2026
 May 13, 2026
 April 22, 2026
@@ -26,5 +27,4 @@ April 23, 2025
 April 15, 2025
 April 7, 2025
 February 17, 2025
-January 24, 2025
 Join 80,000+ free weekly newsletter subscribers.

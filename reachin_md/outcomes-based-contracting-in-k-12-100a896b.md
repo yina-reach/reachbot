@@ -10,7 +10,7 @@ category: Session Recordings
 Reach Capital Session Recordings
 
 **Date:** 2024-09-06
-**Deck / slides:** https://prod-files-secure.s3.us-west-2.amazonaws.com/2c857fe3-c851-49b6-a826-626221ac7566/068bfebf-1553-4959-8842-a8fa7a739d4f/OBC_Reach_Capital_AMA_Session_9.6.24_%281%29.pptx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664NTUGAXI%2F20260713%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260713T161031Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEDgaCXVzLXdlc3QtMiJHMEUCIQCbK%2BxaaHJJB4KV14N8hqJGObzuiXY40fi38ODiDdszhgIgYsz0cM5kHVhRRvaIIiHZSNJLpO8cAWIoO0hNLXI7jRgq%2FwMIARAAGgw2Mzc0MjMxODM4MDUiDMEqRPJNXuy8pIJ%2BaSrcA4gYTS%2BqDCfY7oEaK7w4njdyHZojeQ%2BSzsS%2BZM9eJk9aq88M5hOZE2dXzpAvIpTS4x9TcTyd8nqqPZDjdx4yc5%2FH0PEb4eHAjVx00nI3aYxrplBYjB33E1AAxGcoikTJ94Ek1%2Bkud9AjdhQ8b9B37SJgkgr6RfGZYmxfhYoBfWu5cZpMlqN%2B%2FCW%2BssFvh6P1CKQFH%2BX%2BD1y7AfYQDFrUdwaLaPY72Xj99T%2B%2B7FX7k1%2FXkmtbEan5QSdMAkXBOg0nX1EatX88idgwaYIlF0Us%2BNeB0dBiYTvRZSY28QLtqIddIes7RBQg6saL9l5xKIqXO79cNAygjapFjFVYINVRb4Mt9MIhgw932tdEg%2BZUxBD320w6fRTWSwtEigO70OxYC7A%2FDTpHsiG%2F4TTZBnbz5WoFyX2dO5MIY2mw77Zx1xRvpYQPVtw0DL3QClkVymPnSjW3UuERN4MPAEe9BVO4ak7h1Ajsdp95VdmCU6rJr2TKj0D8ObvQYwvBo01QmKjrry%2FBbznGmZLF9QIuKR6BfL57jUqxwR1EKt1pQo7hsJz%2F%2FsEHNeuPmY8oRvXi3t7k2Rn3BkPKySs1QVt3znfV7xD8qM7eVS4E1h63PQ3bJ0nqw7M3%2FwVtHEzWnWiWMJuY1NIGOqUB%2BREmeiHVy7WTLRATeykczwaIs4t9tRMRkSa90bhH3tFxmfvpXEtQf6N%2B3iFXXr6ooAypDUr0qWw8Xy%2BA1gytPNDXVkusrr5SCai0wP5VqxjZsig2mrntvyYe8ASUWroKMtKN5%2Bb2d5LjxQO45tFbD5r27R0LgTiuEOi3FGMzBt6w6TYH6QTz1%2BxJphZ5lbQLWtZsVQopPimamVaUAWo7Ncz64EGp&X-Amz-Signature=04b6c5518cdf8376a49d8198e39395757d4616f140ff5193a283c18569aeb608&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject
+**Deck / slides:** https://prod-files-secure.s3.us-west-2.amazonaws.com/2c857fe3-c851-49b6-a826-626221ac7566/068bfebf-1553-4959-8842-a8fa7a739d4f/OBC_Reach_Capital_AMA_Session_9.6.24_%281%29.pptx?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UBJ6CV7T%2F20260720%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260720T092643Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjENn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIG3oNKssNaxdZa%2BbfTwGigyl7gt%2BC1aX0oAomExFMNz5AiEAisp5OjJjVvjSrscWksMezmm9kwsIr5q4%2FimxGxAlSNMqiAQIov%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAAGgw2Mzc0MjMxODM4MDUiDGGePJe8zFlvYpyH0yrcA0yN6lMeWOClXNSnpLwXDp4BncmIjsn3%2FQti5UxsMcc%2FH%2B765ZPKGWISWcgz1atBtaYn4WBi57myC6AHB2u8OsNkgJl8HeGyYqCDKOnCJLuAeSdkzhkCclR8pwFgDUxf1ef%2FJgEIe2Gi8sbUsiRHvQlivBVhhAhvUHnVid1SrIoW0NVEMctSvU80Sv%2FGMWfioes%2BaAzMmsXQXsU1YZcqYez6A2KkDL78N0gted6apFi9pq8jhP5R2xqINqDIqoq4T0azNwfsgG%2FMshv2wXiVNRqBilxLOowgi%2FnBoy7fsHlmGF1Ohe6NruoDTAVxQwhUpkLTUYAOaALD13pxcHTyrz%2F6rzc5NJv6GMuf%2B2bBKDzR0EfvY%2Bur2LkFqqjym16h3BK5NG0uBi8RC9wu9OUqXenO95uuvkCamGDD6V1PBF%2F7VQ9KSXkqv7BD8uv%2FLM47Elbhb0WN0nQMMntsUV%2FeTxRLi1o%2Fhr%2BhHv0eTobo%2F3D%2FpGO2uFYSawgFDriPB2XOR0dOka9CljKoU%2FgUO3A%2BJAHXcKhtBIWsUU06ITLBqNtSyQNR0xCZZGE5dQ6B14DVwiYKdAP4fpqA%2FmGq2BlXTBRzWa3llR%2Fab6%2FHBBjUZKDdSIs5w6c7%2Fz6Jt42iMOfL99IGOqUB%2Bzy9563syqOWQf7uHl%2B98UsutIlwFh59ba4wN0CcGRatLYvaho5ACp9Bzlgyk3edhCoj9KZxI%2BHFhGM8R9Uf%2F4mNdXBXtYPaz5fixTNznHl7sdUsLS%2Byhxkm5BMJ0zihr7AyHC8hER4WAOnuehO1aF3ULO%2FDV2uFkE7LHOHmYy3sheHlxS29%2FrqZf8dHrAu%2FPbvr4cBpboq3lPvImhXNo1G9UnmI&X-Amz-Signature=a39abd16b5ab293c771b02ef9142bb00acbe9f3f8d4f2db89d14e1890c3e691e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject
 **Tags:** K-12, sales
 **Recording:** [Recording](https://us02web.zoom.us/rec/share/WdyjJbS0l4fGQlhPG4Y0HWV9vI6ZVGFtIH6c1UG9dMrbHQnHclANON-VKzD_VTFw.2i23z0DD-_3G1Ulh)
 Passcode: 4br6#nw$
@@ -253,3 +253,43 @@ Take care. Thank you.
 
 Host:
 Bye-bye.
+Understanding OBC Fundamentals
+- Outcomes-Based Contracting (OBC) defines at least 40% (trending towards 50%) of provider payment as contingent on meeting agreed-upon student outcomes.
+- The core goal is to empower districts to contract for clear student outcomes and compel mutual accountability for achieving them.
+- Districts, not providers, typically set the price, building in incentives for quality and innovation aligned with outcome achievement.
+- OBC emerged from a need to bridge the disconnect between signed contracts and actual classroom execution, maximizing the impact of funding and student time.
+Why OBC is Gaining Traction
+- **Addresses Learning Gaps**: Aims to improve student outcomes post-pandemic and historically, particularly concerning equity in educational services.
+- **Maximizes Fiscal Responsibility**: With funding concerns (ESSER cliff, declining enrollment), OBC helps districts demonstrate academic impact for investments.
+- **Establishes Clear Expectations**: In a crowded EdTech market, it clarifies expectations, ensuring products meet needs and fostering stronger client relationships.
+- **Strengthens Implementation Fidelity**: Encourages higher fidelity of use (e.g., 15-20 points higher in tutoring programs) by linking payment to research-backed design and implementation.
+Blueprint for Successful OBC
+- **Define Low-Performing Population**: Target a clearly defined, low-performing student population to ensure specific focus and measurable impact (e.g., Level 1 and 2 students in a grade).
+- **Clear Outcomes & Metrics**: Move beyond general goals to precise, measurable outcomes and metrics, including specific assessments and administration windows.
+- **Mandatory Data Sharing**: Providers require access to student-level outcome data; this is a contractually enabling condition that drives system improvements.
+- **Continuous Improvement Process**: Requires regular cross-functional meetings post-contract to surface issues, improve the student/teacher experience, and drive outcomes.
+- **District Dosage Accountability**: Districts are responsible for ensuring students meet minimum dosage requirements specified by the provider; failure to meet dosage means contingent payments are still due.
+Targeting EdTech Interventions
+- **Intervention Use Case**: OBC for EdTech specifically targets intervention products for low-performing student populations, not broad supplemental use.
+- **Product Types**: Focuses on student-facing, adaptive technology products offering personalized instruction in a specific content area (e.g., DreamBox, Amira Learning, I-Ready, Zern, Imagine Learning).
+- **All-in Pricing Model**: Shifts from ala carte pricing to an "all-in" model for EdTech products to simplify contracting and ensure comprehensive service.
+- **Joint Implementation Plans**: Contracts require district and provider to collaboratively design and drive implementation success, involving customer success teams.
+- **Provider Research for Dosage**: Providers should have published research on recommended dosage for high-quality implementation to inform district expectations.
+OBC Contract Mechanics
+- **Base vs. Contingent Payment**: A portion is paid upfront (base), while 40-50% is contingent on verified student outcomes.
+- **Higher Contract Value**: OBC contracts typically command a higher price than traditional agreements, compensating providers for the added responsibility and risk of outcome delivery.
+- **Outcome-Driven Payments**: The contingent payment is directly tied to achieving specific, contractually agreed-upon student outcomes and process metrics like dosage.
+- **Payment Schedule Clarity**: Contracts specify when data will be reviewed, analyzed, shared with the provider, and when payments will be made based on outcomes.
+- **Partnership vs. Transaction**: Encourages a true partnership focused on innovation and shared goals, moving away from a traditional fixed-price, deliverable-based contract.
+Operationalizing Data & Implementation
+- **Legal Data Mandate**: OBC contracts act as a legal lever, forcing districts to overcome traditional data sharing barriers by requiring access for payment verification.
+- **Defined Data Workflows**: Agreements specify assessment windows, internal data analysis, and timelines for sharing student-level data with providers.
+- **Provider Usage Tracking**: Providers must track student usage of the product and reconcile this data with district records to confirm dosage requirements.
+- **Cross-Functional Collaboration**: Ongoing, regular meetings between district leaders, school staff, and provider teams are essential for continuous improvement and issue resolution.
+- **Interoperability Focus**: Southern Education Foundation actively collaborates with initiatives like Project Unicorn to promote and enable more automatic data system integrations.
+Expanding OBC Opportunities
+- **District Re-engagement**: Districts that complete an OBC pilot often expand into new product lines or repeat the process with increased scope (e.g., Duval, Santa Ana, Uplift).
+- **New Use Cases**: OBC applicability is expanding from high-impact tutoring and direct EdTech to areas like Curriculum-Based Professional Learning (CBPPL), with student outcomes as a year 2/3 metric.
+- **Provider Proactivity**: There's a growing trend for providers to propose OBC models themselves, either to existing clients or in response to traditional RFPs.
+- **Feasibility Studies & Working Groups**: New OBC product lines are developed through feasibility studies and working groups involving providers, districts, and subject matter experts.
+- **Geographic Growth**: Increasing interest and adoption of OBC models are observed across the country, particularly in Texas, Florida, and California.

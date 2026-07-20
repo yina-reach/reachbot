@@ -24,13 +24,14 @@ The TriNet Difference
 LESS ADMIN. MORE BUSINESS.
 NO MORE GUESSING.
 BETTER BENEFITS. BETTER HIRES.
-*TechValidate survey of 160 TriNet users, 2022. Individual results may vary.
+*Forrester Total Economic Impact™ study commissioned by TriNet, 2026
 **2024 TechValidate surveys of 180 TriNet customers
 Without strategic benefits, you risk:
 - Losing talent to competitors
 - Compliance risks as regulations evolve
 - Growth slowed by HR complexity
 - Significant cost impact — PEO clients report an average of $22,000 in savings per employee per year*
+*Forrester Total Economic Impact™ study commissioned by TriNet, 2026
 Starting is easier than you think.
 We've helped thousands of businesses just like yours make this transition smoothly. 
 Let's talk. Your 20-minute consultation is free.

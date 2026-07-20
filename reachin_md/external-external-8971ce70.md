@@ -9,21 +9,21 @@ Claude
 Pro and Max plans
 15 articles
 Team and Enterprise plans
-61 articles
+62 articles
 Identity management (SSO, JIT, SCIM)
 15 articles
 Claude Cowork
-9 articles
+10 articles
 Claude Code
-19 articles
+20 articles
 Claude Desktop
 9 articles
 Claude Mobile apps
-20 articles
+15 articles
 Claude API and Console
 40 articles
 Connectors
-21 articles
+22 articles
 Claude in Chrome
 5 articles
 Claude for Education
@@ -31,9 +31,9 @@ Claude for Education
 Claude for Nonprofits
 6 articles
 Privacy and legal
-22 articles
+24 articles
 Safeguards
-16 articles
+17 articles
 Amazon Bedrock
 6 articles
 Claude for Government

@@ -4,10 +4,25 @@ source_url: https://tomtunguz.com/
 notion_source: Tomasz Tunguz
 ---
 
-So You Want to Sell Inference
-Reselling inference is a zero-margin commodity. The margin question comes down to cost-plus versus value-based pricing : one anchors to the inference line, the other decouples from it.
-Read moreReselling inference is a zero-margin commodity. The margin question comes down to cost-plus versus value-based pricing : one anchors to the inference line, the other decouples from it.
-Read moreDatabricks runs at $6.9b ARR growing 80%, widening the gap over Snowflake to $1.6b. Its AI products sit on the token path, where companies grow explosively even …
+The Blank Slate AI Strategy
+Slate Auto's $24,950 bare-bones pickup & Thinking Machines' 975B Inkling model share one business model: ship a vanilla, open base & monetize the customization layer.
+Read moreSlate Auto's $24,950 bare-bones pickup & Thinking Machines' 975B Inkling model share one business model: ship a vanilla, open base & monetize the customization layer.
+Read moreThe system around the model, not the model itself, is where the next generation of AI advantage will be won. What Grok Build's codebase-upload incident reveals …
+AI is like a colander. Customers pour in, & many pour out. Retention lands between a mobile game & a social network, while the price of intelligence keeps …
+How AI reshaped the software stack, venture stage definitions, and the firms that win over three years.
+Ollama has become the largest developer platform for open models, with 8.9m developers & one million new installs each week. Today we announced our investment …
+An agent that forgets mid-sentence isn't a context-size problem. It's a memory-architecture problem. A preflight step, a skills library, & a watchdog fix it.
+Forward-deployed engineering has gone from a Palantir signature to an industry default. The total bill : nearly $10b in 12 months.
+The Economist put 25 frontier AI models through the World Values Survey. The variance is real, the obvious groupings don't hold, & worldview may be the next …
+Prioritize routing over model choice. Most AI work runs on cheap local models.
+The CIO's choices are clear in 2026 : fund the AI stack, cut everything else. The public markets are pricing it.
+Anthropic spends 2.3x payroll on compute. Top software firms spend 0.4x. Three scenarios for where the rest of the market lands by 2029.
+At the application layer, moats are lagging, earned through scale & brand. At infrastructure, capital intensity demands a leading moat at founding.
+The inference market is the largest in software. We invested in Sail's Series A to build queuing infrastructure for long-horizon agents that run for hours.
+Sunil Agrawal, CISO at Glean, on what security readiness looks like when attackers use frontier models.
+Stablecoin issuers hold $165b in US Treasury bills, more than China, Norway, or Switzerland. Hyperliquid generates $610m annualized fees. Gold, oil, & stocks …
+Reselling inference is a zero-margin commodity. The margin question comes down to cost-plus versus value-based pricing : one anchors to the inference line, the …
+Databricks runs at $6.9b ARR growing 80%, widening the gap over Snowflake to $1.6b. Its AI products sit on the token path, where companies grow explosively even …
 A 500+ comment HN discussion reveals the current state of local AI coding - Qwen 3.6 35B dominates model mentions while Pi leads agents.
 Three weekend developments — the Fable retraction, Satya's ecosystem thesis & Salesforce's $3.6B Fin acquisition — reveal why the moat has shifted from models …
 Some founders raise $100m on an idea. Others struggle for $2m. The difference is personal cost of capital, & Musk's SpaceX IPO proves its power.

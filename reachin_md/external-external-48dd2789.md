@@ -53,9 +53,9 @@ Jack Groetzinger, SeatGeek CEO
 As much as it pains me to say this because I know it will give our hiring competition an edge against us, I'd give The Cole Group a 10/10. My experience with Matt was fantastic, especially compared with the other searches we've done in the past (for other roles). He knows the search space and so can give candid and proprietary feedback on the top candidates already, since they're already known entities to him. And on the candidate side of the experience, they really respect him and Cole group as they've built such a strong reputation working with the other top companies.
 Howie Liu, Airtable CEO
 I’ve worked with many recruiters across big firms, boutiques, and in-house. Brandon and The Cole Group’s stand-out effectiveness is rooted in their GTM leadership experience as operators of high-growth and high-performing teams. As a result, Brandon profoundly understands the nuances of company stage, job to be done, market, culture, and team dynamics that need to be considered across the entire lifecycle of a search. Brandon has an impressive network – his reputation with candidates is best described as “If Brandon calls, you pick up.” Brandon is a true consultative partner for us, helping us think through and shape our searches every step of the way. Brandon is my first stop, not just for a GTM Leader – which we’ve used for both a CRO and CMO – but also when I need to brainstorm new executive roles I’m hiring for on the team. We can feel that it is personal for Brandon to deliver a successful outcome for us.
-Kabir Barday, OneTrust CEO
+Kabir Barday, OneTrust Founder
 Having worked with Cole Group both as talent and as a hiring manager I can say I highly recommend them. They are a business built on trust and their tranparent and direct approach is one that I respect. The process itself is run with efficiency, urgency but also quality. I was very clear in my needs and those needs were respected throughout the process. I will also say I have worked with different folks at the firm over the years and the quality of the people at Cole is fantastic.
-Sarah Acton, Bill.com COO
+Sarah Acton, Bill.com Chief Customer Officer
 Our entire team enjoyed working with the Cole Group. They were knowledgeable about the market, able to quickly engage with great candidates due to preexisting relationships they had, thoughtful with their advice on the pros and cons in terms of candidate fit and ultimately helped execute a very smooth closing process with our number one CMO candidate!
 Eric Sager, Plaid COO
 Cole is cool! We hired The Cole Group after a strong recommendation from my board. The experience looking for our CMO was great, super structured and strategic. We had a goal of finding a “unicorn” and we found him. I’m not sure it could happen without The Cole Group - we spoke with all of the best marketing leaders in the industry. 10/10!
@@ -63,7 +63,7 @@ Andrey Khusid, Miro CEO
 We have worked with Cole on a few hires over the years, starting with our VP of Sales after our series A [and then our VP of Marketing]. Not only is Cole is hands down the most connected firm in the business, but they are so helpful in guiding you on exactly the right type of person you need for your company and stage, and then help you to find and close that person. I can not recommend Cole enough. If you get the chance definitely work with them!
 Taylor Brown, Fivetran COO
 The Cole Group is the go-to firm -- period. A trusted source told me if I needed a world-class CMO, to 'go with Cole' and she was right. Rob's advice and counsel on candidates and the process were invaluable as we navigated a very challenging spec. Given the rapidly increasing expectations of the marketing function, the CMO role is one of the most difficult leadership roles to fill. The Cole Group exceeded my expectations and found us someone great -- they get my strongest recommendation.
-Dev Ittycheria, MongoDB CEO
+Dev Ittycheria, MongoDB Board Member and fmr CEO
 The Cole Group elevated my view of what is possible in exec search. They not only brought us exceptionally strong talent. Bridget and Jamie mirrored me and synthesized my words in ways that were confidence-inspiring. They used that language to explain the logic around potential candidate fit and fed me impactful questions and scorecards. It was the best recruiting process I've experienced - a case study in how to run an executive search.
 Nick Noone, Peregrine CEO
 Cole Group was one of two firms introduced by our board and was an easy choice for us. They were phenomenal to work with and produced best in class results - exceeded my expectations. Great candidates, well run process - it’s a high bar! Kudos.
@@ -77,7 +77,7 @@ Dominik Obermaier, Hive CEO
 I’ve now had the privilege of working with multiple search leaders from The Cole Group. I can definitely say that it’s not just a team of champions, but a championship team. The best evidence of this is the quality of hires we make as a result of our partnership and collaboration. Their speed (pre-work and hustle of getting started fast), refinement (continuous adjustments to the candidate pool) and reach (ability to get anyone I wanted to speak to into the process) were fantastic, exceeding my experience in working with other firms. Investments with working with The Cole Group always yield high ROI outcomes. True partners. A role model for all executive recruiters!
 Robert Chatwani, Docusign President
 We had a great partnership with The Cole Group. They were communicative, easy to work with and brought us a collection of qualified candidates that fit our need. We were looking for a sales leadership role and were able to find our candidate quickly and easily. Communication between both the candidate and the Cole Group were seamless. I would recommend The Cole Group to anyone looking to find a top quality executive leader!
-Matt Tuckness, Five9 CRO
+Matt Tuckness, fmr Five9 CRO
 Kelly and The Cole Group did everything right from the very beginning. Her first instinct was to get to know the company and team and understand the mission. She did an incredible job going into the details so she could represent us well with every candidate in a genuine and authentic way. The end result was we had extremely qualified candidates who were mission aligned and very capable to do the position. We even ended up with two AMAZING candidates at the end after pivoting the profile which Kelly did extremely well. Every candidate I spoke to also had incredible feedback on how amazing Kelly was to work with, she was supportive and throughout the process with each of them. I cant say more good things about Kelly.
 Vitaly Gordon, Faros CEO
 I’ve partnered with Bridget on three searches. She consistently calibrates fast, runs a tight process, and delivers leaders who outperform the spec. The results have been so strong, I almost wish we had more searches open. She’s the rare recruiter I genuinely look forward to working with again.
@@ -91,7 +91,7 @@ Jack Altman, fmr Lattice CEO
 We closed our search extremely fast, exceeding even the aggressive timeline that we'd gone in with. We'll have our VP Sales in seat 60 days post kick off. Kelly was AWESOME. Extremely glad we were able to work together on this. It went super smoothly and the calibration process honestly helped a huge amount with framing where we are and what we need. I'd heard a lot about Cole in the past and it was great to see the firm in action! Please consider me a fan and more than happy to be a reference any time, especially for early stage founders that are deciding whether a search is the right decision for them.
 Matt Slotnick, Poggio Labs CEO
 Everyone I spoke with seemed to consider The Cole Group the best overall. Geoff and Matt were great, they seemed a lot smarter and more strategic than any other firms I spoke with. Great candidates, great communications, great process for running the search. We hired both our head of sales and head of marketing through them. 10/10!
-Quinn Slack, Sourcegraph CEO
+Quinn Slack, Sourcegraph Co-Founder
 The Cole Group has a great reputation and were recommended by our investors. The process [for finding our CMO] was professional, short and we met fewer candidates than other searches. 10/10.
 Oz Alon, Honeybook CEO
 The Cole Group was one of the best choices we've made making our first steps in building our US-based GTM team. Bridget is a real pro and I had the pleasure of working with her twice - hiring both our VP of sales and VP of marketing. Great network, great pipeline tons of experience that helped us build the right interview process and get top talent excited. I would absolutely work with the Cole Group again.
@@ -123,11 +123,11 @@ Lew Cirne, fmr New Relic CEO
 Within a few days of kicking off, The Cole Group introduced two people who were perfect for our VP Sales role! This experience was much better than any other firm we’ve worked with - the quality and calibration of candidates was a huge strength.
 David Hsu, Retool CEO
 The Cole Group did an amazing job for us -- tireless, thorough, and always on top of things. Matt introduced us to an impressive roster of candidates and helped us find someone who was a great leader and culture fit. Thanks again!
-Ev Williams, Medium CEO
+Ev Williams, Medium Founder
 Matt and his team led a thorough, yet expeditious search for a CMO for us. They were awesome to work with, and I would highly recommend them to any software startup in the valley.
 Aaron Levie, Box CEO
 I have worked with many search firms - The Cole Group was much better in terms of guidance, speed and communication! Superb!
-Chano Fernandez, fmr Workday co-CEO
+Chano Fernandez, fmr Workday Co-CEO
 The Cole Group is far and away the best executive search firm I have every worked with…and I have worked with a lot of them! :). I think the fact that you all see each search as unique, where you need to learn the profile and character of the company as you go thorugh the search, is just one of a kind. Most search firms just make you feel like they have binders of people they’re just going alphabetically on whoever is available. Cole is in it with you. 10/10.
 Molly Graham, fmr Lambda School COO
 The Cole Group is the best in the business, A++. Their network is unparalleled. I would invest in them if I could. But they won’t let me. Yet!
@@ -141,17 +141,17 @@ Salman Kothari, Mux COO
 Best exec search firm I’ve ever worked with - I’ll run all of my searches through Natalia and Jamie if I can. You understood our business and the function - it is evident you understand the nuances of sales and marketing. You never wasted our time, you have a personalized approach and a wonderful team. I have a hard time thinking of any areas of improvement! Thank you for all of the hard work.
 Ale Resnik, Belong CEO
 I really valued Matt’s counsel throughout the process [of bringing on a CMO to Bessemer Venture Partners]. The focus was on getting the right answer for BVP, not just ending the search. It was a great result and I enjoyed the process. I’d happily be a reference for Cole Group anytime - I’m extremely excited we worked with you guys! 10/10.
-Ethan Kurzweil, Bessemer Venture Partners GP
+Ethan Kurzweil, fmr Bessemer Venture Partners GP
 I'm so excited about our new CMO. Thank you again for the hard work, thoughtfulness, and care you brought to this process. I really feel like The Cole Group understood and accentuated the best parts of what makes Automattic unique.
 Matt Mullenweg, Automattic CEO
 More than anything else, I trust the Cole Group. I trusted them when I was being recruited - direct, transparent, bespoke, good or bad, no BS. They guided me and consulted me. First role didn’t work out, but that trust was literally the only reason I took the next call about three 3 years later. So naturally I trusted them when I became the client looking to fill a key role. Same thing: Bridget advised, curated, consulted. Direct and no bs. She quickly figured out what I was looking for and put a thoughtful range of candidates in front of me. Excellent all in their own way. And she helped me navigate through them with perspective. In the end, the search was faster than expected but only because the quality of the candidates and curated selection she put forth was precise. I really appreciate the partnership. These hires are hard and there is a lot on the line but it helps to have such high confidence in the partner running the search. Thank you!
-Michael Carpenter, Intercom CRO
+Michael Carpenter, Intercom Global Head of Sales
 The Cole Group is the absolute best for GTM leadership hiring! It’s such a joy to work with every member of the team that I am genuinely sad when our searches are over! They care about making lasting hires and finding the right fit, rather than pushing candidates that don’t make sense for us. It’s a true partnership.
 Mathilde Collin, fmr Front CEO
 The Cole Group hit it out of the park for us. We gave them a tricky position that required a highly specialized skillset. They got it immediately and completed the search far faster than industry benchmarks. I was delighted, my board was delighted, and all in all I couldn't believe my good fortune. I attribute it to Matt's thoughtful, soft spoken, empathetic approach, and to his specialization and long experience around a few particular roles. Beyond the good outcome, he's a pleasure to work with: kind, incredibly responsive, and always willing to help out or provide advice even when he's not working on a search. I hardly want to recommend Matt – I'd prefer he remain a secret weapon.
-Geoff Schmidt, ApolloGraph QL CEO
+Geoff Schmidt, Apollo GraphQL Co-Founder
 Definitely a super positive experience! You helped us think differently, you were quick and dedicated, honest and direct. You had great relationships with the candidates and were nothing but transparent with us [for our CRO search]. Nothing to improve. 10/10!
-Ziv Paz, Melio Co-Founder and COO
+Ziv Paz, Melio Co-Founder
 I’ve known The Cole Group and their strong reputation for years. They helped us find the perfect CRO. They cleared common misconceptions about candidate profiles quickly and provided unique insight into the market and candidates. We aligned quickly on the right profile and executed. I wish I had more eloquent things to say - they are simply the beset. Hire them.
 Sean Behr, Fountain CEO
 The Cole Group is always the first call I make. I've partnered with them on some really tough searches and I've always had great results. Their passion and commitment to clients is unrivaled. They step beyond the role of recruiter and become strategic business partners. I can't recommend them highly enough.
@@ -171,28 +171,28 @@ Jonathan Widawski, Maze CEO
 One of our investors introduced us to The Cole Group, and we really liked their focus and specialization. This was my first experience working with an executive search firm and it exceeded my expectations. Working with Geoff and Rob, they understood our unique culture, presented a number of candidates for comparison, gave us candid feedback about our own story and closed a great candidate. 10/10!
 Brian Beyer, Red Canary CEO
 Over the last 9 months I've worked with 6 different recruiters for exec hires, and my experience with the Cole Group for our CMO has been far superior and miles ahead of the competition. Ranging from quality of candidates, your ability to brief candidates and get them excited, to prep for interviews and the overall effort throughout the process is unrivaled.
-Øyvind Reed, Whereby CEO
+Øyvind Reed, Whereby Chairman
 I wanted to thank Rob and the entire Cole Group. I have been thoroughly impressed end-to-end, from our first call where you were prescriptive about the process, to the rapid pipeline development, giving us helpful feedback, pushing back (in a friendly way), being flexible as our needs changed to making sure we were ready when our now-CMO showed up. I’m confident we made a good choice and you played a huge part in it. I recommend you to other CEOs! Thanks so much.
 Nick Mehta, fmr Gainsight CEO
 Matt is an unusually charismatic, soulful and effective executive recruiter. He is fun to work with; he is intuitive about the kind of person you really want to hire; he works extremely hard to source candidates personally; he never says die. I loved working with him and would recommend hiring him.
-Glenn Kelman, Redfin CEO
+Glenn Kelman, fmr Redfin CEO
 Cole did a great job throughout the process, with a comprehensive and much higher level of knowledge than had been my experience with other firms. They provided helpful counsel and sourced the best possible candidates for the role.
 Kipp Bodnar, Hubspot CMO
 I am a massive promoter of Gillian and The Cole Group! It truly was a pleasure working with you. We went in looking for one exec and ended up with three – all through the new Zoom hiring funnel. I know you did a ton to get people thinking about what it looks like to move jobs during a pandemic and you helped the candidates work through that mentally. No small feat. Thanks for everything!
-Dan Wernikoff, LegalZoom CEO
+Dan Wernikoff, fmr LegalZoom CEO
 Jamie and The Cole Group are an amazing group to work with - my go-to firm for executive sales and marketing roles. They are honest and real, understand candidates’ motivations and passions and have an extensive network. Highly recommended!
-Hilary Schneider, Shutterfly CEO
+Hilary Schneider, fmr Shutterfly CEO
 I had a great experience with The Cole Group as a candidate and it was clear they knew our organization. I could fully trust them to quickly find the best candidates quickly. They move fast, are super well connected and focus on high potential rather than just titles. The breadth of candidates introduced quickly was super impressive, especially given how constrained my criteria was. 10/10.
-Tom Clayton, Bill.com CRO
+Tom Clayton, fmr Bill.com CRO
 Very impressed by the quality of the Cole Group network and robust process you brought to our CRO search! I have to say we recruited a GM [via another big search firm] and vastly preferred working with you guys. Better candidates, more proactive and tighter process. Cole Group felt like an extension of our team. I really appreciated how you operated as a true partner, helped flesh out what we were looking for in the first place! It made a huge difference.
-Paul Maiorana, WooCommerce CEO
+Paul Maiorana, fmr WooCommerce CEO
 Matt's an unbelievably talented and insightful exec recruiter, operating with very high integrity and with the clear the objective to find you that one candidate you will fall in love with. I have thoroughly enjoyed working with him as he's smart and exceptionally high on EQ - a perfect combination in his line of work. I would wholeheartedly recommend Matt; he's nothing short of a rock star.
-Steven Schuurman, Elastic CEO and co-founder
+Steven Schuurman, Elastic Co-Founder
 The Cole Group are absolute pros and I'd recommend them to any high growth tech company with cool products and great cultures. They helped us with several executive marketing and sales leadership roles and were focused on finding modern thinkers with similar values who fit exactly what we were looking for. Hire them!
-David Hatfield, Lacework co-CEO
+David Hatfield, fmr Lacework Co-CEO
 The Cole Group are the best in the business. They are total pros who work hard to understand the fit - from a competence and cultural perspective - and use that to present the highest quality candidates. Consultative throughout and always available to help!
 Joseph Ansanelli, Greylock Partner
 The Cole Group has been a fantastic partner for BlackLine. They rapidly found us numerous well-qualified CRO candidates that exceeded our expectations. They provided advice and guidance throughout the process and never lost patience with us. They helped us navigate to a successful conclusion. We will consider them first for any other searches that we have!
-Therese Tucker, BlackLine CEO and Founder
+Therese Tucker, BlackLine Founder
 The Cole Group exceeded my expectations in so many ways. Matt did way more than simply taking our requirements for the role and producing a pipeline of potential candidates. He took the time to understand the inner workings of our business and culture and helped us refine the requirements/role accordingly.
 Sean Rad, fmr Tinder CEO

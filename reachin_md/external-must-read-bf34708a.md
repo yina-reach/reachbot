@@ -4,7 +4,7 @@ source_url: https://tytonpartners.com/must-read/
 notion_source: Tyton Partners
 ---
 
-Time for Class 2026: The AI Tipping Point: From Monitoring Students to Engaging Them
-June 12, 2026 Papers Higher EdHigher Ed Reaches the AI Tipping Point: Integration, Not Restriction, Drives Student Engagement Tyton Partners, with support from…
+Key Learnings from VocTech Market Activity Q2 2026
+July 15, 2026 Papers workforceKey Learnings from VocTech Market Activity Q2 2026 Tyton Partners and Ufi Ventures Release Q2 2026 VocTech Market…
 Sign up for the Tyton Partners newsletter for our latest insights, news, announcements, and more.
 Subscribe Now

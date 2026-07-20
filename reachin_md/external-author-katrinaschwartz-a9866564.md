@@ -5,6 +5,7 @@ notion_source: KQED
 ---
 
 Katrina Schwartz is a journalist based in San Francisco. She's worked at KPCC public radio in LA and has reported on air and online for KQED since 2010. She covered how teaching and learning is changing for MindShift between 2012 and 2020. She is the co-host of the MindShift podcast and now produces KQED's Bay Curious podcast.
+Why Specialized Mariners Are Required on Every Ship Sailing Into San Francisco Bay
 Campsites Are Hard to Get In California. Try Dispersed Camping Instead
 Stunning Archival Photos of the 1906 Earthquake and Fire
 From Anza to Yorba: The Messy History Behind the Richmond's and Sunset’s Street Names
@@ -14,6 +15,8 @@ The Navy Jet Generations of San Francisco Kids Played On
 The Eccentric Personalities Behind Sunnyside Conservatory, a 120-Year-Old Garden in San Francisco
 Is It Crow-maggedon? Why Crows Are Flocking to Bay Area Cities Each Winter
 Local Olympians to Cheer for During the Milan-Cortina 2026 Olympic Games
+San Francisco’s Historic ‘Relief Cottages,’ Built After the 1906 Earthquake, Are Hidden in Plain Sight
+Bears, Coyotes, Mountain Lions, Oh My! What To Do When You Encounter Wildlife in the Bay Area
 Player sponsored by
 window.__IS_SSR__=true
 window.__INITIAL_STATE__={
@@ -199,6 +202,70 @@ window.__INITIAL_STATE__={
 "height": 1333
 }
 }
+},
+"news_12089865": {
+"type": "attachments",
+"id": "news_12089865",
+"meta": {
+"index": "attachments_1716263798",
+"site": "news",
+"id": "12089865",
+"found": true
+},
+"title": "260114-BarPilots-30-BL",
+"publishDate": 1783035742,
+"status": "inherit",
+"parent": 0,
+"modified": 1783623786,
+"caption": "A San Francisco bar pilot's image reflects in the window of their boat as they pull up next to the Pasha Hawaii ship George III at the Port of Oakland on Jan. 14, 2026. The ship is part of Pasha Hawaii’s fleet, providing container shipping service between California ports and Hawaii. The pilots guide large ships along California’s coast to ports in San Francisco Bay and beyond.",
+"credit": "Beth LaBerge/KQED",
+"altTag": null,
+"description": null,
+"imgSizes": {
+"thumbnail": {
+"file": "https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-30-BL-160x107.jpg",
+"width": 160,
+"height": 107,
+"mimeType": "image/jpeg"
+},
+"1536x1536": {
+"file": "https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-30-BL-1536x1024.jpg",
+"width": 1536,
+"height": 1024,
+"mimeType": "image/jpeg"
+},
+"post-thumbnail": {
+"file": "https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-30-BL-672x372.jpg",
+"width": 672,
+"height": 372,
+"mimeType": "image/jpeg"
+},
+"twentyfourteen-full-width": {
+"file": "https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-30-BL-1038x576.jpg",
+"width": 1038,
+"height": 576,
+"mimeType": "image/jpeg"
+},
+"npr-cds-wide": {
+"file": "https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-30-BL-1200x675.jpg",
+"width": 1200,
+"height": 675,
+"mimeType": "image/jpeg"
+},
+"npr-cds-square": {
+"file": "https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-30-BL-600x600.jpg",
+"width": 600,
+"height": 600,
+"mimeType": "image/jpeg"
+},
+"kqedFullSize": {
+"file": "https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-30-BL.jpg",
+"width": 2000,
+"height": 1333
+}
+},
+"isLoading": false,
+"fetchFailed": false
 },
 "news_12086205": {
 "type": "attachments",
@@ -805,6 +872,116 @@ window.__INITIAL_STATE__={
 },
 "isLoading": false,
 "fetchFailed": false
+},
+"news_12066192": {
+"type": "attachments",
+"id": "news_12066192",
+"meta": {
+"index": "attachments_1716263798",
+"site": "news",
+"id": "12066192",
+"found": true
+},
+"title": "251204-EARTHQUAKECOTTAGES00030_TV-KQED",
+"publishDate": 1764887080,
+"status": "inherit",
+"parent": 12068602,
+"modified": 1767744934,
+"caption": "An earthquake cottage stands on 1227 24th Avenue in San Francisco on December 4, 2025. Jane Cryan fought to designate this home a historic landmark after learning its rooms were made up of individual shacks used to house refugees from the 1906 Earthquake and fire.",
+"credit": "Tâm Vũ/KQED",
+"altTag": null,
+"description": null,
+"imgSizes": {
+"thumbnail": {
+"file": "https://cdn.kqed.org/wp-content/uploads/sites/10/2025/12/251204-EARTHQUAKECOTTAGES00030_TV-KQED-160x107.jpg",
+"width": 160,
+"height": 107,
+"mimeType": "image/jpeg"
+},
+"1536x1536": {
+"file": "https://cdn.kqed.org/wp-content/uploads/sites/10/2025/12/251204-EARTHQUAKECOTTAGES00030_TV-KQED-1536x1024.jpg",
+"width": 1536,
+"height": 1024,
+"mimeType": "image/jpeg"
+},
+"post-thumbnail": {
+"file": "https://cdn.kqed.org/wp-content/uploads/sites/10/2025/12/251204-EARTHQUAKECOTTAGES00030_TV-KQED-672x372.jpg",
+"width": 672,
+"height": 372,
+"mimeType": "image/jpeg"
+},
+"twentyfourteen-full-width": {
+"file": "https://cdn.kqed.org/wp-content/uploads/sites/10/2025/12/251204-EARTHQUAKECOTTAGES00030_TV-KQED-1038x576.jpg",
+"width": 1038,
+"height": 576,
+"mimeType": "image/jpeg"
+},
+"npr-cds-wide": {
+"file": "https://cdn.kqed.org/wp-content/uploads/sites/10/2025/12/251204-EARTHQUAKECOTTAGES00030_TV-KQED-1200x675.jpg",
+"width": 1200,
+"height": 675,
+"mimeType": "image/jpeg"
+},
+"kqedFullSize": {
+"file": "https://cdn.kqed.org/wp-content/uploads/sites/10/2025/12/251204-EARTHQUAKECOTTAGES00030_TV-KQED.jpg",
+"width": 2000,
+"height": 1333
+}
+},
+"isLoading": false,
+"fetchFailed": false
+},
+"news_12054109": {
+"type": "attachments",
+"id": "news_12054109",
+"meta": {
+"index": "attachments_1716263798",
+"site": "news",
+"id": "12054109",
+"found": true
+},
+"title": "250604-HikingSFBluffs-03-BL_qed",
+"publishDate": 1756410848,
+"status": "inherit",
+"parent": 12054079,
+"modified": 1756410855,
+"caption": "A jogger runs along part of the Batteries to Bluffs Trail in the Presidio of San Francisco on June 4, 2025. The coastal path offers views of the Golden Gate Bridge and Pacific Ocean, access to historic military sites and Marshall’s Beach.",
+"credit": "Beth LaBerge/KQED",
+"altTag": null,
+"description": null,
+"imgSizes": {
+"thumbnail": {
+"file": "https://cdn.kqed.org/wp-content/uploads/sites/10/2025/08/250604-HikingSFBluffs-03-BL_qed-160x107.jpg",
+"width": 160,
+"height": 107,
+"mimeType": "image/jpeg"
+},
+"1536x1536": {
+"file": "https://cdn.kqed.org/wp-content/uploads/sites/10/2025/08/250604-HikingSFBluffs-03-BL_qed-1536x1024.jpg",
+"width": 1536,
+"height": 1024,
+"mimeType": "image/jpeg"
+},
+"post-thumbnail": {
+"file": "https://cdn.kqed.org/wp-content/uploads/sites/10/2025/08/250604-HikingSFBluffs-03-BL_qed-672x372.jpg",
+"width": 672,
+"height": 372,
+"mimeType": "image/jpeg"
+},
+"twentyfourteen-full-width": {
+"file": "https://cdn.kqed.org/wp-content/uploads/sites/10/2025/08/250604-HikingSFBluffs-03-BL_qed-1038x576.jpg",
+"width": 1038,
+"height": 576,
+"mimeType": "image/jpeg"
+},
+"kqedFullSize": {
+"file": "https://cdn.kqed.org/wp-content/uploads/sites/10/2025/08/250604-HikingSFBluffs-03-BL_qed.jpg",
+"width": 2000,
+"height": 1333
+}
+},
+"isLoading": false,
+"fetchFailed": false
 }
 },
 "audioPlayerReducer": {
@@ -837,8 +1014,9 @@ window.__INITIAL_STATE__={
 ],
 "title": "Producer",
 "bio": "Katrina Schwartz is a journalist based in San Francisco. She's worked at KPCC public radio in LA and has reported on air and online for KQED since 2010. She covered how teaching and learning is changing for MindShift between 2012 and 2020. She is the co-host of the MindShift podcast and now produces KQED's Bay Curious podcast.",
-"avatar": "https://secure.gravatar.com/avatar/a6a567574dafefa959593925eead665c?s=600&d=blank&r=g",
+"avatar": "https://secure.gravatar.com/avatar/edb4ee79070447a018538c9aae6eeecf28786515b8a0c30e43b6b7dce5aa44c8?s=600&d=blank&r=g",
 "twitter": "kschwart",
+"bluesky": null,
 "facebook": null,
 "instagram": null,
 "linkedin": null,
@@ -871,8 +1049,8 @@ window.__INITIAL_STATE__={
 "headData": {
 "title": "Katrina Schwartz | KQED",
 "description": "Producer",
-"ogImgSrc": "https://secure.gravatar.com/avatar/a6a567574dafefa959593925eead665c?s=600&d=blank&r=g",
-"twImgSrc": "https://secure.gravatar.com/avatar/a6a567574dafefa959593925eead665c?s=600&d=blank&r=g"
+"ogImgSrc": "https://secure.gravatar.com/avatar/edb4ee79070447a018538c9aae6eeecf28786515b8a0c30e43b6b7dce5aa44c8?s=600&d=blank&r=g",
+"twImgSrc": "https://secure.gravatar.com/avatar/edb4ee79070447a018538c9aae6eeecf28786515b8a0c30e43b6b7dce5aa44c8?s=600&d=blank&r=g"
 },
 "isLoading": false,
 "link": "/author/katrinaschwartz"
@@ -896,8 +1074,9 @@ window.__INITIAL_STATE__={
 ],
 "title": "Senior Editor",
 "bio": "Olivia Allen-Price is senior editor and host of the award-winning Bay Curious podcast. Prior to joining KQED in 2013, Olivia worked at The Baltimore Sun and The Virginian-Pilot in Norfolk, Va. She holds degrees in journalism and political science from Elon University. Her work has earned awards from the Society of Professional Journalists, the Hearst Foundation and Hearken. She loves to talk about running and curly hair.\r\n\r\nFollow: \u003ca href=\"https://twitter.com/oallenprice\">@oallenprice\u003c/a>\r\nEmail: \u003ca href=\"mailto:oallenprice@kqed.org\">oallenprice@kqed.org\u003c/a>",
-"avatar": "https://secure.gravatar.com/avatar/fdd38db811fcf449bd7d7db84a39eea1?s=600&d=blank&r=g",
+"avatar": "https://secure.gravatar.com/avatar/07f7803c1f6be56f3be58ef276dfa64dce898502e0554408ef4858451a8294f7?s=600&d=blank&r=g",
 "twitter": "oallenprice",
+"bluesky": null,
 "facebook": null,
 "instagram": null,
 "linkedin": null,
@@ -912,12 +1091,6 @@ window.__INITIAL_STATE__={
 "site": "arts",
 "roles": [
 "subscriber"
-]
-},
-{
-"site": "styleguide",
-"roles": [
-"administrator"
 ]
 },
 {
@@ -949,19 +1122,13 @@ window.__INITIAL_STATE__={
 "roles": [
 "editor"
 ]
-},
-{
-"site": "breakingnews",
-"roles": [
-"administrator"
-]
 }
 ],
 "headData": {
 "title": "Olivia Allen-Price | KQED",
 "description": "Senior Editor",
-"ogImgSrc": "https://secure.gravatar.com/avatar/fdd38db811fcf449bd7d7db84a39eea1?s=600&d=blank&r=g",
-"twImgSrc": "https://secure.gravatar.com/avatar/fdd38db811fcf449bd7d7db84a39eea1?s=600&d=blank&r=g"
+"ogImgSrc": "https://secure.gravatar.com/avatar/07f7803c1f6be56f3be58ef276dfa64dce898502e0554408ef4858451a8294f7?s=600&d=blank&r=g",
+"twImgSrc": "https://secure.gravatar.com/avatar/07f7803c1f6be56f3be58ef276dfa64dce898502e0554408ef4858451a8294f7?s=600&d=blank&r=g"
 },
 "isLoading": false,
 "link": "/author/ohubertallen"
@@ -1024,7 +1191,7 @@ window.__INITIAL_STATE__={
 "staff_mastheads": [],
 "title": "Outdoors Engagement Reporter",
 "bio": "Sarah Wright is KQED's Outdoors Engagement Reporter. Originally from Lake Tahoe, she completed a thru-hike of the Pacific Crest Trail in 2019 and was a U.S. Fulbright Program grantee to Argentina in 2023. Her journalism has appeared in The Guardian, The San Francisco Standard, The Palo Alto Weekly and the Half Moon Bay Review.",
-"avatar": "https://secure.gravatar.com/avatar/585b7a53f459b86d1d3ca1561541ab4b?s=600&d=blank&r=g",
+"avatar": "https://secure.gravatar.com/avatar/c161a3d6441865cba25e6db4fa561099ad665799e9432e34da2b84d7e371524c?s=600&d=blank&r=g",
 "twitter": null,
 "bluesky": null,
 "facebook": null,
@@ -1060,8 +1227,8 @@ window.__INITIAL_STATE__={
 "headData": {
 "title": "Sarah Wright | KQED",
 "description": "Outdoors Engagement Reporter",
-"ogImgSrc": "https://secure.gravatar.com/avatar/585b7a53f459b86d1d3ca1561541ab4b?s=600&d=blank&r=g",
-"twImgSrc": "https://secure.gravatar.com/avatar/585b7a53f459b86d1d3ca1561541ab4b?s=600&d=blank&r=g"
+"ogImgSrc": "https://secure.gravatar.com/avatar/c161a3d6441865cba25e6db4fa561099ad665799e9432e34da2b84d7e371524c?s=600&d=blank&r=g",
+"twImgSrc": "https://secure.gravatar.com/avatar/c161a3d6441865cba25e6db4fa561099ad665799e9432e34da2b84d7e371524c?s=600&d=blank&r=g"
 },
 "isLoading": false,
 "link": "/author/sarahwright"
@@ -1074,7 +1241,7 @@ window.__INITIAL_STATE__={
 "meta": {
 "index": "authors_1716337520",
 "id": "234",
-"score": 6.4134583,
+"score": 6.4495215,
 "site": "authors"
 },
 "name": "Katrina Schwartz",
@@ -1088,8 +1255,9 @@ window.__INITIAL_STATE__={
 ],
 "title": "Producer",
 "bio": "Katrina Schwartz is a journalist based in San Francisco. She's worked at KPCC public radio in LA and has reported on air and online for KQED since 2010. She covered how teaching and learning is changing for MindShift between 2012 and 2020. She is the co-host of the MindShift podcast and now produces KQED's Bay Curious podcast.",
-"avatar": "https://secure.gravatar.com/avatar/a6a567574dafefa959593925eead665c?s=600&d=blank&r=g",
+"avatar": "https://secure.gravatar.com/avatar/edb4ee79070447a018538c9aae6eeecf28786515b8a0c30e43b6b7dce5aa44c8?s=600&d=blank&r=g",
 "twitter": "kschwart",
+"bluesky": null,
 "facebook": null,
 "instagram": null,
 "linkedin": null,
@@ -1119,7 +1287,12 @@ window.__INITIAL_STATE__={
 ]
 }
 ],
-"headData": {},
+"headData": {
+"title": "Katrina Schwartz | KQED",
+"description": "Producer",
+"ogImgSrc": "https://secure.gravatar.com/avatar/edb4ee79070447a018538c9aae6eeecf28786515b8a0c30e43b6b7dce5aa44c8?s=600&d=blank&r=g",
+"twImgSrc": "https://secure.gravatar.com/avatar/edb4ee79070447a018538c9aae6eeecf28786515b8a0c30e43b6b7dce5aa44c8?s=600&d=blank&r=g"
+},
 "isLoading": false,
 "hasAllInfo": true,
 "blocks": [
@@ -1132,7 +1305,7 @@ window.__INITIAL_STATE__={
 "meta": {
 "index": "authors_1716337520",
 "id": "234",
-"score": 6.4134583
+"score": 6.4495215
 },
 "name": "Katrina Schwartz",
 "firstName": "Katrina",
@@ -1143,8 +1316,9 @@ window.__INITIAL_STATE__={
 "staff_mastheads": "[Circular]",
 "title": "Producer",
 "bio": "Katrina Schwartz is a journalist based in San Francisco. She's worked at KPCC public radio in LA and has reported on air and online for KQED since 2010. She covered how teaching and learning is changing for MindShift between 2012 and 2020. She is the co-host of the MindShift podcast and now produces KQED's Bay Curious podcast.",
-"avatar": "https://secure.gravatar.com/avatar/a6a567574dafefa959593925eead665c?s=600&d=blank&r=g",
+"avatar": "https://secure.gravatar.com/avatar/edb4ee79070447a018538c9aae6eeecf28786515b8a0c30e43b6b7dce5aa44c8?s=600&d=blank&r=g",
 "twitter": "kschwart",
+"bluesky": null,
 "facebook": null,
 "instagram": null,
 "linkedin": null,
@@ -1152,8 +1326,8 @@ window.__INITIAL_STATE__={
 "headData": {
 "title": "Katrina Schwartz | KQED",
 "description": "Producer",
-"ogImgSrc": "https://secure.gravatar.com/avatar/a6a567574dafefa959593925eead665c?s=600&d=blank&r=g",
-"twImgSrc": "https://secure.gravatar.com/avatar/a6a567574dafefa959593925eead665c?s=600&d=blank&r=g"
+"ogImgSrc": "https://secure.gravatar.com/avatar/edb4ee79070447a018538c9aae6eeecf28786515b8a0c30e43b6b7dce5aa44c8?s=600&d=blank&r=g",
+"twImgSrc": "https://secure.gravatar.com/avatar/edb4ee79070447a018538c9aae6eeecf28786515b8a0c30e43b6b7dce5aa44c8?s=600&d=blank&r=g"
 },
 "isLoading": false,
 "link": "/author/katrinaschwartz",
@@ -1199,6 +1373,216 @@ window.__INITIAL_STATE__={
 "name": "88.5 FM",
 "link": "/"
 }
+},
+"news_12089929": {
+"type": "posts",
+"id": "news_12089929",
+"meta": {
+"index": "posts_1716263798",
+"site": "news",
+"id": "12089929",
+"score": null,
+"sort": [
+1783591252000
+]
+},
+"guestAuthors": [],
+"slug": "why-specialized-mariners-are-required-on-every-ship-sailing-into-san-francisco-bay",
+"title": "Why Specialized Mariners Are Required on Every Ship Sailing Into San Francisco Bay",
+"publishDate": 1783591252,
+"format": "standard",
+"headTitle": "Why Specialized Mariners Are Required on Every Ship Sailing Into San Francisco Bay | KQED",
+"labelTerm": {},
+"content": "\u003cp>\u003cem>\u003ca href=\"#Viewthefullepisodetranscript\">View the full episode transcript.\u003c/a>\u003c/em>\u003c/p>\n\u003cp>On a sunny day, the beauty of San Francisco Bay rivals almost any place in the world. The stately bridges boldly cross its watery expanse, dreamy islands call out for exploration, green or golden hills rise up on all sides and the twinkling lights of the city sparkle in the distance. But on a foggy, windy day, that same paradise can be treacherous for ships coming in and out of the Golden Gate.\u003c/p>\n\u003cp>That’s why all ships over 750 gross tons — about 150 feet or longer — are required to use a special mariner who knows the local conditions when they enter or exit the bay. Known as bar pilots, these local guides board vessels about 11 miles west of the Golden Gate Bridge, take charge of the ship and guide it safely under the bridges and through the bay to its anchorage spot or port berth. They also help move vessels within the bay, like from anchorage to port, for example.\u003c/p>\n\u003cp>[ad fullwidth]\u003c/p>\n\u003cp>Erik Udd often sees the bar pilot speedboat depart from Pier 9, where the bar pilots are headquartered, as he cycles his pedicab along the Embarcadero.\u003c/p>\n\u003cp>“I’ve seen the boats, and I’ve seen them heading out towards the Golden Gate, but I never thought about the process,” Udd said. So he asked Bay Curious: “What do they do? How does it work? Do they get hazard pay when they’re out there in a storm?”\u003c/p>\n\u003ch2>How the bar pilots came to be\u003c/h2>\n\u003cp>There are a lot of reasons San Francisco Bay is a tricky port to enter. First, there’s a large sandbar outside the mouth of the Golden Gate with only a narrow channel through it that’s deep enough for ships to navigate. Then there’s the weather — dense fog, strong winds and winter storms. Lastly, the currents can be deadly and pull ships off course.\u003c/p>\n\u003cp>For all these reasons, many Gold Rush-era ships foundered and sank on their way into the bay. And sunken ships are bad for the flow of commerce. They create additional maritime hazards and gum up the works.\u003c/p>\n\u003cfigure id=\"attachment_12089870\" class=\"wp-caption aligncenter\" style=\"max-width: 2000px\">\u003cimg loading=\"lazy\" decoding=\"async\" class=\"wp-image-12089870 size-full\" src=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-22-BL.jpg\" alt=\"\" width=\"2000\" height=\"1333\" srcset=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-22-BL.jpg 2000w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-22-BL-160x107.jpg 160w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-22-BL-1536x1024.jpg 1536w\" sizes=\"auto, (max-width: 2000px) 100vw, 2000px\">\u003cfigcaption class=\"wp-caption-text\">A pilot boat operator navigates a pilot boat in the San Francisco Bay. The pilots guide large ships along California’s coast to ports in San Francisco Bay and beyond. \u003ccite>(Beth LaBerge/KQED)\u003c/cite>\u003c/figcaption>\u003c/figure>\n\u003cfigure id=\"attachment_12089871\" class=\"wp-caption aligncenter\" style=\"max-width: 2000px\">\u003cimg loading=\"lazy\" decoding=\"async\" class=\"size-full wp-image-12089871\" src=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-28-BL.jpg\" alt=\"\" width=\"2000\" height=\"1333\" srcset=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-28-BL.jpg 2000w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-28-BL-160x107.jpg 160w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-28-BL-1536x1024.jpg 1536w\" sizes=\"auto, (max-width: 2000px) 100vw, 2000px\">\u003cfigcaption class=\"wp-caption-text\">Ships sit at anchor in the San Francisco Bay in areas known as ‘anchor buckets,’ where commercial vessels can remain for extended periods. \u003ccite>(Beth LaBerge/KQED)\u003c/cite>\u003c/figcaption>\u003c/figure>\n\u003cp>“The San Francisco Bar Pilots have been around a long time,” said Anne McIntyre, business director for the San Francisco Bar Pilots. “We were founded in 1850. The first thing the California legislature did was pass the Pilotage Act, and that’s what founded the San Francisco Bar Pilots.”\u003c/p>\n\u003cp>Evidence of this long history lines the walls of bar pilot headquarters at Pier 9. The first ships they served were sailing ships, but soon steam-powered vessels came on the scene, and eventually, diesel engines.\u003c/p>\n\u003cfigure id=\"attachment_12089869\" class=\"wp-caption aligncenter\" style=\"max-width: 2000px\">\u003cimg loading=\"lazy\" decoding=\"async\" class=\"size-full wp-image-12089869\" src=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-01-BL.jpg\" alt=\"\" width=\"2000\" height=\"1333\" srcset=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-01-BL.jpg 2000w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-01-BL-160x107.jpg 160w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-01-BL-1536x1024.jpg 1536w\" sizes=\"auto, (max-width: 2000px) 100vw, 2000px\">\u003cfigcaption class=\"wp-caption-text\">Capt. Cevan LeSieur points to historic photos of early bar pilot boats at the San Francisco Bar Pilots headquarters in San Francisco. The San Francisco Bar Pilot Association was founded in 1850 and is one of the oldest maritime organizations on the Pacific Coast. \u003ccite>(Beth LaBerge/KQED)\u003c/cite>\u003c/figcaption>\u003c/figure>\n\u003cp>In the early days, “the pilot would get on a little dinghy, and they’d row to the side of the ship, and then climb up the ladder,” said Captain Cevan Lesieur, a bar pilot with more than 10 years of experience.\u003c/p>\n\u003cp>He has piloted hundreds of ships through the bay’s waters and shook his head at the idea of one man braving the fog and wind alone in a boat powered only by his own strength.\u003c/p>\n\u003cp>“You know when I look at the type of weather and conditions we deal with, these people were just tougher than we are nowadays,” he said.\u003c/p>\n\u003ch2>What’s it like being a bar pilot today?\u003c/h2>\n\u003cp>That’s not to say being a bar pilot today is easy. They have to navigate many types of waterways – including through the open ocean, up and down the Stockton and Sacramento rivers, under several bridges and through a congested central bay. They also pilot all kinds of vessels from massive cargo ships to cruise ships, tankers to bulkers, yachts to car ships.\u003c/p>\n\u003cp>The most harrowing part of a bar pilot’s job is open water boarding. Here’s how it works: when a ship approaches San Francisco from the open ocean, it meets up with a station boat that’s always waiting 11 miles west of the Golden Gate Bridge. The crew on that boat rotates weekly, but the bar pilots work 365 days a year in all weather conditions.\u003c/p>\n\u003cfigure id=\"attachment_12089866\" class=\"wp-caption aligncenter\" style=\"max-width: 2000px\">\u003cimg loading=\"lazy\" decoding=\"async\" class=\"size-full wp-image-12089866\" src=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-34-BL.jpg\" alt=\"\" width=\"2000\" height=\"1333\" srcset=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-34-BL.jpg 2000w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-34-BL-160x107.jpg 160w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-34-BL-1536x1024.jpg 1536w\" sizes=\"auto, (max-width: 2000px) 100vw, 2000px\">\u003cfigcaption class=\"wp-caption-text\">Capt. Cevan LeSieur (left) prepares to board the Pasha Hawaii ship George III at the Port of Oakland. \u003ccite>(Beth LaBerge/KQED)\u003c/cite>\u003c/figcaption>\u003c/figure>\n\u003cfigure id=\"attachment_12089879\" class=\"wp-caption aligncenter\" style=\"max-width: 2560px\">\u003cimg loading=\"lazy\" decoding=\"async\" class=\"size-full wp-image-12089879\" src=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-Diptych4-scaled.jpg\" alt=\"\" width=\"2560\" height=\"847\" srcset=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-Diptych4-scaled.jpg 2560w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-Diptych4-2000x662.jpg 2000w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-Diptych4-160x53.jpg 160w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-Diptych4-1536x508.jpg 1536w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-Diptych4-2048x678.jpg 2048w\" sizes=\"auto, (max-width: 2560px) 100vw, 2560px\">\u003cfigcaption class=\"wp-caption-text\">Left: A bar pilot boat pulls up next to the Pasha Hawaii ship George III at the Port of Oakland. Right: Capt. Cevan LeSieur boards the Pasha Hawaii ship George III. \u003ccite>(Beth LaBerge/KQED)\u003c/cite>\u003c/figcaption>\u003c/figure>\n\u003cp>As the ship approaches, it slows down to 9 knots — about 12 miles per hour — and the pilot boat comes alongside at the same speed. Then, timing the jump carefully, the bar pilot leaps across and grabs onto a ladder hanging on the side of the ship.\u003c/p>\n\u003cp>They are not tied into anything when they make this jump. When a ship leaves for sea, this process is reversed, with the bar pilot jumping from the ladder to the moving deck of the pilot boat.[aside postID=news_12088210 hero='https://cdn.kqed.org/wp-content/uploads/sites/10/2026/05/260521-YEMENICOFFEE-11-BL-KQED.jpg']“Getting on can be tricky, and people have gone in the water,” said John Carlier, the president of the bar pilots association and a man with more than 30 years on the job. “But getting off and trying to get that small landing area on that deck while that boat’s surfing past you can be a bit sketchy.”\u003c/p>\n\u003cp>If a pilot does go in the water, he’s wearing a “float coat,” which turns into a lifejacket when it hits the water, complete with lights and a safety whistle. Pilots make the jump in all kinds of weather conditions.\u003c/p>\n\u003cp>“If it’s not safe, you don’t do it, but a lot of people would look at the conditions and not think it’s safe, but we have our own definition of it,” Lesieur said.\u003c/p>\n\u003cp>He estimated that it’s only about once a year that the weather is so bad that the pilot can’t make the jump. If that happens, the pilot has to stay on the ship until the next port of call and then fly home, and no one wants that.\u003c/p>\n\u003cp>Our question asker, Erik Udd, was interested in knowing if bar pilots receive hazard pay during bad weather, and the answer is no. But they are paid well — in the mid-six figures on average. They are paid by the shipping companies that use their services. There’s a \u003ca href=\"https://sfbarpilots.com/wp-content/uploads/2019/03/Pilotage-Rates.pdf\">rate structure\u003c/a> based on the tonnage of the ship.\u003c/p>\n\u003ch2>Becoming a bar pilot\u003c/h2>\n\u003cp>To become a bar pilot, a person must be a mid-career captain with decades of experience already. There’s a written test and a simulator test. Based on those scores, candidates are ranked on a list from which the bar pilots pull when apprenticeships open up. Once in the training program, most people spend close to two years shadowing more experienced pilots and learning all the different routes.\u003c/p>\n\u003cp>“The area starts with the Gulf of the Farallones, works its way through the main bay, down the Redwood City, and all the way up to Stockton and Sacramento,” Carlier said. “There’s eight different sections. You’re going to do in the neighborhood of at least 600 jobs under the tutelage of existing pilots.”\u003c/p>\n\u003cfigure id=\"attachment_12089872\" class=\"wp-caption aligncenter\" style=\"max-width: 2000px\">\u003cimg loading=\"lazy\" decoding=\"async\" class=\"size-full wp-image-12089872\" src=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-57-BL.jpg\" alt=\"\" width=\"2000\" height=\"1333\" srcset=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-57-BL.jpg 2000w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-57-BL-160x107.jpg 160w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-57-BL-1536x1024.jpg 1536w\" sizes=\"auto, (max-width: 2000px) 100vw, 2000px\">\u003cfigcaption class=\"wp-caption-text\">Bar pilot Capt. Cevan LeSieur stands on the bridge of the Pasha Hawaii ship George III while docked at the Port of Oakland. \u003ccite>(Beth LaBerge/KQED)\u003c/cite>\u003c/figcaption>\u003c/figure>\n\u003cp>They also have to learn by heart over 670 aids to navigation — the lights and buoys — as well as the depth charts for the entire 5,000-square-mile area.\u003c/p>\n\u003cp>Despite the expertise and local knowledge of the bar pilots, there have been instances when they made mistakes with devastating consequences. In 2007, a ship with a bar pilot in charge \u003ca href=\"https://response.restoration.noaa.gov/remembering-cosco-busan-overview-2007-oil-spill\">clipped one of the Bay Bridge towers\u003c/a> and 58,000 gallons of fuel oil spilled into the bay.\u003c/p>\n\u003cp>“There were some communication problems between the pilot and the crew as to where the center of the bridge was on their electronic [navigation] equipment, which definitely added to the sideswiping of the Delta Tower of the Bay Bridge,” Carlier said. “We actually bring our own electronic navigation equipment with us on board now. We also bring our GPS antennas.”\u003c/p>\n\u003ch2>Bar pilots at work\u003c/h2>\n\u003cp>The container ships that dock at the Port of Oakland to load and unload cargo are massive. The largest ones are as long as the Salesforce Tower is tall, but even more modestly sized ones are huge. The bar pilots have had to adapt as the ships have gotten bigger.\u003c/p>\n\u003cp>\u003ca href=\"https://www.pashahawaii.com/services/vessels/george-iii\">George III is a container ship\u003c/a> operated by Pasha Hawaii that brings supplies to the Hawaiian Islands. It runs the same route every two weeks, leaving Honolulu mostly empty save for a few commodities like macadamia nuts and rum, stops in Oakland to take on cargo and then heads down to Long Beach for more, before returning to Hawaii.\u003c/p>\n\u003cfigure id=\"attachment_12089946\" class=\"wp-caption aligncenter\" style=\"max-width: 1600px\">\u003cimg loading=\"lazy\" decoding=\"async\" class=\"size-full wp-image-12089946\" src=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/GraphBarPilots.jpg\" alt=\"\" width=\"1600\" height=\"1079\" srcset=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/GraphBarPilots.jpg 1600w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/GraphBarPilots-160x108.jpg 160w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/GraphBarPilots-1536x1036.jpg 1536w\" sizes=\"auto, (max-width: 1600px) 100vw, 1600px\">\u003cfigcaption class=\"wp-caption-text\">Many of the ships operating in the bay are as long as a skyscraper is tall. \u003ccite>(Courtesy of the San Francisco Bar Pilots)\u003c/cite>\u003c/figcaption>\u003c/figure>\n\u003cp>“The state of Hawaii has about three to five days of food availability if shipping stopped,” said Ed Washburn, senior vice president of fleet operations. “So it’s very sensitive.”\u003c/p>\n\u003cp>The crew of the ship signs on for long stints, 10 to 14 weeks, but then gets just as much time off on land. When they’re on board, they work as a team to keep ship operations running smoothly, the loads balanced, and the engines purring.\u003c/p>\n\u003cp>George III is a unique vessel because it runs on both diesel fuel and \u003ca href=\"https://www.pashahawaii.com/news-media/news/571/pasha-hawaii-marks-historic-milestone-mv-george-iii-first-lng-powered\">natural gas\u003c/a>, making it a cleaner vessel, but also one with more specific engineering needs. The crew eats, sleeps and works in shifts, building a strong sense of camaraderie.\u003c/p>\n\u003cfigure id=\"attachment_12089873\" class=\"wp-caption aligncenter\" style=\"max-width: 2000px\">\u003cimg loading=\"lazy\" decoding=\"async\" class=\"size-full wp-image-12089873\" src=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-60-BL.jpg\" alt=\"\" width=\"2000\" height=\"1333\" srcset=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-60-BL.jpg 2000w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-60-BL-160x107.jpg 160w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-60-BL-1536x1024.jpg 1536w\" sizes=\"auto, (max-width: 2000px) 100vw, 2000px\">\u003cfigcaption class=\"wp-caption-text\">A crew member on the Pasha Hawaii ship George III works on the bridge while docked at the Port of Oakland. \u003ccite>(Beth LaBerge/KQED)\u003c/cite>\u003c/figcaption>\u003c/figure>\n\u003cfigure id=\"attachment_12089878\" class=\"wp-caption aligncenter\" style=\"max-width: 2560px\">\u003cimg loading=\"lazy\" decoding=\"async\" class=\"size-full wp-image-12089878\" src=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-Diptych03-BL-scaled.jpg\" alt=\"\" width=\"2560\" height=\"846\" srcset=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-Diptych03-BL-scaled.jpg 2560w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-Diptych03-BL-2000x661.jpg 2000w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-Diptych03-BL-160x53.jpg 160w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-Diptych03-BL-1536x507.jpg 1536w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-Diptych03-BL-2048x676.jpg 2048w\" sizes=\"auto, (max-width: 2560px) 100vw, 2560px\">\u003cfigcaption class=\"wp-caption-text\">Left: Mark Bancroft, a second assistant engineer, works in the engine room of the Pasha Hawaii ship George III while docked at the Port of Oakland. Right: Crew members eat dinner on the George III before departing the Port of Oakland. \u003ccite>(Beth LaBerge/KQED)\u003c/cite>\u003c/figcaption>\u003c/figure>\n\u003cp>When it’s time to push off for sea, the bar pilot boards the ship and heads towards the ship’s bridge, at the top of the vessel. From there, he checks in with the captain, makes sure the equipment has all been tested and communicates with tugboats.\u003c/p>\n\u003cp>“It’s kinda anticlimactic when you have 90-ton boats and no wind,” said Christian Barron, the bar pilot on duty as George III slowly inched away from the dock. “We’ll start casting off tugs once we get about half a mile from here and start bringing her up to speed.”\u003c/p>\n\u003cfigure id=\"attachment_12089875\" class=\"wp-caption aligncenter\" style=\"max-width: 2000px\">\u003cimg loading=\"lazy\" decoding=\"async\" class=\"size-full wp-image-12089875\" src=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-83-BL.jpg\" alt=\"\" width=\"2000\" height=\"1333\" srcset=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-83-BL.jpg 2000w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-83-BL-160x107.jpg 160w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-83-BL-1536x1024.jpg 1536w\" sizes=\"auto, (max-width: 2000px) 100vw, 2000px\">\u003cfigcaption class=\"wp-caption-text\">San Francisco bar pilot Christian Barron works on the Pasha Hawaii ship George III before departing the Port of Oakland. \u003ccite>(Beth LaBerge/KQED)\u003c/cite>\u003c/figcaption>\u003c/figure>\n\u003cfigure id=\"attachment_12089874\" class=\"wp-caption aligncenter\" style=\"max-width: 2000px\">\u003cimg loading=\"lazy\" decoding=\"async\" class=\"size-full wp-image-12089874\" src=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-72-BL.jpg\" alt=\"\" width=\"2000\" height=\"1333\" srcset=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-72-BL.jpg 2000w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-72-BL-160x107.jpg 160w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-72-BL-1536x1024.jpg 1536w\" sizes=\"auto, (max-width: 2000px) 100vw, 2000px\">\u003cfigcaption class=\"wp-caption-text\">A bar pilot boat is docked at the Port of Oakland. \u003ccite>(Beth LaBerge/KQED)\u003c/cite>\u003c/figcaption>\u003c/figure>\n\u003cfigure id=\"attachment_12089876\" class=\"wp-caption aligncenter\" style=\"max-width: 2000px\">\u003cimg loading=\"lazy\" decoding=\"async\" class=\"size-full wp-image-12089876\" src=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-101-BL.jpg\" alt=\"\" width=\"2000\" height=\"1333\" srcset=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-101-BL.jpg 2000w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-101-BL-160x107.jpg 160w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-101-BL-1536x1024.jpg 1536w\" sizes=\"auto, (max-width: 2000px) 100vw, 2000px\">\u003cfigcaption class=\"wp-caption-text\">Views of the San Francisco skyline from a bar pilot boat. \u003ccite>(Beth LaBerge/KQED)\u003c/cite>\u003c/figcaption>\u003c/figure>\n\u003cp>Once the ship was safely out of San Francisco Bay, Christian climbed down the ladder and jumped onto the station boat, where he waited for the next ship needing his services to arrive.\u003c/p>\n\u003cp>When the bar pilots are doing their jobs well, we landlubbers might not even know they exist. We only see the stocked grocery shelves, fuel at the gas pump and cruise ships awaiting passengers at the pier. But to make all of that happen, a bar pilot is working day or night, rain or shine, fog or no, to bring ships safely to port.\u003c/p>\n\u003cp>[baycuriousquestion]\u003c/p>\n\u003ch2>\u003ca id=\"Viewthefullepisodetranscript\">\u003c/a>Episode transcript\u003c/h2>\n\u003cp>\u003cstrong>Olivia Allen-Price:\u003c/strong> If you ask mariners, they’ll tell you, navigating a boat from the open ocean into the San Francisco Bay is notoriously treacherous.\u003c/p>\n\u003cp>There’s the dense fog that can make it hard to see. Strong currents constantly rearrange the sea floor, and can quickly throw a vessel off course. And finally – our bridges! If a boat were to strike a pillar it could be\u003cem> catastrophic. \u003c/em>\u003c/p>\n\u003cp>That’s why captains of big ships aren’t allowed to navigate into port on their own. A specially trained mariner called a \u003cem>bar pilot\u003c/em> – hops aboard every ship that comes into San Francisco Bay, and takes over command.\u003c/p>\n\u003cp>We got a question about those bar pilots, so we sent Bay Curious editor and producer Katrina Schwartz to the Embarcadero to meet the man who asked it.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Erik Udd said he’d meet me at the Embarcadero BART station. When I emerged on the escalator he was waiting for me, sitting at the helm of a pedicab.\u003c/p>\n\u003cp>\u003cstrong>Erik Udd: \u003c/strong>It’s a great retirement job, I get exercise, it is perfect for me.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>While we talk, he’s giving me a ride in his pedicab over to Pier 9…near the Exploratorium…\u003c/p>\n\u003cp>\u003cstrong>Erik Udd: \u003c/strong>Oh, there goes a boat right now.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>While Erik pedals along the Embarcadero, he often notices the orange and white boats with the word “PILOT” painted on the side in giant, all caps letters.\u003c/p>\n\u003cp>\u003cstrong>Erik Udd: \u003c/strong>I’ve seen the boats and I’ve seen them heading out towards the golden gate, but I never thought about the process. What do they do? How does it work?\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Erik wants to know everything about the bar pilots. Like, how does the pilot get onto one of those big container ships?\u003c/p>\n\u003cp>\u003cstrong>Erik Udd: \u003c/strong>How big of a boat needs a pilot to come into the bay?\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>What kind of training do the pilots go through?\u003c/p>\n\u003cp>\u003cstrong>Erik Udd: \u003c/strong>Has anyone ever gone in the water? I’m sure someone has gone in the water. Maybe a better question is how many times?\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>What happens when there’s a storm?\u003c/p>\n\u003cp>\u003cstrong>Erik Udd: \u003c/strong>Do they get hazard pay when they’re out there in a storm?\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>After all, some of the ships coming into the bay are truly massive.\u003c/p>\n\u003cp>\u003cstrong>Erik Udd: \u003c/strong>It’s like a building is moving along across the water. Those things are huge.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>It’s quite a lot of questions, but I’m up to the task. Erik drops me off at Pier 9, where the Bar Pilots are headquartered. It’s the last office out at the end of the pier and sits behind a chain link fence. But once I’m inside, it looks like a fairly typical office building except the views of the bay are stunning.\u003c/p>\n\u003cp>\u003cstrong>Cevan Lesieur: \u003c/strong>Anne’s office has the best views in the city.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Captains Cevan Lesieur and Anne McIntyre are showing me around.\u003c/p>\n\u003cp>Cevan has been a pilot here for 12 years.\u003c/p>\n\u003cp>\u003cstrong>Cevan Lesieur: \u003c/strong>This is the best and most interesting waterway to work on from my experience and most challenging. So I always said if I was gonna become a pilot, it’d be in San Francisco.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Challenging because of the currents, the weather, the varied types of waterways and a congested central bay. Bar pilots can be called upon to move cruise ships, oil tankers, cargo ships, even really big yachts. And they have to be able to skillfully maneuver each type of vessel through narrowly dredged channels up the Sacramento and Stockton rivers and around smaller vessels.\u003c/p>\n\u003cp>\u003cstrong>Anne McIntyre: \u003c/strong>We service all nine Bay Area ports. So we take ships all the way up to West Sacramento, to Stockton, down to Redwood City, even down to Monterey.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Here’s how it works.\u003c/p>\n\u003cp>Every ship over about 150 feet is required by law to use a bar pilot to enter and exit the bay, as well as to move from anchor to port within the bay. The pilots serve about 75-hundred vessels a year.\u003c/p>\n\u003cp>The most dramatic moment for a bar pilot happens out in the open ocean beyond the Golden Gate Bridge.\u003c/p>\n\u003cp>\u003cstrong>Cevan Lesieur: \u003c/strong>We have what we call our station boat or ocean boats. And one is off shore at all times, about 11 miles west of the Golden Gate Bridge. And so we have crews out there that rotate every week.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>When a large vessel is heading into San Francisco Bay, it meets up with the bar pilot boat out on the ocean and the bar pilot leaps from one to the other — you heard that right — and they are not tied into anything when they do it. Then they climb up a ladder on the outside of the ship.\u003c/p>\n\u003cp>\u003cstrong>Cevan Lesieur: \u003c/strong>Timing is critical, and especially the worse the weather, the more important timing is.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>The ships are side-by-side going about 12-miles per hour when the pilot makes his jump. Cevan says there are some weather conditions that make the transfer too dangerous, but it doesn’t happen often…maybe once a year.\u003c/p>\n\u003cp>\u003cstrong>Cevan Lesieur: \u003c/strong>If it’s not safe you don’t do it, but a lot of people would look at the conditions and not think it’s safe, but we have our own definition of it.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Once the pilot is on board, he or she communicates with the captain and crew to bring the vessel safely under the Golden Gate Bridge, through the Bay and to its anchorage spot or port berth. The same happens in reverse, except the pilot has to jump off the ladder and onto the pilot boat.\u003c/p>\n\u003cp>Every bar pilot I talked to had a harrowing story about open water boarding, but Cevan’s is the funniest.\u003c/p>\n\u003cp>\u003cstrong>Cevan Lesieur: \u003c/strong>I was boarding a car ship and the conditions were really bad and the ship and the pilot boat were going up and down and up and down. The wind was so bad, I took like 3 attempts. Finally we came alongside and I was on the platform and I jumped and landed on the deck and was laying there. And the mate looked down, and said you’re f**ing crazy!\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Over their long history, pilots \u003cem>have\u003c/em> died and many have gone in the water, but it’s not common.\u003c/p>\n\u003cp>\u003cstrong>Cevan Lesieur: \u003c/strong>In the modern era, we have not lost a pilot here. And the last time a pilot went into the water has been several years ago.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>If a pilot does miss the jump, he’s wearing a “float coat” that becomes a life jacket when he hits the water, complete with lights and whistles.\u003c/p>\n\u003cp>And to answer our question asker, no, they don’t get hazard pay. But they are paid well… on average about 500,000 a year — all of that paid by the companies operating the boats they serve.\u003c/p>\n\u003cp>\u003cstrong>Olivia Allen-Price:\u003c/strong> We’re going to take a quick break, but when we come back we’ll learn how the bar pilots came to be and Katrina gets to shadow a pilot on a real job. Will she make the jump? All that coming up.\u003c/p>\n\u003cp>Sponsor message\u003c/p>\n\u003cp>\u003cstrong>Olivia Allen-Price: \u003c/strong>We were on a tour of bar pilot headquarters at Pier 9. Bay Curious editor and producer Katrina Schwartz found the halls are lined with evidence of the organization’s very \u003cstrong>long\u003c/strong> history.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Captains Cevan Lesieur and Anne McIntyre are showing me cool photos and artifacts from bar pilot history.\u003c/p>\n\u003cp>\u003cstrong>Anne McIntyre: \u003c/strong>We have to stop at this one here. This is the original charter from the first California legislative session.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Anne points to an old looking document on the wall.\u003c/p>\n\u003cp>\u003cstrong>Anne McIntyre: \u003c/strong>The San Francisco Bar Pilots have been around a long time. We were founded in 1850. We’re the second oldest business in San Francisco behind Boudin Bread.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>The bar pilots are as old as the state of California. Even back in 1850, state legislators understood the future of San Francisco — California even — depended on the safe flow of ships in and out of the Bay. We couldn’t have all these shipwrecks gumming up the works.\u003c/p>\n\u003cp>\u003cstrong>Anne McIntyre: \u003c/strong>We were the first act of the first California Legislature. So the first thing the California legislature did was pass the pilotage act happened and that’s what founded the San Francisco Bar Pilots.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Back then, the ships coming to San Francisco were mostly sailing vessels. By the end of the century coal-fired steam engines would come on the scene and later diesel engines. Each era required something different from the bar pilots, Cevan tells me. Boarding sailing ships might have been the most physically demanding.\u003c/p>\n\u003cp>\u003cstrong>Cevan Lesieur: \u003c/strong>The pilot would get on a little dinghy, and they’d row to the side of the ship, and then you’d climb up the ladder.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>He shakes his head at the idea of rowing a dingy through dense fog and huge wake.\u003c/p>\n\u003cp>\u003cstrong>Cevan Lesieur: \u003c/strong>You know when I look at the type of weather and conditions we deal with…These people were just tougher than we are nowadays. \u003cem>(Laughs, fade under)\u003c/em>\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>To become a bar pilot, you have to be a mid-career captain with many years of experience. There’s a written test and a simulator test. Candidates are ranked based on their scores and are then eligible for an apprenticeship with the bar pilots.\u003c/p>\n\u003cp>\u003cstrong>John Carlier: \u003c/strong>You’re going to probably do in the neighborhood of at least 600 jobs under the tutelage of existing pilots.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>John Carlier is the President of the Bar Pilots Association. He says there are eight sections in the Bay, each with their own challenges, and the pilots have to learn all of them.\u003c/p>\n\u003cp>\u003cstrong>John Carlier: \u003c/strong>And the area starts with the Gulf of the Farallones, works its way through the main bay, down the Redwood City, and all the way up to Stockton and Sacramento.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Piloting up the rivers here can be especially challenging. The ships are within two feet of the bottom in narrow channels with little room for error. And it takes a long time, about 9 hours from the open ocean to Stockton or Sacramento, so they usually change bar pilots half way to avoid fatigue.\u003c/p>\n\u003cp>Despite all this training, there have been incidents when ships captained by bar pilots have run into trouble in the Bay. Like in 2007 when an oil tanker clipped one of the Bay Bridge towers.\u003c/p>\n\u003cp>\u003cstrong>John Carlier: \u003c/strong>Yes, that was a bar pilot.\u003c/p>\n\u003cp>\u003cstrong>News clip: \u003c/strong>A 900 foot container ship hit the Bay Bridge tower east of the main anchorage. 58,000 gallons of fuel oil. Countless fragile ecosystems.\u003c/p>\n\u003cp>\u003cstrong>John Carlier: \u003c/strong>There was some communication problems between the pilot and the crew as to where the center of the bridge was on their electronic nav equipment which definitely added to you know the the sideswiping of the Delta Tower of the Bay Bridge.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Because of that incident, the bar pilots now bring their own GPS navigational equipment on board with them so they don’t have to rely on the vessel’s equipment.\u003c/p>\n\u003cp>I’m going to get to see that in action soon, so we start heading towards a boat with the word “pilot” boldly written on its side tied up out back. We clamor aboard. It looks like a fancy speedboat, and head towards Oakland.\u003c/p>\n\u003cp>\u003cstrong>Pilot: \u003c/strong>Where do you want to head to?\u003c/p>\n\u003cp>\u003cstrong>Cevan Lesieur: \u003c/strong>Port of Oakland, George III\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>It takes about 20 minutes to cross the bay and soon our small boat is pulling up alongside a massive containership. This boat is considered “small” by shipping standards and it’s still as tall as a 15 story building from the water up to the top. I now have to step from the bobbing deck of the pilot boat onto a rope ladder dangling from the first deck.\u003c/p>\n\u003cp>\u003cem>Sounds of ladder clanking against the ship\u003c/em>\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>I had hoped to do the open ocean leap I’d heard so much about. Climbing about 15 feet up this ladder felt pretty tame by comparison. The water in the Oakland estuary was very calm, kinda the training wheels version of this climb. No heroics for me.\u003c/p>\n\u003cp>This ship, George the III, brings supplies to the Hawaiian Islands.\u003c/p>\n\u003cp>\u003cstrong>Ed Washburn: \u003c/strong>Everything from medicine to groceries to fertilizer.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Ed Washburn is senior vice president of fleet operations with Pasha, Hawaii, the company that owns this vessel.\u003c/p>\n\u003cp>This ship runs the same two-week route on repeat.\u003c/p>\n\u003cp>\u003cstrong>Ed Washburn: \u003c/strong>The state of Hawaii has about three to five days of food availability, of shipping stopped. So it’s very sensitive.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>It leaves Honolulu mostly empty, carrying a few commodities like rum and macadamia nuts to the mainland. Then it stops in Oakland to pick up cargo, down to Long Beach for more and back to Honolulu.\u003c/p>\n\u003cp>\u003cstrong>Ed Washburn: \u003c/strong>The value of that is about $50 million in cargo each time.\u003c/p>\n\u003cp>Ok, should we go up to the bridge?\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>The bridge is at the top of the ship and it’s where the bar pilot does their work. We walk up A LOT of steps to get there.\u003c/p>\n\u003cp>\u003cem>(sounds of steps under this)\u003c/em>\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>From up here we have incredible views of the sun setting over the bay and the internal workings of the port.\u003c/p>\n\u003cp>\u003cstrong>Cevan Lesieur: \u003c/strong>This is Christian Barron. He’s also a Cal Maritime graduate.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Today, Christian Barron is the bar pilot in charge. But Cevan is hanging out with me, explaining what’s happening so I don’t bug Christian at crucial moments, like when he’s checking in with the captain.\u003c/p>\n\u003cp>\u003cstrong>Cevan Lesieur: \u003c/strong>Once the tugs have been made fast and the engine’s been tested we can get rolling.\u003c/p>\n\u003cp>\u003cstrong>Captain Eric Veloni: \u003c/strong>The engine has been tested.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>These massive ships are hard to maneuver, so pilots use tugboats to pull the ship off the dock.\u003c/p>\n\u003cp>\u003cstrong>Radio sounds: \u003c/strong>Captain, this is the chief engineer. Show of power. Cables secured.\u003c/p>\n\u003cp>\u003cstrong>Captain Eric Veloni: \u003c/strong>Roger, Dave.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Christian checks in with Vessel Traffic Services, basically air traffic control for boats, to let them know his plan and find out if there are other vessels in the shipping lanes he needs to be aware of.\u003c/p>\n\u003cp>\u003cstrong>Christian Barron: \u003c/strong>\u003cspan style=\"font-weight: 400\">Traffic, good evening, 4-5. Preparing to depart Oakland 55 starboard side two bound for sea. Deep draft 32 feet two inches. Tend to Delta-Echo span and deep water traffic lane Working my tugs on 20 Alpha.\u003c/span>\u003c/p>\n\u003cp>\u003cb>VTS Operator:\u003c/b>\u003cspan style=\"font-weight: 400\"> Roger, copy that, 4-5. George the third preparing to get underway from Oakland…\u003c/span>\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Nothing to worry about. There’s a fair amount of waiting as the crew gets in position and the port workers untie the boat.\u003c/p>\n\u003cp>\u003cstrong>Christian Barron: \u003c/strong>All clear forward\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>And then we get going.\u003c/p>\n\u003cp>\u003cstrong>Christian Barron:\u003c/strong> All clear fore and aft, stand clear of your tuglines.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Artemis and Apollo are the names of the tugboats.\u003c/p>\n\u003cp>\u003cstrong>Christian Barron: \u003c/strong>Ok, ready to go. Artemis stop and stretch. Apollo stop and stretch.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>As Christian gives orders, the massive container ship starts to slowly move away from the dock.\u003c/p>\n\u003cp>\u003cstrong>Christian Barron: \u003c/strong>It’s kinda anticlimactic when you have 90 ton boats and no wind.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Once the tugboats are secured and ready to go, the whole procedure only takes about ten minutes.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz (in scene): \u003c/strong>It is a little anticlimactic.\u003c/p>\n\u003cp>\u003cstrong>Captain Eric Veloni: \u003c/strong>We love boring when it comes to this.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz (in scene):\u003c/strong> I didn’t even realize we were moving at first.\u003c/p>\n\u003cp>\u003cem>Port sounds\u003c/em>\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz (in scene): \u003c/strong>You pushed off, what’s the next thing.\u003c/p>\n\u003cp>\u003cstrong>Christian Barron: \u003c/strong>I’ll give a command for dead slow ahead. We’ll confirm the engines come up to rpm and then we’ll put the tugs in position so they can follow along so they’re not impeding us, but can still affect the boat if we have an engine or steering failure they can still maneuver the vessel if need be.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Then he’ll check in with traffic again to let them know he’s underway and get any updates.\u003c/p>\n\u003cp>\u003cstrong>Christian Barron: \u003c/strong>And then we’ll start casting off tugs once we get about half a mile from here and start bringing her up to speed.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz (in scene): \u003c/strong>Anything you’re particularly concerned about tonight?\u003c/p>\n\u003cp>\u003cstrong>Christian Barron: \u003c/strong>Tonight, no. We have a little bit of current at the bar, so I just need to make sure I time my turns correctly, use enough rudder, engine.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Unfortunately, the bar pilots were not keen on me following Christian all the way out into the open ocean to disembark at 9 knots onto the pilot boat. Instead, we’ll be going back down the ladder in the Oakland estuary.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Thanks, nice to meet you all. Safe voyage.\u003c/p>\n\u003cp>\u003cstrong>Captain Eric Veloni: \u003c/strong>Be safe on the ladder!\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>We tramp down many flights of stairs, back to the lowest deck and our ladder.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>It should be easier going down, right.\u003c/p>\n\u003cp>\u003cem>Sounds of clanking\u003c/em>\u003c/p>\n\u003cp>\u003cstrong>Pilot boat crew: \u003c/strong>You’re two from the bottom…\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>As we head back towards the Ferry Building, the sun’s last glow seeping from the sky, I’m struck by the vastness of the Bay as the darkness encroaches.\u003c/p>\n\u003cp>I’m heading home to my warm bed. But a crew of bar pilots is waiting 11 miles offshore rain or shine. At their best, their work is invisible to us. We only notice the stocked shelves, cruise ships at their berths and fuel at the gas station. Our entire city works because they do. Guiding ship after ship through the fog and to safety.\u003c/p>\n\u003cp>\u003cem>Sound of the pilot boat motoring back to the Embarcadero\u003c/em>\u003c/p>\n\u003cp>\u003cstrong>Olivia Allen-Price: \u003c/strong>That was Bay Curious editor and producer, Katrina Schwartz.\u003c/p>\n\u003cp>Thanks to the KQED Members whose support made this episode possible! If you’d like to become a member, visit donate.kqed.org/podcasts to get started. It only takes a minute and comes with some nice perks. We’ll drop the link in our show notes.\u003c/p>\n\u003cp>Bay Curious is made by Katrina Schwartz, Christopher Beale and me, Olivia Allen-Price. With extra support from Maha Sanad, Katie Sprenger, Jen Chien, Ethan Toven-Lindsey and everyone on Team KQED.\u003c/p>\n\u003cp>Some members of the KQED podcast team are represented by The Screen Actors Guild, American Federation of Television and Radio Artists, San Francisco Northern California Local.\u003c/p>\n\u003cp>I’m Olivia Allen-Price. Have a great week!\u003c/p>\n\u003cp>[ad floatright]\u003c/p>\n",
+"blocks": [],
+"excerpt": "San Francisco Bay is notorious in the shipping world for its tricky waters. That’s why bar pilots — specially trained mariners — board every ship entering or exiting the bay and guide it to safety.",
+"status": "publish",
+"parent": 0,
+"modified": 1784481034,
+"stats": {
+"hasAudio": false,
+"hasVideo": false,
+"hasChartOrMap": false,
+"iframeSrcs": [],
+"hasGoogleForm": false,
+"hasGallery": false,
+"hasHearkenModule": true,
+"hasPolis": false,
+"paragraphCount": 161,
+"wordCount": 5383
+},
+"headData": {
+"title": "Why Specialized Mariners Are Required on Every Ship Sailing Into San Francisco Bay | KQED",
+"description": "San Francisco Bay is notorious in the shipping world for its tricky waters. That’s why bar pilots — specially trained mariners — board every ship entering or exiting the bay and guide it to safety.",
+"ogTitle": "",
+"ogDescription": "",
+"ogImgId": "",
+"twTitle": "",
+"twDescription": "",
+"twImgId": "",
+"schema": {
+"@context": "https://schema.org",
+"@type": "NewsArticle",
+"headline": "Why Specialized Mariners Are Required on Every Ship Sailing Into San Francisco Bay",
+"datePublished": "2026-07-09T03:00:52-07:00",
+"dateModified": "2026-07-19T10:10:34-07:00",
+"image": "https://cdn.kqed.org/wp-content/uploads/2020/02/KQED-OG-Image@1x.png",
+"isAccessibleForFree": "True",
+"publisher": {
+"@type": "NewsMediaOrganization",
+"@id": "https://www.kqed.org/#organization",
+"name": "KQED",
+"logo": "https://cdn.kqed.org/wp-content/uploads/2020/02/KQED-OG-Image@1x.png",
+"url": "https://www.kqed.org",
+"sameAs": [
+"https://www.facebook.com/KQED",
+"https://twitter.com/KQED",
+"https://www.instagram.com/kqed/",
+"https://www.tiktok.com/@kqedofficial",
+"https://www.linkedin.com/company/kqed",
+"https://www.youtube.com/channel/UCeC0IOo7i1P_61zVUWbJ4nw"
+]
+}
+}
+},
+"primaryCategory": {
+"termId": 33520,
+"slug": "podcast",
+"name": "Podcast"
+},
+"source": "Bay Curious",
+"sourceUrl": "https://www.kqed.org/podcasts/baycurious",
+"audioUrl": "https://dcs-spotify.megaphone.fm/KQINC7905385819.mp3?key=78b74ef51dd0612a4d71b0167ca9e0bc&request_event_id=c6290909-0dd1-49e9-b1c8-df3717999cd1&session_id=c6290909-0dd1-49e9-b1c8-df3717999cd1&timetoken=1783474352_C373B97C34A36B25D813A36E10997277",
+"sticky": false,
+"nprStoryId": "kqed-12089929",
+"templateType": "standard",
+"featuredImageType": "standard",
+"excludeFromSiteSearch": "Include",
+"articleAge": "0",
+"path": "/news/12089929/why-specialized-mariners-are-required-on-every-ship-sailing-into-san-francisco-bay",
+"audioTrackLength": null,
+"parsedContent": [
+{
+"type": "contentString",
+"content": "\u003cdiv class=\"post-body\">\u003cp>\u003cp>\u003cem>\u003ca href=\"#Viewthefullepisodetranscript\">View the full episode transcript.\u003c/a>\u003c/em>\u003c/p>\n\u003cp>On a sunny day, the beauty of San Francisco Bay rivals almost any place in the world. The stately bridges boldly cross its watery expanse, dreamy islands call out for exploration, green or golden hills rise up on all sides and the twinkling lights of the city sparkle in the distance. But on a foggy, windy day, that same paradise can be treacherous for ships coming in and out of the Golden Gate.\u003c/p>\n\u003cp>That’s why all ships over 750 gross tons — about 150 feet or longer — are required to use a special mariner who knows the local conditions when they enter or exit the bay. Known as bar pilots, these local guides board vessels about 11 miles west of the Golden Gate Bridge, take charge of the ship and guide it safely under the bridges and through the bay to its anchorage spot or port berth. They also help move vessels within the bay, like from anchorage to port, for example.\u003c/p>\n\u003cp>\u003c/p>\u003c/div>",
+"attributes": {
+"named": {},
+"numeric": []
+}
+},
+{
+"type": "component",
+"content": "",
+"name": "ad",
+"attributes": {
+"named": {
+"label": "fullwidth"
+},
+"numeric": [
+"fullwidth"
+]
+}
+},
+{
+"type": "contentString",
+"content": "\u003cdiv class=\"post-body\">\u003cp>\u003c/p>\n\u003cp>Erik Udd often sees the bar pilot speedboat depart from Pier 9, where the bar pilots are headquartered, as he cycles his pedicab along the Embarcadero.\u003c/p>\n\u003cp>“I’ve seen the boats, and I’ve seen them heading out towards the Golden Gate, but I never thought about the process,” Udd said. So he asked Bay Curious: “What do they do? How does it work? Do they get hazard pay when they’re out there in a storm?”\u003c/p>\n\u003ch2>How the bar pilots came to be\u003c/h2>\n\u003cp>There are a lot of reasons San Francisco Bay is a tricky port to enter. First, there’s a large sandbar outside the mouth of the Golden Gate with only a narrow channel through it that’s deep enough for ships to navigate. Then there’s the weather — dense fog, strong winds and winter storms. Lastly, the currents can be deadly and pull ships off course.\u003c/p>\n\u003cp>For all these reasons, many Gold Rush-era ships foundered and sank on their way into the bay. And sunken ships are bad for the flow of commerce. They create additional maritime hazards and gum up the works.\u003c/p>\n\u003cfigure id=\"attachment_12089870\" class=\"wp-caption aligncenter\" style=\"max-width: 2000px\">\u003cimg loading=\"lazy\" decoding=\"async\" class=\"wp-image-12089870 size-full\" src=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-22-BL.jpg\" alt=\"\" width=\"2000\" height=\"1333\" srcset=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-22-BL.jpg 2000w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-22-BL-160x107.jpg 160w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-22-BL-1536x1024.jpg 1536w\" sizes=\"auto, (max-width: 2000px) 100vw, 2000px\">\u003cfigcaption class=\"wp-caption-text\">A pilot boat operator navigates a pilot boat in the San Francisco Bay. The pilots guide large ships along California’s coast to ports in San Francisco Bay and beyond. \u003ccite>(Beth LaBerge/KQED)\u003c/cite>\u003c/figcaption>\u003c/figure>\n\u003cfigure id=\"attachment_12089871\" class=\"wp-caption aligncenter\" style=\"max-width: 2000px\">\u003cimg loading=\"lazy\" decoding=\"async\" class=\"size-full wp-image-12089871\" src=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-28-BL.jpg\" alt=\"\" width=\"2000\" height=\"1333\" srcset=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-28-BL.jpg 2000w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-28-BL-160x107.jpg 160w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-28-BL-1536x1024.jpg 1536w\" sizes=\"auto, (max-width: 2000px) 100vw, 2000px\">\u003cfigcaption class=\"wp-caption-text\">Ships sit at anchor in the San Francisco Bay in areas known as ‘anchor buckets,’ where commercial vessels can remain for extended periods. \u003ccite>(Beth LaBerge/KQED)\u003c/cite>\u003c/figcaption>\u003c/figure>\n\u003cp>“The San Francisco Bar Pilots have been around a long time,” said Anne McIntyre, business director for the San Francisco Bar Pilots. “We were founded in 1850. The first thing the California legislature did was pass the Pilotage Act, and that’s what founded the San Francisco Bar Pilots.”\u003c/p>\n\u003cp>Evidence of this long history lines the walls of bar pilot headquarters at Pier 9. The first ships they served were sailing ships, but soon steam-powered vessels came on the scene, and eventually, diesel engines.\u003c/p>\n\u003cfigure id=\"attachment_12089869\" class=\"wp-caption aligncenter\" style=\"max-width: 2000px\">\u003cimg loading=\"lazy\" decoding=\"async\" class=\"size-full wp-image-12089869\" src=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-01-BL.jpg\" alt=\"\" width=\"2000\" height=\"1333\" srcset=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-01-BL.jpg 2000w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-01-BL-160x107.jpg 160w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-01-BL-1536x1024.jpg 1536w\" sizes=\"auto, (max-width: 2000px) 100vw, 2000px\">\u003cfigcaption class=\"wp-caption-text\">Capt. Cevan LeSieur points to historic photos of early bar pilot boats at the San Francisco Bar Pilots headquarters in San Francisco. The San Francisco Bar Pilot Association was founded in 1850 and is one of the oldest maritime organizations on the Pacific Coast. \u003ccite>(Beth LaBerge/KQED)\u003c/cite>\u003c/figcaption>\u003c/figure>\n\u003cp>In the early days, “the pilot would get on a little dinghy, and they’d row to the side of the ship, and then climb up the ladder,” said Captain Cevan Lesieur, a bar pilot with more than 10 years of experience.\u003c/p>\n\u003cp>He has piloted hundreds of ships through the bay’s waters and shook his head at the idea of one man braving the fog and wind alone in a boat powered only by his own strength.\u003c/p>\n\u003cp>“You know when I look at the type of weather and conditions we deal with, these people were just tougher than we are nowadays,” he said.\u003c/p>\n\u003ch2>What’s it like being a bar pilot today?\u003c/h2>\n\u003cp>That’s not to say being a bar pilot today is easy. They have to navigate many types of waterways – including through the open ocean, up and down the Stockton and Sacramento rivers, under several bridges and through a congested central bay. They also pilot all kinds of vessels from massive cargo ships to cruise ships, tankers to bulkers, yachts to car ships.\u003c/p>\n\u003cp>The most harrowing part of a bar pilot’s job is open water boarding. Here’s how it works: when a ship approaches San Francisco from the open ocean, it meets up with a station boat that’s always waiting 11 miles west of the Golden Gate Bridge. The crew on that boat rotates weekly, but the bar pilots work 365 days a year in all weather conditions.\u003c/p>\n\u003cfigure id=\"attachment_12089866\" class=\"wp-caption aligncenter\" style=\"max-width: 2000px\">\u003cimg loading=\"lazy\" decoding=\"async\" class=\"size-full wp-image-12089866\" src=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-34-BL.jpg\" alt=\"\" width=\"2000\" height=\"1333\" srcset=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-34-BL.jpg 2000w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-34-BL-160x107.jpg 160w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-34-BL-1536x1024.jpg 1536w\" sizes=\"auto, (max-width: 2000px) 100vw, 2000px\">\u003cfigcaption class=\"wp-caption-text\">Capt. Cevan LeSieur (left) prepares to board the Pasha Hawaii ship George III at the Port of Oakland. \u003ccite>(Beth LaBerge/KQED)\u003c/cite>\u003c/figcaption>\u003c/figure>\n\u003cfigure id=\"attachment_12089879\" class=\"wp-caption aligncenter\" style=\"max-width: 2560px\">\u003cimg loading=\"lazy\" decoding=\"async\" class=\"size-full wp-image-12089879\" src=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-Diptych4-scaled.jpg\" alt=\"\" width=\"2560\" height=\"847\" srcset=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-Diptych4-scaled.jpg 2560w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-Diptych4-2000x662.jpg 2000w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-Diptych4-160x53.jpg 160w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-Diptych4-1536x508.jpg 1536w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-Diptych4-2048x678.jpg 2048w\" sizes=\"auto, (max-width: 2560px) 100vw, 2560px\">\u003cfigcaption class=\"wp-caption-text\">Left: A bar pilot boat pulls up next to the Pasha Hawaii ship George III at the Port of Oakland. Right: Capt. Cevan LeSieur boards the Pasha Hawaii ship George III. \u003ccite>(Beth LaBerge/KQED)\u003c/cite>\u003c/figcaption>\u003c/figure>\n\u003cp>As the ship approaches, it slows down to 9 knots — about 12 miles per hour — and the pilot boat comes alongside at the same speed. Then, timing the jump carefully, the bar pilot leaps across and grabs onto a ladder hanging on the side of the ship.\u003c/p>\n\u003cp>They are not tied into anything when they make this jump. When a ship leaves for sea, this process is reversed, with the bar pilot jumping from the ladder to the moving deck of the pilot boat.\u003c/p>\u003c/div>",
+"attributes": {
+"named": {},
+"numeric": []
+}
+},
+{
+"type": "component",
+"content": "",
+"name": "aside",
+"attributes": {
+"named": {
+"postid": "news_12088210",
+"hero": "https://cdn.kqed.org/wp-content/uploads/sites/10/2026/05/260521-YEMENICOFFEE-11-BL-KQED.jpg",
+"label": ""
+},
+"numeric": []
+}
+},
+{
+"type": "contentString",
+"content": "\u003cdiv class=\"post-body\">\u003cp>“Getting on can be tricky, and people have gone in the water,” said John Carlier, the president of the bar pilots association and a man with more than 30 years on the job. “But getting off and trying to get that small landing area on that deck while that boat’s surfing past you can be a bit sketchy.”\u003c/p>\n\u003cp>If a pilot does go in the water, he’s wearing a “float coat,” which turns into a lifejacket when it hits the water, complete with lights and a safety whistle. Pilots make the jump in all kinds of weather conditions.\u003c/p>\n\u003cp>“If it’s not safe, you don’t do it, but a lot of people would look at the conditions and not think it’s safe, but we have our own definition of it,” Lesieur said.\u003c/p>\n\u003cp>He estimated that it’s only about once a year that the weather is so bad that the pilot can’t make the jump. If that happens, the pilot has to stay on the ship until the next port of call and then fly home, and no one wants that.\u003c/p>\n\u003cp>Our question asker, Erik Udd, was interested in knowing if bar pilots receive hazard pay during bad weather, and the answer is no. But they are paid well — in the mid-six figures on average. They are paid by the shipping companies that use their services. There’s a \u003ca href=\"https://sfbarpilots.com/wp-content/uploads/2019/03/Pilotage-Rates.pdf\">rate structure\u003c/a> based on the tonnage of the ship.\u003c/p>\n\u003ch2>Becoming a bar pilot\u003c/h2>\n\u003cp>To become a bar pilot, a person must be a mid-career captain with decades of experience already. There’s a written test and a simulator test. Based on those scores, candidates are ranked on a list from which the bar pilots pull when apprenticeships open up. Once in the training program, most people spend close to two years shadowing more experienced pilots and learning all the different routes.\u003c/p>\n\u003cp>“The area starts with the Gulf of the Farallones, works its way through the main bay, down the Redwood City, and all the way up to Stockton and Sacramento,” Carlier said. “There’s eight different sections. You’re going to do in the neighborhood of at least 600 jobs under the tutelage of existing pilots.”\u003c/p>\n\u003cfigure id=\"attachment_12089872\" class=\"wp-caption aligncenter\" style=\"max-width: 2000px\">\u003cimg loading=\"lazy\" decoding=\"async\" class=\"size-full wp-image-12089872\" src=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-57-BL.jpg\" alt=\"\" width=\"2000\" height=\"1333\" srcset=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-57-BL.jpg 2000w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-57-BL-160x107.jpg 160w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-57-BL-1536x1024.jpg 1536w\" sizes=\"auto, (max-width: 2000px) 100vw, 2000px\">\u003cfigcaption class=\"wp-caption-text\">Bar pilot Capt. Cevan LeSieur stands on the bridge of the Pasha Hawaii ship George III while docked at the Port of Oakland. \u003ccite>(Beth LaBerge/KQED)\u003c/cite>\u003c/figcaption>\u003c/figure>\n\u003cp>They also have to learn by heart over 670 aids to navigation — the lights and buoys — as well as the depth charts for the entire 5,000-square-mile area.\u003c/p>\n\u003cp>Despite the expertise and local knowledge of the bar pilots, there have been instances when they made mistakes with devastating consequences. In 2007, a ship with a bar pilot in charge \u003ca href=\"https://response.restoration.noaa.gov/remembering-cosco-busan-overview-2007-oil-spill\">clipped one of the Bay Bridge towers\u003c/a> and 58,000 gallons of fuel oil spilled into the bay.\u003c/p>\n\u003cp>“There were some communication problems between the pilot and the crew as to where the center of the bridge was on their electronic [navigation] equipment, which definitely added to the sideswiping of the Delta Tower of the Bay Bridge,” Carlier said. “We actually bring our own electronic navigation equipment with us on board now. We also bring our GPS antennas.”\u003c/p>\n\u003ch2>Bar pilots at work\u003c/h2>\n\u003cp>The container ships that dock at the Port of Oakland to load and unload cargo are massive. The largest ones are as long as the Salesforce Tower is tall, but even more modestly sized ones are huge. The bar pilots have had to adapt as the ships have gotten bigger.\u003c/p>\n\u003cp>\u003ca href=\"https://www.pashahawaii.com/services/vessels/george-iii\">George III is a container ship\u003c/a> operated by Pasha Hawaii that brings supplies to the Hawaiian Islands. It runs the same route every two weeks, leaving Honolulu mostly empty save for a few commodities like macadamia nuts and rum, stops in Oakland to take on cargo and then heads down to Long Beach for more, before returning to Hawaii.\u003c/p>\n\u003cfigure id=\"attachment_12089946\" class=\"wp-caption aligncenter\" style=\"max-width: 1600px\">\u003cimg loading=\"lazy\" decoding=\"async\" class=\"size-full wp-image-12089946\" src=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/GraphBarPilots.jpg\" alt=\"\" width=\"1600\" height=\"1079\" srcset=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/GraphBarPilots.jpg 1600w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/GraphBarPilots-160x108.jpg 160w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/GraphBarPilots-1536x1036.jpg 1536w\" sizes=\"auto, (max-width: 1600px) 100vw, 1600px\">\u003cfigcaption class=\"wp-caption-text\">Many of the ships operating in the bay are as long as a skyscraper is tall. \u003ccite>(Courtesy of the San Francisco Bar Pilots)\u003c/cite>\u003c/figcaption>\u003c/figure>\n\u003cp>“The state of Hawaii has about three to five days of food availability if shipping stopped,” said Ed Washburn, senior vice president of fleet operations. “So it’s very sensitive.”\u003c/p>\n\u003cp>The crew of the ship signs on for long stints, 10 to 14 weeks, but then gets just as much time off on land. When they’re on board, they work as a team to keep ship operations running smoothly, the loads balanced, and the engines purring.\u003c/p>\n\u003cp>George III is a unique vessel because it runs on both diesel fuel and \u003ca href=\"https://www.pashahawaii.com/news-media/news/571/pasha-hawaii-marks-historic-milestone-mv-george-iii-first-lng-powered\">natural gas\u003c/a>, making it a cleaner vessel, but also one with more specific engineering needs. The crew eats, sleeps and works in shifts, building a strong sense of camaraderie.\u003c/p>\n\u003cfigure id=\"attachment_12089873\" class=\"wp-caption aligncenter\" style=\"max-width: 2000px\">\u003cimg loading=\"lazy\" decoding=\"async\" class=\"size-full wp-image-12089873\" src=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-60-BL.jpg\" alt=\"\" width=\"2000\" height=\"1333\" srcset=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-60-BL.jpg 2000w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-60-BL-160x107.jpg 160w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-60-BL-1536x1024.jpg 1536w\" sizes=\"auto, (max-width: 2000px) 100vw, 2000px\">\u003cfigcaption class=\"wp-caption-text\">A crew member on the Pasha Hawaii ship George III works on the bridge while docked at the Port of Oakland. \u003ccite>(Beth LaBerge/KQED)\u003c/cite>\u003c/figcaption>\u003c/figure>\n\u003cfigure id=\"attachment_12089878\" class=\"wp-caption aligncenter\" style=\"max-width: 2560px\">\u003cimg loading=\"lazy\" decoding=\"async\" class=\"size-full wp-image-12089878\" src=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-Diptych03-BL-scaled.jpg\" alt=\"\" width=\"2560\" height=\"846\" srcset=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-Diptych03-BL-scaled.jpg 2560w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-Diptych03-BL-2000x661.jpg 2000w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-Diptych03-BL-160x53.jpg 160w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-Diptych03-BL-1536x507.jpg 1536w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-Diptych03-BL-2048x676.jpg 2048w\" sizes=\"auto, (max-width: 2560px) 100vw, 2560px\">\u003cfigcaption class=\"wp-caption-text\">Left: Mark Bancroft, a second assistant engineer, works in the engine room of the Pasha Hawaii ship George III while docked at the Port of Oakland. Right: Crew members eat dinner on the George III before departing the Port of Oakland. \u003ccite>(Beth LaBerge/KQED)\u003c/cite>\u003c/figcaption>\u003c/figure>\n\u003cp>When it’s time to push off for sea, the bar pilot boards the ship and heads towards the ship’s bridge, at the top of the vessel. From there, he checks in with the captain, makes sure the equipment has all been tested and communicates with tugboats.\u003c/p>\n\u003cp>“It’s kinda anticlimactic when you have 90-ton boats and no wind,” said Christian Barron, the bar pilot on duty as George III slowly inched away from the dock. “We’ll start casting off tugs once we get about half a mile from here and start bringing her up to speed.”\u003c/p>\n\u003cfigure id=\"attachment_12089875\" class=\"wp-caption aligncenter\" style=\"max-width: 2000px\">\u003cimg loading=\"lazy\" decoding=\"async\" class=\"size-full wp-image-12089875\" src=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-83-BL.jpg\" alt=\"\" width=\"2000\" height=\"1333\" srcset=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-83-BL.jpg 2000w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-83-BL-160x107.jpg 160w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-83-BL-1536x1024.jpg 1536w\" sizes=\"auto, (max-width: 2000px) 100vw, 2000px\">\u003cfigcaption class=\"wp-caption-text\">San Francisco bar pilot Christian Barron works on the Pasha Hawaii ship George III before departing the Port of Oakland. \u003ccite>(Beth LaBerge/KQED)\u003c/cite>\u003c/figcaption>\u003c/figure>\n\u003cfigure id=\"attachment_12089874\" class=\"wp-caption aligncenter\" style=\"max-width: 2000px\">\u003cimg loading=\"lazy\" decoding=\"async\" class=\"size-full wp-image-12089874\" src=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-72-BL.jpg\" alt=\"\" width=\"2000\" height=\"1333\" srcset=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-72-BL.jpg 2000w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-72-BL-160x107.jpg 160w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-72-BL-1536x1024.jpg 1536w\" sizes=\"auto, (max-width: 2000px) 100vw, 2000px\">\u003cfigcaption class=\"wp-caption-text\">A bar pilot boat is docked at the Port of Oakland. \u003ccite>(Beth LaBerge/KQED)\u003c/cite>\u003c/figcaption>\u003c/figure>\n\u003cfigure id=\"attachment_12089876\" class=\"wp-caption aligncenter\" style=\"max-width: 2000px\">\u003cimg loading=\"lazy\" decoding=\"async\" class=\"size-full wp-image-12089876\" src=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-101-BL.jpg\" alt=\"\" width=\"2000\" height=\"1333\" srcset=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-101-BL.jpg 2000w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-101-BL-160x107.jpg 160w, https://cdn.kqed.org/wp-content/uploads/sites/10/2026/07/260114-BarPilots-101-BL-1536x1024.jpg 1536w\" sizes=\"auto, (max-width: 2000px) 100vw, 2000px\">\u003cfigcaption class=\"wp-caption-text\">Views of the San Francisco skyline from a bar pilot boat. \u003ccite>(Beth LaBerge/KQED)\u003c/cite>\u003c/figcaption>\u003c/figure>\n\u003cp>Once the ship was safely out of San Francisco Bay, Christian climbed down the ladder and jumped onto the station boat, where he waited for the next ship needing his services to arrive.\u003c/p>\n\u003cp>When the bar pilots are doing their jobs well, we landlubbers might not even know they exist. We only see the stocked grocery shelves, fuel at the gas pump and cruise ships awaiting passengers at the pier. But to make all of that happen, a bar pilot is working day or night, rain or shine, fog or no, to bring ships safely to port.\u003c/p>\n\u003cp>\u003c/p>\u003c/div>",
+"attributes": {
+"named": {},
+"numeric": []
+}
+},
+{
+"type": "component",
+"content": "",
+"name": "baycuriousquestion",
+"attributes": {
+"named": {
+"label": ""
+},
+"numeric": []
+}
+},
+{
+"type": "contentString",
+"content": "\u003cdiv class=\"post-body\">\u003cp>\u003c/p>\n\u003ch2>\u003ca id=\"Viewthefullepisodetranscript\">\u003c/a>Episode transcript\u003c/h2>\n\u003cp>\u003cstrong>Olivia Allen-Price:\u003c/strong> If you ask mariners, they’ll tell you, navigating a boat from the open ocean into the San Francisco Bay is notoriously treacherous.\u003c/p>\n\u003cp>There’s the dense fog that can make it hard to see. Strong currents constantly rearrange the sea floor, and can quickly throw a vessel off course. And finally – our bridges! If a boat were to strike a pillar it could be\u003cem> catastrophic. \u003c/em>\u003c/p>\n\u003cp>That’s why captains of big ships aren’t allowed to navigate into port on their own. A specially trained mariner called a \u003cem>bar pilot\u003c/em> – hops aboard every ship that comes into San Francisco Bay, and takes over command.\u003c/p>\n\u003cp>We got a question about those bar pilots, so we sent Bay Curious editor and producer Katrina Schwartz to the Embarcadero to meet the man who asked it.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Erik Udd said he’d meet me at the Embarcadero BART station. When I emerged on the escalator he was waiting for me, sitting at the helm of a pedicab.\u003c/p>\n\u003cp>\u003cstrong>Erik Udd: \u003c/strong>It’s a great retirement job, I get exercise, it is perfect for me.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>While we talk, he’s giving me a ride in his pedicab over to Pier 9…near the Exploratorium…\u003c/p>\n\u003cp>\u003cstrong>Erik Udd: \u003c/strong>Oh, there goes a boat right now.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>While Erik pedals along the Embarcadero, he often notices the orange and white boats with the word “PILOT” painted on the side in giant, all caps letters.\u003c/p>\n\u003cp>\u003cstrong>Erik Udd: \u003c/strong>I’ve seen the boats and I’ve seen them heading out towards the golden gate, but I never thought about the process. What do they do? How does it work?\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Erik wants to know everything about the bar pilots. Like, how does the pilot get onto one of those big container ships?\u003c/p>\n\u003cp>\u003cstrong>Erik Udd: \u003c/strong>How big of a boat needs a pilot to come into the bay?\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>What kind of training do the pilots go through?\u003c/p>\n\u003cp>\u003cstrong>Erik Udd: \u003c/strong>Has anyone ever gone in the water? I’m sure someone has gone in the water. Maybe a better question is how many times?\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>What happens when there’s a storm?\u003c/p>\n\u003cp>\u003cstrong>Erik Udd: \u003c/strong>Do they get hazard pay when they’re out there in a storm?\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>After all, some of the ships coming into the bay are truly massive.\u003c/p>\n\u003cp>\u003cstrong>Erik Udd: \u003c/strong>It’s like a building is moving along across the water. Those things are huge.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>It’s quite a lot of questions, but I’m up to the task. Erik drops me off at Pier 9, where the Bar Pilots are headquartered. It’s the last office out at the end of the pier and sits behind a chain link fence. But once I’m inside, it looks like a fairly typical office building except the views of the bay are stunning.\u003c/p>\n\u003cp>\u003cstrong>Cevan Lesieur: \u003c/strong>Anne’s office has the best views in the city.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Captains Cevan Lesieur and Anne McIntyre are showing me around.\u003c/p>\n\u003cp>Cevan has been a pilot here for 12 years.\u003c/p>\n\u003cp>\u003cstrong>Cevan Lesieur: \u003c/strong>This is the best and most interesting waterway to work on from my experience and most challenging. So I always said if I was gonna become a pilot, it’d be in San Francisco.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Challenging because of the currents, the weather, the varied types of waterways and a congested central bay. Bar pilots can be called upon to move cruise ships, oil tankers, cargo ships, even really big yachts. And they have to be able to skillfully maneuver each type of vessel through narrowly dredged channels up the Sacramento and Stockton rivers and around smaller vessels.\u003c/p>\n\u003cp>\u003cstrong>Anne McIntyre: \u003c/strong>We service all nine Bay Area ports. So we take ships all the way up to West Sacramento, to Stockton, down to Redwood City, even down to Monterey.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Here’s how it works.\u003c/p>\n\u003cp>Every ship over about 150 feet is required by law to use a bar pilot to enter and exit the bay, as well as to move from anchor to port within the bay. The pilots serve about 75-hundred vessels a year.\u003c/p>\n\u003cp>The most dramatic moment for a bar pilot happens out in the open ocean beyond the Golden Gate Bridge.\u003c/p>\n\u003cp>\u003cstrong>Cevan Lesieur: \u003c/strong>We have what we call our station boat or ocean boats. And one is off shore at all times, about 11 miles west of the Golden Gate Bridge. And so we have crews out there that rotate every week.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>When a large vessel is heading into San Francisco Bay, it meets up with the bar pilot boat out on the ocean and the bar pilot leaps from one to the other — you heard that right — and they are not tied into anything when they do it. Then they climb up a ladder on the outside of the ship.\u003c/p>\n\u003cp>\u003cstrong>Cevan Lesieur: \u003c/strong>Timing is critical, and especially the worse the weather, the more important timing is.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>The ships are side-by-side going about 12-miles per hour when the pilot makes his jump. Cevan says there are some weather conditions that make the transfer too dangerous, but it doesn’t happen often…maybe once a year.\u003c/p>\n\u003cp>\u003cstrong>Cevan Lesieur: \u003c/strong>If it’s not safe you don’t do it, but a lot of people would look at the conditions and not think it’s safe, but we have our own definition of it.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Once the pilot is on board, he or she communicates with the captain and crew to bring the vessel safely under the Golden Gate Bridge, through the Bay and to its anchorage spot or port berth. The same happens in reverse, except the pilot has to jump off the ladder and onto the pilot boat.\u003c/p>\n\u003cp>Every bar pilot I talked to had a harrowing story about open water boarding, but Cevan’s is the funniest.\u003c/p>\n\u003cp>\u003cstrong>Cevan Lesieur: \u003c/strong>I was boarding a car ship and the conditions were really bad and the ship and the pilot boat were going up and down and up and down. The wind was so bad, I took like 3 attempts. Finally we came alongside and I was on the platform and I jumped and landed on the deck and was laying there. And the mate looked down, and said you’re f**ing crazy!\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Over their long history, pilots \u003cem>have\u003c/em> died and many have gone in the water, but it’s not common.\u003c/p>\n\u003cp>\u003cstrong>Cevan Lesieur: \u003c/strong>In the modern era, we have not lost a pilot here. And the last time a pilot went into the water has been several years ago.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>If a pilot does miss the jump, he’s wearing a “float coat” that becomes a life jacket when he hits the water, complete with lights and whistles.\u003c/p>\n\u003cp>And to answer our question asker, no, they don’t get hazard pay. But they are paid well… on average about 500,000 a year — all of that paid by the companies operating the boats they serve.\u003c/p>\n\u003cp>\u003cstrong>Olivia Allen-Price:\u003c/strong> We’re going to take a quick break, but when we come back we’ll learn how the bar pilots came to be and Katrina gets to shadow a pilot on a real job. Will she make the jump? All that coming up.\u003c/p>\n\u003cp>Sponsor message\u003c/p>\n\u003cp>\u003cstrong>Olivia Allen-Price: \u003c/strong>We were on a tour of bar pilot headquarters at Pier 9. Bay Curious editor and producer Katrina Schwartz found the halls are lined with evidence of the organization’s very \u003cstrong>long\u003c/strong> history.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Captains Cevan Lesieur and Anne McIntyre are showing me cool photos and artifacts from bar pilot history.\u003c/p>\n\u003cp>\u003cstrong>Anne McIntyre: \u003c/strong>We have to stop at this one here. This is the original charter from the first California legislative session.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Anne points to an old looking document on the wall.\u003c/p>\n\u003cp>\u003cstrong>Anne McIntyre: \u003c/strong>The San Francisco Bar Pilots have been around a long time. We were founded in 1850. We’re the second oldest business in San Francisco behind Boudin Bread.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>The bar pilots are as old as the state of California. Even back in 1850, state legislators understood the future of San Francisco — California even — depended on the safe flow of ships in and out of the Bay. We couldn’t have all these shipwrecks gumming up the works.\u003c/p>\n\u003cp>\u003cstrong>Anne McIntyre: \u003c/strong>We were the first act of the first California Legislature. So the first thing the California legislature did was pass the pilotage act happened and that’s what founded the San Francisco Bar Pilots.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Back then, the ships coming to San Francisco were mostly sailing vessels. By the end of the century coal-fired steam engines would come on the scene and later diesel engines. Each era required something different from the bar pilots, Cevan tells me. Boarding sailing ships might have been the most physically demanding.\u003c/p>\n\u003cp>\u003cstrong>Cevan Lesieur: \u003c/strong>The pilot would get on a little dinghy, and they’d row to the side of the ship, and then you’d climb up the ladder.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>He shakes his head at the idea of rowing a dingy through dense fog and huge wake.\u003c/p>\n\u003cp>\u003cstrong>Cevan Lesieur: \u003c/strong>You know when I look at the type of weather and conditions we deal with…These people were just tougher than we are nowadays. \u003cem>(Laughs, fade under)\u003c/em>\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>To become a bar pilot, you have to be a mid-career captain with many years of experience. There’s a written test and a simulator test. Candidates are ranked based on their scores and are then eligible for an apprenticeship with the bar pilots.\u003c/p>\n\u003cp>\u003cstrong>John Carlier: \u003c/strong>You’re going to probably do in the neighborhood of at least 600 jobs under the tutelage of existing pilots.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>John Carlier is the President of the Bar Pilots Association. He says there are eight sections in the Bay, each with their own challenges, and the pilots have to learn all of them.\u003c/p>\n\u003cp>\u003cstrong>John Carlier: \u003c/strong>And the area starts with the Gulf of the Farallones, works its way through the main bay, down the Redwood City, and all the way up to Stockton and Sacramento.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Piloting up the rivers here can be especially challenging. The ships are within two feet of the bottom in narrow channels with little room for error. And it takes a long time, about 9 hours from the open ocean to Stockton or Sacramento, so they usually change bar pilots half way to avoid fatigue.\u003c/p>\n\u003cp>Despite all this training, there have been incidents when ships captained by bar pilots have run into trouble in the Bay. Like in 2007 when an oil tanker clipped one of the Bay Bridge towers.\u003c/p>\n\u003cp>\u003cstrong>John Carlier: \u003c/strong>Yes, that was a bar pilot.\u003c/p>\n\u003cp>\u003cstrong>News clip: \u003c/strong>A 900 foot container ship hit the Bay Bridge tower east of the main anchorage. 58,000 gallons of fuel oil. Countless fragile ecosystems.\u003c/p>\n\u003cp>\u003cstrong>John Carlier: \u003c/strong>There was some communication problems between the pilot and the crew as to where the center of the bridge was on their electronic nav equipment which definitely added to you know the the sideswiping of the Delta Tower of the Bay Bridge.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Because of that incident, the bar pilots now bring their own GPS navigational equipment on board with them so they don’t have to rely on the vessel’s equipment.\u003c/p>\n\u003cp>I’m going to get to see that in action soon, so we start heading towards a boat with the word “pilot” boldly written on its side tied up out back. We clamor aboard. It looks like a fancy speedboat, and head towards Oakland.\u003c/p>\n\u003cp>\u003cstrong>Pilot: \u003c/strong>Where do you want to head to?\u003c/p>\n\u003cp>\u003cstrong>Cevan Lesieur: \u003c/strong>Port of Oakland, George III\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>It takes about 20 minutes to cross the bay and soon our small boat is pulling up alongside a massive containership. This boat is considered “small” by shipping standards and it’s still as tall as a 15 story building from the water up to the top. I now have to step from the bobbing deck of the pilot boat onto a rope ladder dangling from the first deck.\u003c/p>\n\u003cp>\u003cem>Sounds of ladder clanking against the ship\u003c/em>\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>I had hoped to do the open ocean leap I’d heard so much about. Climbing about 15 feet up this ladder felt pretty tame by comparison. The water in the Oakland estuary was very calm, kinda the training wheels version of this climb. No heroics for me.\u003c/p>\n\u003cp>This ship, George the III, brings supplies to the Hawaiian Islands.\u003c/p>\n\u003cp>\u003cstrong>Ed Washburn: \u003c/strong>Everything from medicine to groceries to fertilizer.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Ed Washburn is senior vice president of fleet operations with Pasha, Hawaii, the company that owns this vessel.\u003c/p>\n\u003cp>This ship runs the same two-week route on repeat.\u003c/p>\n\u003cp>\u003cstrong>Ed Washburn: \u003c/strong>The state of Hawaii has about three to five days of food availability, of shipping stopped. So it’s very sensitive.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>It leaves Honolulu mostly empty, carrying a few commodities like rum and macadamia nuts to the mainland. Then it stops in Oakland to pick up cargo, down to Long Beach for more and back to Honolulu.\u003c/p>\n\u003cp>\u003cstrong>Ed Washburn: \u003c/strong>The value of that is about $50 million in cargo each time.\u003c/p>\n\u003cp>Ok, should we go up to the bridge?\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>The bridge is at the top of the ship and it’s where the bar pilot does their work. We walk up A LOT of steps to get there.\u003c/p>\n\u003cp>\u003cem>(sounds of steps under this)\u003c/em>\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>From up here we have incredible views of the sun setting over the bay and the internal workings of the port.\u003c/p>\n\u003cp>\u003cstrong>Cevan Lesieur: \u003c/strong>This is Christian Barron. He’s also a Cal Maritime graduate.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Today, Christian Barron is the bar pilot in charge. But Cevan is hanging out with me, explaining what’s happening so I don’t bug Christian at crucial moments, like when he’s checking in with the captain.\u003c/p>\n\u003cp>\u003cstrong>Cevan Lesieur: \u003c/strong>Once the tugs have been made fast and the engine’s been tested we can get rolling.\u003c/p>\n\u003cp>\u003cstrong>Captain Eric Veloni: \u003c/strong>The engine has been tested.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>These massive ships are hard to maneuver, so pilots use tugboats to pull the ship off the dock.\u003c/p>\n\u003cp>\u003cstrong>Radio sounds: \u003c/strong>Captain, this is the chief engineer. Show of power. Cables secured.\u003c/p>\n\u003cp>\u003cstrong>Captain Eric Veloni: \u003c/strong>Roger, Dave.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Christian checks in with Vessel Traffic Services, basically air traffic control for boats, to let them know his plan and find out if there are other vessels in the shipping lanes he needs to be aware of.\u003c/p>\n\u003cp>\u003cstrong>Christian Barron: \u003c/strong>\u003cspan style=\"font-weight: 400\">Traffic, good evening, 4-5. Preparing to depart Oakland 55 starboard side two bound for sea. Deep draft 32 feet two inches. Tend to Delta-Echo span and deep water traffic lane Working my tugs on 20 Alpha.\u003c/span>\u003c/p>\n\u003cp>\u003cb>VTS Operator:\u003c/b>\u003cspan style=\"font-weight: 400\"> Roger, copy that, 4-5. George the third preparing to get underway from Oakland…\u003c/span>\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Nothing to worry about. There’s a fair amount of waiting as the crew gets in position and the port workers untie the boat.\u003c/p>\n\u003cp>\u003cstrong>Christian Barron: \u003c/strong>All clear forward\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>And then we get going.\u003c/p>\n\u003cp>\u003cstrong>Christian Barron:\u003c/strong> All clear fore and aft, stand clear of your tuglines.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Artemis and Apollo are the names of the tugboats.\u003c/p>\n\u003cp>\u003cstrong>Christian Barron: \u003c/strong>Ok, ready to go. Artemis stop and stretch. Apollo stop and stretch.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>As Christian gives orders, the massive container ship starts to slowly move away from the dock.\u003c/p>\n\u003cp>\u003cstrong>Christian Barron: \u003c/strong>It’s kinda anticlimactic when you have 90 ton boats and no wind.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Once the tugboats are secured and ready to go, the whole procedure only takes about ten minutes.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz (in scene): \u003c/strong>It is a little anticlimactic.\u003c/p>\n\u003cp>\u003cstrong>Captain Eric Veloni: \u003c/strong>We love boring when it comes to this.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz (in scene):\u003c/strong> I didn’t even realize we were moving at first.\u003c/p>\n\u003cp>\u003cem>Port sounds\u003c/em>\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz (in scene): \u003c/strong>You pushed off, what’s the next thing.\u003c/p>\n\u003cp>\u003cstrong>Christian Barron: \u003c/strong>I’ll give a command for dead slow ahead. We’ll confirm the engines come up to rpm and then we’ll put the tugs in position so they can follow along so they’re not impeding us, but can still affect the boat if we have an engine or steering failure they can still maneuver the vessel if need be.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Then he’ll check in with traffic again to let them know he’s underway and get any updates.\u003c/p>\n\u003cp>\u003cstrong>Christian Barron: \u003c/strong>And then we’ll start casting off tugs once we get about half a mile from here and start bringing her up to speed.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz (in scene): \u003c/strong>Anything you’re particularly concerned about tonight?\u003c/p>\n\u003cp>\u003cstrong>Christian Barron: \u003c/strong>Tonight, no. We have a little bit of current at the bar, so I just need to make sure I time my turns correctly, use enough rudder, engine.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Unfortunately, the bar pilots were not keen on me following Christian all the way out into the open ocean to disembark at 9 knots onto the pilot boat. Instead, we’ll be going back down the ladder in the Oakland estuary.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Thanks, nice to meet you all. Safe voyage.\u003c/p>\n\u003cp>\u003cstrong>Captain Eric Veloni: \u003c/strong>Be safe on the ladder!\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>We tramp down many flights of stairs, back to the lowest deck and our ladder.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>It should be easier going down, right.\u003c/p>\n\u003cp>\u003cem>Sounds of clanking\u003c/em>\u003c/p>\n\u003cp>\u003cstrong>Pilot boat crew: \u003c/strong>You’re two from the bottom…\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>As we head back towards the Ferry Building, the sun’s last glow seeping from the sky, I’m struck by the vastness of the Bay as the darkness encroaches.\u003c/p>\n\u003cp>I’m heading home to my warm bed. But a crew of bar pilots is waiting 11 miles offshore rain or shine. At their best, their work is invisible to us. We only notice the stocked shelves, cruise ships at their berths and fuel at the gas station. Our entire city works because they do. Guiding ship after ship through the fog and to safety.\u003c/p>\n\u003cp>\u003cem>Sound of the pilot boat motoring back to the Embarcadero\u003c/em>\u003c/p>\n\u003cp>\u003cstrong>Olivia Allen-Price: \u003c/strong>That was Bay Curious editor and producer, Katrina Schwartz.\u003c/p>\n\u003cp>Thanks to the KQED Members whose support made this episode possible! If you’d like to become a member, visit donate.kqed.org/podcasts to get started. It only takes a minute and comes with some nice perks. We’ll drop the link in our show notes.\u003c/p>\n\u003cp>Bay Curious is made by Katrina Schwartz, Christopher Beale and me, Olivia Allen-Price. With extra support from Maha Sanad, Katie Sprenger, Jen Chien, Ethan Toven-Lindsey and everyone on Team KQED.\u003c/p>\n\u003cp>Some members of the KQED podcast team are represented by The Screen Actors Guild, American Federation of Television and Radio Artists, San Francisco Northern California Local.\u003c/p>\n\u003cp>I’m Olivia Allen-Price. Have a great week!\u003c/p>\n\u003cp>\u003c/p>\u003c/div>",
+"attributes": {
+"named": {},
+"numeric": []
+}
+},
+{
+"type": "component",
+"content": "",
+"name": "ad",
+"attributes": {
+"named": {
+"label": "floatright"
+},
+"numeric": [
+"floatright"
+]
+}
+},
+{
+"type": "contentString",
+"content": "\u003cdiv class=\"post-body\">\u003cp>\u003c/p>\n\u003c/div>\u003c/p>",
+"attributes": {
+"named": {},
+"numeric": []
+}
+}
+],
+"link": "/news/12089929/why-specialized-mariners-are-required-on-every-ship-sailing-into-san-francisco-bay",
+"authors": [
+"234"
+],
+"programs": [
+"news_33523",
+"news_34552"
+],
+"series": [
+"news_17986"
+],
+"categories": [
+"news_31795",
+"news_28250",
+"news_8",
+"news_33520"
+],
+"tags": [
+"news_1386",
+"news_18426",
+"news_34076",
+"news_27626",
+"news_34054",
+"news_2672",
+"news_2045",
+"news_38",
+"news_1861"
+],
+"featImg": "news_12089865",
+"label": "source_news_12089929"
 },
 "news_12086178": {
 "type": "posts",
@@ -2953,6 +3337,356 @@ window.__INITIAL_STATE__={
 ],
 "featImg": "news_12072345",
 "label": "source_news_12072333"
+},
+"news_12068602": {
+"type": "posts",
+"id": "news_12068602",
+"meta": {
+"index": "posts_1716263798",
+"site": "news",
+"id": "12068602",
+"score": null,
+"sort": [
+1767870047000
+]
+},
+"guestAuthors": [],
+"slug": "san-franciscos-historic-relief-cottages-built-after-the-1906-earthquake-are-hidden-in-plain-sight",
+"title": "San Francisco’s Historic ‘Relief Cottages,’ Built After the 1906 Earthquake, Are Hidden in Plain Sight",
+"publishDate": 1767870047,
+"format": "standard",
+"headTitle": "San Francisco’s Historic ‘Relief Cottages,’ Built After the 1906 Earthquake, Are Hidden in Plain Sight | KQED",
+"labelTerm": {},
+"content": "\u003cp>\u003ca href=\"#episode-transcript\">\u003ci>View the full episode transcript.\u003c/i>\u003c/a>\u003c/p>\n\u003cp>Jane Cryan walked into a leasing agency on Geary Boulevard in\u003ca href=\"https://www.kqed.org/news/tag/san-francisco\"> San Francisco\u003c/a> just before closing one evening in 1982.\u003c/p>\n\u003cp>She was looking for an apartment that could accommodate her grand piano. The flat she was inquiring about had already been rented, but the agent asked if she’d be interested in a cottage out in the Sunset District.\u003c/p>\n\u003cp>“That started everything,” Cryan said. “That, to me, is my golden moment in all my 44 years in San Francisco.”\u003c/p>\n\u003cp>[ad fullwidth]\u003c/p>\n\u003cp>The cottage at 1227 24th Ave. felt like her own artist retreat. She moved in and played her grand piano night and day for the first several weeks, happy to have her own space where she could do what she liked.\u003c/p>\n\u003cp>“An elderly gentleman from across the street came over and shook his finger at me, and he said, ‘Young lady, do you know that you’re living in a couple of relief houses pasted together?’”\u003c/p>\n\u003cfigure id=\"attachment_12066194\" class=\"wp-caption aligncenter\" style=\"max-width: 2000px\">\u003cimg loading=\"lazy\" decoding=\"async\" class=\"size-full wp-image-12066194\" src=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2025/12/251204-EARTHQUAKECOTTAGES00174_TV-KQED.jpg\" alt=\"\" width=\"2000\" height=\"1333\" srcset=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2025/12/251204-EARTHQUAKECOTTAGES00174_TV-KQED.jpg 2000w, https://cdn.kqed.org/wp-content/uploads/sites/10/2025/12/251204-EARTHQUAKECOTTAGES00174_TV-KQED-160x107.jpg 160w, https://cdn.kqed.org/wp-content/uploads/sites/10/2025/12/251204-EARTHQUAKECOTTAGES00174_TV-KQED-1536x1024.jpg 1536w\" sizes=\"auto, (max-width: 2000px) 100vw, 2000px\">\u003cfigcaption class=\"wp-caption-text\">An earthquake cottage stands on 211 Mullen Ave. in San Francisco on December 4, 2025. The original shelter was built after the 1906 San Francisco Earthquake and some still house city residents. \u003ccite>(Tâm Vũ/KQED)\u003c/cite>\u003c/figcaption>\u003c/figure>\n\u003cp>Cryan was confused. What did he mean by “relief houses?” She had moved from Milwaukee in the 1960s because she was enamored with the Beat Movement and had been writing letters to Jack Kerouac. When she got to San Francisco, all of 18 years old, she threw herself into writing and playing jazz piano, although she made her money as an executive assistant. She’d never heard of the history her neighbor was describing.\u003c/p>\n\u003cp>“I had lived in the city all those years and never heard of the [19]06 quake or ‘the fire,’ as everybody who survived it called it,” Cryan said.\u003c/p>\n\u003cp>She was curious to know everything she could about the natural disaster that devastated San Francisco at the start of the 20th century, knocking down 80% of the buildings and displacing thousands of people. She spent nights and weekends obsessively going through newspaper archives to learn all she could about these so-called “relief cottages.”\u003c/p>\n\u003ch2>The history Cryan discovered\u003c/h2>\n\u003cp>“After the 1906 Earthquake and fire, more than a quarter of a million people are at least temporarily displaced,” said Woody LaBounty, president and CEO of \u003ca href=\"https://www.sfheritage.org/\">San Francisco Heritage\u003c/a>, a nonprofit dedicated to preserving San Francisco history.\u003c/p>\n\u003cp>Those who had the means left the city to stay with relatives or friends elsewhere. But many poor San Franciscans didn’t have that option. The military temporarily set up tent camps to house refugees in the short term. Women cooked meals on stoves set up in the streets, children went to school in makeshift tent classrooms and people tried to figure out what to do next.[aside postID=news_12065901 hero='https://cdn.kqed.org/wp-content/uploads/sites/10/2025/10/251016-NIMITZHOUSE-38-BL-KQED.jpg']After a few months, city leaders became concerned about sanitation in the tent camps and they worried what would happen when winter rains came. They commissioned union carpenters to build small cottages out of redwood, cedar and fir to house the refugees. They painted the cottages the same green as city park benches, which became known as “park bench green.”\u003c/p>\n\u003cp>“You basically are talking about the working class,” LaBounty said. “People who don’t have property, don’t have other resources, and need to find work and find shelter.”\u003c/p>\n\u003cp>Overseeing this effort was the San Francisco Relief Corporation, which also coordinated distribution of clothes, food and other aid to the refugees — many of whom the city relied upon to help rebuild the city. The 5,610 cottages were mostly set up in the city’s neighborhood parks like Jefferson Square, Precita Park (then known as Bernal Park) and Portsmouth Square. There were also a large number of cottages where Park Presidio Boulevard is now — back then, it was newly acquired parkland with nothing much around it.\u003c/p>\n\u003cp>The \u003ca href=\"https://www.nps.gov/places/000/1906-earthquake-cottages.htm\">cottages\u003c/a> came in several sizes. The smallest was 10×14 feet — these “Type A” shacks are the most commonly seen today, in part because they are so modular and people combined them to make larger residences. But there were also 14×18 feet and 18×24-feet-sized shacks.\u003c/p>\n\u003cp>The Relief Corporation charged people a few dollars per month in rent for the cottages, but soon it started receiving pressure from Superintendent of Parks John McLaren and other city residents.\u003c/p>\n\u003cfigure id=\"attachment_12063864\" class=\"wp-caption aligncenter\" style=\"max-width: 1950px\">\u003ca href=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2025/11/RichmondCamp-SFPL-KQED.jpg\">\u003cimg loading=\"lazy\" decoding=\"async\" class=\"size-full wp-image-12063864\" src=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2025/11/RichmondCamp-SFPL-KQED.jpg\" alt=\"\" width=\"1950\" height=\"2000\" srcset=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2025/11/RichmondCamp-SFPL-KQED.jpg 1950w, https://cdn.kqed.org/wp-content/uploads/sites/10/2025/11/RichmondCamp-SFPL-KQED-160x164.jpg 160w, https://cdn.kqed.org/wp-content/uploads/sites/10/2025/11/RichmondCamp-SFPL-KQED-1498x1536.jpg 1498w\" sizes=\"auto, (max-width: 1950px) 100vw, 1950px\">\u003c/a>\u003cfigcaption class=\"wp-caption-text\">The Richmond District, on San Francisco’s northwest side, was largely uninhabited sand dunes at the time of the 1906 earthquake and fires. There was a lot of open space to build refugee cottages like these at the Richmond District refugee camp between Lake and Geary streets. Some surviving earthquake cottages can still be found in the Richmond and Sunset districts. \u003ccite>(Courtesy of the San Francisco Public Library)\u003c/cite>\u003c/figcaption>\u003c/figure>\n\u003cp>“They wanted their parks back,” LaBounty said. “As other San Franciscans were ready to move on from the disaster, they didn’t like the idea that their parks had a community, a village of working-class people living in the middle of their parks.”\u003c/p>\n\u003cp>Under pressure to move cottages out of the parks as quickly as possible, the Relief Corporation ended up returning all the rent it collected to residents when they moved their cottages out of the parks and onto land somewhere else. And just a year and a half after the earthquake and fire, most cottage camps were gone.\u003c/p>\n\u003cp>“It gave people who never would have dreamed, I think, of owning a home a chance to get into that American dream,” LaBounty said. “So, you get the earthquake cottage, you’re a refugee who has nothing, and now suddenly you buy a lot for 100 bucks in the sand dunes of the Richmond, you have pretty much a free house.”\u003c/p>\n\u003cfigure id=\"attachment_12063862\" class=\"wp-caption aligncenter\" style=\"max-width: 2000px\">\u003ca href=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2025/11/PrecitaPark-SFPL-KQED.jpg\">\u003cimg loading=\"lazy\" decoding=\"async\" class=\"size-full wp-image-12063862\" src=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2025/11/PrecitaPark-SFPL-KQED.jpg\" alt=\"\" width=\"2000\" height=\"1545\" srcset=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2025/11/PrecitaPark-SFPL-KQED.jpg 2000w, https://cdn.kqed.org/wp-content/uploads/sites/10/2025/11/PrecitaPark-SFPL-KQED-160x124.jpg 160w, https://cdn.kqed.org/wp-content/uploads/sites/10/2025/11/PrecitaPark-SFPL-KQED-1536x1187.jpg 1536w\" sizes=\"auto, (max-width: 2000px) 100vw, 2000px\">\u003c/a>\u003cfigcaption class=\"wp-caption-text\">After several months, residents were encouraged to move their cottages out of the parks and onto a plot of land. Here, a horse gets ready to move a shack out of Precita Park. \u003ccite>(Courtesy of the San Francisco Public Library)\u003c/cite>\u003c/figcaption>\u003c/figure>\n\u003cp>Many of the cottages ended up in the Richmond and Sunset districts of San Francisco because of that large camp along Park Presidio and the prevalence of unclaimed land on the western side of the city. Another hot spot for cottages is Bernal Heights, where people moved their cottages from Precita Park at the bottom of the hill, up onto vacant plots on the hill.\u003c/p>\n\u003cp>“There was sort of a stigma of having an earthquake cottage for a few years because it sort of signified you were a refugee, you needed help, you were poor,” LaBounty said. “So, people often quickly tried to hide the pedigree of their houses and cover them with shingles.”\u003c/p>\n\u003cp>People built fences around their cottages, added additional rooms and generally tried to \u003ca href=\"https://www.foundsf.org/1906_Earthquake_Shack_Survivors\">personalize\u003c/a> them. Many people painted over that telling park bench green color, hiding the provenance of their homes.\u003c/p>\n\u003cp>https://www.youtube.com/watch?v=DcXCRZEkzx4\u003c/p>\n\u003cp>The city moved on, too. Just nine years after the Great Earthquake and Fire, San Francisco \u003ca href=\"https://www.nps.gov/goga/learn/historyculture/upload/PPIE-Brochure-FINAL-for-Web.pdf\">hosted\u003c/a> the 1915 Panama-Pacific International Exposition to show the city was back and celebrate the opening of the Panama Canal.\u003c/p>\n\u003cp>In a spectacle that spread over much of what is now the Marina District, the Exposition drew more than 18 million visitors and boasted innovations in science, technology and art. Whole buildings were erected for the Exposition, including the Palace of Fine Arts.\u003c/p>\n\u003ch2>An era of ‘shacktivism’\u003c/h2>\n\u003cp>When Jane Cryan learned all this history and realized that her little cottage sanctuary was actually three and a half earthquake cottages connected together, she was in awe. She loved that she was living in a piece of San Francisco history, one hidden in plain sight.\u003c/p>\n\u003cp>Around the time of her research, Cryan got word from her landlord that he wanted to sell her cottage — or worse, knock it down and sell the lot.[aside postID=news_12063643 hero='https://cdn.kqed.org/wp-content/uploads/sites/10/2025/11/251008-GirlintheFishbowl-01-BL.jpg']“I had to do something,” Cryan said. So, she called City Hall. “And this is exactly what I said, I said, ‘Can you connect me with somebody at City Hall who can tell me how to save a pair of cottages, very important cottages, that are under threat of demolition.’”\u003c/p>\n\u003cp>That call led her to the Landmarks Preservation office. She learned how to apply for a historic landmark designation and brought her research on the importance of the earthquake cottages to the Planning Commission. Along the way, the media caught wind of what she was doing.\u003c/p>\n\u003cp>“The media came to me, and they made what I was doing one of the most important things that ever hit San Francisco,” Cryan said.\u003c/p>\n\u003cp>Cryan started a \u003ca href=\"https://sfpl.org/pdf/libraries/main/sfhistory/archives-and-manuscripts/SPASFRS.pdf\">nonprofit\u003c/a> organization,\u003ca href=\"https://sfpl.org/pdf/libraries/main/sfhistory/archives-and-manuscripts/SPASFRS.pdf\"> The Society for the Preservation and Appreciation of San Francisco Refugee Shacks\u003c/a>, and made it her mission to educate people about the earthquake shacks.\u003c/p>\n\u003cp>Eventually, she won historic status for her little 24th Avenue cottage, but it was a bittersweet victory. Because historic status limits what a property owner can do with a building, the planning commission also ruled that Cryan had to move out as compensation. From then on, she moved from apartment to apartment, ultimately finding herself priced out of San Francisco once she was retired. She moved back to Wisconsin, where she is originally from, in 2007 after 44 years in the city.\u003c/p>\n\u003cp>She continues the fight to save earthquake cottages from afar when developers threaten them.\u003c/p>\n\u003ch2>A very San Francisco treasure hunt\u003c/h2>\n\u003cp>It’s still possible to \u003ca href=\"https://www.sfchronicle.com/projects/2021/earthquake-shacks-sf-map/\">find\u003c/a> earthquake cottages when walking around San Francisco. Woody LaBounty suggested looking for a shallow roof line, like a Boy Scout tent. That’s often a good indicator that a small house might be an earthquake cottage. Many other small buildings have much sharper rooflines or flat roofs.\u003c/p>\n\u003cp>LaBounty estimates that there are somewhere between \u003ca href=\"https://www.outsidelands.org/shack-list.php\">30 and 50 cottages\u003c/a> sprinkled throughout the city. But it’s hard to know because so many of them have been incorporated into larger houses or are used as sheds.\u003c/p>\n\u003cfigure id=\"attachment_12063861\" class=\"wp-caption aligncenter\" style=\"max-width: 2000px\">\u003ca href=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2025/11/Moving-Cottage-KQED.jpg\">\u003cimg loading=\"lazy\" decoding=\"async\" class=\"size-full wp-image-12063861\" src=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2025/11/Moving-Cottage-KQED.jpg\" alt=\"\" width=\"2000\" height=\"1446\" srcset=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2025/11/Moving-Cottage-KQED.jpg 2000w, https://cdn.kqed.org/wp-content/uploads/sites/10/2025/11/Moving-Cottage-KQED-160x116.jpg 160w, https://cdn.kqed.org/wp-content/uploads/sites/10/2025/11/Moving-Cottage-KQED-1536x1111.jpg 1536w\" sizes=\"auto, (max-width: 2000px) 100vw, 2000px\">\u003c/a>\u003cfigcaption class=\"wp-caption-text\">An earthquake cottage being moved through the streets of San Francisco circa 1906. \u003ccite>(Courtesy of the San Francisco Public Library)\u003c/cite>\u003c/figcaption>\u003c/figure>\n\u003cp>Historical conservationists \u003ca href=\"https://www.outsidelands.org/kirkham_shacks.php\">successfully\u003c/a> saved several earthquake cottages from demolition over the years. Two of them are owned by the Presidio Trust and used to be open to visitors, although they have recently been moved to an out-of-the-way location. Another is in the San Francisco Zoo, part of \u003ca href=\"https://www.sfzoo.org/greenies-conservation-corner/\">Greenie’s Conservation Corner\u003c/a>.\u003c/p>\n\u003cp>“As San Francisco continues to change, it is this visual touchstone to our past,” LaBounty said. “And not only our past, but the most significant event that happened in our past, outside of maybe the Gold Rush.”\u003c/p>\n\u003cp>[baycuriousquestion]\u003c/p>\n\u003ch2 id=\"episode-transcript\">Episode Transcript\u003c/h2>\n\u003cp>\u003cstrong>Olivia Allen-Price:\u003c/strong> I want to talk about architecture for a moment – specifically residential architecture. In San Francisco.\u003c/p>\n\u003cp>You expect to see stately Victorian homes with their bright colors and fancy decorative trim.\u003c/p>\n\u003cp>Then there’s Marina style homes with their big windows and stucco facades.\u003c/p>\n\u003cp>But sprinkled in amidst these grander homes you might spot a few tiny cottages — the original tiny homes.\u003c/p>\n\u003cp>\u003cstrong>Charity Vargas:\u003c/strong> I did see two over in the sunset. There was like two close together and I thought maybe they might be them, but I’m not sure.\u003c/p>\n\u003cp>\u003cstrong>Olivia Allen-Price: \u003c/strong>Charity Vargas, our question asker this week, has seen some of these small dwellings dotted around the Richmond and Sunset districts near her home. And she’s heard that the cottages are holdovers from the Great 1906 earthquake and fire, but wants to know more.\u003c/p>\n\u003cp>\u003cstrong>Charity Vargas: \u003c/strong>How many earthquake cottages are left and you know, are they still used and where they are?\u003c/p>\n\u003cp>\u003cstrong>Olivia Allen-Price: \u003c/strong>Today on the show, we’ll dig into the history of San Francisco’s earthquake cottages. We’ll learn how critical they were in sheltering a vulnerable…but vital.. population and learn about modern efforts to save them. I’m Olivia Allen-Price and you’re listening to Bay Curious. Stay with us.\u003c/p>\n\u003cp>\u003cem>Sponsor message\u003c/em>\u003c/p>\n\u003cp>\u003cstrong>Olivia Allen-Price: \u003c/strong>We set out to answer Charity’s question by searching for “earthquake shacks”…tiny homes built out of redwood and cedar after the 1906 earthquake and fire. Bay Curious editor and producer Katrina Schwartz found one high on a hill in Bernal Heights.\u003c/p>\n\u003cp>\u003cstrong>Joan Hunter: \u003c/strong>You want a little tour? Ok, this is our tiny kitchen and I believe this rectangle room is the original earthquake shack and this part is added on, but it’s kind of hard to say exactly. I’m Joan Hunter. I live in Bernal Heights, San Francisco, California in an earthquake cottage or earthquake shack, as some would like to say.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>I’m standing with Joan in her light filled living room…all that’s left of the original cottage. It’s a modestly sized room, but has tall ceilings and windows that look out over a sweeping view of San Francisco.\u003c/p>\n\u003cp>What started out as a one room cottage has been expanded quite a bit…it’s about 620 square feet now, still small by modern standards.\u003c/p>\n\u003cp>\u003cstrong>Joan Hunter: \u003c/strong>Okay, so this is a little bedroom we have in the front and all of our rooms, this is a theme for the house, everything is small, very, very small.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz:\u003c/strong> Joan’s got two kids…so the house can feel like a tight squeeze at times. But she fell in love with the history of the place.\u003c/p>\n\u003cp>\u003cstrong>Joan Hunter: \u003c/strong>what I do know is that the guy who bought it, he was a little kind of like a bachelor. And he met someone who was also single and they moved together and they got married. And it was just a love story.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Joan likes thinking that after they survived the worst natural disaster San Francisco has ever experienced…and been homeless for months because of it…that they finally found some tranquility here, a little piece of San Francisco to call their own.\u003c/p>\n\u003cp>\u003cem>Music to help us transition\u003c/em>\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>The Great 1906 Earthquake and Fire leveled 80 percent of San Francisco. The morning of April 18, 1906 Bay Area residents awoke early in the morning to a temblor they’d never forget.\u003c/p>\n\u003cp>\u003cem>Sounds of shaking\u003c/em>\u003c/p>\n\u003cp>\u003cstrong>Kathleen Norris: \u003c/strong>Every picture on the wall is going tack, tack, tack. Everything movable in the house is keeping up that unearthly clatter. You could hear up and down the roads, earthquake. It’s an earthquake. Oh, God help us, it’s an earthquake. of course, it changed the world for all of us.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Kathleen Norris shared her oral history with the Bancroft Library in 1960. There was no audio recorded during the disaster, but anyone who survived it remembered the trauma of it clearly…even fifty years later. Kathleen was in Mill Valley when the earthquake hit…where the damage wasn’t too bad. But she and her brother were curious about how San Francisco had fared…so they found a boat that took them to the city.\u003c/p>\n\u003cp>\u003cstrong>Joan Hunter: \u003c/strong>It was something to see. The great, heavy, slow rolls of smoke that were joining hands as they went up.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Kathleen describes refugees fleeing homes that had been leveled, toting their belongings in baby carriages and wheel barrows.\u003c/p>\n\u003cp>\u003cstrong>Kathleen Norris: \u003c/strong>We walked over the hot, hot rocks of Market Street. And of course, the cable car lines were twisted hairpins. And the houses were all down. There was nothing saved. Nothing was accepted.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>And yet, the image that lingered in her mind…even as the smoke lay heavy over the hills… was of people getting to work to repair their city.\u003c/p>\n\u003cp>\u003cstrong>Kathleen Norris: \u003c/strong>And already there were people helping out and organizing, scraping bricks. The bricks were hot. And they were working away. Nobody felt for an instant, oh, let’s go somewhere else. Everyone knew that the city was going to come back.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>As indeed it would. Just nine years after the earthquake and fire, San Francisco hosted the 1915 Panama Pacific International Exposition…the reason the Palace of Fine Arts was built…a spectacle that 18 million people visited by the time it closed.. Headlines trumpeted the achievement.\u003c/p>\n\u003cp>\u003cstrong>\u003cem>Voice over reading archival newspaper headline:\u003c/em> \u003c/strong>\u003c/p>\n\u003cp>\u003cem>Big Fair is Opened. All eyes on San Francisco. President Flashes Signal\u003c/em>\u003c/p>\n\u003cp>\u003cem>Fair Draws Myriad; All Records For Crowds Fall\u003c/em>\u003c/p>\n\u003cp>\u003cem>Marvelous Exhibits From All Parts of the Earth Assembled by 42 Countries for the Hugest Conclave of Nations in History\u003c/em>\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>It was a signal to the world that San Francisco was still \u003cem>the most important\u003c/em> city in the West…one full of invention and achievement.\u003c/p>\n\u003cp>\u003cem>\u003cstrong>Voice over reading archival newspaper headline: \u003c/strong>Tower of Jewels Wreathed in Flames. But it’s only to thrill visitors\u003c/em>\u003c/p>\n\u003cp>\u003cem>Art Smith Sets Hearts Leaping: Aviator’s Loop-the-Loops at Night Traced By Trail of Smoke\u003c/em>\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>But how did San Francisco go from the absolute devastation of 1906 to showing off the latest advances in science and art on the world stage just nine years later? This is where the earthquake cottages… or shacks as they’re affectionately called…come into the story.\u003c/p>\n\u003cp>\u003cstrong>Woody LaBounty: \u003c/strong>So after the 1906 earthquake and fire, more than a quarter of a million people are at least temporarily displaced.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Woody LaBounty is President and CEO of San Francisco Heritage, a nonprofit dedicated to preserving San Francisco history.\u003c/p>\n\u003cp>\u003cstrong>Woody LaBounty: \u003c/strong>And now, the powers that be have to decide not only how to take care of all these people, but also who’s gonna rebuild the city?\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Immediately after the earthquake and fire, the military stepped in and established tent camps in the city’s parks. But soon a new organization…the San Francisco Relief Corporation…was formed to distribute food, clothes and other aid.\u003c/p>\n\u003cp>\u003cstrong>Woody LaBounty: \u003c/strong>That covered many aspects of what you have to do when people are refugees, but also a specific housing effort, and that was the earthquake relief cottages.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Officials were worried about sanitation in the tent camps when winter rains came. So, they decided to build 5,610 relief cottages…built with redwood, fir and cedar… to house people. They were painted “park bench green”…literally the color used on Golden Gate Park benches… and clustered in neighborhood parks like Jefferson Square, Precita Park, and Portsmouth Square. Around 17,000 people lived in them.\u003c/p>\n\u003cp>\u003cstrong>Woody LaBounty: \u003c/strong>If you owned property or you had a property that had been destroyed in the earthquake, you rebuilt or you figured out a way to move on. But there was a vast number of people who didn’t have any other resources.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>These were San Francisco’s poor, folks who had lived in boarding houses or shared rooms downtown before the fire. City leaders wanted to keep these laborers with the skills to rebuild the city close by. But they didn’t plan to give away the cottages for free.\u003c/p>\n\u003cp>\u003cstrong>Woody LaBounty: \u003c/strong>So for all of wanting to take care of the refugees, there was also a fear at the time of creeping socialism. People in power did not want to give anybody anything for nothing. So they thought it would create indigence. And so you were supposed to pay some sort of rent.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Here’s how it worked. Shack residents paid monthly rent of a few dollars while their shacks were in the parks. But the relief corporation returned that money when a resident bought some land and moved the shack out of the park and onto their own property.That generosity was spurred by pressure to move refugees and their cottages out of the parks as soon as possible.\u003c/p>\n\u003cp>\u003cstrong>Woody LaBounty: \u003c/strong>As other San Franciscans were ready to move on from the disaster, they didn’t like the idea that their parks had a community, a village of working-class people. Living in the middle of their park. They wanted their parks back.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>About a year and a half after the earthquake, in the summer of 1907, most of the shacks had been removed from the parks. Newspapers at the time described the surreal image of tiny homes on wagons moving across the city with people still in them.\u003c/p>\n\u003cp>\u003cem>\u003cstrong>Voice over reading archival newspaper excerpt:\u003c/strong> It is a strange sight to see a procession of these refugee cottages moving down fashionable Van Ness Avenue or busy Fillmore Street, faces peering from the windows, and men, women and children going about their household tasks as if their little home was securely perched upon a cement foundation and surrounded by a garden and a fence.\u003c/em>\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Back in 1907, the Richmond District, a northwestern neighborhood, was mostly undeveloped sand dunes, with lots of empty land. So many shack owners moved their cottages to vacant plots there.\u003c/p>\n\u003cp>Woody says the earthquake shack program not only got the city working again…\u003c/p>\n\u003cp>\u003cstrong>Woody LaBounty: \u003c/strong>\u003cspan style=\"text-decoration: line-through\">I\u003c/span>t also gave people who never would have dreamed, I think, of owning a home a chance to get into that American dream. So you get the earthquake cottage, you’re a refugee who has nothing, and now suddenly you buy a lot for 100 bucks in the sand dunes of the Richmond, you have pretty much a free house.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Bernal Heights is another place with many earthquake cottages…people just moved their shacks from Precita Park to open land up the hill.\u003c/p>\n\u003cp>And some of them are still there…like the house we toured at the beginning of this episode.\u003c/p>\n\u003cp>\u003cstrong>Woody LaBounty: \u003c/strong>The one sort of key touchstone that you can tell about a cottage is the roof line. It has a very shallow pitched roof, kind of like a pup tent, like a Boy Scout tent. And then that is like your first hint because a lot of small buildings you’ll see have very steep pitched or flat roofs.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Woody says many shack owners quickly made improvements to their new homes — painting, building fences, adding additional rooms.\u003c/p>\n\u003cp>\u003cstrong>Woody LaBounty: \u003c/strong>There was sort of a stigma of having an earthquake cottage for a few years because it sort of signified you were a refugee, you needed help, you were poor. So people often, they quickly tried to hide sort of the pedigree of their houses and cover them with shingles quickly.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>They wanted to hide that telling park bench green color. Most existing earthquake cottages are surrounded by modern additions. Or sometimes they’re a couple shacks placed together. That’s one reason it’s really hard to know how many still exist in San Francisco, they’re hidden. But Woody estimates between 30 and 50 earthquake cottages are dotted across the city.\u003c/p>\n\u003cp>\u003cstrong>Jane Cryan: \u003c/strong>The cottage in the front is made up of three and a half shacks, and then there’s a free-standing mid-size shack in the backyard.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>This is Jane Cryan. She rented one of these preserved earthquake shacks in the outer Sunset in the 1980s. Jane is best known as a “shacktivist”…fighting to preserve earthquake cottages from development. But if it weren’t for the Beat movement in the 1950s, she never would have moved here in the first place.\u003c/p>\n\u003cp> \u003c/p>\n\u003cp>\u003cstrong>Jane Cryan: \u003c/strong>The only reason I ended up in San Francisco is that Jack Kerouac, with whom I had correspondence from the time I was 16 years old told me that Milwaukee was no place for a poet. You should be in San Francisco.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>By day she was an executive assistant, but writing and jazz piano were her passions.\u003c/p>\n\u003cp>\u003cstrong>Jane Cryan: \u003c/strong>And I moved in and I played piano for about six weeks, day and night, and an elderly gentleman from across the street came over and shook his finger at me and he said, young lady, do you know that you’re living in a couple of relief houses pasted together?\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Her three room cottage was actually three earthquake shacks pasted together. This was 1982 and Jane had lived in San Francisco almost 20 years. But she’d never even heard of the 1906 earthquake and fire. Her neighbor’s passing comment sparked her curiosity. She spent nights and weekends obsessively going through old newspaper archives to learn as much as she could about the disaster and the earthquake cottages.\u003c/p>\n\u003cp>Meanwhile, her landlord made it known that he planned to sell her cottage…or worse demolish it and sell the lot.\u003c/p>\n\u003cp>\u003cstrong>Jane Cryan: \u003c/strong>Take down our history. So I had to do something.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Preserving these cottages — tangible pieces of such important history — became her life’s work. She took inspiration from one of the 1906 earthquake refugees she learned about in her research, a woman named Mary Kelly. Mary was an agitator, constantly questioning how the relief corporation dolled out aid and whether it was fair. She was such a pain to them they eventually evicted her from her cottage. But she refused to leave, famously saying:\u003c/p>\n\u003cp>\u003cem>\u003cstrong>Voice over portraying Mary Kelly:\u003c/strong> They can’t bluff me. I’ll stay with the house if they take it to the end of the earth.\u003c/em>\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>She rode in her cottage as men hauled it onto a wagon and trucked it away. She stayed inside as they dismantled the cottage board by board. Jane finds Mary’s tenacity — and willingness to stand up to power — endearing.\u003c/p>\n\u003cp>\u003cstrong>Jane Cryan: \u003c/strong>She was exactly the way I was. If I saw something, I said something. And if I saw something that was not right, I said something louder.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Jane started a nonprofit called The Society for the Preservation and Appreciation of San Francisco Refugee Shacks. She fought hard to get the planning commission to designate her little shack a historic landmark.\u003c/p>\n\u003cp>And she was successful!\u003c/p>\n\u003cp>\u003cstrong>Jane Cryan: \u003c/strong>Landmark number 171.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>But it was a bittersweet victory. The commission also said that Jane had to vacate the cottage in order to compensate the landlord for putting restrictions on his property. Jane bounced around from place to place after that, eventually moving back to Wisconsin, where she’s originally from.\u003c/p>\n\u003cp>\u003cstrong>Katrina in the tape: \u003c/strong>What do you miss most about San Francisco?\u003c/p>\n\u003cp>\u003cstrong>Jane Cryan: \u003c/strong>Oh, everything! Oh my god, San Francisco is the queen of the Golden West, for heaven’s sake!\u003c/p>\n\u003cp>\u003cem>Music\u003c/em>\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Historian Woody LaBounty says there are probably more earthquake cottages than we know. They’re hiding in people’s backyards, incorporated into bigger houses or used as sheds.\u003c/p>\n\u003cp>\u003cstrong>Woody LaBounty: \u003c/strong>They’re the last sort of most visible, tangible sign of one of the biggest things that ever happened to the city of San Francisco.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Increasingly these little cottages are being bought and torn down to make room for larger homes. But the ones that remain are a reminder of a refugee relief program that not only got people back on their feet, but made them homeowners. An example of San Franciscans coming together to repair and resurrect a beloved city.\u003c/p>\n\u003cp>\u003cstrong>Olivia Allen-Price:\u003c/strong> That was Bay Curious editor and producer Katrina Schwartz. Special thanks this week to \u003ca href=\"https://californiarevealed.org/\">California Revealed\u003c/a>, an online database of oral histories and other archival materials. They helped us find Kathleen Norris’ oral history.\u003c/p>\n\u003cp>Bay Curious is made in San Francisco at member-supported KQED. Right now your membership means more than ever, give at \u003ca href=\"http://kqed.org/donate\">KQED.org/donate\u003c/a>.\u003c/p>\n\u003cp>Our show is produced by Gabriela Glueck, Christopher Beale, Katrina Schwartz and me, Olivia Allen-Price.\u003c/p>\n\u003cp>Extra support from Maha Sanad, Katie Sprenger, Jen Chien, Ethan Toven-Lindsey and everyone on team KQED.\u003c/p>\n\u003cp>Have a wonderful week.\u003c/p>\n\u003cp>[ad floatright]\u003c/p>\n",
+"blocks": [],
+"excerpt": "After the 1906 Earthquake and fire, San Francisco leaders built relief cottages to house the homeless. Some of those tiny dwellings can still be found thanks to historic preservation efforts.\r\n",
+"status": "publish",
+"parent": 0,
+"modified": 1767917972,
+"stats": {
+"hasAudio": false,
+"hasVideo": true,
+"hasChartOrMap": false,
+"iframeSrcs": [],
+"hasGoogleForm": false,
+"hasGallery": false,
+"hasHearkenModule": true,
+"hasPolis": false,
+"paragraphCount": 122,
+"wordCount": 4791
+},
+"headData": {
+"title": "San Francisco’s Historic ‘Relief Cottages,’ Built After the 1906 Earthquake, Are Hidden in Plain Sight | KQED",
+"description": "After the 1906 Earthquake and fire, San Francisco leaders built relief cottages to house the homeless. Some of those tiny dwellings can still be found thanks to historic preservation efforts.\r\n",
+"ogTitle": "",
+"ogDescription": "",
+"ogImgId": "",
+"twTitle": "",
+"twDescription": "",
+"twImgId": "",
+"schema": {
+"@context": "https://schema.org",
+"@type": "NewsArticle",
+"headline": "San Francisco’s Historic ‘Relief Cottages,’ Built After the 1906 Earthquake, Are Hidden in Plain Sight",
+"datePublished": "2026-01-08T03:00:47-08:00",
+"dateModified": "2026-01-08T16:19:32-08:00",
+"image": "https://cdn.kqed.org/wp-content/uploads/2020/02/KQED-OG-Image@1x.png",
+"isAccessibleForFree": "True",
+"publisher": {
+"@type": "NewsMediaOrganization",
+"@id": "https://www.kqed.org/#organization",
+"name": "KQED",
+"logo": "https://cdn.kqed.org/wp-content/uploads/2020/02/KQED-OG-Image@1x.png",
+"url": "https://www.kqed.org",
+"sameAs": [
+"https://www.facebook.com/KQED",
+"https://twitter.com/KQED",
+"https://www.instagram.com/kqed/",
+"https://www.tiktok.com/@kqedofficial",
+"https://www.linkedin.com/company/kqed",
+"https://www.youtube.com/channel/UCeC0IOo7i1P_61zVUWbJ4nw"
+]
+}
+}
+},
+"primaryCategory": {
+"termId": 33520,
+"slug": "podcast",
+"name": "Podcast"
+},
+"source": "Bay Curious",
+"sourceUrl": "https://www.kqed.org/podcasts/baycurious",
+"audioUrl": "https://dcs-spotify.megaphone.fm/KQINC2980267500.mp3?key=a4b33e2a1b00e6a36812828c87dcfa4f&request_event_id=413c04c6-1a3e-421b-a6f8-3fa14a0ae70b&session_id=413c04c6-1a3e-421b-a6f8-3fa14a0ae70b&timetoken=1764965314_04C6EF20D592A65DE33D9E9E9972C095",
+"sticky": false,
+"templateType": "standard",
+"featuredImageType": "standard",
+"excludeFromSiteSearch": "Include",
+"articleAge": "0",
+"path": "/news/12068602/san-franciscos-historic-relief-cottages-built-after-the-1906-earthquake-are-hidden-in-plain-sight",
+"audioTrackLength": null,
+"parsedContent": [
+{
+"type": "contentString",
+"content": "\u003cdiv class=\"post-body\">\u003cp>\u003cp>\u003ca href=\"#episode-transcript\">\u003ci>View the full episode transcript.\u003c/i>\u003c/a>\u003c/p>\n\u003cp>Jane Cryan walked into a leasing agency on Geary Boulevard in\u003ca href=\"https://www.kqed.org/news/tag/san-francisco\"> San Francisco\u003c/a> just before closing one evening in 1982.\u003c/p>\n\u003cp>She was looking for an apartment that could accommodate her grand piano. The flat she was inquiring about had already been rented, but the agent asked if she’d be interested in a cottage out in the Sunset District.\u003c/p>\n\u003cp>“That started everything,” Cryan said. “That, to me, is my golden moment in all my 44 years in San Francisco.”\u003c/p>\n\u003cp>\u003c/p>\u003c/div>",
+"attributes": {
+"named": {},
+"numeric": []
+}
+},
+{
+"type": "component",
+"content": "",
+"name": "ad",
+"attributes": {
+"named": {
+"label": "fullwidth"
+},
+"numeric": [
+"fullwidth"
+]
+}
+},
+{
+"type": "contentString",
+"content": "\u003cdiv class=\"post-body\">\u003cp>\u003c/p>\n\u003cp>The cottage at 1227 24th Ave. felt like her own artist retreat. She moved in and played her grand piano night and day for the first several weeks, happy to have her own space where she could do what she liked.\u003c/p>\n\u003cp>“An elderly gentleman from across the street came over and shook his finger at me, and he said, ‘Young lady, do you know that you’re living in a couple of relief houses pasted together?’”\u003c/p>\n\u003cfigure id=\"attachment_12066194\" class=\"wp-caption aligncenter\" style=\"max-width: 2000px\">\u003cimg loading=\"lazy\" decoding=\"async\" class=\"size-full wp-image-12066194\" src=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2025/12/251204-EARTHQUAKECOTTAGES00174_TV-KQED.jpg\" alt=\"\" width=\"2000\" height=\"1333\" srcset=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2025/12/251204-EARTHQUAKECOTTAGES00174_TV-KQED.jpg 2000w, https://cdn.kqed.org/wp-content/uploads/sites/10/2025/12/251204-EARTHQUAKECOTTAGES00174_TV-KQED-160x107.jpg 160w, https://cdn.kqed.org/wp-content/uploads/sites/10/2025/12/251204-EARTHQUAKECOTTAGES00174_TV-KQED-1536x1024.jpg 1536w\" sizes=\"auto, (max-width: 2000px) 100vw, 2000px\">\u003cfigcaption class=\"wp-caption-text\">An earthquake cottage stands on 211 Mullen Ave. in San Francisco on December 4, 2025. The original shelter was built after the 1906 San Francisco Earthquake and some still house city residents. \u003ccite>(Tâm Vũ/KQED)\u003c/cite>\u003c/figcaption>\u003c/figure>\n\u003cp>Cryan was confused. What did he mean by “relief houses?” She had moved from Milwaukee in the 1960s because she was enamored with the Beat Movement and had been writing letters to Jack Kerouac. When she got to San Francisco, all of 18 years old, she threw herself into writing and playing jazz piano, although she made her money as an executive assistant. She’d never heard of the history her neighbor was describing.\u003c/p>\n\u003cp>“I had lived in the city all those years and never heard of the [19]06 quake or ‘the fire,’ as everybody who survived it called it,” Cryan said.\u003c/p>\n\u003cp>She was curious to know everything she could about the natural disaster that devastated San Francisco at the start of the 20th century, knocking down 80% of the buildings and displacing thousands of people. She spent nights and weekends obsessively going through newspaper archives to learn all she could about these so-called “relief cottages.”\u003c/p>\n\u003ch2>The history Cryan discovered\u003c/h2>\n\u003cp>“After the 1906 Earthquake and fire, more than a quarter of a million people are at least temporarily displaced,” said Woody LaBounty, president and CEO of \u003ca href=\"https://www.sfheritage.org/\">San Francisco Heritage\u003c/a>, a nonprofit dedicated to preserving San Francisco history.\u003c/p>\n\u003cp>Those who had the means left the city to stay with relatives or friends elsewhere. But many poor San Franciscans didn’t have that option. The military temporarily set up tent camps to house refugees in the short term. Women cooked meals on stoves set up in the streets, children went to school in makeshift tent classrooms and people tried to figure out what to do next.\u003c/p>\u003c/div>",
+"attributes": {
+"named": {},
+"numeric": []
+}
+},
+{
+"type": "component",
+"content": "",
+"name": "aside",
+"attributes": {
+"named": {
+"postid": "news_12065901",
+"hero": "https://cdn.kqed.org/wp-content/uploads/sites/10/2025/10/251016-NIMITZHOUSE-38-BL-KQED.jpg",
+"label": ""
+},
+"numeric": []
+}
+},
+{
+"type": "contentString",
+"content": "\u003cdiv class=\"post-body\">\u003cp>After a few months, city leaders became concerned about sanitation in the tent camps and they worried what would happen when winter rains came. They commissioned union carpenters to build small cottages out of redwood, cedar and fir to house the refugees. They painted the cottages the same green as city park benches, which became known as “park bench green.”\u003c/p>\n\u003cp>“You basically are talking about the working class,” LaBounty said. “People who don’t have property, don’t have other resources, and need to find work and find shelter.”\u003c/p>\n\u003cp>Overseeing this effort was the San Francisco Relief Corporation, which also coordinated distribution of clothes, food and other aid to the refugees — many of whom the city relied upon to help rebuild the city. The 5,610 cottages were mostly set up in the city’s neighborhood parks like Jefferson Square, Precita Park (then known as Bernal Park) and Portsmouth Square. There were also a large number of cottages where Park Presidio Boulevard is now — back then, it was newly acquired parkland with nothing much around it.\u003c/p>\n\u003cp>The \u003ca href=\"https://www.nps.gov/places/000/1906-earthquake-cottages.htm\">cottages\u003c/a> came in several sizes. The smallest was 10×14 feet — these “Type A” shacks are the most commonly seen today, in part because they are so modular and people combined them to make larger residences. But there were also 14×18 feet and 18×24-feet-sized shacks.\u003c/p>\n\u003cp>The Relief Corporation charged people a few dollars per month in rent for the cottages, but soon it started receiving pressure from Superintendent of Parks John McLaren and other city residents.\u003c/p>\n\u003cfigure id=\"attachment_12063864\" class=\"wp-caption aligncenter\" style=\"max-width: 1950px\">\u003ca href=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2025/11/RichmondCamp-SFPL-KQED.jpg\">\u003cimg loading=\"lazy\" decoding=\"async\" class=\"size-full wp-image-12063864\" src=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2025/11/RichmondCamp-SFPL-KQED.jpg\" alt=\"\" width=\"1950\" height=\"2000\" srcset=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2025/11/RichmondCamp-SFPL-KQED.jpg 1950w, https://cdn.kqed.org/wp-content/uploads/sites/10/2025/11/RichmondCamp-SFPL-KQED-160x164.jpg 160w, https://cdn.kqed.org/wp-content/uploads/sites/10/2025/11/RichmondCamp-SFPL-KQED-1498x1536.jpg 1498w\" sizes=\"auto, (max-width: 1950px) 100vw, 1950px\">\u003c/a>\u003cfigcaption class=\"wp-caption-text\">The Richmond District, on San Francisco’s northwest side, was largely uninhabited sand dunes at the time of the 1906 earthquake and fires. There was a lot of open space to build refugee cottages like these at the Richmond District refugee camp between Lake and Geary streets. Some surviving earthquake cottages can still be found in the Richmond and Sunset districts. \u003ccite>(Courtesy of the San Francisco Public Library)\u003c/cite>\u003c/figcaption>\u003c/figure>\n\u003cp>“They wanted their parks back,” LaBounty said. “As other San Franciscans were ready to move on from the disaster, they didn’t like the idea that their parks had a community, a village of working-class people living in the middle of their parks.”\u003c/p>\n\u003cp>Under pressure to move cottages out of the parks as quickly as possible, the Relief Corporation ended up returning all the rent it collected to residents when they moved their cottages out of the parks and onto land somewhere else. And just a year and a half after the earthquake and fire, most cottage camps were gone.\u003c/p>\n\u003cp>“It gave people who never would have dreamed, I think, of owning a home a chance to get into that American dream,” LaBounty said. “So, you get the earthquake cottage, you’re a refugee who has nothing, and now suddenly you buy a lot for 100 bucks in the sand dunes of the Richmond, you have pretty much a free house.”\u003c/p>\n\u003cfigure id=\"attachment_12063862\" class=\"wp-caption aligncenter\" style=\"max-width: 2000px\">\u003ca href=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2025/11/PrecitaPark-SFPL-KQED.jpg\">\u003cimg loading=\"lazy\" decoding=\"async\" class=\"size-full wp-image-12063862\" src=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2025/11/PrecitaPark-SFPL-KQED.jpg\" alt=\"\" width=\"2000\" height=\"1545\" srcset=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2025/11/PrecitaPark-SFPL-KQED.jpg 2000w, https://cdn.kqed.org/wp-content/uploads/sites/10/2025/11/PrecitaPark-SFPL-KQED-160x124.jpg 160w, https://cdn.kqed.org/wp-content/uploads/sites/10/2025/11/PrecitaPark-SFPL-KQED-1536x1187.jpg 1536w\" sizes=\"auto, (max-width: 2000px) 100vw, 2000px\">\u003c/a>\u003cfigcaption class=\"wp-caption-text\">After several months, residents were encouraged to move their cottages out of the parks and onto a plot of land. Here, a horse gets ready to move a shack out of Precita Park. \u003ccite>(Courtesy of the San Francisco Public Library)\u003c/cite>\u003c/figcaption>\u003c/figure>\n\u003cp>Many of the cottages ended up in the Richmond and Sunset districts of San Francisco because of that large camp along Park Presidio and the prevalence of unclaimed land on the western side of the city. Another hot spot for cottages is Bernal Heights, where people moved their cottages from Precita Park at the bottom of the hill, up onto vacant plots on the hill.\u003c/p>\n\u003cp>“There was sort of a stigma of having an earthquake cottage for a few years because it sort of signified you were a refugee, you needed help, you were poor,” LaBounty said. “So, people often quickly tried to hide the pedigree of their houses and cover them with shingles.”\u003c/p>\n\u003cp>People built fences around their cottages, added additional rooms and generally tried to \u003ca href=\"https://www.foundsf.org/1906_Earthquake_Shack_Survivors\">personalize\u003c/a> them. Many people painted over that telling park bench green color, hiding the provenance of their homes.\u003c/p>\u003c/p>\u003cp>\u003cspan class='utils-parseShortcode-shortcodes-__youtubeShortcode__embedYoutube'>\n \u003cspan class='utils-parseShortcode-shortcodes-__youtubeShortcode__embedYoutubeInside'>\n \u003ciframe\n loading='lazy'\n class='utils-parseShortcode-shortcodes-__youtubeShortcode__youtubePlayer'\n type='text/html'\n src='//www.youtube.com/embed/DcXCRZEkzx4'\n title='//www.youtube.com/embed/DcXCRZEkzx4'\n allowfullscreen='true'\n style='border:0;'>\u003c/iframe>\n \u003c/span>\n \u003c/span>\u003c/p>\u003cp>\u003cp>The city moved on, too. Just nine years after the Great Earthquake and Fire, San Francisco \u003ca href=\"https://www.nps.gov/goga/learn/historyculture/upload/PPIE-Brochure-FINAL-for-Web.pdf\">hosted\u003c/a> the 1915 Panama-Pacific International Exposition to show the city was back and celebrate the opening of the Panama Canal.\u003c/p>\n\u003cp>In a spectacle that spread over much of what is now the Marina District, the Exposition drew more than 18 million visitors and boasted innovations in science, technology and art. Whole buildings were erected for the Exposition, including the Palace of Fine Arts.\u003c/p>\n\u003ch2>An era of ‘shacktivism’\u003c/h2>\n\u003cp>When Jane Cryan learned all this history and realized that her little cottage sanctuary was actually three and a half earthquake cottages connected together, she was in awe. She loved that she was living in a piece of San Francisco history, one hidden in plain sight.\u003c/p>\n\u003cp>Around the time of her research, Cryan got word from her landlord that he wanted to sell her cottage — or worse, knock it down and sell the lot.\u003c/p>\u003c/div>",
+"attributes": {
+"named": {},
+"numeric": []
+}
+},
+{
+"type": "component",
+"content": "",
+"name": "aside",
+"attributes": {
+"named": {
+"postid": "news_12063643",
+"hero": "https://cdn.kqed.org/wp-content/uploads/sites/10/2025/11/251008-GirlintheFishbowl-01-BL.jpg",
+"label": ""
+},
+"numeric": []
+}
+},
+{
+"type": "contentString",
+"content": "\u003cdiv class=\"post-body\">\u003cp>“I had to do something,” Cryan said. So, she called City Hall. “And this is exactly what I said, I said, ‘Can you connect me with somebody at City Hall who can tell me how to save a pair of cottages, very important cottages, that are under threat of demolition.’”\u003c/p>\n\u003cp>That call led her to the Landmarks Preservation office. She learned how to apply for a historic landmark designation and brought her research on the importance of the earthquake cottages to the Planning Commission. Along the way, the media caught wind of what she was doing.\u003c/p>\n\u003cp>“The media came to me, and they made what I was doing one of the most important things that ever hit San Francisco,” Cryan said.\u003c/p>\n\u003cp>Cryan started a \u003ca href=\"https://sfpl.org/pdf/libraries/main/sfhistory/archives-and-manuscripts/SPASFRS.pdf\">nonprofit\u003c/a> organization,\u003ca href=\"https://sfpl.org/pdf/libraries/main/sfhistory/archives-and-manuscripts/SPASFRS.pdf\"> The Society for the Preservation and Appreciation of San Francisco Refugee Shacks\u003c/a>, and made it her mission to educate people about the earthquake shacks.\u003c/p>\n\u003cp>Eventually, she won historic status for her little 24th Avenue cottage, but it was a bittersweet victory. Because historic status limits what a property owner can do with a building, the planning commission also ruled that Cryan had to move out as compensation. From then on, she moved from apartment to apartment, ultimately finding herself priced out of San Francisco once she was retired. She moved back to Wisconsin, where she is originally from, in 2007 after 44 years in the city.\u003c/p>\n\u003cp>She continues the fight to save earthquake cottages from afar when developers threaten them.\u003c/p>\n\u003ch2>A very San Francisco treasure hunt\u003c/h2>\n\u003cp>It’s still possible to \u003ca href=\"https://www.sfchronicle.com/projects/2021/earthquake-shacks-sf-map/\">find\u003c/a> earthquake cottages when walking around San Francisco. Woody LaBounty suggested looking for a shallow roof line, like a Boy Scout tent. That’s often a good indicator that a small house might be an earthquake cottage. Many other small buildings have much sharper rooflines or flat roofs.\u003c/p>\n\u003cp>LaBounty estimates that there are somewhere between \u003ca href=\"https://www.outsidelands.org/shack-list.php\">30 and 50 cottages\u003c/a> sprinkled throughout the city. But it’s hard to know because so many of them have been incorporated into larger houses or are used as sheds.\u003c/p>\n\u003cfigure id=\"attachment_12063861\" class=\"wp-caption aligncenter\" style=\"max-width: 2000px\">\u003ca href=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2025/11/Moving-Cottage-KQED.jpg\">\u003cimg loading=\"lazy\" decoding=\"async\" class=\"size-full wp-image-12063861\" src=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2025/11/Moving-Cottage-KQED.jpg\" alt=\"\" width=\"2000\" height=\"1446\" srcset=\"https://cdn.kqed.org/wp-content/uploads/sites/10/2025/11/Moving-Cottage-KQED.jpg 2000w, https://cdn.kqed.org/wp-content/uploads/sites/10/2025/11/Moving-Cottage-KQED-160x116.jpg 160w, https://cdn.kqed.org/wp-content/uploads/sites/10/2025/11/Moving-Cottage-KQED-1536x1111.jpg 1536w\" sizes=\"auto, (max-width: 2000px) 100vw, 2000px\">\u003c/a>\u003cfigcaption class=\"wp-caption-text\">An earthquake cottage being moved through the streets of San Francisco circa 1906. \u003ccite>(Courtesy of the San Francisco Public Library)\u003c/cite>\u003c/figcaption>\u003c/figure>\n\u003cp>Historical conservationists \u003ca href=\"https://www.outsidelands.org/kirkham_shacks.php\">successfully\u003c/a> saved several earthquake cottages from demolition over the years. Two of them are owned by the Presidio Trust and used to be open to visitors, although they have recently been moved to an out-of-the-way location. Another is in the San Francisco Zoo, part of \u003ca href=\"https://www.sfzoo.org/greenies-conservation-corner/\">Greenie’s Conservation Corner\u003c/a>.\u003c/p>\n\u003cp>“As San Francisco continues to change, it is this visual touchstone to our past,” LaBounty said. “And not only our past, but the most significant event that happened in our past, outside of maybe the Gold Rush.”\u003c/p>\n\u003cp>\u003c/p>\u003c/div>",
+"attributes": {
+"named": {},
+"numeric": []
+}
+},
+{
+"type": "component",
+"content": "",
+"name": "baycuriousquestion",
+"attributes": {
+"named": {
+"label": ""
+},
+"numeric": []
+}
+},
+{
+"type": "contentString",
+"content": "\u003cdiv class=\"post-body\">\u003c/div>",
+"attributes": {
+"named": {},
+"numeric": []
+}
+},
+{
+"type": "contentString",
+"content": "\u003cdiv class=\"post-content post-body\">\u003ch2 id=\"episode-transcript\">Episode Transcript\u003c/h2>\n\u003cp>\u003cstrong>Olivia Allen-Price:\u003c/strong> I want to talk about architecture for a moment – specifically residential architecture. In San Francisco.\u003c/p>\n\u003cp>You expect to see stately Victorian homes with their bright colors and fancy decorative trim.\u003c/p>\n\u003cp>Then there’s Marina style homes with their big windows and stucco facades.\u003c/p>\n\u003cp>But sprinkled in amidst these grander homes you might spot a few tiny cottages — the original tiny homes.\u003c/p>\n\u003cp>\u003cstrong>Charity Vargas:\u003c/strong> I did see two over in the sunset. There was like two close together and I thought maybe they might be them, but I’m not sure.\u003c/p>\n\u003cp>\u003cstrong>Olivia Allen-Price: \u003c/strong>Charity Vargas, our question asker this week, has seen some of these small dwellings dotted around the Richmond and Sunset districts near her home. And she’s heard that the cottages are holdovers from the Great 1906 earthquake and fire, but wants to know more.\u003c/p>\n\u003cp>\u003cstrong>Charity Vargas: \u003c/strong>How many earthquake cottages are left and you know, are they still used and where they are?\u003c/p>\n\u003cp>\u003cstrong>Olivia Allen-Price: \u003c/strong>Today on the show, we’ll dig into the history of San Francisco’s earthquake cottages. We’ll learn how critical they were in sheltering a vulnerable…but vital.. population and learn about modern efforts to save them. I’m Olivia Allen-Price and you’re listening to Bay Curious. Stay with us.\u003c/p>\n\u003cp>\u003cem>Sponsor message\u003c/em>\u003c/p>\n\u003cp>\u003cstrong>Olivia Allen-Price: \u003c/strong>We set out to answer Charity’s question by searching for “earthquake shacks”…tiny homes built out of redwood and cedar after the 1906 earthquake and fire. Bay Curious editor and producer Katrina Schwartz found one high on a hill in Bernal Heights.\u003c/p>\n\u003cp>\u003cstrong>Joan Hunter: \u003c/strong>You want a little tour? Ok, this is our tiny kitchen and I believe this rectangle room is the original earthquake shack and this part is added on, but it’s kind of hard to say exactly. I’m Joan Hunter. I live in Bernal Heights, San Francisco, California in an earthquake cottage or earthquake shack, as some would like to say.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>I’m standing with Joan in her light filled living room…all that’s left of the original cottage. It’s a modestly sized room, but has tall ceilings and windows that look out over a sweeping view of San Francisco.\u003c/p>\n\u003cp>What started out as a one room cottage has been expanded quite a bit…it’s about 620 square feet now, still small by modern standards.\u003c/p>\n\u003cp>\u003cstrong>Joan Hunter: \u003c/strong>Okay, so this is a little bedroom we have in the front and all of our rooms, this is a theme for the house, everything is small, very, very small.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz:\u003c/strong> Joan’s got two kids…so the house can feel like a tight squeeze at times. But she fell in love with the history of the place.\u003c/p>\n\u003cp>\u003cstrong>Joan Hunter: \u003c/strong>what I do know is that the guy who bought it, he was a little kind of like a bachelor. And he met someone who was also single and they moved together and they got married. And it was just a love story.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Joan likes thinking that after they survived the worst natural disaster San Francisco has ever experienced…and been homeless for months because of it…that they finally found some tranquility here, a little piece of San Francisco to call their own.\u003c/p>\n\u003cp>\u003cem>Music to help us transition\u003c/em>\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>The Great 1906 Earthquake and Fire leveled 80 percent of San Francisco. The morning of April 18, 1906 Bay Area residents awoke early in the morning to a temblor they’d never forget.\u003c/p>\n\u003cp>\u003cem>Sounds of shaking\u003c/em>\u003c/p>\n\u003cp>\u003cstrong>Kathleen Norris: \u003c/strong>Every picture on the wall is going tack, tack, tack. Everything movable in the house is keeping up that unearthly clatter. You could hear up and down the roads, earthquake. It’s an earthquake. Oh, God help us, it’s an earthquake. of course, it changed the world for all of us.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Kathleen Norris shared her oral history with the Bancroft Library in 1960. There was no audio recorded during the disaster, but anyone who survived it remembered the trauma of it clearly…even fifty years later. Kathleen was in Mill Valley when the earthquake hit…where the damage wasn’t too bad. But she and her brother were curious about how San Francisco had fared…so they found a boat that took them to the city.\u003c/p>\n\u003cp>\u003cstrong>Joan Hunter: \u003c/strong>It was something to see. The great, heavy, slow rolls of smoke that were joining hands as they went up.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Kathleen describes refugees fleeing homes that had been leveled, toting their belongings in baby carriages and wheel barrows.\u003c/p>\n\u003cp>\u003cstrong>Kathleen Norris: \u003c/strong>We walked over the hot, hot rocks of Market Street. And of course, the cable car lines were twisted hairpins. And the houses were all down. There was nothing saved. Nothing was accepted.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>And yet, the image that lingered in her mind…even as the smoke lay heavy over the hills… was of people getting to work to repair their city.\u003c/p>\n\u003cp>\u003cstrong>Kathleen Norris: \u003c/strong>And already there were people helping out and organizing, scraping bricks. The bricks were hot. And they were working away. Nobody felt for an instant, oh, let’s go somewhere else. Everyone knew that the city was going to come back.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>As indeed it would. Just nine years after the earthquake and fire, San Francisco hosted the 1915 Panama Pacific International Exposition…the reason the Palace of Fine Arts was built…a spectacle that 18 million people visited by the time it closed.. Headlines trumpeted the achievement.\u003c/p>\n\u003cp>\u003cstrong>\u003cem>Voice over reading archival newspaper headline:\u003c/em> \u003c/strong>\u003c/p>\n\u003cp>\u003cem>Big Fair is Opened. All eyes on San Francisco. President Flashes Signal\u003c/em>\u003c/p>\n\u003cp>\u003cem>Fair Draws Myriad; All Records For Crowds Fall\u003c/em>\u003c/p>\n\u003cp>\u003cem>Marvelous Exhibits From All Parts of the Earth Assembled by 42 Countries for the Hugest Conclave of Nations in History\u003c/em>\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>It was a signal to the world that San Francisco was still \u003cem>the most important\u003c/em> city in the West…one full of invention and achievement.\u003c/p>\n\u003cp>\u003cem>\u003cstrong>Voice over reading archival newspaper headline: \u003c/strong>Tower of Jewels Wreathed in Flames. But it’s only to thrill visitors\u003c/em>\u003c/p>\n\u003cp>\u003cem>Art Smith Sets Hearts Leaping: Aviator’s Loop-the-Loops at Night Traced By Trail of Smoke\u003c/em>\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>But how did San Francisco go from the absolute devastation of 1906 to showing off the latest advances in science and art on the world stage just nine years later? This is where the earthquake cottages… or shacks as they’re affectionately called…come into the story.\u003c/p>\n\u003cp>\u003cstrong>Woody LaBounty: \u003c/strong>So after the 1906 earthquake and fire, more than a quarter of a million people are at least temporarily displaced.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Woody LaBounty is President and CEO of San Francisco Heritage, a nonprofit dedicated to preserving San Francisco history.\u003c/p>\n\u003cp>\u003cstrong>Woody LaBounty: \u003c/strong>And now, the powers that be have to decide not only how to take care of all these people, but also who’s gonna rebuild the city?\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Immediately after the earthquake and fire, the military stepped in and established tent camps in the city’s parks. But soon a new organization…the San Francisco Relief Corporation…was formed to distribute food, clothes and other aid.\u003c/p>\n\u003cp>\u003cstrong>Woody LaBounty: \u003c/strong>That covered many aspects of what you have to do when people are refugees, but also a specific housing effort, and that was the earthquake relief cottages.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Officials were worried about sanitation in the tent camps when winter rains came. So, they decided to build 5,610 relief cottages…built with redwood, fir and cedar… to house people. They were painted “park bench green”…literally the color used on Golden Gate Park benches… and clustered in neighborhood parks like Jefferson Square, Precita Park, and Portsmouth Square. Around 17,000 people lived in them.\u003c/p>\n\u003cp>\u003cstrong>Woody LaBounty: \u003c/strong>If you owned property or you had a property that had been destroyed in the earthquake, you rebuilt or you figured out a way to move on. But there was a vast number of people who didn’t have any other resources.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>These were San Francisco’s poor, folks who had lived in boarding houses or shared rooms downtown before the fire. City leaders wanted to keep these laborers with the skills to rebuild the city close by. But they didn’t plan to give away the cottages for free.\u003c/p>\n\u003cp>\u003cstrong>Woody LaBounty: \u003c/strong>So for all of wanting to take care of the refugees, there was also a fear at the time of creeping socialism. People in power did not want to give anybody anything for nothing. So they thought it would create indigence. And so you were supposed to pay some sort of rent.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Here’s how it worked. Shack residents paid monthly rent of a few dollars while their shacks were in the parks. But the relief corporation returned that money when a resident bought some land and moved the shack out of the park and onto their own property.That generosity was spurred by pressure to move refugees and their cottages out of the parks as soon as possible.\u003c/p>\n\u003cp>\u003cstrong>Woody LaBounty: \u003c/strong>As other San Franciscans were ready to move on from the disaster, they didn’t like the idea that their parks had a community, a village of working-class people. Living in the middle of their park. They wanted their parks back.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>About a year and a half after the earthquake, in the summer of 1907, most of the shacks had been removed from the parks. Newspapers at the time described the surreal image of tiny homes on wagons moving across the city with people still in them.\u003c/p>\n\u003cp>\u003cem>\u003cstrong>Voice over reading archival newspaper excerpt:\u003c/strong> It is a strange sight to see a procession of these refugee cottages moving down fashionable Van Ness Avenue or busy Fillmore Street, faces peering from the windows, and men, women and children going about their household tasks as if their little home was securely perched upon a cement foundation and surrounded by a garden and a fence.\u003c/em>\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Back in 1907, the Richmond District, a northwestern neighborhood, was mostly undeveloped sand dunes, with lots of empty land. So many shack owners moved their cottages to vacant plots there.\u003c/p>\n\u003cp>Woody says the earthquake shack program not only got the city working again…\u003c/p>\n\u003cp>\u003cstrong>Woody LaBounty: \u003c/strong>\u003cspan style=\"text-decoration: line-through\">I\u003c/span>t also gave people who never would have dreamed, I think, of owning a home a chance to get into that American dream. So you get the earthquake cottage, you’re a refugee who has nothing, and now suddenly you buy a lot for 100 bucks in the sand dunes of the Richmond, you have pretty much a free house.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Bernal Heights is another place with many earthquake cottages…people just moved their shacks from Precita Park to open land up the hill.\u003c/p>\n\u003cp>And some of them are still there…like the house we toured at the beginning of this episode.\u003c/p>\n\u003cp>\u003cstrong>Woody LaBounty: \u003c/strong>The one sort of key touchstone that you can tell about a cottage is the roof line. It has a very shallow pitched roof, kind of like a pup tent, like a Boy Scout tent. And then that is like your first hint because a lot of small buildings you’ll see have very steep pitched or flat roofs.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Woody says many shack owners quickly made improvements to their new homes — painting, building fences, adding additional rooms.\u003c/p>\n\u003cp>\u003cstrong>Woody LaBounty: \u003c/strong>There was sort of a stigma of having an earthquake cottage for a few years because it sort of signified you were a refugee, you needed help, you were poor. So people often, they quickly tried to hide sort of the pedigree of their houses and cover them with shingles quickly.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>They wanted to hide that telling park bench green color. Most existing earthquake cottages are surrounded by modern additions. Or sometimes they’re a couple shacks placed together. That’s one reason it’s really hard to know how many still exist in San Francisco, they’re hidden. But Woody estimates between 30 and 50 earthquake cottages are dotted across the city.\u003c/p>\n\u003cp>\u003cstrong>Jane Cryan: \u003c/strong>The cottage in the front is made up of three and a half shacks, and then there’s a free-standing mid-size shack in the backyard.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>This is Jane Cryan. She rented one of these preserved earthquake shacks in the outer Sunset in the 1980s. Jane is best known as a “shacktivist”…fighting to preserve earthquake cottages from development. But if it weren’t for the Beat movement in the 1950s, she never would have moved here in the first place.\u003c/p>\n\u003cp> \u003c/p>\n\u003cp>\u003cstrong>Jane Cryan: \u003c/strong>The only reason I ended up in San Francisco is that Jack Kerouac, with whom I had correspondence from the time I was 16 years old told me that Milwaukee was no place for a poet. You should be in San Francisco.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>By day she was an executive assistant, but writing and jazz piano were her passions.\u003c/p>\n\u003cp>\u003cstrong>Jane Cryan: \u003c/strong>And I moved in and I played piano for about six weeks, day and night, and an elderly gentleman from across the street came over and shook his finger at me and he said, young lady, do you know that you’re living in a couple of relief houses pasted together?\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Her three room cottage was actually three earthquake shacks pasted together. This was 1982 and Jane had lived in San Francisco almost 20 years. But she’d never even heard of the 1906 earthquake and fire. Her neighbor’s passing comment sparked her curiosity. She spent nights and weekends obsessively going through old newspaper archives to learn as much as she could about the disaster and the earthquake cottages.\u003c/p>\n\u003cp>Meanwhile, her landlord made it known that he planned to sell her cottage…or worse demolish it and sell the lot.\u003c/p>\n\u003cp>\u003cstrong>Jane Cryan: \u003c/strong>Take down our history. So I had to do something.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Preserving these cottages — tangible pieces of such important history — became her life’s work. She took inspiration from one of the 1906 earthquake refugees she learned about in her research, a woman named Mary Kelly. Mary was an agitator, constantly questioning how the relief corporation dolled out aid and whether it was fair. She was such a pain to them they eventually evicted her from her cottage. But she refused to leave, famously saying:\u003c/p>\n\u003cp>\u003cem>\u003cstrong>Voice over portraying Mary Kelly:\u003c/strong> They can’t bluff me. I’ll stay with the house if they take it to the end of the earth.\u003c/em>\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>She rode in her cottage as men hauled it onto a wagon and trucked it away. She stayed inside as they dismantled the cottage board by board. Jane finds Mary’s tenacity — and willingness to stand up to power — endearing.\u003c/p>\n\u003cp>\u003cstrong>Jane Cryan: \u003c/strong>She was exactly the way I was. If I saw something, I said something. And if I saw something that was not right, I said something louder.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Jane started a nonprofit called The Society for the Preservation and Appreciation of San Francisco Refugee Shacks. She fought hard to get the planning commission to designate her little shack a historic landmark.\u003c/p>\n\u003cp>And she was successful!\u003c/p>\n\u003cp>\u003cstrong>Jane Cryan: \u003c/strong>Landmark number 171.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>But it was a bittersweet victory. The commission also said that Jane had to vacate the cottage in order to compensate the landlord for putting restrictions on his property. Jane bounced around from place to place after that, eventually moving back to Wisconsin, where she’s originally from.\u003c/p>\n\u003cp>\u003cstrong>Katrina in the tape: \u003c/strong>What do you miss most about San Francisco?\u003c/p>\n\u003cp>\u003cstrong>Jane Cryan: \u003c/strong>Oh, everything! Oh my god, San Francisco is the queen of the Golden West, for heaven’s sake!\u003c/p>\n\u003cp>\u003cem>Music\u003c/em>\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Historian Woody LaBounty says there are probably more earthquake cottages than we know. They’re hiding in people’s backyards, incorporated into bigger houses or used as sheds.\u003c/p>\n\u003cp>\u003cstrong>Woody LaBounty: \u003c/strong>They’re the last sort of most visible, tangible sign of one of the biggest things that ever happened to the city of San Francisco.\u003c/p>\n\u003cp>\u003cstrong>Katrina Schwartz: \u003c/strong>Increasingly these little cottages are being bought and torn down to make room for larger homes. But the ones that remain are a reminder of a refugee relief program that not only got people back on their feet, but made them homeowners. An example of San Franciscans coming together to repair and resurrect a beloved city.\u003c/p>\n\u003cp>\u003cstrong>Olivia Allen-Price:\u003c/strong> That was Bay Curious editor and producer Katrina Schwartz. Special thanks this week to \u003ca href=\"https://californiarevealed.org/\">California Revealed\u003c/a>, an online database of oral histories and other archival materials. They helped us find Kathleen Norris’ oral history.\u003c/p>\n\u003cp>Bay Curious is made in San Francisco at member-supported KQED. Right now your membership means more than ever, give at \u003ca href=\"http://kqed.org/donate\">KQED.org/donate\u003c/a>.\u003c/p>\n\u003cp>Our show is produced by Gabriela Glueck, Christopher Beale, Katrina Schwartz and me, Olivia Allen-Price.\u003c/p>\n\u003cp>Extra support from Maha Sanad, Katie Sprenger, Jen Chien, Ethan Toven-Lindsey and everyone on team KQED.\u003c/p>\n\u003cp>Have a wonderful week.\u003c/p>\n\u003cp>\u003c/p>\n\u003c/div>"
+}
+],
+"link": "/news/12068602/san-franciscos-historic-relief-cottages-built-after-the-1906-earthquake-are-hidden-in-plain-sight",
+"authors": [
+"234"
+],
+"programs": [
+"news_33523",
+"news_34552"
+],
+"series": [
+"news_17986"
+],
+"categories": [
+"news_6266",
+"news_28250",
+"news_8",
+"news_33520"
+],
+"tags": [
+"news_993",
+"news_3631",
+"news_18426",
+"news_18538",
+"news_160",
+"news_1775",
+"news_28426",
+"news_38"
+],
+"featImg": "news_12066192",
+"label": "source_news_12068602"
+},
+"news_12057419": {
+"type": "posts",
+"id": "news_12057419",
+"meta": {
+"index": "posts_1716263798",
+"site": "news",
+"id": "12057419",
+"score": null,
+"sort": [
+1758794427000
+]
+},
+"guestAuthors": [],
+"slug": "bears-coyotes-moutain-lions-oh-my-what-to-do-when-you-encounter-wildlife-in-the-bay-area",
+"title": "Bears, Coyotes, Mountain Lions, Oh My! What To Do When You Encounter Wildlife in the Bay Area",
+"publishDate": 1758794427,
+"format": "standard",
+"headTitle": "Bears, Coyotes, Mountain Lions, Oh My! What To Do When You Encounter Wildlife in the Bay Area | KQED",
+"labelTerm": {
+"term": 33523,
+"site": "news"
+},
+"content": "\u003cp>\u003ca href=\"#episode-transcript\">\u003ci>View the full episode transcript.\u003c/i>\u003c/a>\u003c/p>\n\u003cp>\u003cspan style=\"font-weight: 400;\">Living in the San Francisco Bay Area means great access to outdoor activities like hiking, camping and boating. But as we enjoy the beautiful weather and incredible natural beauty of our region and state, it’s likely we may encounter some wildlife. \u003ca href=\"https://www.kqed.org/news/12002429/california-camping-tahoe-yosemite-bears-safety-what-to-do-bear-spray\">If you’re camping in Tahoe and a bear enters your camp\u003c/a>, what should you do? Or \u003ca href=\"https://www.kqed.org/news/12052044/what-to-do-if-you-see-a-mountain-lion-while-hiking-in-the-bay-area\">maybe you’ve seen those signs warning of mountain lions in the area\u003c/a> – how worried should you be? Or, perhaps you’ve been strolling along the beach only to \u003ca href=\"https://www.kqed.org/news/12042615/animal-rescue-what-to-do-if-you-find-a-sick-or-lost-critter-in-the-bay-area\">encounter a stranded baby seal\u003c/a> — is it hurt? Does it need help? Who should you call? We’ve got answers for you.\u003c/span>\u003c/p>\n\u003cp>\u003cspan style=\"font-weight: 400;\">Encountering an animal in the wild can be an incredibly special and cool experience if you’re prepared for it. And while it may seem scary, it’s worth remembering that \u003ca href=\"https://www.kqed.org/forum/2010101907567/coexisting-with-californias-urban-coyotes\">we share these wild spaces with animals\u003c/a> who were here long before us. \u003ca href=\"https://www.kqed.org/news/category/guides-and-explainers\">Use these guides from KQED\u003c/a> to arm yourself with the knowledge to keep yourself and the animals safe.\u003c/span>\u003c/p>\n\u003cp>\u003ciframe loading=\"lazy\" src=\"https://playlist.megaphone.fm?e=KQINC9055402426&light=true\" width=\"100%\" height=\"200\" frameborder=\"0\" scrolling=\"no\">\u003c/iframe>\u003c/p>\n\u003cp>[baycuriousquestion]\u003c/p>\n\u003ch2 id=\"episode-transcript\">Episode Transcript\u003c/h2>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> I’m Katrina Schwartz, filling in for Olivia Allen-Price. You’re listening to Bay Curious.\u003c/span>\u003c/p>\n\u003cp>[ad fullwidth]\u003c/p>\n\u003cp>\u003cb>Nick Auger: \u003c/b>\u003cspan style=\"font-weight: 400;\">Okay, so I think I should start the story with noting that I have a very, what I would consider healthy fear of bears.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> This is Nick Auger, my husband. This story starts on a backpacking trip we went on in Lassen National Park several years ago.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Nick Auger: \u003c/b>\u003cspan style=\"font-weight: 400;\">We are on our last night and we’re camping on a peninsula next to a lake where unfortunately there are not a lot of tall trees for us to string our backpacks up into. \u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> At the time, Lassen didn’t require bear canisters, but recommended bear bagging. We tried, I swear…\u003c/span>\u003c/p>\n\u003cp>\u003cb>Nick Auger: \u003c/b>\u003cspan style=\"font-weight: 400;\">At about 4:30 in the morning, I hear the unmistakable sound of a large animal gnawing on something relatively nearby. And I unzip our tent and look outside, and where our bags were, there are no bags. And instead, I see on the ground a large bear rummaging through and clearly eating our food. \u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> I wake up to Nick shaking me and saying, there’s a bear out there eating our food. That’s when I remembered that I’d forgotten to take a Clif Bar out of my jacket pocket. What if the bear smelled it and came searching for us? Nick was…shall we say…not pleased with me.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Nick Auger: \u003c/b>\u003cspan style=\"font-weight: 400;\">So, I get out of the tent and I start just making as much noise as I can. And the bear is probably 100 feet away. And the bear does not respond to my noises. So I get the sleeping pad out from the tent and start shaking it above my head and continue to make loud noises at the bear, which they continue to ignore.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> Nick keeps getting closer to the bear — yelling and waving the pad above his head like a maniac. But that bear did not care.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Nick Auger:\u003c/b>\u003cspan style=\"font-weight: 400;\"> I get within about 25 feet of the bear and it finally acknowledges me. And we kind of just stare at each other and I just take one more hard lunge forward and the bear starts to scamper off.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> But then it kind of looks back at him, as if to say, “Is that all?”\u003c/span>\u003c/p>\n\u003cp>\u003cb>Nick Auger: \u003c/b>\u003cspan style=\"font-weight: 400;\">And I did not wanna deal with the bear anymore. So I continued to chase it down the peninsula until I was convinced that it had scurried away for good. And then returned to my bag and what was left of our food. Notably the only thing that the bear had left was the wasabi flavored trail mix from Berkeley Bowl that apparently was not to the bear’s liking. \u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz in tape:\u003c/b>\u003cspan style=\"font-weight: 400;\"> And notably, I did not get out of the tent.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Nick Auger: \u003c/b>\u003cspan style=\"font-weight: 400;\">No you did not. You were cheering me on from inside the tent.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> If you like to camp, or you’ve visited places like Yosemite or Tahoe, you too may have a harrowing bear story. They’re becoming more common, but they don’t have to end badly. Today on the show, we’re talking practical advice about what to do when you encounter wild animals like bears, mountain lions or even seals. Stay with us.\u003c/span>\u003c/p>\n\u003cp>\u003ci>\u003cspan style=\"font-weight: 400;\">Sponsor break\u003c/span>\u003c/i>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> Fall in the Bay Area is some of our best weather. The days are still long, the sun is out and in other parts of the state it’s not quite so hot, so it’s perfect for sneaking in some late season camping and hiking.\u003c/span>\u003c/p>\n\u003cp>\u003cspan style=\"font-weight: 400;\">Here to help us think through how to stay safe out there while we’re enjoying the outdoors are two folks from KQED’s Audience News desk Carly Severn and Sarah Wright. Welcome!\u003c/span>\u003c/p>\n\u003cp>\u003cb>Carly Severn:\u003c/b>\u003cspan style=\"font-weight: 400;\"> Hello, Katrina.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Sarah Wright:\u003c/b>\u003cspan style=\"font-weight: 400;\"> Hello.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> So good to have you both. Ok, so I know you both like to spend time in the outdoors…which means you’ve likely got a bear story. Give it to me.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Carly Severn:\u003c/b>\u003cspan style=\"font-weight: 400;\"> OK, I’m going to start. The short version? Last year, me and a pal went camping on Emerald Bay in Tahoe, not knowing this is basically the campground that you are guaranteed to see a bear in. Lo and behold we are woken up in the middle of the night by pots and pans banging from other campsites where people are yelling “bear, bear” and the sounds are getting closer and closer as this bear moves through the site towards us. The bear loudly stomps past our tents, and in the morning we get up to see that it has swiped the empty tupperware we’d left out off the picnic table, cracking the lid, and there are these huge footprints right near our tent. So, it was super scary, also kind of exciting, and it is basically my origin story for my quest for bear knowledge.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> Sarah, what about you?\u003c/span>\u003c/p>\n\u003cp>\u003cb>Sarah Wright:\u003c/b>\u003cspan style=\"font-weight: 400;\"> Growing up in Lake Tahoe, bears were kind of a constant concern, we talked about them a lot and saw them a lot. But the biggest deal was when a bear once broke into my high school and caused a lockdown. And one other time, when I was super new to driving as a teenager, a bear broke into my car. It was looking for a single candy bar wrapper I’d left in my car.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> Carly, your story is exactly the type of thing we want to help people avoid both because it’s scary… and it’s also not great for bears to be interacting with humans so much as well. Carly, I know bears are a particular obsession of yours. Why is it especially important to be on guard in the fall?\u003c/span>\u003c/p>\n\u003cp>\u003cb>Carly Severn:\u003c/b>\u003cspan style=\"font-weight: 400;\"> In a nutshell, fall is the greedy season for bears! They know they’re going into winter hibernation soon, so they become eating machines. They want to store up as many food reserves within their bodies as they can. The scientific term is “hyperphagia” … and if you’re familiar with Fat Bear Week in Katmai National Park in Alaska, that’s why that happens in the fall. That’s why the timing. In a place like Tahoe, where bear territory and human activity now overlap so much with tourism like camping there’s tons of food around for bears: in campsites, in dumpsters, it’s in your car. So not only are Tahoe bears extra bold and persistent, cuz they know the food is there, the winter tourism up there is unfortunately actually preventing a lot of bears from even entering hibernation. They know food is gonna be available all year round, why would they sleep? \u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> Does that mean that they are more dangerous?\u003c/span>\u003c/p>\n\u003cp>\u003cb>Carly Severn: \u003c/b>\u003cspan style=\"font-weight: 400;\">Except in rare cases, we are not talking about aggressive bears who’ll mow you down to get to your food. We’re talking California black bears. These are not grizzlies. They don’t want to hurt you, they actually don’t really care about you, they just want your snacks! It’s why some people refer to them as big possums.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> Hard to imagine, really, but OK! So, let’s say I see a bear in my campsite. What should I do?\u003c/span>\u003c/p>\n\u003cp>\u003cb>Carly Severn:\u003c/b>\u003cspan style=\"font-weight: 400;\"> Well, the idea is that by the time you see the bear, you’ve already done the responsible, smart camper thing of securing all your food away – actually anything that smells, even dish soap, toiletries, lip balm. This means you’re constantly storing that smelly stuff in the bear-proof box in your campsite: not in your car, because a bear will break into your vehicle and trash it just to find a single strawberry that you’ve left out. And don’t put it in “bear proof cooler” either, because as any park ranger will tell you, they don’t actually exist. And they’ve seen enough absolutely destroyed “bear proof coolers” in campgrounds to prove it! Don’t leave an empty cooler out in camp or in your car, either: bears can recognize them and they’ll still go after them. So they think there’s something in there, even though there’s not. And this surprised me, don’t leave beer cans out, or wine bottles, or one can of Lacroix: Nothing but plain water or ice. If you’re actively cooking, have everything neatly gathered so that if you see that bear kind of amble into your camp, you can calmly pick it all up and lock it in the bear box.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> I feel like that would be hard for me. I’m one of those campers whose stuff seems to just get everywhere. But what if I do everything right with my food and the bear still comes into my camp looking for it?\u003c/span>\u003c/p>\n\u003cp>\u003cb>Carly Severn:\u003c/b>\u003cspan style=\"font-weight: 400;\"> This might not be on you! Bears can have a super sharp memory of places where they’ve found food in the past, and will return to them just in case. So maybe the people who stayed in your campsite a month ago just sucked as campers, and left all their food out. They basically provided a buffet for this bear and he’s back for round two. Let’s say the bear comes, you’ve calmly put everything away: now you stand tall, or put your hands over your head to look tall if you’re short, like me. Don’t be aggressive but make a good amount of noise: Shout “Go bear, go!”, bang pots and pans together, set off your car’s alarm if it’s near to hand. And that bear will almost certainly wander away. \u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> What if, like me, you’ve gone to bed and you wake up to the sounds of a bear in your campsite, only to remember that you have a protein bar in your tent? What do you do?\u003c/span>\u003c/p>\n\u003cp>\u003cb>Carly Severn:\u003c/b>\u003cspan style=\"font-weight: 400;\"> We’ve all been there. Oh no, the Clif Bar! It’s in my jeans. My bette noir is lip balm, I always have it in my jeans. This is exactly the scenario where you definitely want to make loud noises immediately to scare the bear away – basically, make it too much hassle for the bear to pursue that Clif Bar! Get out of your tent, make that noise, walk straight to that bear box calmly but purposefully and chuck that Clif bar in there to lock it up. Don’t do what a lot of people might want to do, unzip the tent and throw the protein bar out! Then you’re just feeding the bear, and teaching him to come back the next night for seconds. And don’t freak if the bear is persistent and doesn’t leave immediately. Match his persistence and you will almost certainly win this one. They will almost certainly leave.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> Bottom line here is that the bear doesn’t want to hurt you…so if you keep your head and remember to stand your ground, you’ll both end up better off. Now, I want to turn to an animal encounter that’s potentially more common here locally…mountain lions. I have definitely seen those warning signs posted at hikes, especially in the South Bay. Sarah, how common are mountain lions in the Bay Area?\u003c/span>\u003c/p>\n\u003cp>\u003cb>Sarah Wright:\u003c/b>\u003cspan style=\"font-weight: 400;\"> So actually, 40% of California is considered suitable for mountain lion habitat, and the Bay Area is certainly included in that. I personally have never seen a mountain lion, but the wildlife cameras set up around the Bay Area by the Bay Area Puma Project tell a different story: They’re living all around us, they’re just really good at hiding. Experts say that there are a couple thousand moving around the state as a whole at any given time.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> Wow, that’s actually really cool. I think people’s fear around mountain lions come from these occasional news stories about kids or pets that were attacked by mountain lions. I know it would be super terrifying to think of your child being taken down by a mountain lion. What are some things people can do to prevent an encounter with a mountain lion?\u003c/span>\u003c/p>\n\u003cp>\u003cb>Sarah Wright:\u003c/b>\u003cspan style=\"font-weight: 400;\"> So there have only ever been 26 total verified mountain lion attacks on humans in California in the past four decades, so you’re right, it \u003c/span>\u003ci>\u003cspan style=\"font-weight: 400;\">is\u003c/span>\u003c/i>\u003cspan style=\"font-weight: 400;\"> extremely rare. But you may see them on hikes or in your own neighborhood. But you can avoid running into them on hikes and walks by avoiding the places and times they’re most active – like dawn and dusk and densely vegetated areas. You can also avoid hiking alone if you’d like. If you’re worried about them in your neighborhood, you can clear brush or install motion-detecting lights to alert you of their presence and help you avoid running into them. And don’t ever leave out food for animals, like if you’re feeding a stray cat, that will attract their predators and also mountain lions, which are predators. \u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> You’ll be getting a much bigger cat than you bargained for. Exactly. Ok, so let’s say I’m out hiking and I see a mountain lion. What should I do?\u003c/span>\u003c/p>\n\u003cp>\u003cb>Sarah Wright:\u003c/b>\u003cspan style=\"font-weight: 400;\"> Everyone I talked to for this story told me the same thing – mountain lions don’t want to interact with you. They’ll pretty much do whatever they can to avoid you. If you do run into one, get big, stand your ground and try to scare it away. You can even throw rocks at it. The big thing is don’t ever turn your back or run. And if you have a small child or dog, you might want to pick it up.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> And is the advice the same for coyotes? I know lots of people have seen coyotes in Golden Gate Park and on Bernal Hill as well as many other places throughout the Bay Area. Any tips for how to interact with these urban wild animals?\u003c/span>\u003c/p>\n\u003cp>\u003cb>Sarah Wright:\u003c/b>\u003cspan style=\"font-weight: 400;\"> I actually just saw a coyote last week when I was biking through the Presidio. It was calmly walking across the road. The thing to remember about coyotes is that they are native to our landscape here and they can actually live and thrive in very small areas and even keep populations of small predators in check, which, in turn, helps bird biodiversity. The biggest likelihood of an encounter with coyotes is when you’re with a dog. That’s because they’re both canines. So they might follow your dog or bare their teeth and growl, a behavior called escorting. Just like with mountain lions, leave the area calmly but don’t run – if the coyote advances, you can yell and get big. And leash your dog!\u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> I’ve run into some coyotes on Bernal Hill and I can tell you do not seem scared of people. Like, I’ve gotten really close accidentally just walking along trails and they were just chillin’ there, not moving.I was like OK, I guess I’ll just go the other way.\u003c/span>\u003c/p>\n\u003cp>\u003cspan style=\"font-weight: 400;\">OK, so we’ve covered some of the let’s say “scarier” animals people might encounter while out having a nice time in the Bay Area. But, I also wanted to ask you about what to do if you find a sick or stranded animal. One time I was staying at a house up in Sea Ranch and we found a sea lion pup on its own on the beach. Some of the people I was with were really worried about it and wanted to kind of guard it and protect it. But that’s not really the right thing to do is it?\u003c/span>\u003c/p>\n\u003cp>\u003cb>Sarah Wright:\u003c/b>\u003cspan style=\"font-weight: 400;\"> So your story is super common. A lot of people encounter wildlife on local beaches and don’t really know what action to take. I talked to a bunch of local wild rescue groups around the Bay Area and they said, first of all, you need to determin if that animal needs help or is just on the beach resting. If you’re not sure, look for the 5 Cs – cold, crying, coming toward you, covered in bugs or blood, or caught by a cat or dog. And any of those things can indicate that an animal needs help. You can stick around to make sure no one else disturbs the animal, you can do that, but remember to give them space – the Marine Mammal Center recommends 150 feet, and don’t block its escape path toward water, for example. You can take a photo of it to show to dispatchers or write down its behavior.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> What happens to the animal after you call a dispatcher?\u003c/span>\u003c/p>\n\u003cp>\u003cb>Sarah Wright:\u003c/b>\u003cspan style=\"font-weight: 400;\"> In the short term, they may be brought to a local animal hospital for rehab, and hopefully, it will be released into the wild. Places like Wildcare and the Marine Mammal Center will even provide updates to you on the animal you rescued if you give them a call. And you may be allowed to attend its release. But remember: The sad reality is that not every animal will survive, but your effort to call in experts to help is important not only to the animal but it adds to the ongoing research those groups are doing on our local wildlife and ecology.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> This has been super informative. Any last things about how we interact with wildlife here that either of you want to add about how we interact with wildlife?\u003c/span>\u003c/p>\n\u003cp>\u003cb>Carly Severn:\u003c/b>\u003cspan style=\"font-weight: 400;\"> I think it can actually be really cool and transformative to see an animal, even if it can be scary in the moment. And we’re sharing this space and in a lot of instances, we’re guests on this space. So, act right and that will keep you safe and the animal safe as well. \u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> What about you, Sarah?\u003c/span>\u003c/p>\n\u003cp>\u003cb>Sarah Wright:\u003c/b>\u003cspan style=\"font-weight: 400;\"> I agree – we’re so lucky to live in a place with so much wildlife – most of which is not dangerous at all. To safely respect animals and their habitats, follow posted signs – if a trail is closed, it’s probably for a good reason – like there may be vulnerable baby seals or a defensive mother coyote nearby. \u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> Carly Severn and Sarah Wright, thank you so much for sharing all of this great stuff you’ve learned with us. I feel a lot more confident about what I should do in these situations now. So, thank you.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Carly Severn:\u003c/b>\u003cspan style=\"font-weight: 400;\"> Thanks for having us.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Sarah Wright:\u003c/b>\u003cspan style=\"font-weight: 400;\"> Thank you.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz: \u003c/b>\u003cspan style=\"font-weight: 400;\">Carly and Sarah have written some super helpful guides to all this stuff, which you can find by going to KQED dot org slash explainers. We will also put links to these resources in our show notes. And, I’ll just say, the audience desk where Carly and Sarah work is always looking to provide research and tips that are actually useful to people. So, if you have a topic that you’ve been needing some clear eyed advice on, be sure to let them know by filling out the form at the bottom of any of these stories about the outdoors.\u003c/span>\u003c/p>\n\u003cp>\u003cspan style=\"font-weight: 400;\">Bay Curious is made in San Francisco at member-supported KQED.\u003c/span>\u003c/p>\n\u003cp>\u003cspan style=\"font-weight: 400;\">Our show is produced by Gabriela Glueck, Christopher Beale and me, Katrina Schwartz.\u003c/span>\u003c/p>\n\u003cp>[ad floatright]\u003c/p>\n\u003cp>\u003cspan style=\"font-weight: 400;\">With extra support from Maha Sanad, Katie Sprenger, Jen Chien, Ethan Toven-Lindsey and everyone on team KQED.\u003c/span>\u003c/p>\n\n",
+"blocks": [],
+"excerpt": "Whether camping in Tahoe, hiking in the Santa Cruz mountains or the East Bay hills, or strolling our region's beaches, it's common to encounter wild animals. KQED's audience desk reporters share tips for how to handle those situations.",
+"status": "publish",
+"parent": 0,
+"modified": 1758827159,
+"stats": {
+"hasAudio": true,
+"hasVideo": false,
+"hasChartOrMap": false,
+"iframeSrcs": [],
+"hasGoogleForm": false,
+"hasGallery": false,
+"hasHearkenModule": true,
+"hasPolis": false,
+"paragraphCount": 65,
+"wordCount": 3630
+},
+"headData": {
+"title": "Bears, Coyotes, Mountain Lions, Oh My! What To Do When You Encounter Wildlife in the Bay Area | KQED",
+"description": "Whether camping in Tahoe, hiking in the Santa Cruz mountains or the East Bay hills, or strolling our region's beaches, it's common to encounter wild animals. KQED's audience desk reporters share tips for how to handle those situations.",
+"ogTitle": "",
+"ogDescription": "",
+"ogImgId": "",
+"twTitle": "",
+"twDescription": "",
+"twImgId": "",
+"schema": {
+"@context": "https://schema.org",
+"@type": "NewsArticle",
+"headline": "Bears, Coyotes, Mountain Lions, Oh My! What To Do When You Encounter Wildlife in the Bay Area",
+"datePublished": "2025-09-25T03:00:27-07:00",
+"dateModified": "2025-09-25T12:05:59-07:00",
+"image": "https://cdn.kqed.org/wp-content/uploads/2020/02/KQED-OG-Image@1x.png",
+"isAccessibleForFree": "True",
+"publisher": {
+"@type": "NewsMediaOrganization",
+"@id": "https://www.kqed.org/#organization",
+"name": "KQED",
+"logo": "https://cdn.kqed.org/wp-content/uploads/2020/02/KQED-OG-Image@1x.png",
+"url": "https://www.kqed.org",
+"sameAs": [
+"https://www.facebook.com/KQED",
+"https://twitter.com/KQED",
+"https://www.instagram.com/kqed/",
+"https://www.tiktok.com/@kqedofficial",
+"https://www.linkedin.com/company/kqed",
+"https://www.youtube.com/channel/UCeC0IOo7i1P_61zVUWbJ4nw"
+]
+}
+}
+},
+"primaryCategory": {
+"termId": 34168,
+"slug": "guides-and-explainers",
+"name": "Guides and Explainers"
+},
+"audioUrl": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/G6C7C3/traffic.megaphone.fm/KQINC9055402426.mp3?updated=1758736042",
+"sticky": false,
+"nprStoryId": "kqed-12057419",
+"templateType": "standard",
+"featuredImageType": "standard",
+"excludeFromSiteSearch": "Include",
+"articleAge": "0",
+"path": "/news/12057419/bears-coyotes-moutain-lions-oh-my-what-to-do-when-you-encounter-wildlife-in-the-bay-area",
+"audioTrackLength": null,
+"parsedContent": [
+{
+"type": "contentString",
+"content": "\u003cdiv class=\"post-body\">\u003cp>\u003cp>\u003ca href=\"#episode-transcript\">\u003ci>View the full episode transcript.\u003c/i>\u003c/a>\u003c/p>\n\u003cp>\u003cspan style=\"font-weight: 400;\">Living in the San Francisco Bay Area means great access to outdoor activities like hiking, camping and boating. But as we enjoy the beautiful weather and incredible natural beauty of our region and state, it’s likely we may encounter some wildlife. \u003ca href=\"https://www.kqed.org/news/12002429/california-camping-tahoe-yosemite-bears-safety-what-to-do-bear-spray\">If you’re camping in Tahoe and a bear enters your camp\u003c/a>, what should you do? Or \u003ca href=\"https://www.kqed.org/news/12052044/what-to-do-if-you-see-a-mountain-lion-while-hiking-in-the-bay-area\">maybe you’ve seen those signs warning of mountain lions in the area\u003c/a> – how worried should you be? Or, perhaps you’ve been strolling along the beach only to \u003ca href=\"https://www.kqed.org/news/12042615/animal-rescue-what-to-do-if-you-find-a-sick-or-lost-critter-in-the-bay-area\">encounter a stranded baby seal\u003c/a> — is it hurt? Does it need help? Who should you call? We’ve got answers for you.\u003c/span>\u003c/p>\n\u003cp>\u003cspan style=\"font-weight: 400;\">Encountering an animal in the wild can be an incredibly special and cool experience if you’re prepared for it. And while it may seem scary, it’s worth remembering that \u003ca href=\"https://www.kqed.org/forum/2010101907567/coexisting-with-californias-urban-coyotes\">we share these wild spaces with animals\u003c/a> who were here long before us. \u003ca href=\"https://www.kqed.org/news/category/guides-and-explainers\">Use these guides from KQED\u003c/a> to arm yourself with the knowledge to keep yourself and the animals safe.\u003c/span>\u003c/p>\n\u003cp>\u003ciframe loading=\"lazy\" src=\"https://playlist.megaphone.fm?e=KQINC9055402426&light=true\" width=\"100%\" height=\"200\" frameborder=\"0\" scrolling=\"no\">\u003c/iframe>\u003c/p>\n\u003cp>\u003c/p>\u003c/div>",
+"attributes": {
+"named": {},
+"numeric": []
+}
+},
+{
+"type": "component",
+"content": "",
+"name": "baycuriousquestion",
+"attributes": {
+"named": {
+"label": ""
+},
+"numeric": []
+}
+},
+{
+"type": "contentString",
+"content": "\u003cdiv class=\"post-body\">\u003c/div>",
+"attributes": {
+"named": {},
+"numeric": []
+}
+},
+{
+"type": "contentString",
+"content": "\u003cdiv class=\"post-content post-body\">\u003ch2 id=\"episode-transcript\">Episode Transcript\u003c/h2>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> I’m Katrina Schwartz, filling in for Olivia Allen-Price. You’re listening to Bay Curious.\u003c/span>\u003c/p>\n\u003cp>\u003c/p>\n\u003cp>\u003cb>Nick Auger: \u003c/b>\u003cspan style=\"font-weight: 400;\">Okay, so I think I should start the story with noting that I have a very, what I would consider healthy fear of bears.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> This is Nick Auger, my husband. This story starts on a backpacking trip we went on in Lassen National Park several years ago.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Nick Auger: \u003c/b>\u003cspan style=\"font-weight: 400;\">We are on our last night and we’re camping on a peninsula next to a lake where unfortunately there are not a lot of tall trees for us to string our backpacks up into. \u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> At the time, Lassen didn’t require bear canisters, but recommended bear bagging. We tried, I swear…\u003c/span>\u003c/p>\n\u003cp>\u003cb>Nick Auger: \u003c/b>\u003cspan style=\"font-weight: 400;\">At about 4:30 in the morning, I hear the unmistakable sound of a large animal gnawing on something relatively nearby. And I unzip our tent and look outside, and where our bags were, there are no bags. And instead, I see on the ground a large bear rummaging through and clearly eating our food. \u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> I wake up to Nick shaking me and saying, there’s a bear out there eating our food. That’s when I remembered that I’d forgotten to take a Clif Bar out of my jacket pocket. What if the bear smelled it and came searching for us? Nick was…shall we say…not pleased with me.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Nick Auger: \u003c/b>\u003cspan style=\"font-weight: 400;\">So, I get out of the tent and I start just making as much noise as I can. And the bear is probably 100 feet away. And the bear does not respond to my noises. So I get the sleeping pad out from the tent and start shaking it above my head and continue to make loud noises at the bear, which they continue to ignore.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> Nick keeps getting closer to the bear — yelling and waving the pad above his head like a maniac. But that bear did not care.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Nick Auger:\u003c/b>\u003cspan style=\"font-weight: 400;\"> I get within about 25 feet of the bear and it finally acknowledges me. And we kind of just stare at each other and I just take one more hard lunge forward and the bear starts to scamper off.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> But then it kind of looks back at him, as if to say, “Is that all?”\u003c/span>\u003c/p>\n\u003cp>\u003cb>Nick Auger: \u003c/b>\u003cspan style=\"font-weight: 400;\">And I did not wanna deal with the bear anymore. So I continued to chase it down the peninsula until I was convinced that it had scurried away for good. And then returned to my bag and what was left of our food. Notably the only thing that the bear had left was the wasabi flavored trail mix from Berkeley Bowl that apparently was not to the bear’s liking. \u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz in tape:\u003c/b>\u003cspan style=\"font-weight: 400;\"> And notably, I did not get out of the tent.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Nick Auger: \u003c/b>\u003cspan style=\"font-weight: 400;\">No you did not. You were cheering me on from inside the tent.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> If you like to camp, or you’ve visited places like Yosemite or Tahoe, you too may have a harrowing bear story. They’re becoming more common, but they don’t have to end badly. Today on the show, we’re talking practical advice about what to do when you encounter wild animals like bears, mountain lions or even seals. Stay with us.\u003c/span>\u003c/p>\n\u003cp>\u003ci>\u003cspan style=\"font-weight: 400;\">Sponsor break\u003c/span>\u003c/i>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> Fall in the Bay Area is some of our best weather. The days are still long, the sun is out and in other parts of the state it’s not quite so hot, so it’s perfect for sneaking in some late season camping and hiking.\u003c/span>\u003c/p>\n\u003cp>\u003cspan style=\"font-weight: 400;\">Here to help us think through how to stay safe out there while we’re enjoying the outdoors are two folks from KQED’s Audience News desk Carly Severn and Sarah Wright. Welcome!\u003c/span>\u003c/p>\n\u003cp>\u003cb>Carly Severn:\u003c/b>\u003cspan style=\"font-weight: 400;\"> Hello, Katrina.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Sarah Wright:\u003c/b>\u003cspan style=\"font-weight: 400;\"> Hello.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> So good to have you both. Ok, so I know you both like to spend time in the outdoors…which means you’ve likely got a bear story. Give it to me.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Carly Severn:\u003c/b>\u003cspan style=\"font-weight: 400;\"> OK, I’m going to start. The short version? Last year, me and a pal went camping on Emerald Bay in Tahoe, not knowing this is basically the campground that you are guaranteed to see a bear in. Lo and behold we are woken up in the middle of the night by pots and pans banging from other campsites where people are yelling “bear, bear” and the sounds are getting closer and closer as this bear moves through the site towards us. The bear loudly stomps past our tents, and in the morning we get up to see that it has swiped the empty tupperware we’d left out off the picnic table, cracking the lid, and there are these huge footprints right near our tent. So, it was super scary, also kind of exciting, and it is basically my origin story for my quest for bear knowledge.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> Sarah, what about you?\u003c/span>\u003c/p>\n\u003cp>\u003cb>Sarah Wright:\u003c/b>\u003cspan style=\"font-weight: 400;\"> Growing up in Lake Tahoe, bears were kind of a constant concern, we talked about them a lot and saw them a lot. But the biggest deal was when a bear once broke into my high school and caused a lockdown. And one other time, when I was super new to driving as a teenager, a bear broke into my car. It was looking for a single candy bar wrapper I’d left in my car.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> Carly, your story is exactly the type of thing we want to help people avoid both because it’s scary… and it’s also not great for bears to be interacting with humans so much as well. Carly, I know bears are a particular obsession of yours. Why is it especially important to be on guard in the fall?\u003c/span>\u003c/p>\n\u003cp>\u003cb>Carly Severn:\u003c/b>\u003cspan style=\"font-weight: 400;\"> In a nutshell, fall is the greedy season for bears! They know they’re going into winter hibernation soon, so they become eating machines. They want to store up as many food reserves within their bodies as they can. The scientific term is “hyperphagia” … and if you’re familiar with Fat Bear Week in Katmai National Park in Alaska, that’s why that happens in the fall. That’s why the timing. In a place like Tahoe, where bear territory and human activity now overlap so much with tourism like camping there’s tons of food around for bears: in campsites, in dumpsters, it’s in your car. So not only are Tahoe bears extra bold and persistent, cuz they know the food is there, the winter tourism up there is unfortunately actually preventing a lot of bears from even entering hibernation. They know food is gonna be available all year round, why would they sleep? \u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> Does that mean that they are more dangerous?\u003c/span>\u003c/p>\n\u003cp>\u003cb>Carly Severn: \u003c/b>\u003cspan style=\"font-weight: 400;\">Except in rare cases, we are not talking about aggressive bears who’ll mow you down to get to your food. We’re talking California black bears. These are not grizzlies. They don’t want to hurt you, they actually don’t really care about you, they just want your snacks! It’s why some people refer to them as big possums.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> Hard to imagine, really, but OK! So, let’s say I see a bear in my campsite. What should I do?\u003c/span>\u003c/p>\n\u003cp>\u003cb>Carly Severn:\u003c/b>\u003cspan style=\"font-weight: 400;\"> Well, the idea is that by the time you see the bear, you’ve already done the responsible, smart camper thing of securing all your food away – actually anything that smells, even dish soap, toiletries, lip balm. This means you’re constantly storing that smelly stuff in the bear-proof box in your campsite: not in your car, because a bear will break into your vehicle and trash it just to find a single strawberry that you’ve left out. And don’t put it in “bear proof cooler” either, because as any park ranger will tell you, they don’t actually exist. And they’ve seen enough absolutely destroyed “bear proof coolers” in campgrounds to prove it! Don’t leave an empty cooler out in camp or in your car, either: bears can recognize them and they’ll still go after them. So they think there’s something in there, even though there’s not. And this surprised me, don’t leave beer cans out, or wine bottles, or one can of Lacroix: Nothing but plain water or ice. If you’re actively cooking, have everything neatly gathered so that if you see that bear kind of amble into your camp, you can calmly pick it all up and lock it in the bear box.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> I feel like that would be hard for me. I’m one of those campers whose stuff seems to just get everywhere. But what if I do everything right with my food and the bear still comes into my camp looking for it?\u003c/span>\u003c/p>\n\u003cp>\u003cb>Carly Severn:\u003c/b>\u003cspan style=\"font-weight: 400;\"> This might not be on you! Bears can have a super sharp memory of places where they’ve found food in the past, and will return to them just in case. So maybe the people who stayed in your campsite a month ago just sucked as campers, and left all their food out. They basically provided a buffet for this bear and he’s back for round two. Let’s say the bear comes, you’ve calmly put everything away: now you stand tall, or put your hands over your head to look tall if you’re short, like me. Don’t be aggressive but make a good amount of noise: Shout “Go bear, go!”, bang pots and pans together, set off your car’s alarm if it’s near to hand. And that bear will almost certainly wander away. \u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> What if, like me, you’ve gone to bed and you wake up to the sounds of a bear in your campsite, only to remember that you have a protein bar in your tent? What do you do?\u003c/span>\u003c/p>\n\u003cp>\u003cb>Carly Severn:\u003c/b>\u003cspan style=\"font-weight: 400;\"> We’ve all been there. Oh no, the Clif Bar! It’s in my jeans. My bette noir is lip balm, I always have it in my jeans. This is exactly the scenario where you definitely want to make loud noises immediately to scare the bear away – basically, make it too much hassle for the bear to pursue that Clif Bar! Get out of your tent, make that noise, walk straight to that bear box calmly but purposefully and chuck that Clif bar in there to lock it up. Don’t do what a lot of people might want to do, unzip the tent and throw the protein bar out! Then you’re just feeding the bear, and teaching him to come back the next night for seconds. And don’t freak if the bear is persistent and doesn’t leave immediately. Match his persistence and you will almost certainly win this one. They will almost certainly leave.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> Bottom line here is that the bear doesn’t want to hurt you…so if you keep your head and remember to stand your ground, you’ll both end up better off. Now, I want to turn to an animal encounter that’s potentially more common here locally…mountain lions. I have definitely seen those warning signs posted at hikes, especially in the South Bay. Sarah, how common are mountain lions in the Bay Area?\u003c/span>\u003c/p>\n\u003cp>\u003cb>Sarah Wright:\u003c/b>\u003cspan style=\"font-weight: 400;\"> So actually, 40% of California is considered suitable for mountain lion habitat, and the Bay Area is certainly included in that. I personally have never seen a mountain lion, but the wildlife cameras set up around the Bay Area by the Bay Area Puma Project tell a different story: They’re living all around us, they’re just really good at hiding. Experts say that there are a couple thousand moving around the state as a whole at any given time.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> Wow, that’s actually really cool. I think people’s fear around mountain lions come from these occasional news stories about kids or pets that were attacked by mountain lions. I know it would be super terrifying to think of your child being taken down by a mountain lion. What are some things people can do to prevent an encounter with a mountain lion?\u003c/span>\u003c/p>\n\u003cp>\u003cb>Sarah Wright:\u003c/b>\u003cspan style=\"font-weight: 400;\"> So there have only ever been 26 total verified mountain lion attacks on humans in California in the past four decades, so you’re right, it \u003c/span>\u003ci>\u003cspan style=\"font-weight: 400;\">is\u003c/span>\u003c/i>\u003cspan style=\"font-weight: 400;\"> extremely rare. But you may see them on hikes or in your own neighborhood. But you can avoid running into them on hikes and walks by avoiding the places and times they’re most active – like dawn and dusk and densely vegetated areas. You can also avoid hiking alone if you’d like. If you’re worried about them in your neighborhood, you can clear brush or install motion-detecting lights to alert you of their presence and help you avoid running into them. And don’t ever leave out food for animals, like if you’re feeding a stray cat, that will attract their predators and also mountain lions, which are predators. \u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> You’ll be getting a much bigger cat than you bargained for. Exactly. Ok, so let’s say I’m out hiking and I see a mountain lion. What should I do?\u003c/span>\u003c/p>\n\u003cp>\u003cb>Sarah Wright:\u003c/b>\u003cspan style=\"font-weight: 400;\"> Everyone I talked to for this story told me the same thing – mountain lions don’t want to interact with you. They’ll pretty much do whatever they can to avoid you. If you do run into one, get big, stand your ground and try to scare it away. You can even throw rocks at it. The big thing is don’t ever turn your back or run. And if you have a small child or dog, you might want to pick it up.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> And is the advice the same for coyotes? I know lots of people have seen coyotes in Golden Gate Park and on Bernal Hill as well as many other places throughout the Bay Area. Any tips for how to interact with these urban wild animals?\u003c/span>\u003c/p>\n\u003cp>\u003cb>Sarah Wright:\u003c/b>\u003cspan style=\"font-weight: 400;\"> I actually just saw a coyote last week when I was biking through the Presidio. It was calmly walking across the road. The thing to remember about coyotes is that they are native to our landscape here and they can actually live and thrive in very small areas and even keep populations of small predators in check, which, in turn, helps bird biodiversity. The biggest likelihood of an encounter with coyotes is when you’re with a dog. That’s because they’re both canines. So they might follow your dog or bare their teeth and growl, a behavior called escorting. Just like with mountain lions, leave the area calmly but don’t run – if the coyote advances, you can yell and get big. And leash your dog!\u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> I’ve run into some coyotes on Bernal Hill and I can tell you do not seem scared of people. Like, I’ve gotten really close accidentally just walking along trails and they were just chillin’ there, not moving.I was like OK, I guess I’ll just go the other way.\u003c/span>\u003c/p>\n\u003cp>\u003cspan style=\"font-weight: 400;\">OK, so we’ve covered some of the let’s say “scarier” animals people might encounter while out having a nice time in the Bay Area. But, I also wanted to ask you about what to do if you find a sick or stranded animal. One time I was staying at a house up in Sea Ranch and we found a sea lion pup on its own on the beach. Some of the people I was with were really worried about it and wanted to kind of guard it and protect it. But that’s not really the right thing to do is it?\u003c/span>\u003c/p>\n\u003cp>\u003cb>Sarah Wright:\u003c/b>\u003cspan style=\"font-weight: 400;\"> So your story is super common. A lot of people encounter wildlife on local beaches and don’t really know what action to take. I talked to a bunch of local wild rescue groups around the Bay Area and they said, first of all, you need to determin if that animal needs help or is just on the beach resting. If you’re not sure, look for the 5 Cs – cold, crying, coming toward you, covered in bugs or blood, or caught by a cat or dog. And any of those things can indicate that an animal needs help. You can stick around to make sure no one else disturbs the animal, you can do that, but remember to give them space – the Marine Mammal Center recommends 150 feet, and don’t block its escape path toward water, for example. You can take a photo of it to show to dispatchers or write down its behavior.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> What happens to the animal after you call a dispatcher?\u003c/span>\u003c/p>\n\u003cp>\u003cb>Sarah Wright:\u003c/b>\u003cspan style=\"font-weight: 400;\"> In the short term, they may be brought to a local animal hospital for rehab, and hopefully, it will be released into the wild. Places like Wildcare and the Marine Mammal Center will even provide updates to you on the animal you rescued if you give them a call. And you may be allowed to attend its release. But remember: The sad reality is that not every animal will survive, but your effort to call in experts to help is important not only to the animal but it adds to the ongoing research those groups are doing on our local wildlife and ecology.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> This has been super informative. Any last things about how we interact with wildlife here that either of you want to add about how we interact with wildlife?\u003c/span>\u003c/p>\n\u003cp>\u003cb>Carly Severn:\u003c/b>\u003cspan style=\"font-weight: 400;\"> I think it can actually be really cool and transformative to see an animal, even if it can be scary in the moment. And we’re sharing this space and in a lot of instances, we’re guests on this space. So, act right and that will keep you safe and the animal safe as well. \u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> What about you, Sarah?\u003c/span>\u003c/p>\n\u003cp>\u003cb>Sarah Wright:\u003c/b>\u003cspan style=\"font-weight: 400;\"> I agree – we’re so lucky to live in a place with so much wildlife – most of which is not dangerous at all. To safely respect animals and their habitats, follow posted signs – if a trail is closed, it’s probably for a good reason – like there may be vulnerable baby seals or a defensive mother coyote nearby. \u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz:\u003c/b>\u003cspan style=\"font-weight: 400;\"> Carly Severn and Sarah Wright, thank you so much for sharing all of this great stuff you’ve learned with us. I feel a lot more confident about what I should do in these situations now. So, thank you.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Carly Severn:\u003c/b>\u003cspan style=\"font-weight: 400;\"> Thanks for having us.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Sarah Wright:\u003c/b>\u003cspan style=\"font-weight: 400;\"> Thank you.\u003c/span>\u003c/p>\n\u003cp>\u003cb>Katrina Schwartz: \u003c/b>\u003cspan style=\"font-weight: 400;\">Carly and Sarah have written some super helpful guides to all this stuff, which you can find by going to KQED dot org slash explainers. We will also put links to these resources in our show notes. And, I’ll just say, the audience desk where Carly and Sarah work is always looking to provide research and tips that are actually useful to people. So, if you have a topic that you’ve been needing some clear eyed advice on, be sure to let them know by filling out the form at the bottom of any of these stories about the outdoors.\u003c/span>\u003c/p>\n\u003cp>\u003cspan style=\"font-weight: 400;\">Bay Curious is made in San Francisco at member-supported KQED.\u003c/span>\u003c/p>\n\u003cp>\u003cspan style=\"font-weight: 400;\">Our show is produced by Gabriela Glueck, Christopher Beale and me, Katrina Schwartz.\u003c/span>\u003c/p>\n\u003cp>\u003c/p>\n\u003cp>\u003cspan style=\"font-weight: 400;\">With extra support from Maha Sanad, Katie Sprenger, Jen Chien, Ethan Toven-Lindsey and everyone on team KQED.\u003c/span>\u003c/p>\n\n\u003c/div>"
+}
+],
+"link": "/news/12057419/bears-coyotes-moutain-lions-oh-my-what-to-do-when-you-encounter-wildlife-in-the-bay-area",
+"authors": [
+"234"
+],
+"programs": [
+"news_33523"
+],
+"series": [
+"news_17986"
+],
+"categories": [
+"news_34168",
+"news_8"
+],
+"featImg": "news_12054109",
+"label": "news_33523"
 }
 },
 "podcastsReducer": {
@@ -3970,17 +4704,18 @@ window.__INITIAL_STATE__={
 "isFetching": false,
 "latestQuery": {
 "from": 0,
-"size": 9
+"size": 12
 },
 "vitalsOnly": false,
-"totalRequested": 9,
+"totalRequested": 12,
 "isLoading": false,
 "isLoadingMore": true,
 "total": {
-"value": 826,
+"value": 827,
 "relation": "eq"
 },
 "items": [
+"news_12089929",
 "news_12086178",
 "news_11983182",
 "news_12079532",
@@ -3989,7 +4724,9 @@ window.__INITIAL_STATE__={
 "news_12076077",
 "news_12074947",
 "news_12072433",
-"news_12072333"
+"news_12072333",
+"news_12068602",
+"news_12057419"
 ],
 "complete": true
 }
@@ -4395,6 +5132,16 @@ window.__INITIAL_STATE__={
 "link": "/guiaelectoral",
 "taxonomy": "site"
 },
+"source_news_12089929": {
+"type": "terms",
+"id": "source_news_12089929",
+"meta": {
+"override": true
+},
+"name": "Bay Curious",
+"link": "https://www.kqed.org/podcasts/baycurious",
+"isLoading": false
+},
 "source_news_12086178": {
 "type": "terms",
 "id": "source_news_12086178",
@@ -4485,6 +5232,16 @@ window.__INITIAL_STATE__={
 "link": "https://www.kqed.org/podcasts/baycurious",
 "isLoading": false
 },
+"source_news_12068602": {
+"type": "terms",
+"id": "source_news_12068602",
+"meta": {
+"override": true
+},
+"name": "Bay Curious",
+"link": "https://www.kqed.org/podcasts/baycurious",
+"isLoading": false
+},
 "news_33523": {
 "type": "terms",
 "id": "news_33523",
@@ -4513,64 +5270,6 @@ window.__INITIAL_STATE__={
 "slug": "bay-curious",
 "isLoading": false,
 "link": "/news/program/bay-curious"
-},
-"news_17986": {
-"type": "terms",
-"id": "news_17986",
-"meta": {
-"index": "terms_1716263798",
-"site": "news",
-"id": "17986",
-"found": true
-},
-"relationships": {},
-"featImg": "https://ww2.kqed.org/app/uploads/sites/10/2016/11/BayCuriousLogoFinal01-e1493662037229.png",
-"name": "Bay Curious",
-"description": "\u003ch2>A podcast exploring the Bay Area one question at a time\u003c/h2>\r\n\r\n\u003caside>\r\n\u003cdiv style=\"width: 100%; padding-right: 20px;\">\r\n\r\nKQED’s \u003cstrong>Bay Curious\u003c/strong> gets to the bottom of the mysteries — both profound and peculiar — that give the Bay Area its unique identity. And we’ll do it with your help! You ask the questions. You decide what Bay Curious investigates. And you join us on the journey to find the answers.\r\n\u003cbr />\r\n\u003cspan class=\"alignleft\">\u003ca href=\"https://itunes.apple.com/us/podcast/id1172473406\">\u003cimg width=\"75px\" src=\"https://ww2.kqed.org/news/wp-content/uploads/sites/10/2016/11/DownloadOniTunes_100x100.png\">\u003c/a> \u003ca href=\"https://goo.gl/app/playmusic?ibi=com.google.PlayMusic&isi=691797987&ius=googleplaymusic&link=https://play.google.com/music/m/Ipi2mc5aqfen4nr2daayiziiyuy?t%3DBay_Curious\">\u003cimg width=\"75px\" src=\"https://ww2.kqed.org/news/wp-content/uploads/sites/10/2016/11/Google_Play_100x100.png\">\u003c/a>\u003c/span>\u003c/div>\r\n\u003c/aside> \r\n\u003ch2>What's your question?\u003c/h2>\r\n\u003cdiv id=\"huxq6\" class=\"curiosity-module\" data-pym-src=\"//modules.wearehearken.com/kqed/curiosity_modules/133\">\u003c/div>\r\n\u003cscript src=\"//assets.wearehearken.com/production/thirdparty/p.m.js\">\u003c/script>\r\n\u003ch2>Bay Curious monthly newsletter\u003c/h2>\r\nWe're launching it soon! \u003ca href=\"https://docs.google.com/forms/d/e/1FAIpQLSdEtzbyNbSQkRHCCAkKhoGiAl3Bd0zWxhk0ZseJ1KH_o_ZDjQ/viewform\" target=\"_blank\">Sign up\u003c/a> so you don't miss it when it drops.\r\n",
-"taxonomy": "series",
-"headData": {
-"twImgId": null,
-"twTitle": null,
-"ogTitle": null,
-"ogImgId": null,
-"twDescription": null,
-"description": "A podcast exploring the Bay Area one question at a time KQED’s Bay Curious gets to the bottom of the mysteries — both profound and peculiar — that give the Bay Area its unique identity. And we’ll do it with your help! You ask the questions. You decide what Bay Curious investigates. And you join us on the journey to find the answers. What's your question? Bay Curious monthly newsletter We're launching it soon! Sign up so you don't miss it when it drops.",
-"title": "Bay Curious Archives | KQED News",
-"ogDescription": null
-},
-"ttid": 18020,
-"slug": "baycurious",
-"isLoading": false,
-"link": "/news/series/baycurious"
-},
-"news_8": {
-"type": "terms",
-"id": "news_8",
-"meta": {
-"index": "terms_1716263798",
-"site": "news",
-"id": "8",
-"found": true
-},
-"relationships": {},
-"featImg": null,
-"name": "News",
-"description": null,
-"taxonomy": "category",
-"headData": {
-"twImgId": null,
-"twTitle": null,
-"ogTitle": null,
-"ogImgId": null,
-"twDescription": null,
-"description": null,
-"title": "News Archives | KQED News",
-"ogDescription": null
-},
-"ttid": 8,
-"slug": "news",
-"isLoading": false,
-"link": "/news/category/news"
 },
 "news_34552": {
 "type": "terms",
@@ -4601,34 +5300,121 @@ window.__INITIAL_STATE__={
 "isLoading": false,
 "link": "/news/program/baycurious"
 },
-"news_28779": {
+"news_17986": {
 "type": "terms",
-"id": "news_28779",
+"id": "news_17986",
 "meta": {
 "index": "terms_1716263798",
 "site": "news",
-"id": "28779",
+"id": "17986",
 "found": true
 },
 "relationships": {},
-"featImg": null,
-"name": "The Bay",
-"description": null,
-"taxonomy": "program",
+"featImg": "https://ww2.kqed.org/app/uploads/sites/10/2016/11/BayCuriousLogoFinal01-e1493662037229.png",
+"name": "Bay Curious",
+"description": "\u003ch2>A podcast exploring the Bay Area one question at a time\u003c/h2>\r\n\r\n\u003caside>\r\n\u003cdiv style=\"width: 100%; padding-right: 20px;\">\r\n\r\nKQED’s \u003cstrong>Bay Curious\u003c/strong> gets to the bottom of the mysteries — both profound and peculiar — that give the Bay Area its unique identity. And we’ll do it with your help! You ask the questions. You decide what Bay Curious investigates. And you join us on the journey to find the answers.\r\n\u003cbr />\r\n\u003cspan class=\"alignleft\">\u003ca href=\"https://itunes.apple.com/us/podcast/id1172473406\">\u003cimg width=\"75px\" src=\"https://ww2.kqed.org/news/wp-content/uploads/sites/10/2016/11/DownloadOniTunes_100x100.png\">\u003c/a> \u003ca href=\"https://goo.gl/app/playmusic?ibi=com.google.PlayMusic&isi=691797987&ius=googleplaymusic&link=https://play.google.com/music/m/Ipi2mc5aqfen4nr2daayiziiyuy?t%3DBay_Curious\">\u003cimg width=\"75px\" src=\"https://ww2.kqed.org/news/wp-content/uploads/sites/10/2016/11/Google_Play_100x100.png\">\u003c/a>\u003c/span>\u003c/div>\r\n\u003c/aside> \r\n\u003ch2>What's your question?\u003c/h2>\r\n\u003cdiv id=\"huxq6\" class=\"curiosity-module\" data-pym-src=\"//modules.wearehearken.com/kqed/curiosity_modules/133\">\u003c/div>\r\n\u003cscript src=\"//assets.wearehearken.com/production/thirdparty/p.m.js\">\u003c/script>\r\n\u003ch2>Bay Curious monthly newsletter\u003c/h2>\r\nWe're launching it soon! \u003ca href=\"https://docs.google.com/forms/d/e/1FAIpQLSdEtzbyNbSQkRHCCAkKhoGiAl3Bd0zWxhk0ZseJ1KH_o_ZDjQ/viewform\" target=\"_blank\">Sign up\u003c/a> so you don't miss it when it drops.\r\n",
+"taxonomy": "series",
 "headData": {
 "twImgId": null,
 "twTitle": null,
 "ogTitle": null,
 "ogImgId": null,
 "twDescription": null,
-"description": "The Bay is a daily news and culture program from KQED that covers the latest headlines, trends, and stories that matter to the Bay Area.",
-"title": "The Bay Area Archives | KQED",
+"description": "A podcast exploring the Bay Area one question at a time KQED’s Bay Curious gets to the bottom of the mysteries — both profound and peculiar — that give the Bay Area its unique identity. And we’ll do it with your help! You ask the questions. You decide what Bay Curious investigates. And you join us on the journey to find the answers. What's your question? Bay Curious monthly newsletter We're launching it soon! Sign up so you don't miss it when it drops.",
+"title": "Bay Curious Archives | KQED News",
 "ogDescription": null
 },
-"ttid": 28796,
-"slug": "the-bay",
+"ttid": 18020,
+"slug": "baycurious",
 "isLoading": false,
-"link": "/news/program/the-bay"
+"link": "/news/series/baycurious"
+},
+"news_31795": {
+"type": "terms",
+"id": "news_31795",
+"meta": {
+"index": "terms_1716263798",
+"site": "news",
+"id": "31795",
+"found": true
+},
+"relationships": {},
+"featImg": null,
+"name": "California",
+"description": null,
+"taxonomy": "category",
+"headData": {
+"twImgId": null,
+"twTitle": null,
+"ogTitle": null,
+"ogImgId": null,
+"twDescription": null,
+"description": null,
+"title": "California Archives | KQED News",
+"ogDescription": null
+},
+"ttid": 31812,
+"slug": "california",
+"isLoading": false,
+"link": "/news/category/california"
+},
+"news_28250": {
+"type": "terms",
+"id": "news_28250",
+"meta": {
+"index": "terms_1716263798",
+"site": "news",
+"id": "28250",
+"found": true
+},
+"relationships": {},
+"featImg": null,
+"name": "Local",
+"description": null,
+"taxonomy": "category",
+"headData": {
+"twImgId": null,
+"twTitle": null,
+"ogTitle": null,
+"ogImgId": null,
+"twDescription": null,
+"description": null,
+"title": "Local Archives | KQED News",
+"ogDescription": null
+},
+"ttid": 28267,
+"slug": "local",
+"isLoading": false,
+"link": "/news/category/local"
+},
+"news_8": {
+"type": "terms",
+"id": "news_8",
+"meta": {
+"index": "terms_1716263798",
+"site": "news",
+"id": "8",
+"found": true
+},
+"relationships": {},
+"featImg": null,
+"name": "News",
+"description": null,
+"taxonomy": "category",
+"headData": {
+"twImgId": null,
+"twTitle": null,
+"ogTitle": null,
+"ogImgId": null,
+"twDescription": null,
+"description": null,
+"title": "News Archives | KQED News",
+"ogDescription": null
+},
+"ttid": 8,
+"slug": "news",
+"isLoading": false,
+"link": "/news/category/news"
 },
 "news_33520": {
 "type": "terms",
@@ -4658,6 +5444,383 @@ window.__INITIAL_STATE__={
 "slug": "podcast",
 "isLoading": false,
 "link": "/news/category/podcast"
+},
+"news_1386": {
+"type": "terms",
+"id": "news_1386",
+"meta": {
+"index": "terms_1716263798",
+"site": "news",
+"id": "1386",
+"found": true
+},
+"relationships": {},
+"featImg": null,
+"name": "Bay Area",
+"description": null,
+"taxonomy": "tag",
+"headData": {
+"twImgId": null,
+"twTitle": null,
+"ogTitle": null,
+"ogImgId": null,
+"twDescription": null,
+"description": null,
+"title": "Bay Area Archives | KQED News",
+"ogDescription": null
+},
+"ttid": 1398,
+"slug": "bay-area",
+"isLoading": false,
+"link": "/news/tag/bay-area"
+},
+"news_18426": {
+"type": "terms",
+"id": "news_18426",
+"meta": {
+"index": "terms_1716263798",
+"site": "news",
+"id": "18426",
+"found": true
+},
+"relationships": {},
+"featImg": null,
+"name": "Bay Curious",
+"description": null,
+"taxonomy": "tag",
+"headData": {
+"twImgId": null,
+"twTitle": null,
+"ogTitle": null,
+"ogImgId": null,
+"twDescription": null,
+"description": null,
+"title": "Bay Curious Archives | KQED News",
+"ogDescription": null
+},
+"ttid": 18460,
+"slug": "bay-curious",
+"isLoading": false,
+"link": "/news/tag/bay-curious"
+},
+"news_34076": {
+"type": "terms",
+"id": "news_34076",
+"meta": {
+"index": "terms_1716263798",
+"site": "news",
+"id": "34076",
+"found": true
+},
+"relationships": {},
+"featImg": null,
+"name": "California coast",
+"description": null,
+"taxonomy": "tag",
+"headData": {
+"twImgId": null,
+"twTitle": null,
+"ogTitle": null,
+"ogImgId": null,
+"twDescription": null,
+"description": null,
+"title": "California coast Archives | KQED News",
+"ogDescription": null
+},
+"ttid": 34093,
+"slug": "california-coast",
+"isLoading": false,
+"link": "/news/tag/california-coast"
+},
+"news_27626": {
+"type": "terms",
+"id": "news_27626",
+"meta": {
+"index": "terms_1716263798",
+"site": "news",
+"id": "27626",
+"found": true
+},
+"relationships": {},
+"featImg": null,
+"name": "featured-news",
+"description": null,
+"taxonomy": "tag",
+"headData": {
+"twImgId": null,
+"twTitle": null,
+"ogTitle": null,
+"ogImgId": null,
+"twDescription": null,
+"description": null,
+"title": "featured-news Archives | KQED News",
+"ogDescription": null
+},
+"ttid": 27643,
+"slug": "featured-news",
+"isLoading": false,
+"link": "/news/tag/featured-news"
+},
+"news_34054": {
+"type": "terms",
+"id": "news_34054",
+"meta": {
+"index": "terms_1716263798",
+"site": "news",
+"id": "34054",
+"found": true
+},
+"relationships": {},
+"featImg": null,
+"name": "oakland",
+"description": null,
+"taxonomy": "tag",
+"headData": {
+"twImgId": null,
+"twTitle": null,
+"ogTitle": null,
+"ogImgId": null,
+"twDescription": null,
+"description": null,
+"title": "oakland Archives | KQED News",
+"ogDescription": null
+},
+"ttid": 34071,
+"slug": "oakland",
+"isLoading": false,
+"link": "/news/tag/oakland"
+},
+"news_2672": {
+"type": "terms",
+"id": "news_2672",
+"meta": {
+"index": "terms_1716263798",
+"site": "news",
+"id": "2672",
+"found": true
+},
+"relationships": {},
+"featImg": null,
+"name": "Photography",
+"description": "Witness the Bay Area through captivating images and compelling narratives. Explore the latest visually-driven storytelling by KQED and immerse yourself in the heart of our community.",
+"taxonomy": "tag",
+"headData": {
+"twImgId": null,
+"twTitle": null,
+"ogTitle": null,
+"ogImgId": null,
+"twDescription": null,
+"description": "Witness the Bay Area through captivating images and compelling narratives. Explore the latest visually-driven storytelling by KQED and immerse yourself in the heart of our community.",
+"title": "Photography Archives | KQED News",
+"ogDescription": null
+},
+"ttid": 2689,
+"slug": "photography",
+"isLoading": false,
+"link": "/news/tag/photography"
+},
+"news_2045": {
+"type": "terms",
+"id": "news_2045",
+"meta": {
+"index": "terms_1716263798",
+"site": "news",
+"id": "2045",
+"found": true
+},
+"relationships": {},
+"featImg": null,
+"name": "Port of Oakland",
+"description": null,
+"taxonomy": "tag",
+"headData": {
+"twImgId": null,
+"twTitle": null,
+"ogTitle": null,
+"ogImgId": null,
+"twDescription": null,
+"description": null,
+"title": "Port of Oakland Archives | KQED News",
+"ogDescription": null
+},
+"ttid": 2060,
+"slug": "port-of-oakland",
+"isLoading": false,
+"link": "/news/tag/port-of-oakland"
+},
+"news_38": {
+"type": "terms",
+"id": "news_38",
+"meta": {
+"index": "terms_1716263798",
+"site": "news",
+"id": "38",
+"found": true
+},
+"relationships": {},
+"featImg": null,
+"name": "San Francisco",
+"description": null,
+"taxonomy": "tag",
+"headData": {
+"twImgId": null,
+"twTitle": null,
+"ogTitle": null,
+"ogImgId": null,
+"twDescription": null,
+"description": null,
+"title": "San Francisco Archives | KQED News",
+"ogDescription": null
+},
+"ttid": 58,
+"slug": "san-francisco",
+"isLoading": false,
+"link": "/news/tag/san-francisco"
+},
+"news_1861": {
+"type": "terms",
+"id": "news_1861",
+"meta": {
+"index": "terms_1716263798",
+"site": "news",
+"id": "1861",
+"found": true
+},
+"relationships": {},
+"featImg": null,
+"name": "San Francisco Bay",
+"description": null,
+"taxonomy": "tag",
+"headData": {
+"twImgId": null,
+"twTitle": null,
+"ogTitle": null,
+"ogImgId": null,
+"twDescription": null,
+"description": null,
+"title": "San Francisco Bay Archives | KQED News",
+"ogDescription": null
+},
+"ttid": 1876,
+"slug": "san-francisco-bay",
+"isLoading": false,
+"link": "/news/tag/san-francisco-bay"
+},
+"news_33738": {
+"type": "terms",
+"id": "news_33738",
+"meta": {
+"index": "terms_1716263798",
+"site": "news",
+"id": "33738",
+"found": true
+},
+"relationships": {},
+"featImg": null,
+"name": "California",
+"description": null,
+"taxonomy": "interest",
+"headData": {
+"twImgId": null,
+"twTitle": null,
+"ogTitle": null,
+"ogImgId": null,
+"twDescription": null,
+"description": null,
+"title": "California Archives | KQED News",
+"ogDescription": null
+},
+"ttid": 33755,
+"slug": "california",
+"isLoading": false,
+"link": "/news/interest/california"
+},
+"news_33733": {
+"type": "terms",
+"id": "news_33733",
+"meta": {
+"index": "terms_1716263798",
+"site": "news",
+"id": "33733",
+"found": true
+},
+"relationships": {},
+"featImg": null,
+"name": "News",
+"description": null,
+"taxonomy": "interest",
+"headData": {
+"twImgId": null,
+"twTitle": null,
+"ogTitle": null,
+"ogImgId": null,
+"twDescription": null,
+"description": null,
+"title": "News Archives | KQED News",
+"ogDescription": null
+},
+"ttid": 33750,
+"slug": "news",
+"isLoading": false,
+"link": "/news/interest/news"
+},
+"news_33730": {
+"type": "terms",
+"id": "news_33730",
+"meta": {
+"index": "terms_1716263798",
+"site": "news",
+"id": "33730",
+"found": true
+},
+"relationships": {},
+"featImg": null,
+"name": "Oakland",
+"description": null,
+"taxonomy": "interest",
+"headData": {
+"twImgId": null,
+"twTitle": null,
+"ogTitle": null,
+"ogImgId": null,
+"twDescription": null,
+"description": null,
+"title": "Oakland Archives | KQED News",
+"ogDescription": null
+},
+"ttid": 33747,
+"slug": "oakland",
+"isLoading": false,
+"link": "/news/interest/oakland"
+},
+"news_28779": {
+"type": "terms",
+"id": "news_28779",
+"meta": {
+"index": "terms_1716263798",
+"site": "news",
+"id": "28779",
+"found": true
+},
+"relationships": {},
+"featImg": null,
+"name": "The Bay",
+"description": null,
+"taxonomy": "program",
+"headData": {
+"twImgId": null,
+"twTitle": null,
+"ogTitle": null,
+"ogImgId": null,
+"twDescription": null,
+"description": "The Bay is a daily news and culture program from KQED that covers the latest headlines, trends, and stories that matter to the Bay Area.",
+"title": "The Bay Area Archives | KQED",
+"ogDescription": null
+},
+"ttid": 28796,
+"slug": "the-bay",
+"isLoading": false,
+"link": "/news/program/the-bay"
 },
 "news_993": {
 "type": "terms",
@@ -4775,64 +5938,6 @@ window.__INITIAL_STATE__={
 "isLoading": false,
 "link": "/news/category/cultural-commentary"
 },
-"news_28250": {
-"type": "terms",
-"id": "news_28250",
-"meta": {
-"index": "terms_1716263798",
-"site": "news",
-"id": "28250",
-"found": true
-},
-"relationships": {},
-"featImg": null,
-"name": "Local",
-"description": null,
-"taxonomy": "category",
-"headData": {
-"twImgId": null,
-"twTitle": null,
-"ogTitle": null,
-"ogImgId": null,
-"twDescription": null,
-"description": null,
-"title": "Local Archives | KQED News",
-"ogDescription": null
-},
-"ttid": 28267,
-"slug": "local",
-"isLoading": false,
-"link": "/news/category/local"
-},
-"news_18426": {
-"type": "terms",
-"id": "news_18426",
-"meta": {
-"index": "terms_1716263798",
-"site": "news",
-"id": "18426",
-"found": true
-},
-"relationships": {},
-"featImg": null,
-"name": "Bay Curious",
-"description": null,
-"taxonomy": "tag",
-"headData": {
-"twImgId": null,
-"twTitle": null,
-"ogTitle": null,
-"ogImgId": null,
-"twDescription": null,
-"description": null,
-"title": "Bay Curious Archives | KQED News",
-"ogDescription": null
-},
-"ttid": 18460,
-"slug": "bay-curious",
-"isLoading": false,
-"link": "/news/tag/bay-curious"
-},
 "news_34062": {
 "type": "terms",
 "id": "news_34062",
@@ -4863,64 +5968,6 @@ window.__INITIAL_STATE__={
 "isLoading": false,
 "link": "/news/tag/city-planning"
 },
-"news_27626": {
-"type": "terms",
-"id": "news_27626",
-"meta": {
-"index": "terms_1716263798",
-"site": "news",
-"id": "27626",
-"found": true
-},
-"relationships": {},
-"featImg": null,
-"name": "featured-news",
-"description": null,
-"taxonomy": "tag",
-"headData": {
-"twImgId": null,
-"twTitle": null,
-"ogTitle": null,
-"ogImgId": null,
-"twDescription": null,
-"description": null,
-"title": "featured-news Archives | KQED News",
-"ogDescription": null
-},
-"ttid": 27643,
-"slug": "featured-news",
-"isLoading": false,
-"link": "/news/tag/featured-news"
-},
-"news_38": {
-"type": "terms",
-"id": "news_38",
-"meta": {
-"index": "terms_1716263798",
-"site": "news",
-"id": "38",
-"found": true
-},
-"relationships": {},
-"featImg": null,
-"name": "San Francisco",
-"description": null,
-"taxonomy": "tag",
-"headData": {
-"twImgId": null,
-"twTitle": null,
-"ogTitle": null,
-"ogImgId": null,
-"twDescription": null,
-"description": null,
-"title": "San Francisco Archives | KQED News",
-"ogDescription": null
-},
-"ttid": 58,
-"slug": "san-francisco",
-"isLoading": false,
-"link": "/news/tag/san-francisco"
-},
 "news_31584": {
 "type": "terms",
 "id": "news_31584",
@@ -4949,64 +5996,6 @@ window.__INITIAL_STATE__={
 "slug": "sunset-district",
 "isLoading": false,
 "link": "/news/tag/sunset-district"
-},
-"news_33738": {
-"type": "terms",
-"id": "news_33738",
-"meta": {
-"index": "terms_1716263798",
-"site": "news",
-"id": "33738",
-"found": true
-},
-"relationships": {},
-"featImg": null,
-"name": "California",
-"description": null,
-"taxonomy": "interest",
-"headData": {
-"twImgId": null,
-"twTitle": null,
-"ogTitle": null,
-"ogImgId": null,
-"twDescription": null,
-"description": null,
-"title": "California Archives | KQED News",
-"ogDescription": null
-},
-"ttid": 33755,
-"slug": "california",
-"isLoading": false,
-"link": "/news/interest/california"
-},
-"news_33733": {
-"type": "terms",
-"id": "news_33733",
-"meta": {
-"index": "terms_1716263798",
-"site": "news",
-"id": "33733",
-"found": true
-},
-"relationships": {},
-"featImg": null,
-"name": "News",
-"description": null,
-"taxonomy": "interest",
-"headData": {
-"twImgId": null,
-"twTitle": null,
-"ogTitle": null,
-"ogImgId": null,
-"twDescription": null,
-"description": null,
-"title": "News Archives | KQED News",
-"ogDescription": null
-},
-"ttid": 33750,
-"slug": "news",
-"isLoading": false,
-"link": "/news/interest/news"
 },
 "news_33729": {
 "type": "terms",
@@ -5065,35 +6054,6 @@ window.__INITIAL_STATE__={
 "slug": "housing",
 "isLoading": false,
 "link": "/news/category/housing"
-},
-"news_1386": {
-"type": "terms",
-"id": "news_1386",
-"meta": {
-"index": "terms_1716263798",
-"site": "news",
-"id": "1386",
-"found": true
-},
-"relationships": {},
-"featImg": null,
-"name": "Bay Area",
-"description": null,
-"taxonomy": "tag",
-"headData": {
-"twImgId": null,
-"twTitle": null,
-"ogTitle": null,
-"ogImgId": null,
-"twDescription": null,
-"description": null,
-"title": "Bay Area Archives | KQED News",
-"ogDescription": null
-},
-"ttid": 1398,
-"slug": "bay-area",
-"isLoading": false,
-"link": "/news/tag/bay-area"
 },
 "news_18538": {
 "type": "terms",
@@ -5327,35 +6287,6 @@ window.__INITIAL_STATE__={
 "isLoading": false,
 "link": "/news/tag/golden-gate-park"
 },
-"news_31795": {
-"type": "terms",
-"id": "news_31795",
-"meta": {
-"index": "terms_1716263798",
-"site": "news",
-"id": "31795",
-"found": true
-},
-"relationships": {},
-"featImg": null,
-"name": "California",
-"description": null,
-"taxonomy": "category",
-"headData": {
-"twImgId": null,
-"twTitle": null,
-"ogTitle": null,
-"ogImgId": null,
-"twDescription": null,
-"description": null,
-"title": "California Archives | KQED News",
-"ogDescription": null
-},
-"ttid": 31812,
-"slug": "california",
-"isLoading": false,
-"link": "/news/category/california"
-},
 "news_3631": {
 "type": "terms",
 "id": "news_3631",
@@ -5588,35 +6519,6 @@ window.__INITIAL_STATE__={
 "isLoading": false,
 "link": "/news/tag/bird"
 },
-"news_34054": {
-"type": "terms",
-"id": "news_34054",
-"meta": {
-"index": "terms_1716263798",
-"site": "news",
-"id": "34054",
-"found": true
-},
-"relationships": {},
-"featImg": null,
-"name": "oakland",
-"description": null,
-"taxonomy": "tag",
-"headData": {
-"twImgId": null,
-"twTitle": null,
-"ogTitle": null,
-"ogImgId": null,
-"twDescription": null,
-"description": null,
-"title": "oakland Archives | KQED News",
-"ogDescription": null
-},
-"ttid": 34071,
-"slug": "oakland",
-"isLoading": false,
-"link": "/news/tag/oakland"
-},
 "news_3187": {
 "type": "terms",
 "id": "news_3187",
@@ -5732,6 +6634,64 @@ window.__INITIAL_STATE__={
 "slug": "entertainment",
 "isLoading": false,
 "link": "/news/interest/entertainment"
+},
+"news_28426": {
+"type": "terms",
+"id": "news_28426",
+"meta": {
+"index": "terms_1716263798",
+"site": "news",
+"id": "28426",
+"found": true
+},
+"relationships": {},
+"featImg": null,
+"name": "podcast",
+"description": null,
+"taxonomy": "tag",
+"headData": {
+"twImgId": null,
+"twTitle": null,
+"ogTitle": null,
+"ogImgId": null,
+"twDescription": null,
+"description": null,
+"title": "podcast Archives | KQED News",
+"ogDescription": null
+},
+"ttid": 28443,
+"slug": "podcast",
+"isLoading": false,
+"link": "/news/tag/podcast"
+},
+"news_34168": {
+"type": "terms",
+"id": "news_34168",
+"meta": {
+"index": "terms_1716263798",
+"site": "news",
+"id": "34168",
+"found": true
+},
+"relationships": {},
+"name": "Guides and Explainers",
+"slug": "guides-and-explainers",
+"taxonomy": "category",
+"description": null,
+"featImg": null,
+"headData": {
+"title": "Guides and Explainers Archives | KQED News",
+"description": null,
+"ogTitle": null,
+"ogDescription": null,
+"ogImgId": null,
+"twTitle": null,
+"twDescription": null,
+"twImgId": null
+},
+"ttid": 34185,
+"isLoading": false,
+"link": "/news/category/guides-and-explainers"
 }
 },
 "userPermissionsReducer": {

@@ -4,11 +4,10 @@ source_url: https://www.11x.ai/
 notion_source: Hiring Your Founding Account Executive
 ---
 
+“11x has been the framework for everything we do across GTM. Their platform has rapidly evolved with the needs of our business, while being simple enough for our SDRs to scale outreach from day one.”
+"I spend one hour on something that previously took me 30+ hours. By the end of the same week we started working with 11x, I had 10-15 calls booked."
+"I run our region’s outbound on my own. 11x has given me two hours back every day to focus on real conversations. The rest runs in the background to create pipeline, even while I sleep. "
 "We would be trying to do what 11x is doing. But it would take us half a day for each SDR, and we wouldn't be doing it as well. It's like our best guy on their best day, spread across a team of five people. And it doesn't sleep."
-Digital workers, 
-Human results.
-The AI Growth Company
-For Sales, RevOps, and Go-to-Market Teams.
 "What we’re doing is telling Workera's story at scale. 11x is how we make that happen at a volume we couldn't reach before."
 "We’ve achieved a 9.7% reply rate for outbound emails across thousands of emails, nearly double the industry average. We would never have that using templated responses. Alice's personalization increases the chance of reply, and it has led to real results for us."
 “11x is a really powerful tool and has smashed our targets. You would need 40 BDRs to achieve what I can do with a click of a button."

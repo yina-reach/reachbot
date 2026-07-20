@@ -105,3 +105,30 @@ So, um, Yuri from says, what is your point of view on browser plugins as a growt
    hundred million dollar business that heavily relied. It didn't matter to Google. And that's that's that was a really telling sign to us where it's like, okay, we need to we need to diversify. Um, we cannot be so we cannot carry such large platform risk. So, so that's that's one point of view. There is another point of view, to be frank, which is how valuable of a business can you really build if you're just an extension? Some of it is a is a perception issue as well, right? It's like, an extension makes sense as like one of the products, but if you but if your whole product is an extension, there is a little bit of like a value deflation that's happening. You know, it's kind of like, how much are you willing to pay for an extension? Maybe like ten bucks a month. Like, I don't know, there is something there like from a user psychology standpoint. Yeah, um, but any how. Host:
 Awesome. I think we don't have yeah, we're out of time. Do you want to wrap it? Do you want to wrap it, Tony? Speaker:
 Yeah, no, thank you so much, Yuri, for spending the hour with us. Uh, I mean, we, you know, went, you know, it was like part office hours, part storytelling. I mean, it was, I mean, it's obvious that, you know, you've come with impressive knowledge and so thank you so much for sharing kind of like your your learnings and reflections with us. My pleasure. My pleasure. Thank you, everyone. Thanks for having me. This was fun and yeah, let's do it again sometime. All right. Thank you so much, everyone. Cheers. All right. Have a great weekend. Bye. Have a great weekend.
+Initial Growth Challenges
+- **Series A Mandate:** Founders with initial product-market fit and capital but lack a clear roadmap for scaling beyond early adopters.
+- **Asymptoting Lever:** Growth plateaus when a single successful channel begins to show diminishing returns, necessitating new strategies.
+- **Crisis Mode:** Later-stage companies may seek help to resuscitate a sputtering growth engine under "red alert" conditions.
+Finding Your Core Growth Lever
+- **Product Virality First:** If your product is inherently collaborative (e.g., meeting tools, social platforms), prioritize building strong viral loops and invite flows (e.g., Clay, Figma).
+- **Monetization Viability Check:** For paid channels, assess average revenue per user (ARPU), price points, and free-to-paid conversion rates; low numbers may disqualify paid marketing initially.
+- **Limited Early Levers:** For Series A, focus on one "workhorse" growth lever: product virality, organic acquisition (SEO, community), or paid acquisition.
+- **Path of Least Resistance:** Identify which growth method naturally aligns best with your product, audience, and current capabilities to start.
+- **Squeeze & Expand Strategy:** If an existing channel is declining, first optimize it for more yield; concurrently, develop and test hypotheses for the next 1-3 significant growth levers (e.g., programmatic SEO for Recraft.ai).
+Strategic Paid Acquisition
+- **Beyond Direct Response:** Recognize that "brand building" via paid media can also be a form of user acquisition, even if conversions aren't immediate.
+- **ROAS for Upper Funnel:** Justify spend on channels like YouTube with Return on Ad Spend (ROAS), even for seemingly "brand" videos, through sophisticated measurement.
+- **Triangulation for Attribution:** For upper-funnel channels, use multiple attribution methods: click-throughs, search lift (comparing brand searches by ad viewers vs. non-viewers), match market testing, and "How Did You Hear About Us" surveys.
+Setting Ambitious KPIs
+- **Triangulate Targets:** Combine top-down goals (investor expectations, benchmarks for your next funding round) with bottom-up calculations (current burn, runway, and required weekly/monthly growth rates).
+- **Learn by Doing:** Even if initial targets are estimated, set them, measure results quickly, and iterate to improve accuracy and feasibility.
+- **Focus on Key Metrics:** Clearly identify the core KPIs for your business model and vertical; the challenge often lies in setting the right quantitative *targets* for these known metrics.
+Grammarly's Prosumer Pivot
+- **Push-Pull Signals:** Academic/student markets offer limited revenue (push); significant non-academic use (emails, memos) by students using the product with high effort (copy-pasting) signals strong prosumer demand (pull).
+- **Business Model Shift:** Transitioned from a paid-only product to freemium to educate and onboard knowledge workers who needed a softer entry point.
+- **Product Integration:** Moved from a web-based tool to integrating directly into user workflows via a browser extension (a significant unlock), later expanding to a desktop app for non-browser surfaces.
+- **Go-to-Market Evolution:** Shifted from transactional SEO/SEM (demand capture) to visual storytelling on YouTube, targeting knowledge workers in a professional learning mindset.
+Evaluating New Channels
+- **Fractional Validation:** For new, non-existential distribution channels (e.g., influencers), engage fractional resources or a boutique agency to rigorously validate potential and achieve 0-to-1 success.
+- **Founder Mastery for Existential Channels:** If a distribution channel is critical to the core business model (e.g., B2B2C partnerships for specific industries), the founder *must* actively master and lead its development.
+- **Evolving Product Formats:** While browser plugins can be powerful growth levers (as Grammarly demonstrated), consider if more integrated solutions like desktop applications offer broader functionality and reach across user surfaces.

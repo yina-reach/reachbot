@@ -17,4 +17,4 @@ Confidently automate your financial ops with AI-powered automation and a simple 
 Automate bookkeeping tasks, enable client bill pay, and expand opportunities for your firm by offering spend and expense management services enhanced by AI.
 Customers succeed with BILL
 * As of June 30, 2025.
-** Based on a survey of 127 BILL Spend and Expense users conducted by UserEvidence in March 2022.
+** Based on a survey of 127 BILL Spend & Expense users conducted by UserEvidence in March 2022.

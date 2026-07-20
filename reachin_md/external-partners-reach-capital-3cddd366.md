@@ -5,8 +5,7 @@ notion_source: Digits
 ---
 
 Connect your firm stack to Digits—New partnerships with: Ignition, Karbon, Reach Reporting.
-  +  
- The preferred accounting partner of Reach Capital
+The preferred accounting partner of Reach Capital
    
 MoM
  
@@ -28,9 +27,9 @@ MoM
 -  Software $5,519.00 +12%
 Digits is the ideal solution for startups—empowering our founders to focus their time and energy on building their business, rather than managing back-office tasks.
 Starting at just
-$ 65 /mo For Reach Capital companies only — Get 50% off your first 3 months of Digits  Get started  
- Automated accounting for the modern finance stack
-Why Reach Capital companies loves Digits
+$ 65 /mo For Reach Capital companies only — Get 50% off your first 3 months of Digits   Get started   
+   Automated accounting for the modern finance stack  
+ Why Reach Capital companies loves Digits
 Software + Service
 Get Digits’ automated bookkeeping paired with a certified accounting partner for full accounting and tax support.
 Live metrics & dashboards

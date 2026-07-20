@@ -4,10 +4,10 @@ source_url: https://hechingerreport.org/
 notion_source: Hechinger Report
 ---
 
-How children became this city’s lead detectors
-HHS removes nearly one-fifth of sessions from early childhood research conference
-Schools doubling down on education to protect boys from gambling problems
-In California’s ‘Lithium Valley,’ students are training for jobs that haven’t yet materialized
+Why are so many kindergartners chronically absent?
+Teachers save time with AI. Their students may pay the price
+As college graduates fret over finding jobs, a record shortage of workers is projected
+Schools try to block kids from accessing dangerous content and games online. Little kids are outsmarting them
 Trump and education
 Tracking Trump: How he’s dismantling the Education Department and more
 Opinion

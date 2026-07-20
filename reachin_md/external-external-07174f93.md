@@ -10,6 +10,7 @@ We saw a 70% increase in the number of opportunities booked.
 Per BDR, we saw a 24% uplift in pipeline.
 Our reps, I mean are living there ... even five hours a day ... this is where they're winning.
 The quality of conversations has gone up because of the signals and insights Nooks provides.
+90 days into the year and we’ve booked 97% more meetings...than we did in all of H1 last year.
 Nooks was built from the ground up using AI, and that's the differentiator. It’s making our reps more powerful in their message on the phone and more effective in their sequences.
 We’ve uncovered signals that ended up being our best ones ever just by replicating what our best reps were already researching manually. Now, one in three of our meetings are sourced directly from these AI signals.
 But you can tell Nooks is AI-integrated from its core. That’s why we’ve seen a 25% bump in meetings booked.
