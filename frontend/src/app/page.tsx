@@ -11,9 +11,14 @@ function Header() {
   return (
     <header className="sticky top-0 z-20 flex h-14 items-center justify-between border-b bg-background/80 px-4 backdrop-blur sm:px-6">
       <div className="flex items-center gap-2">
-        <div className="flex size-6 items-center justify-center rounded-md border text-xs font-semibold">
-          R
-        </div>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/reachbot-logo.svg"
+          alt="ReachBot"
+          width={24}
+          height={24}
+          className="size-6 rounded-md bg-[#1e1e1a]"
+        />
         <span className="text-sm font-medium">ReachBot</span>
       </div>
       <div className="flex items-center gap-1.5 text-xs text-muted-foreground">
