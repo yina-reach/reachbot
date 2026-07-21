@@ -145,13 +145,19 @@
 }
 .prose-chat > :first-child { margin-top: 0; }
 .prose-chat > :last-child { margin-bottom: 0; }
-.prose-chat p { margin: 0 0 0.75rem; }
+.prose-chat p { margin: 0 0 1.25rem; }
 /* Mackinac ships 400/500/700/800 — map bold to 700 so **bold** renders. */
 .prose-chat strong { font-weight: 700; }
 .prose-chat a {
   color: var(--primary);
   text-decoration: underline;
   text-underline-offset: 2px;
+}
+/* Inline-citation chips keep their sans, un-underlined design inside the serif prose. */
+.prose-chat a.rb-cite {
+  font-family: var(--font-sans), sans-serif;
+  text-decoration: none;
+  color: inherit;
 }
 .prose-chat h1, .prose-chat h2, .prose-chat h3 {
   /* Section labels ("Resources") stay in the sans UI font, not the serif. */

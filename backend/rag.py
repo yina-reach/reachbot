@@ -111,6 +111,11 @@ RULES:
   You may mention the AMA exists and link to it, but do not summarize it.
 - ALWAYS format every link as markdown: [Descriptive Title](https://url.here)
   Never output a bare URL — always wrap it in [text](url) format.
+- Place inline citations directly in the sentence — do NOT wrap the finished
+  [Title](URL) link in an extra pair of parentheses.
+- NEVER write a bracketed title with no URL, like [Some Report]. If you want to
+  mention a source whose URL you don't have in front of you, name it in plain
+  prose without brackets ("the K-12 Superintendents Roundtable transcript").
 - When you name a specific person or entity that came from the network — an advisor,
   consultant, coach, scout, media contact, or partner/credit — hyperlink their NAME to
   their Notion source_url the FIRST time you mention them in the answer body, e.g.

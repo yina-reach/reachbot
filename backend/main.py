@@ -245,10 +245,21 @@ def chat(request: Request, body: ChatBody, rb_auth: Optional[str] = Cookie(defau
             # history-resolved standalone query, but answer the raw question.
             search_q = rag.standalone_query(question, history)
             hits, quality = rag.retrieve(search_q)
-            sources = [
-                {"title": t, "url": u, "type": classify(t, cat)}
-                for _c, t, u, cat in hits
-            ]
+            # One entry per unique page, with the per-type card fields parsed
+            # from the chunk text (merged across a page's chunks) so the frontend
+            # can render inline-citation chips + resource cards.
+            by_url: dict = {}
+            order: list = []
+            for c, t, u, cat in hits:
+                rtype = classify(t, cat)
+                fields = parse_fields(str(c), rtype)
+                if u not in by_url:
+                    by_url[u] = {"title": t, "url": u, "type": rtype, "fields": fields}
+                    order.append(u)
+                else:
+                    for k, v in fields.items():
+                        by_url[u]["fields"].setdefault(k, v)
+            sources = [by_url[u] for u in order]
             yield sse("sources", sources)
 
             context = rag.build_context(hits, quality)

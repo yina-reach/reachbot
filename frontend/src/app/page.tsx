@@ -85,7 +85,13 @@ export default function Home() {
       <main className="mx-auto w-full max-w-3xl flex-1 px-4 pb-40 pt-4 sm:px-6">
         <div className="flex flex-col gap-4">
           {messages.map((m, i) => (
-            <Message key={i} message={m} />
+            // All sources retrieved so far — answers may cite a resource from an
+            // earlier turn, and its chip/card must still resolve.
+            <Message
+              key={i}
+              message={m}
+              allSources={messages.flatMap((msg) => msg.sources ?? [])}
+            />
           ))}
         </div>
         <div ref={bottomRef} />
