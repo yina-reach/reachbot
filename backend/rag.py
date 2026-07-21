@@ -187,6 +187,18 @@ def _is_perk_query(q: str) -> bool:
 TIER_STRONG = 0.70    # solid coverage
 TIER_PARTIAL = 0.60   # adjacent / partial coverage
 MARGIN = 0.08         # keep chunks within this of the top score
+# Perk/deal chunks are near-duplicates in structure ("Category / Offer / Contact
+# / …"), so they cluster tightly in embedding space — a bunch of IRRELEVANT deals
+# sit within the normal 0.08 margin of the one the user actually asked about
+# ("HR discounts" → TriNet 0.729, then Carta/Pave/Zendesk all ~0.68). A tighter
+# margin cuts that cluster so only the genuinely-relevant deal(s) survive; the
+# model still offers "want the full list?" for breadth.
+PERK_MARGIN = 0.04
+# For a narrow perk question ("HR discounts?") ONE relevant deal is a complete
+# answer, not a starved one — so don't pad perks back up to MIN_KEEP with the
+# next-best (irrelevant) deals. A browse query ("what discounts do you have?")
+# takes the separate breadth branch and is unaffected.
+PERK_MIN_KEEP = 1
 # How many chunks each tier may pass to the model. Weak evidence gets LESS
 # context on purpose: 25 noise chunks tempt the model to overreach; 5 lets it
 # name "the closest thing" and honestly route to not-found/low-confidence.
@@ -256,10 +268,11 @@ def retrieve(query: str):
         # Dynamic cutoff relative to the best match: lookups cliff fast (3-8
         # survive), synthesis plateaus (cap applies), off-topic is flat+low
         # (weak tier cap applies).
-        floor = top - MARGIN
+        floor = top - (PERK_MARGIN if perk else MARGIN)
         picked = [h for h in ranked if h[0] >= floor][:TIER_CAPS[tier]]
-        if len(picked) < MIN_KEEP:
-            picked = ranked[:MIN_KEEP]
+        min_keep = PERK_MIN_KEEP if perk else MIN_KEEP
+        if len(picked) < min_keep:
+            picked = ranked[:min_keep]
         if not perk:
             # Diversity guard: one long transcript can't hog the context.
             per_page = {}
