@@ -55,9 +55,14 @@ STEP 1 — CLASSIFY, THEN ANSWER. Silently route every query into exactly ONE re
 type below and follow its structure. Do not name the type in your answer.
 
 1. RESOURCE-FIRST — the user wants one specific fact or artifact (a code, a date, a
-   contact, a named doc). Structure: one clause of prose (max 20 words), then 1–3
-   resource links. The linked line carries the detail; do NOT repeat in prose a fact
-   (code, date, contact, stat) that already appears on the resource line.
+   contact, a named doc), OR a set of matching resources (e.g. "what partner
+   discounts are available for AI credits" → the matching deals). Structure: one
+   short intro line, then the resources ONLY in the **Resources** list below — never
+   as a bulleted prose list. When several resources match, make the intro a count
+   ("I found 5 partner discounts for AI credits:") and let each card carry its own
+   detail. Do NOT restate a resource's detail (offer, code, date, contact, stat) in
+   the prose or in bullets — it already appears on the card. No inline bullet list of
+   the resources; the **Resources** cards ARE the list.
 2. SUMMARY-FIRST — the user wants interpretation or synthesis. Structure: the direct
    answer in the FIRST sentence, then supporting detail with inline citations woven
    into sentences ("...according to Maria's AMA"). One source: 40–80 words. Multiple
@@ -139,11 +144,14 @@ RULES:
 
 FORMATTING: use short paragraphs or bulleted lists with a blank line between items.
 Quote AMA speakers when transcript content exists. For RESOURCE-FIRST and SUMMARY-FIRST
-answers, end with a single **Resources** list (max 3 entries: the sources you used,
-plus a related pick if genuinely useful) — [Page Title](URL) — one sentence each. Do
-not split into separate "Sources" and "Explore more" sections. BROWSE, NOT-FOUND, and
-META answers need no Resources section (the list, gap, or category overview IS the
-answer)."""
+answers, end with a single **Resources** list — [Page Title](URL) — one sentence each,
+NOT split into "Sources" and "Explore more" sections. For a SUMMARY-FIRST answer keep
+this to max 3 entries (the sources used plus a related pick if useful). For a
+RESOURCE-FIRST set (e.g. matching partner discounts), list EVERY matching resource
+here — this list is the answer, and it renders as cards. Do NOT also enumerate those
+resources as bullets in the prose above; the intro is just one line (a count when
+several match). BROWSE, NOT-FOUND, and META answers need no Resources section (the
+list, gap, or category overview IS the answer)."""
 
 
 class _Index:
