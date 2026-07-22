@@ -67,21 +67,36 @@ export function Welcome() {
  */
 export function PromptSuggestions({ onPick }: { onPick: (q: string) => void }) {
   return (
-    <div className="mt-3 flex w-full flex-col gap-2">
-      {PROMPTS.map((p) => (
+    <div className="mt-4 w-full">
+      <p
+        className="mb-2 px-1 text-base text-muted-foreground"
+        style={{ fontFamily: '"p22-mackinac-pro", ui-serif, Georgia, serif' }}
+      >
+        Here are some things you can ask me
+      </p>
+      {/* Divided list rather than cards: a hairline between each suggestion, no
+          per-item box. Lighter on the empty state than a stack of bordered cards. */}
+      <div className="flex w-full flex-col divide-y divide-border/60 border-y border-border/60">
+        {PROMPTS.map((p) => (
         <button
           key={p.text}
           onClick={() => onPick(p.text)}
-          className="group flex flex-col gap-1 rounded-lg border border-border/60 px-4 py-3 text-left transition-colors hover:border-border hover:bg-accent"
+          className="group flex flex-col gap-1 px-1 py-3 text-left"
         >
-          <span className="text-[11px] font-medium uppercase tracking-wider text-muted-foreground/50 group-hover:text-muted-foreground">
-            {p.label}
-          </span>
-          <span className="text-base text-muted-foreground group-hover:text-foreground">
-            {p.text}
+          {/* On hover the content slides right so its text left-aligns with the
+              composer's (composer text sits at p-2 + px-2 = 16px; list is at
+              px-1 = 4px, so shift 12px). */}
+          <span className="flex flex-col gap-1 transition-transform duration-200 ease-out group-hover:translate-x-3">
+            <span className="text-[11px] font-medium uppercase tracking-wider text-muted-foreground/50 group-hover:text-muted-foreground">
+              {p.label}
+            </span>
+            <span className="text-base text-muted-foreground group-hover:text-foreground">
+              {p.text}
+            </span>
           </span>
         </button>
-      ))}
+        ))}
+      </div>
     </div>
   );
 }

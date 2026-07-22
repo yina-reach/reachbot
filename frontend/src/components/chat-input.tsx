@@ -73,7 +73,8 @@ export function ChatInput({
       />
       <Button
         size="icon"
-        className="size-8 shrink-0 rounded-full"
+        // Brand blue #0055FF in both themes; overrides the theme primary.
+        className="size-8 shrink-0 rounded-full bg-[#0055FF] text-white hover:bg-[#0048d6] disabled:bg-[#0055FF]/40 disabled:text-white/70"
         onClick={submit}
         disabled={disabled || !value.trim()}
         aria-label="Send"

@@ -6,6 +6,7 @@ import { Welcome, PromptSuggestions, ScopeFooter } from "@/components/welcome";
 import { Message } from "@/components/message";
 import { ChatInput } from "@/components/chat-input";
 import { PasswordGate } from "@/components/password-gate";
+import { ThemeToggle } from "@/components/theme-toggle";
 
 function Header() {
   return (
@@ -17,13 +18,16 @@ function Header() {
           alt="ReachBot"
           width={24}
           height={24}
-          className="size-6 rounded-md bg-[#1e1e1a]"
+          className="size-6 rounded-md bg-[#1E2015]"
         />
         <span className="text-sm font-medium">ReachBot</span>
       </div>
-      <div className="flex items-center gap-1.5 text-xs text-muted-foreground">
-        <span className="size-1.5 rounded-full bg-emerald-500" />
-        ReachIn · Portfolio
+      <div className="flex items-center gap-3">
+        <div className="flex items-center gap-1.5 text-xs text-muted-foreground">
+          <span className="size-1.5 rounded-full bg-emerald-500" />
+          ReachIn · Portfolio
+        </div>
+        <ThemeToggle />
       </div>
     </header>
   );
