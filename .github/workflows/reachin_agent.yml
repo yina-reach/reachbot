@@ -12,7 +12,7 @@ on:
   schedule:
     # GitHub's scheduled runs are best-effort and often delayed on private repos.
     # */30 gives more firing attempts; for guaranteed timing, drive workflow_dispatch
-    # from an external scheduler (see MAINTENANCE.md).
+    # from an external scheduler (see docs/MAINTENANCE.md).
     - cron: '7,37 * * * *'    # every 30 min at :07/:37 — off the top-of-hour rush
 
 # Don't pile up runs if one is slow/queued.

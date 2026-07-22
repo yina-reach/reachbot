@@ -193,7 +193,7 @@ def _is_perk_query(q: str) -> bool:
 
 
 # ── Dynamic retrieval thresholds (calibrated on real score curves 2026-07-16;
-#    see RESPONSE_DESIGN.md §6) ────────────────────────────────────────────────
+#    see docs/RESPONSE_DESIGN.md §6) ────────────────────────────────────────────
 # Absolute top-score tiers: on-topic queries top ~0.73-0.80, adjacent ~0.66,
 # off-topic ~0.54 — cleanly separable.
 TIER_STRONG = 0.70    # solid coverage

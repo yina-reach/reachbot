@@ -2,7 +2,7 @@
 
 You are helping build **REACHBOT**, a RAG chatbot over Reach Capital's "ReachIn" Notion
 hub for portfolio founders. This file orients you; `README.md` has full setup detail,
-`MAINTENANCE.md` covers run/deploy, and `CHANGING_THINGS.md` maps tasks → files.
+`docs/MAINTENANCE.md` covers run/deploy, and `docs/CHANGING_THINGS.md` maps tasks → files.
 
 ## What this is
 A retrieval-augmented chatbot (NOT fine-tuned). It extracts ReachIn content + AMA Zoom
