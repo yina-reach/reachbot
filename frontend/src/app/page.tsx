@@ -8,6 +8,43 @@ import { ChatInput } from "@/components/chat-input";
 import { PasswordGate } from "@/components/password-gate";
 import { ThemeToggle } from "@/components/theme-toggle";
 
+/**
+ * "Last synced" indicator: when the index the model answers from was last
+ * rebuilt from ReachIn (the weekly job). Sourced from /api/health's
+ * last_synced (mtime of index.npz). Silent until loaded.
+ */
+function LastSynced() {
+  const [synced, setSynced] = useState<string | null>(null);
+
+  useEffect(() => {
+    fetch("/api/health")
+      .then((r) => r.json())
+      .then((j) => setSynced(j?.last_synced ?? null))
+      .catch(() => {});
+  }, []);
+
+  if (!synced) return null;
+  const d = new Date(synced);
+  if (isNaN(d.getTime())) return null;
+
+  const label = d.toLocaleString(undefined, {
+    month: "short",
+    day: "numeric",
+    hour: "numeric",
+    minute: "2-digit",
+  });
+
+  return (
+    <div
+      className="flex items-center gap-1.5 text-xs text-muted-foreground"
+      title={`ReachIn resources last synced ${d.toLocaleString()}`}
+    >
+      <span className="size-1.5 rounded-full bg-emerald-500" />
+      Last synced {label}
+    </div>
+  );
+}
+
 function Header() {
   return (
     <header className="sticky top-0 z-20 flex h-14 items-center justify-between border-b bg-background/80 px-4 backdrop-blur sm:px-6">
@@ -23,10 +60,7 @@ function Header() {
         <span className="text-sm font-medium">ReachBot</span>
       </div>
       <div className="flex items-center gap-3">
-        <div className="flex items-center gap-1.5 text-xs text-muted-foreground">
-          <span className="size-1.5 rounded-full bg-emerald-500" />
-          ReachIn · Portfolio
-        </div>
+        <LastSynced />
         <ThemeToggle />
       </div>
     </header>

@@ -7,6 +7,7 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-resource-accent: var(--resource-accent);
   --font-sans: var(--font-sans);
   --font-mono: var(--font-geist-mono);
   --font-heading: var(--font-sans);
@@ -63,6 +64,9 @@
 
   --background: var(--gray-50);
   --foreground: var(--gray-950);
+  /* Single accent for resource type labels + icons (per-type colors dropped;
+     the icon glyphs already distinguish type). Brand blue in light mode. */
+  --resource-accent: #0055ff;
   --card: var(--white);
   --card-foreground: var(--gray-950);
   --popover: var(--white);
@@ -100,6 +104,7 @@
 .dark {
   --background: var(--gray-975);
   --foreground: var(--gray-50);
+  --resource-accent: #c7f8fa; /* pale cyan in dark mode */
   --card: var(--gray-850);
   --card-foreground: var(--gray-50);
   --popover: var(--gray-850);

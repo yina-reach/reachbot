@@ -74,7 +74,7 @@ export function InlineCitation({
         className
       )}
     >
-      <Icon className="size-3.5 shrink-0" style={{ color: def.color }} aria-hidden />
+      <Icon className="size-3.5 shrink-0 text-resource-accent" aria-hidden />
       {/* Label capped at 20ch. On a sustained hover (600ms delay) the inner span
           slides left at a constant px/s to reveal the full text, then snaps back
           quickly on mouse-out. Short labels have scrollDist 0 and never move. */}
@@ -134,11 +134,8 @@ export function ResourceCard({ source }: { source: Source }) {
       {/* Header: type icon + label, with the badge field pinned top-right */}
       <div className="mb-2 flex items-center justify-between gap-2">
         <div className="flex items-center gap-2">
-          <Icon className="size-4 shrink-0" style={{ color: def.color }} aria-hidden />
-          <span
-            className="text-[10px] font-semibold uppercase tracking-wider"
-            style={{ color: def.color }}
-          >
+          <Icon className="size-4 shrink-0 text-resource-accent" aria-hidden />
+          <span className="text-[10px] font-semibold uppercase tracking-wider text-resource-accent">
             {def.label}
           </span>
         </div>
