@@ -12,7 +12,7 @@ const NOTION_DB_URL =
 const PROMPTS: { label: string; text: string }[] = [
   {
     label: "Look up",
-    text: "What partner discounts are available for HR or payroll tools?",
+    text: "What discounts does Reach provide for AI credits?",
   },
   {
     label: "Synthesize",
@@ -86,8 +86,8 @@ export function PromptSuggestions({ onPick }: { onPick: (q: string) => void }) {
           {/* On hover the content slides right so its text left-aligns with the
               composer's (composer text sits at p-2 + px-2 = 16px; list is at
               px-1 = 4px, so shift 12px). */}
-          <span className="flex flex-col gap-1 transition-transform duration-200 ease-out group-hover:translate-x-3">
-            <span className="text-[11px] font-medium uppercase tracking-wider text-muted-foreground/50 group-hover:text-muted-foreground">
+          <span className="flex flex-col items-start gap-1.5 transition-transform duration-200 ease-out group-hover:translate-x-3">
+            <span className="inline-flex items-center rounded-full border border-border/60 bg-card/40 px-2.5 py-1 text-[11px] font-medium uppercase tracking-wider text-muted-foreground">
               {p.label}
             </span>
             <span className="text-base text-muted-foreground group-hover:text-foreground">

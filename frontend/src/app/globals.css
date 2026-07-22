@@ -59,6 +59,7 @@
   --gray-500: oklch(0.614 0.010 113.3); /* #84857E */
   --gray-300: oklch(0.803 0.006 117.9); /* #BEBFBB */
   --gray-200: oklch(0.893 0.004 121.6); /* #DBDCD9 */
+  --gray-100: oklch(0.937 0.0035 125.0); /* #E9EAE8 — subtle light-mode hover/fill */
   --gray-50:  oklch(0.981 0.003 128.5); /* #F8F9F7 */
   --white:    oklch(1 0 0);             /* #FFFFFF */
 
@@ -114,7 +115,7 @@
   --secondary: var(--gray-700);
   --secondary-foreground: var(--gray-50);
   --muted: var(--gray-700);
-  --muted-foreground: var(--gray-300);
+  --muted-foreground: var(--gray-500); /* gray-300 read too close to the fg — this is visibly muted (4.7:1 on the dark bg) */
   --accent: var(--gray-700);
   --accent-foreground: var(--gray-50);
   --destructive: oklch(0.704 0.191 22.216);

@@ -9,11 +9,15 @@ export function ChatInput({
   onSend,
   disabled,
   minRows = 1,
+  placeholder: placeholderProp,
 }: {
   onSend: (q: string) => void;
   disabled?: boolean;
   /** Minimum visible rows before autosize grows (desktop only; mobile is always 1). */
   minRows?: number;
+  /** Override the placeholder. Omit on the empty state (uses the responsive
+   *  look-up/synthesize/browse text); pass "Ask ReachBot" in the conversation. */
+  placeholder?: string;
 }) {
   const [value, setValue] = useState("");
   const ref = useRef<HTMLTextAreaElement>(null);
@@ -33,9 +37,11 @@ export function ChatInput({
     return () => mq.removeEventListener("change", apply);
   }, [minRows]);
 
-  const placeholder = isDesktop
-    ? "Look up, synthesize, or browse ReachIn's library of curated and exclusive resources"
-    : "Look up, synthesize, or browse ReachIn";
+  const placeholder =
+    placeholderProp ??
+    (isDesktop
+      ? "Look up, synthesize, or browse ReachIn's library of curated and exclusive resources"
+      : "Look up, synthesize, or browse ReachIn");
 
   // Grow to fit content, but never shrink below the row floor.
   function autosize(el: HTMLTextAreaElement) {
@@ -62,7 +68,7 @@ export function ChatInput({
   }
 
   return (
-    <div className="relative flex items-end gap-2 rounded-2xl border bg-transparent p-2 focus-within:ring-1 focus-within:ring-ring">
+    <div className="relative flex items-end gap-2 rounded-2xl border bg-card p-2 shadow-sm focus-within:ring-1 focus-within:ring-ring">
       <Textarea
         ref={ref}
         value={value}

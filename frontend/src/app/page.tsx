@@ -142,7 +142,7 @@ export default function Home() {
 
       <div className="fixed inset-x-0 bottom-0 z-20 bg-gradient-to-t from-background via-background to-transparent pb-6 pt-8">
         <div className="mx-auto w-full max-w-3xl px-4 sm:px-6">
-          <ChatInput onSend={handleSend} disabled={busy} />
+          <ChatInput onSend={handleSend} disabled={busy} placeholder="Ask ReachBot" />
           <p className="mt-2 text-center text-xs text-muted-foreground">
             Answers from ReachIn only ·{" "}
             <a

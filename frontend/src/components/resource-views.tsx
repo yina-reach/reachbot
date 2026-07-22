@@ -10,6 +10,10 @@ import type { Source } from "@/lib/types";
  * across chips so long and short labels read at the same pace. */
 const CITE_SCROLL_PX_PER_S = 35;
 
+/** Extra scroll past the pure overflow so the label's tail clears the arrow
+ * overlay on the right (arrow size-3.5 + pl-3 ≈ this many px are obscured). */
+const CITE_ARROW_OVERLAP_PX = 26;
+
 /**
  * The author/byline for a source, used as the inline-citation label:
  *   article/report → publisher   ("First Round Review")
@@ -57,7 +61,11 @@ export function InlineCitation({
   useLayoutEffect(() => {
     const measure = () => {
       const el = labelRef.current;
-      if (el) setScrollDist(Math.max(0, el.scrollWidth - el.clientWidth));
+      if (!el) return;
+      const overflow = el.scrollWidth - el.clientWidth;
+      // Only scroll if the text actually overflows; then add the arrow overlap
+      // so the tail ends up left of the arrow rather than hidden under it.
+      setScrollDist(overflow > 0 ? overflow + CITE_ARROW_OVERLAP_PX : 0);
     };
     measure();
     document.fonts?.ready.then(measure);
@@ -70,7 +78,7 @@ export function InlineCitation({
       rel="noopener noreferrer"
       title={source.title}
       className={cn(
-        "group inline-flex max-w-full items-center gap-1.5 rounded-md border border-border/60 bg-card/40 px-2 py-0.5 align-middle text-[13px] text-foreground/90 transition-colors hover:border-border hover:bg-accent",
+        "group relative inline-flex max-w-full items-center gap-1.5 rounded-md border border-border/60 bg-card/40 py-0.5 pl-1.5 pr-2 align-middle text-[13px] text-foreground/90 transition-colors hover:border-border hover:bg-[var(--gray-100)] dark:hover:bg-accent",
         className
       )}
     >
@@ -94,11 +102,13 @@ export function InlineCitation({
           {label}
         </span>
       </span>
-      {/* Diagonal external-link arrow, revealed on hover (collapsed to 0 width otherwise). */}
-      <ArrowUpRight
-        className="size-3.5 w-0 shrink-0 opacity-0 transition-all duration-150 group-hover:w-3.5 group-hover:opacity-70"
-        aria-hidden
-      />
+      {/* Diagonal external-link arrow — absolutely positioned so it adds NO
+          width (chip sizes to icon + text). On hover it fades in over the
+          text's right edge, with a bg matching the hovered chip so the text it
+          overlaps reads as cropped beneath it. */}
+      <span className="pointer-events-none absolute inset-y-0 right-0 flex items-center rounded-r-md bg-gradient-to-l from-[var(--gray-100)] from-60% to-transparent pl-3 pr-2 opacity-0 transition-opacity duration-150 group-hover:opacity-100 dark:from-accent">
+        <ArrowUpRight className="size-3.5 text-foreground/70" aria-hidden />
+      </span>
     </a>
   );
 }
@@ -165,7 +175,9 @@ export function ResourceCard({ source }: { source: Source }) {
           {inlineLines.map((f) => (
             <span
               key={f.key}
-              className="inline-flex max-w-full items-center rounded-md bg-muted px-2 py-0.5 text-[13px] text-muted-foreground"
+              // Light: gray-100, a soft fill on the white card (full gray-200
+              // muted reads too heavy). Dark: the normal muted surface.
+              className="inline-flex max-w-full items-center rounded-md bg-[var(--gray-100)] px-2 py-0.5 text-[13px] text-muted-foreground dark:bg-muted"
             >
               <span className="truncate">{fields[f.key]}</span>
             </span>
