@@ -22,6 +22,7 @@ import hashlib
 import hmac
 import json
 import os
+from datetime import datetime, timezone
 from typing import Optional
 
 from fastapi import Cookie, FastAPI, HTTPException, Request
@@ -101,10 +102,26 @@ def _warm():
     rag.load_index()
 
 
+def _index_synced_at() -> Optional[str]:
+    """When the index was last built = mtime of index.npz. The weekly job rebuilds
+    it and redeploys, so the file's mtime in the image reflects the last sync.
+    ISO-8601 UTC, or None if the file isn't found."""
+    try:
+        ts = os.path.getmtime(rag.INDEX_PATH)
+        return datetime.fromtimestamp(ts, tz=timezone.utc).isoformat()
+    except OSError:
+        return None
+
+
 @app.get("/health")
 def health():
     idx = rag.load_index()
-    return {"ok": True, "chunks": int(len(idx.chunks)), "gated": bool(ACCESS_PASSWORD)}
+    return {
+        "ok": True,
+        "chunks": int(len(idx.chunks)),
+        "gated": bool(ACCESS_PASSWORD),
+        "last_synced": _index_synced_at(),
+    }
 
 
 # Cache the scope breakdown — it's a fixed scan over the index per process.
@@ -114,21 +131,56 @@ _scope_cache = None
 @app.get("/scope")
 def scope():
     """Unique-source counts by resource type, for the empty-state breakdown.
-    Deduped by title so it reflects pages, not chunks."""
+    Deduped by URL (the true page identity — distinct pages can share a title),
+    and each page classified by the best category seen across its chunks (a
+    page's chunks can carry inconsistent categories, some empty; prefer a
+    non-empty one so classify() isn't fed an arbitrary blank)."""
     global _scope_cache
     if _scope_cache is None:
         idx = rag.load_index()
-        seen = set()
-        counts = {}
-        for t, c in zip(idx.titles, idx.categories):
-            key = str(t)
-            if key in seen:
-                continue
-            seen.add(key)
-            typ = classify(str(t), str(c))
+        page_title: dict = {}
+        page_cat: dict = {}
+        for t, u, c in zip(idx.titles, idx.urls, idx.categories):
+            u, c = str(u), str(c)
+            if u not in page_title:
+                page_title[u] = str(t)
+            # Upgrade to a non-empty category if we haven't got one yet.
+            if u not in page_cat or (not page_cat[u] and c):
+                page_cat[u] = c
+        counts: dict = {}
+        for u, title in page_title.items():
+            typ = classify(title, page_cat[u])
             counts[typ] = counts.get(typ, 0) + 1
-        _scope_cache = {"total": len(seen), "by_type": counts}
+        _scope_cache = {"total": len(page_title), "by_type": counts}
     return _scope_cache
+
+
+_page_fields_cache: Optional[dict] = None
+
+
+def _page_fields(url: str, title: str, rtype: str) -> dict:
+    """Richest parsed fields for a page, scanned across ALL its chunks in the
+    index — not just the ones retrieved for this query.
+
+    A page's metadata (AMA speaker/org, article publisher, deal offer) lives only
+    in its header chunk; retrieval usually surfaces a body/transcript chunk that
+    has none. Without this, cards for a cited page render with just a title. Built
+    once per process and cached (keyed by URL)."""
+    global _page_fields_cache
+    if _page_fields_cache is None:
+        idx = rag.load_index()
+        cache: dict = {}
+        for t, u, c, cat in zip(idx.titles, idx.urls, idx.chunks, idx.categories):
+            u = str(u)
+            f = parse_fields(str(c), classify(str(t), str(cat)))
+            if not f:
+                continue
+            cur = cache.get(u)
+            # Keep the chunk that yields the most fields for this page.
+            if cur is None or len(f) > len(cur):
+                cache[u] = f
+        _page_fields_cache = cache
+    return dict(_page_fields_cache.get(url, {}))
 
 
 _samples_cache = None
@@ -245,10 +297,29 @@ def chat(request: Request, body: ChatBody, rb_auth: Optional[str] = Cookie(defau
             # history-resolved standalone query, but answer the raw question.
             search_q = rag.standalone_query(question, history)
             hits, quality = rag.retrieve(search_q)
-            sources = [
-                {"title": t, "url": u, "type": classify(t, cat)}
-                for _c, t, u, cat in hits
-            ]
+            # One entry per unique page, with the per-type card fields parsed
+            # from the chunk text (merged across a page's chunks) so the frontend
+            # can render inline-citation chips + resource cards.
+            by_url: dict = {}
+            order: list = []
+            for c, t, u, cat in hits:
+                rtype = classify(t, cat)
+                fields = parse_fields(str(c), rtype)
+                if u not in by_url:
+                    by_url[u] = {"title": t, "url": u, "type": rtype, "fields": fields}
+                    order.append(u)
+                else:
+                    for k, v in fields.items():
+                        by_url[u]["fields"].setdefault(k, v)
+            # Backfill from the page's richest chunk across the whole index —
+            # the metadata (speaker/org/publisher/offer) is usually in a header
+            # chunk retrieval didn't surface, so retrieved-chunk fields alone are
+            # often empty (e.g. AMA cards showing only a title).
+            for u in order:
+                entry = by_url[u]
+                for k, v in _page_fields(u, entry["title"], entry["type"]).items():
+                    entry["fields"].setdefault(k, v)
+            sources = [by_url[u] for u in order]
             yield sse("sources", sources)
 
             context = rag.build_context(hits, quality)

@@ -1,6 +1,14 @@
+"use client";
+
+import { useLayoutEffect, useRef, useState, type CSSProperties } from "react";
 import { ArrowUpRight } from "lucide-react";
 import { resourceDef } from "@/lib/resource-types";
+import { cn } from "@/lib/utils";
 import type { Source } from "@/lib/types";
+
+/** Hover-marquee scroll speed for inline citations, px per second. Constant
+ * across chips so long and short labels read at the same pace. */
+const CITE_SCROLL_PX_PER_S = 35;
 
 /**
  * The author/byline for a source, used as the inline-citation label:
@@ -29,20 +37,63 @@ function bylineOf(source: Source): string {
  * referenced within flowing text or a compact list. On hover, a diagonal ↗
  * appears at the right to signal the external link.
  */
-export function InlineCitation({ source }: { source: Source }) {
+export function InlineCitation({
+  source,
+  className,
+}: {
+  source: Source;
+  className?: string;
+}) {
   const def = resourceDef(source.type);
   const Icon = def.icon;
   const label = bylineOf(source);
+
+  // Measure how far the label overflows its 20ch window so the hover scroll
+  // runs at a CONSTANT speed (duration ∝ distance) instead of a fixed duration
+  // that makes long labels race and short ones crawl. Re-measured once webfonts
+  // finish loading, since that shifts text metrics.
+  const labelRef = useRef<HTMLSpanElement>(null);
+  const [scrollDist, setScrollDist] = useState(0);
+  useLayoutEffect(() => {
+    const measure = () => {
+      const el = labelRef.current;
+      if (el) setScrollDist(Math.max(0, el.scrollWidth - el.clientWidth));
+    };
+    measure();
+    document.fonts?.ready.then(measure);
+  }, [label]);
+
   return (
     <a
       href={source.url}
       target="_blank"
       rel="noopener noreferrer"
       title={source.title}
-      className="group inline-flex max-w-full items-center gap-1.5 rounded-md border border-border/60 bg-card/40 px-2 py-0.5 align-middle text-[13px] text-foreground/90 transition-colors hover:border-border hover:bg-accent"
+      className={cn(
+        "group inline-flex max-w-full items-center gap-1.5 rounded-md border border-border/60 bg-card/40 px-2 py-0.5 align-middle text-[13px] text-foreground/90 transition-colors hover:border-border hover:bg-accent",
+        className
+      )}
     >
-      <Icon className="size-3.5 shrink-0" style={{ color: def.color }} aria-hidden />
-      <span className="truncate">{label}</span>
+      <Icon className="size-3.5 shrink-0 text-resource-accent" aria-hidden />
+      {/* Label capped at 20ch. On a sustained hover (600ms delay) the inner span
+          slides left at a constant px/s to reveal the full text, then snaps back
+          quickly on mouse-out. Short labels have scrollDist 0 and never move. */}
+      <span
+        ref={labelRef}
+        className="max-w-[20ch] truncate group-hover:[text-overflow:clip]"
+      >
+        <span
+          className="inline-block transition-transform duration-300 ease-linear group-hover:[transition-delay:600ms] group-hover:[transition-duration:var(--cite-dur)] group-hover:[transform:translateX(var(--cite-scroll))]"
+          style={
+            {
+              "--cite-scroll": `${-scrollDist}px`,
+              "--cite-dur": `${scrollDist / CITE_SCROLL_PX_PER_S}s`,
+            } as CSSProperties
+          }
+        >
+          {label}
+        </span>
+      </span>
       {/* Diagonal external-link arrow, revealed on hover (collapsed to 0 width otherwise). */}
       <ArrowUpRight
         className="size-3.5 w-0 shrink-0 opacity-0 transition-all duration-150 group-hover:w-3.5 group-hover:opacity-70"
@@ -83,11 +134,8 @@ export function ResourceCard({ source }: { source: Source }) {
       {/* Header: type icon + label, with the badge field pinned top-right */}
       <div className="mb-2 flex items-center justify-between gap-2">
         <div className="flex items-center gap-2">
-          <Icon className="size-4 shrink-0" style={{ color: def.color }} aria-hidden />
-          <span
-            className="text-[10px] font-semibold uppercase tracking-wider"
-            style={{ color: def.color }}
-          >
+          <Icon className="size-4 shrink-0 text-resource-accent" aria-hidden />
+          <span className="text-[10px] font-semibold uppercase tracking-wider text-resource-accent">
             {def.label}
           </span>
         </div>

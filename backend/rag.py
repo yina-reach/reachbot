@@ -18,7 +18,11 @@ import numpy as np
 from google import genai
 
 EMBED_MODEL = "gemini-embedding-001"
-CHAT_MODEL = "gemini-2.5-flash"
+# Stable "-latest" aliases track Google's current recommended model and won't
+# 404 out for newer API projects the way pinned gemini-2.5-flash did (it's
+# blocked for generateContent on projects created after its deprecation).
+CHAT_MODEL = "gemini-flash-latest"
+CHAT_FALLBACKS = ["gemini-flash-lite-latest", "gemini-3.5-flash"]
 TOP_K = 25
 INDEX_PATH = os.environ.get("INDEX_PATH", "index.npz")
 
@@ -55,9 +59,14 @@ STEP 1 — CLASSIFY, THEN ANSWER. Silently route every query into exactly ONE re
 type below and follow its structure. Do not name the type in your answer.
 
 1. RESOURCE-FIRST — the user wants one specific fact or artifact (a code, a date, a
-   contact, a named doc). Structure: one clause of prose (max 20 words), then 1–3
-   resource links. The linked line carries the detail; do NOT repeat in prose a fact
-   (code, date, contact, stat) that already appears on the resource line.
+   contact, a named doc), OR a set of matching resources (e.g. "what partner
+   discounts are available for AI credits" → the matching deals). Structure: one
+   short intro line, then the resources ONLY in the **Resources** list below — never
+   as a bulleted prose list. When several resources match, make the intro a count
+   ("I found 5 partner discounts for AI credits:") and let each card carry its own
+   detail. Do NOT restate a resource's detail (offer, code, date, contact, stat) in
+   the prose or in bullets — it already appears on the card. No inline bullet list of
+   the resources; the **Resources** cards ARE the list.
 2. SUMMARY-FIRST — the user wants interpretation or synthesis. Structure: the direct
    answer in the FIRST sentence, then supporting detail with inline citations woven
    into sentences ("...according to Maria's AMA"). One source: 40–80 words. Multiple
@@ -111,6 +120,11 @@ RULES:
   You may mention the AMA exists and link to it, but do not summarize it.
 - ALWAYS format every link as markdown: [Descriptive Title](https://url.here)
   Never output a bare URL — always wrap it in [text](url) format.
+- Place inline citations directly in the sentence — do NOT wrap the finished
+  [Title](URL) link in an extra pair of parentheses.
+- NEVER write a bracketed title with no URL, like [Some Report]. If you want to
+  mention a source whose URL you don't have in front of you, name it in plain
+  prose without brackets ("the K-12 Superintendents Roundtable transcript").
 - When you name a specific person or entity that came from the network — an advisor,
   consultant, coach, scout, media contact, or partner/credit — hyperlink their NAME to
   their Notion source_url the FIRST time you mention them in the answer body, e.g.
@@ -134,11 +148,14 @@ RULES:
 
 FORMATTING: use short paragraphs or bulleted lists with a blank line between items.
 Quote AMA speakers when transcript content exists. For RESOURCE-FIRST and SUMMARY-FIRST
-answers, end with a single **Resources** list (max 3 entries: the sources you used,
-plus a related pick if genuinely useful) — [Page Title](URL) — one sentence each. Do
-not split into separate "Sources" and "Explore more" sections. BROWSE, NOT-FOUND, and
-META answers need no Resources section (the list, gap, or category overview IS the
-answer)."""
+answers, end with a single **Resources** list — [Page Title](URL) — one sentence each,
+NOT split into "Sources" and "Explore more" sections. For a SUMMARY-FIRST answer keep
+this to max 3 entries (the sources used plus a related pick if useful). For a
+RESOURCE-FIRST set (e.g. matching partner discounts), list EVERY matching resource
+here — this list is the answer, and it renders as cards. Do NOT also enumerate those
+resources as bullets in the prose above; the intro is just one line (a count when
+several match). BROWSE, NOT-FOUND, and META answers need no Resources section (the
+list, gap, or category overview IS the answer)."""
 
 
 class _Index:
@@ -182,6 +199,18 @@ def _is_perk_query(q: str) -> bool:
 TIER_STRONG = 0.70    # solid coverage
 TIER_PARTIAL = 0.60   # adjacent / partial coverage
 MARGIN = 0.08         # keep chunks within this of the top score
+# Perk/deal chunks are near-duplicates in structure ("Category / Offer / Contact
+# / …"), so they cluster tightly in embedding space — a bunch of IRRELEVANT deals
+# sit within the normal 0.08 margin of the one the user actually asked about
+# ("HR discounts" → TriNet 0.729, then Carta/Pave/Zendesk all ~0.68). A tighter
+# margin cuts that cluster so only the genuinely-relevant deal(s) survive; the
+# model still offers "want the full list?" for breadth.
+PERK_MARGIN = 0.04
+# For a narrow perk question ("HR discounts?") ONE relevant deal is a complete
+# answer, not a starved one — so don't pad perks back up to MIN_KEEP with the
+# next-best (irrelevant) deals. A browse query ("what discounts do you have?")
+# takes the separate breadth branch and is unaffected.
+PERK_MIN_KEEP = 1
 # How many chunks each tier may pass to the model. Weak evidence gets LESS
 # context on purpose: 25 noise chunks tempt the model to overreach; 5 lets it
 # name "the closest thing" and honestly route to not-found/low-confidence.
@@ -251,10 +280,11 @@ def retrieve(query: str):
         # Dynamic cutoff relative to the best match: lookups cliff fast (3-8
         # survive), synthesis plateaus (cap applies), off-topic is flat+low
         # (weak tier cap applies).
-        floor = top - MARGIN
+        floor = top - (PERK_MARGIN if perk else MARGIN)
         picked = [h for h in ranked if h[0] >= floor][:TIER_CAPS[tier]]
-        if len(picked) < MIN_KEEP:
-            picked = ranked[:MIN_KEEP]
+        min_keep = PERK_MIN_KEEP if perk else MIN_KEEP
+        if len(picked) < min_keep:
+            picked = ranked[:min_keep]
         if not perk:
             # Diversity guard: one long transcript can't hog the context.
             per_page = {}
@@ -291,7 +321,7 @@ def standalone_query(question: str, history) -> str:
     )
     try:
         resp = _client.models.generate_content(
-            model="gemini-2.5-flash-lite",
+            model="gemini-flash-lite-latest",
             contents=(
                 "Rewrite the user's latest message as ONE self-contained search query "
                 "for a knowledge base, resolving pronouns and references from the "
@@ -320,7 +350,7 @@ def generate_stream(context: str, question: str, history=()) -> Iterator[str]:
                   "parts": [{"text": f"Context:\n{context}\n\nQuestion: {question}"}]})
     config = genai.types.GenerateContentConfig(system_instruction=SYSTEM_PROMPT)
 
-    for model in [CHAT_MODEL, "gemini-2.5-flash-lite", "gemini-2.5-flash"]:
+    for model in [CHAT_MODEL, *CHAT_FALLBACKS]:
         try:
             stream = _client.models.generate_content_stream(
                 model=model, contents=turns, config=config,

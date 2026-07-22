@@ -19,14 +19,23 @@ export function ChatInput({
   const ref = useRef<HTMLTextAreaElement>(null);
   // Mobile stays single-line regardless of minRows; desktop honors it (Tailwind sm = 640px).
   const [effectiveRows, setEffectiveRows] = useState(1);
+  // Desktop shows the fuller placeholder; the narrow mobile composer gets a short one.
+  const [isDesktop, setIsDesktop] = useState(false);
 
   useEffect(() => {
     const mq = window.matchMedia("(min-width: 640px)");
-    const apply = () => setEffectiveRows(mq.matches ? minRows : 1);
+    const apply = () => {
+      setEffectiveRows(mq.matches ? minRows : 1);
+      setIsDesktop(mq.matches);
+    };
     apply();
     mq.addEventListener("change", apply);
     return () => mq.removeEventListener("change", apply);
   }, [minRows]);
+
+  const placeholder = isDesktop
+    ? "Look up, synthesize, or browse ReachIn's library of curated and exclusive resources"
+    : "Look up, synthesize, or browse ReachIn";
 
   // Grow to fit content, but never shrink below the row floor.
   function autosize(el: HTMLTextAreaElement) {
@@ -68,12 +77,13 @@ export function ChatInput({
             submit();
           }
         }}
-        placeholder="Ask anything about ReachIn…"
+        placeholder={placeholder}
         className="max-h-[200px] min-h-0 resize-none border-0 bg-transparent px-2 py-1.5 text-base leading-6 shadow-none focus-visible:ring-0 dark:bg-transparent"
       />
       <Button
         size="icon"
-        className="size-8 shrink-0 rounded-full"
+        // Brand blue #0055FF in both themes; overrides the theme primary.
+        className="size-8 shrink-0 rounded-full bg-[#0055FF] text-white hover:bg-[#0048d6] disabled:bg-[#0055FF]/40 disabled:text-white/70"
         onClick={submit}
         disabled={disabled || !value.trim()}
         aria-label="Send"

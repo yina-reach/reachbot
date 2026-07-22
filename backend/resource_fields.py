@@ -54,6 +54,43 @@ def _first(raw: dict, *keys: str) -> str:
     return ""
 
 
+# The raw **Speaker:** value is reliably structured as one or more markdown
+# links `[Name](linkedin-url)`, optionally joined by "&"/"and"/","; a trailing
+# "(Org, Org)" may follow. AFTER that, transcript/summary body runs on with no
+# delimiter. Names come from the LinkedIn LINK TEXTS (unambiguous — across the
+# whole index only person profiles use them; the 2 non-LinkedIn links in speaker
+# fields were body/resource references, not people).
+_SPEAKER_LINK_RE = re.compile(r"\[([^\]]+)\]\((?:https?://)?[^)]*linkedin\.com[^)]*\)")
+
+
+def _ama_speaker_org(chunk: str) -> tuple:
+    """(speaker, org) for an AMA, parsed from the RAW chunk before markdown links
+    are flattened. Names come from `[Name](url)` link texts; org from a trailing
+    `(Org)`. Returns ('', '') if no linked speaker — we never guess from prose,
+    so body text can't leak into the card."""
+    m = re.search(r"\*\*Speakers?:\*\*\s*(.*?)(?=\*\*[A-Za-z][^:*]{1,34}:\*\*|$)",
+                  chunk, re.DOTALL)
+    if not m:
+        return "", ""
+    val = m.group(1)
+    names = [n.strip() for n in _SPEAKER_LINK_RE.findall(val) if n.strip()]
+    if not names:
+        return "", ""  # no linked name → don't risk pulling body text
+    # De-dupe while preserving order (a name is sometimes linked then repeated).
+    seen = set()
+    names = [n for n in names if not (n in seen or seen.add(n))]
+    speaker = " & ".join(names) if len(names) <= 3 else "; ".join(names[:3]) + " & others"
+
+    # Org: the first "(...)" that sits between the end of the last link and the
+    # start of body prose. Look only in the slice right after the final link.
+    org = ""
+    tail = val[val.rfind(")") + 1:] if ")" in val else ""
+    om = re.match(r"\s*\(([^)]{1,60})\)", tail)
+    if om:
+        org = re.sub(r"\s+", " ", om.group(1)).strip()
+    return speaker, org
+
+
 def parse_fields(chunk: str, rtype: str) -> dict:
     """Return a normalized field dict for the given resource type. Only keys with
     real values are present. Shapes match the design spec's 'key fields' per card."""
@@ -94,20 +131,13 @@ def parse_fields(chunk: str, rtype: str) -> dict:
         })
 
     if rtype == "ama":
-        # The Speaker field is often "Name(s) - <url/transcript run-on>". Keep just
-        # the name(s): cut at the first " - ", URL, or timestamp like "(00:00".
-        # Skip `recording` — it can carry a passcode, and the title links the AMA.
-        speaker = _first(raw, "speaker")
-        # Cut at the first structural break that signals the name has ended and a
-        # topic/transcript begins: " - ", a URL, a "(00:00" timestamp, or a colon.
-        speaker = re.split(r"\s+-\s+|\s*https?://|\s*\(\d{1,2}:\d{2}|\s*:\s", speaker)[0].strip()
-        if len(speaker) > 48:
-            speaker = speaker[:48].rsplit(" ", 1)[0] + "…"
+        # AMA cards show ONLY speaker + org, parsed from the raw markdown links
+        # in **Speaker:** (see _ama_speaker_org) — never from prose, so transcript
+        # body ("AMA Summary", timestamps, headers) can't leak into the card.
+        speaker, org = _ama_speaker_org(chunk)
         return _compact({
             "speaker": speaker,
-            "org": _first(raw, "org"),
-            "date": _first(raw, "date"),
-            "tags": _first(raw, "tags"),
+            "org": org or _first(raw, "org"),
         })
 
     if rtype == "report":

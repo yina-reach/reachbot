@@ -38,16 +38,12 @@ export function RetrievedDisclosure({
     : `Reviewed ${n} ${n === 1 ? "resource" : "resources"}`;
 
   return (
-    <div className="mb-3 rounded-lg border border-border/60 bg-card/30">
+    <div className="mb-3">
       <button
         onClick={() => setOpen((o) => !o)}
-        className="flex w-full items-center gap-2 px-3 py-2 text-left text-xs font-medium text-muted-foreground transition-colors hover:text-foreground"
+        className="flex items-center gap-1.5 py-1 text-left text-xs font-medium text-muted-foreground transition-colors hover:text-foreground"
         aria-expanded={open}
       >
-        <ChevronRight
-          className={`size-3.5 shrink-0 transition-transform ${open ? "rotate-90" : ""}`}
-          aria-hidden
-        />
         {streaming && (
           <span className="flex gap-0.5" aria-hidden>
             {[0, 1, 2].map((i) => (
@@ -60,10 +56,14 @@ export function RetrievedDisclosure({
           </span>
         )}
         <span>{label}</span>
+        <ChevronRight
+          className={`size-3.5 shrink-0 transition-transform ${open ? "rotate-90" : ""}`}
+          aria-hidden
+        />
       </button>
 
       {open && (
-        <div className="flex flex-col gap-0.5 border-t border-border/60 px-2 py-2">
+        <div className="mt-1 flex flex-col divide-y divide-border/60 overflow-hidden rounded-lg border border-border bg-card dark:bg-black/30">
           {unique.map((s, i) => {
             const def = resourceDef(s.type);
             const Icon = def.icon;
@@ -73,10 +73,10 @@ export function RetrievedDisclosure({
                 href={s.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group flex items-center gap-2 rounded-md px-2 py-1.5 text-[13px] text-muted-foreground transition-colors hover:bg-accent hover:text-foreground"
+                className="group flex items-center gap-2 px-3 py-2 text-[13px] text-muted-foreground transition-colors hover:bg-[var(--gray-200)] hover:text-foreground dark:hover:bg-[var(--gray-950)]"
               >
-                <Icon className="size-3.5 shrink-0" style={{ color: def.color }} aria-hidden />
-                <span className="truncate group-hover:underline">{s.title}</span>
+                <Icon className="size-3.5 shrink-0 text-resource-accent" aria-hidden />
+                <span className="truncate">{s.title}</span>
               </a>
             );
           })}

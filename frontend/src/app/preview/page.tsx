@@ -47,11 +47,7 @@ export default function PreviewPage() {
           return (
             <section key={type} className="mb-14">
               <div className="mb-4 flex items-center gap-2">
-                <def.icon
-                  className="size-5"
-                  style={{ color: def.color }}
-                  aria-hidden
-                />
+                <def.icon className="size-5 text-resource-accent" aria-hidden />
                 <h2 className="text-lg font-medium">{def.label}</h2>
                 <span className="text-xs text-muted-foreground">
                   {def.cardFields.map((f) => f.label).join(" · ")}
