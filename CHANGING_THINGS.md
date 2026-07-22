@@ -5,7 +5,7 @@ right. Line numbers drift as the code changes — search for the named constant 
 line has moved.
 
 > **The #1 rule:** the bot's brain lives in TWO places that must stay identical —
-> `app.py` (the live Streamlit app) and `backend/rag.py` (the new React stack's
+> `app.py` (the live Vercel app) and `backend/rag.py` (the new React stack's
 > backend). **Any change to retrieval logic or the system prompt must be made in
 > both files.** They are intentional duplicates until Streamlit is retired.
 
@@ -43,9 +43,9 @@ line has moved.
 
 | I want to change… | File → what to edit |
 |---|---|
-| **Streamlit app** (currently live): headline, the 6 example-question chips, colors | `app.py` — chips at `CHIPS` (~line 1018), styles in the big CSS block near the top, Notion hub link `REACHIN_HUB` (~line 967). |
+| **Vercel app** (currently live): headline, the 6 example-question chips, colors | `app.py` — chips at `CHIPS` (~line 1018), styles in the big CSS block near the top, Notion hub link `REACHIN_HUB` (~line 967). |
 | **React app** (the migration): all UI | `frontend/src/` — the empty state and prompts live in the page components; styling is Tailwind. |
-| **Resource card types / icons / fields** | `backend/resource_types.py` (what maps to article/report/contact/ama/deal) and `resource_fields.py` (which fields each card shows). The Streamlit app has a matching `TYPE_META` / `CARD_FIELDS` map in `app.py`. |
+| **Resource card types / icons / fields** | `backend/resource_types.py` (what maps to article/report/contact/ama/deal) and `resource_fields.py` (which fields each card shows). The Vercel app has a matching `TYPE_META` / `CARD_FIELDS` map in `app.py`. |
 
 ---
 
