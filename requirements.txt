@@ -1,7 +1,6 @@
-# Ingest pipeline deps (reachin_export.py, zoom_transcripts.py, ingest.py)
-# plus streamlit for the legacy app.py, which stays deployed as the live bot
-# until the frontend/ (Next.js) + backend/ (FastAPI) stack is verified in prod.
-streamlit
+# Ingest pipeline deps (reachin_export.py, zoom_transcripts.py, ingest.py).
+# The app runtime deps live in backend/requirements.txt (FastAPI) and
+# frontend/package.json (Next.js).
 google-genai
 numpy
 pyyaml

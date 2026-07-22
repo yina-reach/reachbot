@@ -32,8 +32,8 @@ re-syncs everything.
 | `backend/` | FastAPI RAG service (retrieval + streaming answer); deploys to Fly.io | `GEMINI_API_KEY`, `ACCESS_PASSWORD`, `SESSION_SECRET`, `ALLOWED_ORIGIN` |
 | `frontend/` | Next.js + shadcn chat UI; deploys to Vercel | `BACKEND_URL` |
 | `email_agent.py` | ReachIn Connect email intake agent | see §7 |
-| `gen_summaries.py` | One-off: backfilled AI summaries onto AMA Notion pages | `NOTION_WRITE_TOKEN`, `GEMINI_API_KEY` |
-| `add_transcripts.py` | One-off: added raw-transcript toggles to AMA pages | `NOTION_WRITE_TOKEN` |
+| `gen_summaries.py` | AI-summarizes AMA transcripts (imported by `add_transcripts.py`; runs in the weekly job) | `NOTION_WRITE_TOKEN`, `GEMINI_API_KEY` |
+| `add_transcripts.py` | Adds raw-transcript toggles to AMA pages; run weekly (`weekly.yml`) | `NOTION_WRITE_TOKEN` |
 | `.github/workflows/weekly.yml` | Monday cron: export → fetch → zoom → rebuild index → commit | repo secrets |
 | `.github/workflows/reachin_agent.yml` | Email-agent poll (manual until enabled) | repo secrets |
 
@@ -62,7 +62,7 @@ All secrets live in these places, never in code:
 | `BACKEND_URL` | frontend | the Fly backend URL |
 | `FLY_API_TOKEN` | weekly workflow | lets the Monday job redeploy the backend (`fly tokens create deploy`) |
 | `NOTION_TOKEN` | export (read) | Notion internal integration, read access to ReachIn |
-| `NOTION_WRITE_TOKEN` | email agent, one-off scripts (write) | Notion integration with **write** access |
+| `NOTION_WRITE_TOKEN` | email agent, transcript/summary scripts (write) | Notion integration with **write** access |
 | `ZOOM_ACCOUNT_ID` / `ZOOM_CLIENT_ID` / `ZOOM_CLIENT_SECRET` | zoom transcripts | Optional; weekly job skips if unset |
 | `REACHIN_EMAIL` | email agent | `reachin@reachcapital.com` |
 | `REACHIN_EMAIL_APP_PASSWORD` | email agent | Gmail **App Password** (needs 2FA on the account) |

@@ -193,8 +193,8 @@ def main():
 
     arr = np.array([np.asarray(v, dtype=np.float32) for v in vectors], dtype=np.float32)
     # Store vectors as float16 to keep index.npz under GitHub's 100 MB file limit
-    # (halves the largest component). app.py upcasts to float32 on load, so search
-    # quality is unaffected.
+    # (halves the largest component). The backend upcasts to float32 on load, so
+    # search quality is unaffected.
     np.savez_compressed(
         "index.npz",
         vectors=arr.astype(np.float16),

@@ -1,8 +1,8 @@
 # CLAUDE.md — REACHBOT project context
 
 You are helping build **REACHBOT**, a RAG chatbot over Reach Capital's "ReachIn" Notion
-hub for portfolio founders. This file orients you; `README.md` and `REACHBOT_build_guide.md`
-have full detail.
+hub for portfolio founders. This file orients you; `README.md` has full setup detail,
+`MAINTENANCE.md` covers run/deploy, and `CHANGING_THINGS.md` maps tasks → files.
 
 ## What this is
 A retrieval-augmented chatbot (NOT fine-tuned). It extracts ReachIn content + AMA Zoom
@@ -22,12 +22,12 @@ refreshes the bot.
 - `.github/workflows/weekly.yml` — Monday cron: re-runs the ingest pipeline, commits the new
   `index.npz`, then `flyctl deploy`s the backend so it reloads the index.
 
-## Architecture (post-Streamlit migration, 2026-07)
+## Architecture
 `frontend` (Vercel, React/shadcn) → same-origin `/api/*` proxy → `backend` (Fly.io, FastAPI)
 → Gemini + NumPy over `index.npz`. The proxy keeps the backend URL + auth cookie server-side.
-Retrieval semantics + the Gemini system prompt are **identical** to the old `app.py` (lifted
-verbatim into `backend/rag.py`); generation now streams token-by-token. `MIGRATION_PLAN.md`
-has the full detail. The ingest pipeline (export/transcripts/ingest → `index.npz`) is unchanged.
+Retrieval + the Gemini system prompt live in `backend/rag.py`; generation streams
+token-by-token. The ingest pipeline (export/transcripts/ingest → `index.npz`) feeds the
+index the backend loads. `backend/rag.py` is the sole home of retrieval/prompt logic.
 
 ## Build sequence (run on this machine — it has the network access)
 1. `pip install -r requirements.txt`

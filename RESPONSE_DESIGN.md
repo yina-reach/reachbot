@@ -1,8 +1,8 @@
 # ReachBot Response Design
 
 How ReachBot decides *what kind of answer* to give, how long it should be, and how
-resources get shown. This is the spec behind the system prompt (in `app.py` and
-`backend/rag.py` — kept identical) and the card renderer. Based on the 7/7 feedback.
+resources get shown. This is the spec behind the system prompt (`SYSTEM_PROMPT` in
+`backend/rag.py`) and the card renderer. Based on the 7/7 feedback.
 
 ---
 
@@ -129,4 +129,4 @@ trusting the old numbers.
 ---
 
 *Maintained alongside the prompt — if you change one, change the other. The prompt
-lives in `app.py` (`generate()`) and `backend/rag.py` (`SYSTEM_PROMPT`).*
+lives in `backend/rag.py` (`SYSTEM_PROMPT`).*

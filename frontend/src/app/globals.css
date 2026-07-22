@@ -154,7 +154,7 @@
 :root {
   --content-measure: 46rem;
 }
-/* ── Chat markdown (replaces the app.py .rb-bot-body styles) ────────────────── */
+/* ── Chat markdown (the assistant answer body) ─────────────────────────────── */
 .prose-chat {
   /* P22 Mackinac Pro (Adobe Typekit) — the chatbot's answer voice. */
   font-family: "p22-mackinac-pro", ui-serif, Georgia, serif;

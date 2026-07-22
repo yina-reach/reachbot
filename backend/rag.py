@@ -1,9 +1,9 @@
 """ReachBot RAG core — retrieval + streaming generation.
 
-Lifted from the Streamlit app.py, unchanged in semantics:
-  - load_index()  : loads index.npz once (module singleton, replaces st.cache_resource)
+The bot's brain — the only home of retrieval + prompt logic:
+  - load_index()  : loads index.npz once (module singleton)
   - retrieve()    : NumPy cosine search + perk-query filtering + thin-chunk skipping
-  - generate()    : Gemini chat, now STREAMING, with the same model fallback + quota handling
+  - generate()    : Gemini chat, STREAMING, with model fallback + quota handling
 
 Env:
   GEMINI_API_KEY  (required)
@@ -337,8 +337,8 @@ def standalone_query(question: str, history) -> str:
 
 
 def generate_stream(context: str, question: str, history=()) -> Iterator[str]:
-    """Yield answer text chunks. Same model fallback + quota handling as the
-    Streamlit version, but streamed token-by-token. `history` is a list of
+    """Yield answer text chunks, streamed token-by-token, with model fallback +
+    quota handling. `history` is a list of
     {role: "user"|"assistant", content: str} dicts; recent turns are included
     so follow-ups resolve, while the Context always applies to the LATEST question."""
     turns = [

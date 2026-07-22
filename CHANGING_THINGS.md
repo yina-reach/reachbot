@@ -4,14 +4,14 @@ A task-oriented map. Find what you want to change on the left, edit the file on 
 right. Line numbers drift as the code changes — search for the named constant if the
 line has moved.
 
-> **The #1 rule:** the bot's brain lives in TWO places that must stay identical —
-> `app.py` (the live Vercel app) and `backend/rag.py` (the new React stack's
-> backend). **Any change to retrieval logic or the system prompt must be made in
-> both files.** They are intentional duplicates until Streamlit is retired.
+> **The #1 rule:** the bot's brain lives in `backend/rag.py` (retrieval +
+> the Gemini system prompt). The frontend (`frontend/`) only renders; it never
+> makes retrieval or prompt decisions.
 
-> **Where to work:** the canonical clone is `~/repos/reachbot`. Do NOT commit from
-> `~/Documents/Playground/reachbot` (its git is corrupted by iCloud). After editing,
-> `git commit` and `git push` — the live apps redeploy from GitHub automatically.
+> **Where to work:** after editing, `git commit` and `git push origin main` —
+> the frontend redeploys from GitHub automatically (Vercel). Backend changes
+> (`backend/`) also need a `fly deploy` (or wait for the weekly job, which
+> redeploys it). See `MAINTENANCE.md`.
 
 ---
 
@@ -30,11 +30,11 @@ line has moved.
 
 | I want to change… | File → what to edit |
 |---|---|
-| **How it answers** (tone, the 10 response types, length rules, citation style) | The `SYSTEM_PROMPT` — `backend/rag.py` (~line 40) AND the `system` string in `app.py`'s `generate()` (~line 700). Keep them identical. Spec is in `RESPONSE_DESIGN.md`. |
-| **How many chunks it retrieves** (precision vs. breadth) | `TIER_CAPS`, `TOP_K`, `MARGIN` — top of `retrieve()` in both `app.py` (~line 607) and `backend/rag.py` (~line 182). Bigger caps = more context, more cost, more chance of noise. |
-| **When it says "strong / partial / weak coverage"** | `TIER_STRONG` (0.70) and `TIER_PARTIAL` (0.60) in both files. **Re-run the calibration script if you change the embedding model** — the score curves shift. See `RESPONSE_DESIGN.md` §6. |
-| **Which model writes answers** | `CHAT_MODEL` in `app.py:9` and `backend/rag.py:21`. `EMBED_MODEL` (app.py:8) — ⚠️ changing this **invalidates the whole index**; you must full-rebuild and re-calibrate thresholds. |
-| **What counts as a "discount/perk" question** (scoped to partner deals only) | `PERK_KEYWORDS` list, `app.py` (~line 595) and `backend/rag.py`. |
+| **How it answers** (tone, the 10 response types, length rules, citation style) | The `SYSTEM_PROMPT` in `backend/rag.py` (~line 40). Spec is in `RESPONSE_DESIGN.md`. |
+| **How many chunks it retrieves** (precision vs. breadth) | `TIER_CAPS`, `TOP_K`, `MARGIN` (and `PERK_MARGIN`) at the top of `retrieve()` in `backend/rag.py` (~line 185). Bigger caps = more context, more cost, more chance of noise. |
+| **When it says "strong / partial / weak coverage"** | `TIER_STRONG` (0.70) and `TIER_PARTIAL` (0.60) in `backend/rag.py`. **Re-run the calibration script if you change the embedding model** — the score curves shift. See `RESPONSE_DESIGN.md` §6. |
+| **Which model writes answers** | `CHAT_MODEL` / `CHAT_FALLBACKS` in `backend/rag.py` (~line 21). `EMBED_MODEL` — ⚠️ changing this **invalidates the whole index**; you must full-rebuild and re-calibrate thresholds. |
+| **What counts as a "discount/perk" question** (scoped to partner deals only) | `PERK_KEYWORDS` list in `backend/rag.py`. |
 | **Chunk size** (how text is split) | `CHUNK_WORDS` / `OVERLAP_WORDS` in `ingest.py:29`. ⚠️ Requires a full `--force` re-embed to take effect. |
 
 ---
@@ -43,9 +43,9 @@ line has moved.
 
 | I want to change… | File → what to edit |
 |---|---|
-| **Vercel app** (currently live): headline, the 6 example-question chips, colors | `app.py` — chips at `CHIPS` (~line 1018), styles in the big CSS block near the top, Notion hub link `REACHIN_HUB` (~line 967). |
-| **React app** (the migration): all UI | `frontend/src/` — the empty state and prompts live in the page components; styling is Tailwind. |
-| **Resource card types / icons / fields** | `backend/resource_types.py` (what maps to article/report/contact/ama/deal) and `resource_fields.py` (which fields each card shows). The Vercel app has a matching `TYPE_META` / `CARD_FIELDS` map in `app.py`. |
+| **Empty state** (headline, logo, the example-question suggestions) | `frontend/src/components/welcome.tsx` (heading + `PROMPTS`) and the header in `frontend/src/app/page.tsx`. |
+| **Colors / theming** (brand grayscale, resource accent, light/dark) | `frontend/src/app/globals.css` — the CSS-variable token blocks (`:root` / `.dark`). Styling elsewhere is Tailwind. |
+| **Resource card types / icons / fields** | `backend/resource_types.py` (what maps to article/report/contact/ama/deal), `backend/resource_fields.py` (which fields each card parses), and `frontend/src/lib/resource-types.ts` (icon + which fields the card renders). |
 
 ---
 
@@ -74,9 +74,11 @@ line has moved.
 
 ## Secrets (never in code)
 
-All secrets live in three places, kept in sync: local `.env`, **Streamlit Cloud** app
-settings, and **GitHub Actions secrets**. The list and rotation steps are in
-`MAINTENANCE.md §3`. To rotate anything ever pasted in chat/email: update all three.
+Secrets live in a few places, kept in sync: local `.env`, **Fly secrets** (backend
+runtime — `fly secrets set`), **Vercel env vars** (the frontend's `BACKEND_URL`), and
+**GitHub Actions secrets** (the weekly/agent workflows). The list and rotation steps
+are in `MAINTENANCE.md §3`. To rotate anything ever pasted in chat/email: update
+everywhere it lives.
 
 ---
 
@@ -85,9 +87,9 @@ settings, and **GitHub Actions secrets**. The list and rotation steps are in
 The bot is probabilistic; eyeball it before trusting it. Run it locally:
 
 ```
-cd ~/repos/reachbot && set -a && source .env && set +a
-cd backend && INDEX_PATH=../index.npz python3.11 -m uvicorn main:app --port 8000 &
-cd ../frontend && BACKEND_URL=http://127.0.0.1:8000 npm run start
+set -a && source backend/.env && set +a
+cd backend && INDEX_PATH=../index.npz uvicorn main:app --port 8000 &
+cd ../frontend && npm run dev   # needs .env.local → BACKEND_URL=http://127.0.0.1:8000
 # open localhost:3000
 ```
 
@@ -99,4 +101,4 @@ or retrieval change. A formal eval suite is the top open next-step.
 ---
 
 *See also: `MAINTENANCE.md` (run/deploy/handoff), `RESPONSE_DESIGN.md` (the answer
-design spec), `MIGRATION_PLAN.md` (the Streamlit → React move).*
+design spec).*

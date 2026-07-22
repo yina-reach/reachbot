@@ -2,9 +2,8 @@
 
 The RAG service. Loads the 100MB `index.npz` once at startup, embeds queries with
 Gemini, retrieves with NumPy cosine similarity, and streams the answer from Gemini
-back to the frontend as Server-Sent Events. Logic is lifted verbatim from the old
-Streamlit `app.py` (retrieval semantics unchanged); the only change is that
-generation now **streams**.
+back to the frontend as Server-Sent Events. Retrieval + prompt logic lives in
+`rag.py`; generation **streams** token-by-token.
 
 ## Endpoints
 
