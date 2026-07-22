@@ -18,7 +18,11 @@ import numpy as np
 from google import genai
 
 EMBED_MODEL = "gemini-embedding-001"
-CHAT_MODEL = "gemini-2.5-flash"
+# Stable "-latest" aliases track Google's current recommended model and won't
+# 404 out for newer API projects the way pinned gemini-2.5-flash did (it's
+# blocked for generateContent on projects created after its deprecation).
+CHAT_MODEL = "gemini-flash-latest"
+CHAT_FALLBACKS = ["gemini-flash-lite-latest", "gemini-3.5-flash"]
 TOP_K = 25
 INDEX_PATH = os.environ.get("INDEX_PATH", "index.npz")
 
@@ -317,7 +321,7 @@ def standalone_query(question: str, history) -> str:
     )
     try:
         resp = _client.models.generate_content(
-            model="gemini-2.5-flash-lite",
+            model="gemini-flash-lite-latest",
             contents=(
                 "Rewrite the user's latest message as ONE self-contained search query "
                 "for a knowledge base, resolving pronouns and references from the "
@@ -346,7 +350,7 @@ def generate_stream(context: str, question: str, history=()) -> Iterator[str]:
                   "parts": [{"text": f"Context:\n{context}\n\nQuestion: {question}"}]})
     config = genai.types.GenerateContentConfig(system_instruction=SYSTEM_PROMPT)
 
-    for model in [CHAT_MODEL, "gemini-2.5-flash-lite", "gemini-2.5-flash"]:
+    for model in [CHAT_MODEL, *CHAT_FALLBACKS]:
         try:
             stream = _client.models.generate_content_stream(
                 model=model, contents=turns, config=config,
