@@ -68,7 +68,12 @@ export function ChatInput({
   }
 
   return (
-    <div className="relative flex items-end gap-2 rounded-2xl border bg-card p-2 shadow-sm transition-colors focus-within:border-[#0055FF]/50 focus-within:ring-1 focus-within:ring-[#0055FF]/50">
+    <div
+      // radius = half the single-row height (min-h-8 32px + p-2 16px = 48px, so
+      // 24px): a perfect pill at one row, and as the composer grows multi-line
+      // the fixed radius reads as normal rounded corners.
+      className="relative flex items-end gap-2 rounded-[24px] border bg-card p-2 shadow-sm transition-colors focus-within:border-[#0055FF]/50 focus-within:ring-1 focus-within:ring-[#0055FF]/50 dark:focus-within:border-[color-mix(in_oklch,var(--resource-accent)_50%,transparent)] dark:focus-within:ring-[color-mix(in_oklch,var(--resource-accent)_50%,transparent)]"
+    >
       <Textarea
         ref={ref}
         value={value}
@@ -84,7 +89,7 @@ export function ChatInput({
           }
         }}
         placeholder={placeholder}
-        className="max-h-[200px] min-h-0 resize-none border-0 bg-transparent px-2 py-1.5 text-base leading-6 shadow-none focus-visible:ring-0 dark:bg-transparent"
+        className="max-h-[200px] min-h-8 resize-none border-0 bg-transparent px-2 py-1 text-base leading-6 shadow-none focus-visible:ring-0 dark:bg-transparent"
       />
       <Button
         size="icon"
@@ -100,6 +105,8 @@ export function ChatInput({
   );
 }
 
-// Matches the textarea's `leading-6` (24px) + `py-1.5` (6px top+bottom).
+// Horizontal padding comes from the wrapping div (p-2); the textarea keeps only
+// a small py-1 (8px total) so a single 24px line centers within the 32px row
+// height (min-h-8) that matches the send button. Floor = line-height × rows + pad.
 const LINE_HEIGHT = 24;
-const VERTICAL_PAD = 12;
+const VERTICAL_PAD = 8;

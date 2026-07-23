@@ -78,7 +78,7 @@ export function InlineCitation({
       rel="noopener noreferrer"
       title={source.title}
       className={cn(
-        "group relative inline-flex max-w-full items-center gap-1 rounded-md border border-border/60 bg-card/40 py-0 pl-1.5 pr-2 align-middle text-sm text-foreground/80 transition-colors hover:border-[#0055FF66] hover:bg-[#0055FF]/10 hover:text-resource-accent",
+        "group relative inline-flex max-w-full items-center gap-1 rounded-md border border-border/60 bg-card/40 py-0 pl-1.5 pr-2 align-middle text-sm text-foreground/80 transition-colors hover:border-[#0055FF66] hover:bg-[#0055FF]/10 hover:text-resource-accent dark:hover:bg-[#0055FF]/15",
         className
       )}
     >
@@ -152,7 +152,7 @@ export function ResourceCard({ source }: { source: Source }) {
       href={source.url}
       target="_blank"
       rel="noopener noreferrer"
-      className="group block rounded-xl border border-border bg-card/50 p-4 transition-colors hover:border-[#0055FF66] hover:bg-[#0055FF]/5"
+      className="group block rounded-xl border border-border bg-card/50 p-4 transition-colors hover:border-[#0055FF66] hover:bg-[#0055FF]/5 dark:hover:bg-[#0055FF]/15"
     >
       {/* Header: type icon + label, with the badge field pinned top-right */}
       <div className="mb-2 flex items-center justify-between gap-2">

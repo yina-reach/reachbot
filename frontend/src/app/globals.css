@@ -105,7 +105,7 @@
 .dark {
   --background: var(--gray-975);
   --foreground: var(--gray-50);
-  --resource-accent: #c7f8fa; /* pale cyan in dark mode */
+  --resource-accent: #A1C0FA; /* pale blue in dark mode */
   --card: var(--gray-850);
   --card-foreground: var(--gray-50);
   --popover: var(--gray-850);
