@@ -9,20 +9,6 @@ import {
 } from "@/lib/citations";
 import type { ChatMessage } from "@/lib/types";
 
-function TypingDots() {
-  return (
-    <div className="flex items-center gap-1 py-1" aria-label="ReachBot is typing">
-      {[0, 1, 2].map((i) => (
-        <span
-          key={i}
-          className="size-1.5 animate-bounce rounded-full bg-muted-foreground/60"
-          style={{ animationDelay: `${i * 0.15}s` }}
-        />
-      ))}
-    </div>
-  );
-}
-
 export function Message({
   message,
   allSources,
@@ -34,7 +20,7 @@ export function Message({
   if (message.role === "user") {
     return (
       <div className="flex justify-end">
-        <div className="max-w-[80%] rounded-2xl rounded-br-sm bg-secondary px-4 py-2.5 text-base text-secondary-foreground">
+        <div className="max-w-[80%] rounded-2xl rounded-br-sm bg-[var(--gray-100)] px-4 py-2.5 text-base text-foreground dark:bg-[var(--gray-850)]">
           {message.content}
         </div>
       </div>
@@ -55,20 +41,24 @@ export function Message({
 
   return (
     <div className="py-1">
-      {/* Raw-retrieval disclosure sits ABOVE the answer, collapsed by default. */}
-      {hasSources && (
+      {/* Raw-retrieval disclosure sits ABOVE the answer. It's the SINGLE loading
+          indicator: shown from the moment streaming starts (before sources, as a
+          "Searching…" state) so there's no separate standalone loader to hand off
+          from — the same element just relabels once sources arrive, then persists
+          collapsed above the answer. */}
+      {(hasSources || message.streaming) && (
         <RetrievedDisclosure
-          sources={message.sources!}
+          sources={message.sources ?? []}
           streaming={message.streaming}
+          // The animation plays only while actively searching — i.e. streaming
+          // but no answer text has started yet. Once the response begins
+          // generating (content arrives), it stops.
+          searching={message.streaming && answerEmpty}
         />
       )}
 
       {/* The answer itself. */}
-      {answerEmpty ? (
-        // Only show bare dots if sources haven't arrived yet (else the disclosure
-        // already provides the thinking state).
-        message.streaming && !hasSources ? <TypingDots /> : null
-      ) : (
+      {answerEmpty ? null : (
         <>
           {prose && <Markdown sources={knownSources}>{prose}</Markdown>}
 

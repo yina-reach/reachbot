@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { ChevronRight } from "lucide-react";
 import { resourceDef } from "@/lib/resource-types";
+import { LogoAnimation } from "@/components/logo-animation";
 import type { Source } from "@/lib/types";
 
 /**
@@ -16,9 +17,13 @@ import type { Source } from "@/lib/types";
 export function RetrievedDisclosure({
   sources,
   streaming,
+  searching,
 }: {
   sources: Source[];
   streaming?: boolean;
+  /** Actively retrieving (no answer text yet) — drives the animation. Distinct
+   *  from `streaming`, which also covers the answer-generation phase. */
+  searching?: boolean;
 }) {
   // De-dupe by url — retrieval returns multiple chunks from the same page.
   const seen = new Set<string>();
@@ -31,35 +36,35 @@ export function RetrievedDisclosure({
 
   const [open, setOpen] = useState(false);
   const n = unique.length;
-  if (n === 0) return null;
+  // Nothing to show only when we're done AND found nothing.
+  if (n === 0 && !streaming) return null;
 
-  const label = streaming
-    ? `Found ${n} relevant ${n === 1 ? "resource" : "resources"} to review…`
-    : `Reviewed ${n} ${n === 1 ? "resource" : "resources"}`;
+  // Before any sources arrive (streaming, n === 0) this is the "searching" state;
+  // once they land it relabels to the count; when done it's the persisted summary.
+  const label =
+    n === 0
+      ? "Searching resources…"
+      : streaming
+        ? `Found ${n} relevant ${n === 1 ? "resource" : "resources"} to review…`
+        : `Reviewed ${n} ${n === 1 ? "resource" : "resources"}`;
 
   return (
     <div className="mb-3">
       <button
         onClick={() => setOpen((o) => !o)}
-        className="flex items-center gap-1.5 py-1 text-left text-xs font-medium text-muted-foreground transition-colors hover:text-foreground"
+        disabled={n === 0}
+        className="flex items-center gap-1.5 py-1 text-left text-xs font-medium text-muted-foreground transition-colors hover:text-foreground disabled:cursor-default disabled:hover:text-muted-foreground"
         aria-expanded={open}
       >
-        {streaming && (
-          <span className="flex gap-0.5" aria-hidden>
-            {[0, 1, 2].map((i) => (
-              <span
-                key={i}
-                className="size-1 animate-bounce rounded-full bg-muted-foreground/60"
-                style={{ animationDelay: `${i * 0.15}s` }}
-              />
-            ))}
-          </span>
-        )}
+        {searching && <LogoAnimation className="size-5 shrink-0 opacity-80" />}
         <span>{label}</span>
-        <ChevronRight
-          className={`size-3.5 shrink-0 transition-transform ${open ? "rotate-90" : ""}`}
-          aria-hidden
-        />
+        {/* Chevron only once there's something to expand. */}
+        {n > 0 && (
+          <ChevronRight
+            className={`size-3.5 shrink-0 transition-transform ${open ? "rotate-90" : ""}`}
+            aria-hidden
+          />
+        )}
       </button>
 
       {open && (
