@@ -68,7 +68,7 @@ export function ChatInput({
   }
 
   return (
-    <div className="relative flex items-end gap-2 rounded-2xl border bg-card p-2 shadow-sm focus-within:ring-1 focus-within:ring-ring">
+    <div className="relative flex items-end gap-2 rounded-2xl border bg-card p-2 shadow-sm transition-colors focus-within:border-[#0055FF]/50 focus-within:ring-1 focus-within:ring-[#0055FF]/50">
       <Textarea
         ref={ref}
         value={value}

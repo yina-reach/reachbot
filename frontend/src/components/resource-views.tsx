@@ -11,8 +11,8 @@ import type { Source } from "@/lib/types";
 const CITE_SCROLL_PX_PER_S = 35;
 
 /** Extra scroll past the pure overflow so the label's tail clears the arrow
- * overlay on the right (arrow size-3.5 + pl-3 ≈ this many px are obscured). */
-const CITE_ARROW_OVERLAP_PX = 26;
+ * overlay on the right — tuned to match the icon↔text gap (gap-1 = 4px). */
+const CITE_ARROW_OVERLAP_PX = 10;
 
 /**
  * The author/byline for a source, used as the inline-citation label:
@@ -78,17 +78,21 @@ export function InlineCitation({
       rel="noopener noreferrer"
       title={source.title}
       className={cn(
-        "group relative inline-flex max-w-full items-center gap-1.5 rounded-md border border-border/60 bg-card/40 py-0.5 pl-1.5 pr-2 align-middle text-[13px] text-foreground/90 transition-colors hover:border-border hover:bg-[var(--gray-100)] dark:hover:bg-accent",
+        "group relative inline-flex max-w-full items-center gap-1 rounded-md border border-border/60 bg-card/40 py-0 pl-1.5 pr-2 align-middle text-sm text-foreground/80 transition-colors hover:border-[#0055FF66] hover:bg-[#0055FF]/10 hover:text-resource-accent",
         className
       )}
     >
-      <Icon className="size-3.5 shrink-0 text-resource-accent" aria-hidden />
+      {/* icon inherits currentColor so it tracks the label: neutral at rest,
+          accent on hover */}
+      <Icon className="size-3.5 shrink-0" aria-hidden />
       {/* Label capped at 20ch. On a sustained hover (600ms delay) the inner span
           slides left at a constant px/s to reveal the full text, then snaps back
-          quickly on mouse-out. Short labels have scrollDist 0 and never move. */}
+          quickly on mouse-out. Short labels have scrollDist 0 and never move.
+          On hover a left-edge mask fades the scrolling text as it slides out the
+          start — the symmetric counterpart to the arrow overlay on the right. */}
       <span
         ref={labelRef}
-        className="max-w-[20ch] truncate group-hover:[text-overflow:clip]"
+        className="max-w-[20ch] truncate group-hover:[text-overflow:clip] group-hover:[mask-image:linear-gradient(to_right,transparent,#000_4px)] group-hover:[-webkit-mask-image:linear-gradient(to_right,transparent,#000_4px)]"
       >
         <span
           className="inline-block transition-transform duration-300 ease-linear group-hover:[transition-delay:600ms] group-hover:[transition-duration:var(--cite-dur)] group-hover:[transform:translateX(var(--cite-scroll))]"
@@ -104,10 +108,19 @@ export function InlineCitation({
       </span>
       {/* Diagonal external-link arrow — absolutely positioned so it adds NO
           width (chip sizes to icon + text). On hover it fades in over the
-          text's right edge, with a bg matching the hovered chip so the text it
-          overlaps reads as cropped beneath it. */}
-      <span className="pointer-events-none absolute inset-y-0 right-0 flex items-center rounded-r-md bg-gradient-to-l from-[var(--gray-100)] from-60% to-transparent pl-3 pr-2 opacity-0 transition-opacity duration-150 group-hover:opacity-100 dark:from-accent">
-        <ArrowUpRight className="size-3.5 text-foreground/70" aria-hidden />
+          text's right edge. The overlay is a SOLID, opaque copy of the chip's
+          composited hover fill (card/40 + 10% blue over the page bg, precomputed
+          per theme: #E2EAFA light / #1D2730 dark) so it hides the text cleanly
+          without double-layering, with a left-fading mask so text dissolves
+          into it rather than showing a hard edge. */}
+      <span
+        className="pointer-events-none absolute inset-y-0 right-0 flex items-center rounded-r-md bg-[#E2EAFA] pl-3 pr-2 opacity-0 transition-opacity duration-150 group-hover:opacity-100 dark:bg-[#1D2730]"
+        style={{
+          maskImage: "linear-gradient(to left, #000 60%, transparent)",
+          WebkitMaskImage: "linear-gradient(to left, #000 60%, transparent)",
+        }}
+      >
+        <ArrowUpRight className="size-3.5" aria-hidden />
       </span>
     </a>
   );
@@ -139,47 +152,45 @@ export function ResourceCard({ source }: { source: Source }) {
       href={source.url}
       target="_blank"
       rel="noopener noreferrer"
-      className="group block rounded-xl border border-border bg-card/50 p-4 transition-colors hover:border-foreground/20 hover:bg-accent/40"
+      className="group block rounded-xl border border-border bg-card/50 p-4 transition-colors hover:border-[#0055FF66] hover:bg-[#0055FF]/5"
     >
       {/* Header: type icon + label, with the badge field pinned top-right */}
       <div className="mb-2 flex items-center justify-between gap-2">
         <div className="flex items-center gap-2">
           <Icon className="size-4 shrink-0 text-resource-accent" aria-hidden />
-          <span className="text-[10px] font-semibold uppercase tracking-wider text-resource-accent">
+          <span className="text-xs font-semibold uppercase tracking-wider text-resource-accent">
             {def.label}
           </span>
         </div>
         {badge && (
-          <span className="shrink-0 rounded-full border border-border/70 px-2 py-0.5 text-[11px] text-muted-foreground">
+          <span className="shrink-0 rounded-full border border-border/70 px-2 py-0.5 text-xs text-muted-foreground">
             {fields[badge.key]}
           </span>
         )}
       </div>
       <div
-        className="mb-2 text-[17px] font-medium leading-snug text-foreground"
+        className="mb-2 text-lg font-medium leading-snug text-foreground"
         style={{ fontFamily: '"p22-mackinac-pro", ui-serif, Georgia, serif' }}
       >
         {source.title}
       </div>
 
-      {/* Emphasis/lead field as body text */}
+      {/* Emphasis/lead field as body text — the card's main description. */}
       {lead && (
-        <p className="mb-3 line-clamp-3 text-sm text-muted-foreground">
+        <p className="mb-3 line-clamp-3 text-sm text-foreground/90">
           {fields[lead.key]}
         </p>
       )}
 
-      {/* Byline — boxed on a muted background (no label). */}
+      {/* Byline — muted, no badge. */}
       {inlineLines.length > 0 && (
         <div className="flex flex-wrap gap-1.5">
           {inlineLines.map((f) => (
             <span
               key={f.key}
-              // Light: gray-100, a soft fill on the white card (full gray-200
-              // muted reads too heavy). Dark: the normal muted surface.
-              className="inline-flex max-w-full items-center rounded-md bg-[var(--gray-100)] px-2 py-0.5 text-[13px] text-muted-foreground dark:bg-muted"
+              className="max-w-full truncate text-sm text-muted-foreground"
             >
-              <span className="truncate">{fields[f.key]}</span>
+              {fields[f.key]}
             </span>
           ))}
         </div>
@@ -187,7 +198,7 @@ export function ResourceCard({ source }: { source: Source }) {
 
       {/* Remaining fields as label/value rows (or pills for tags) */}
       {detail.length > 0 && (
-        <dl className="mt-1 grid grid-cols-[auto_1fr] gap-x-3 gap-y-1 text-[13px]">
+        <dl className="mt-1 grid grid-cols-[auto_1fr] gap-x-3 gap-y-1 text-sm">
           {detail.map((f) => (
             <div key={f.key} className="col-span-2 grid grid-cols-subgrid items-baseline">
               <dt className="text-muted-foreground/70">{f.label}</dt>
@@ -201,7 +212,7 @@ export function ResourceCard({ source }: { source: Source }) {
                       .map((t) => (
                         <span
                           key={t}
-                          className="rounded-full border border-border/60 px-1.5 py-0.5 text-[11px] text-muted-foreground"
+                          className="rounded-full border border-border/60 px-1.5 py-0.5 text-xs text-muted-foreground"
                         >
                           {t}
                         </span>

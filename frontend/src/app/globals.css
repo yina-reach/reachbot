@@ -177,7 +177,11 @@
 .prose-chat a.rb-cite {
   font-family: var(--font-sans), sans-serif;
   text-decoration: none;
-  color: inherit;
+  /* neutral at rest; the resource-type accent only on hover */
+  color: color-mix(in oklch, var(--foreground) 80%, transparent);
+}
+.prose-chat a.rb-cite:hover {
+  color: var(--resource-accent);
 }
 .prose-chat h1, .prose-chat h2, .prose-chat h3 {
   /* Section labels ("Resources") stay in the sans UI font, not the serif. */

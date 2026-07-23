@@ -63,7 +63,7 @@ export function RetrievedDisclosure({
       </button>
 
       {open && (
-        <div className="mt-1 flex flex-col divide-y divide-border/60 overflow-hidden rounded-lg border border-border bg-card dark:bg-black/30">
+        <div className="mt-1 flex flex-col divide-y divide-border/60 overflow-hidden rounded-lg border border-border bg-background">
           {unique.map((s, i) => {
             const def = resourceDef(s.type);
             const Icon = def.icon;
@@ -75,7 +75,7 @@ export function RetrievedDisclosure({
                 rel="noopener noreferrer"
                 className="group flex items-center gap-2 px-3 py-2 text-[13px] text-muted-foreground transition-colors hover:bg-[var(--gray-200)] hover:text-foreground dark:hover:bg-[var(--gray-950)]"
               >
-                <Icon className="size-3.5 shrink-0 text-resource-accent" aria-hidden />
+                <Icon className="size-3.5 shrink-0" aria-hidden />
                 <span className="truncate">{s.title}</span>
               </a>
             );
