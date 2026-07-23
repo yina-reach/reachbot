@@ -7,6 +7,7 @@ import { Message } from "@/components/message";
 import { ChatInput } from "@/components/chat-input";
 import { PasswordGate } from "@/components/password-gate";
 import { ThemeToggle } from "@/components/theme-toggle";
+import { LogoAnimation } from "@/components/logo-animation";
 
 /**
  * "Last synced" indicator: when the index the model answers from was last
@@ -70,13 +71,21 @@ function Header() {
 export default function Home() {
   const { messages, busy, send } = useChat();
   const [gate, setGate] = useState<"loading" | "locked" | "open">("loading");
+  // The initial /api/session probe hits the backend, which scales to zero when
+  // idle — so on a cold start it hangs ~20-30s (VM boot + ~100MB index load).
+  // If that probe runs long, show a "waking up" message so the wait doesn't read
+  // as a blank/frozen screen.
+  const [slow, setSlow] = useState(false);
   const bottomRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    const slowTimer = setTimeout(() => setSlow(true), 2500);
     fetch("/api/session")
       .then((r) => r.json())
       .then((j) => setGate(j.authed ? "open" : "locked"))
-      .catch(() => setGate("open")); // fail open; chat call re-validates
+      .catch(() => setGate("open")) // fail open; chat call re-validates
+      .finally(() => clearTimeout(slowTimer));
+    return () => clearTimeout(slowTimer);
   }, []);
 
   useEffect(() => {
@@ -89,7 +98,16 @@ export default function Home() {
   }
 
   if (gate === "loading") {
-    return <div className="min-h-dvh" />;
+    return (
+      <div className="flex min-h-dvh flex-col items-center justify-center gap-3 px-6 text-center">
+        <LogoAnimation className="size-8 opacity-80" />
+        {slow && (
+          <p className="text-xs text-muted-foreground">
+            Waking up the server — this first load takes a few seconds.
+          </p>
+        )}
+      </div>
+    );
   }
   if (gate === "locked") {
     return <PasswordGate onUnlock={() => setGate("open")} />;
